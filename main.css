@@ -1,8 +1,8 @@
 * {
   
   font-family: 'Rubik', sans-serif;
-  background-color: #000;
-  color: white;
+  background-color: white;
+  color: #000;
 }
 
 body {
@@ -21,11 +21,14 @@ i {
   padding: 5px;
   transition: 0.3s ease-in-out;
   justify-self: center;
+  color: #000;
 }
 
 a {
   text-decoration: none;
 } 
+
+/* ------ HEADER ------ */
 
 header {
   font-size: 1.5rem;
@@ -37,17 +40,20 @@ header img {
   padding-top: 20px;
 }
 
+/* ------- ICONE APP ------ */
+
 #menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
   grid-gap: 30px;
-  padding: 0 20px 20px 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .icon-app {
-  border: 1px solid white;
+  border: 1px solid #000;
   border-radius: 5px;
   width: 100px;
   height: 100px;
@@ -55,29 +61,25 @@ header img {
   padding: 10px;
 }
   .icon-app:hover > h2 {
-    background: white;
+    background: #000;
     font-size: 1.1rem;
-    color: black;
+    color: white;
   }
   .icon-app:hover {
-    background: white;
+    background: #000;
     border-radius: 10px;
   }
   .icon-app:hover > i {
     font-size: 2.5rem;
-    color: black;
-    background: white;
+    color: white;
+    background: #000;
   }
-
 
   @media screen and (min-width: 450px) {
     .icon-app {
       width: 120px;
       height: 120px;
       padding: 10px 10px 0 10px;
-    }
-    #menu {
-      padding: 0 80px 20px 80px;
     }
   }
   @media screen and (min-width: 700px) {
@@ -87,16 +89,7 @@ header img {
   }
   @media screen and (min-width: 900px) {
     #menu {
-      padding: 0 150px;
+      grid-gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-  }
-  @media screen and (min-width: 1100px) {
-    #menu {
-      padding: 0 300px;
-    }
-  }
-  @media screen and (min-width: 1400px) {
-    #menu {
-      padding: 0 500px;
-    }
-  }
+  } 
