@@ -1,0 +1,28 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  background-color: white;
+  color: #000;
+}
+
+body {
+  height: 100%;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 100;
+  transition: 0.3s ease-in-out;
+  justify-self: center;
+}
+
+i {
+  font-size: 2rem;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+  justify-self: center;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+} 
