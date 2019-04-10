@@ -58,6 +58,7 @@ i {
   position: fixed;
   background: transparent;
   display: none;
+  transition: 0.3s ease-in;
 }
 
 #back a i {
