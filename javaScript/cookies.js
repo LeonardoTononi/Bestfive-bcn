@@ -1,14 +1,14 @@
 
-window.addEventListener("load", function () {
+window.addEventListener("load", function(){
   window.cookieconsent.initialise({
     "palette": {
       "popup": {
-        "background": "#000000",
-        "text": "#ffffff"
+        "background": "#ffffff",
+        "text": "#000000"
       },
       "button": {
-        "background": "#8b8d8e",
-        "text": "#ffffff"
+        "background": "#000000",
+        "text": "white"
       }
     },
     "theme": "edgeless"
