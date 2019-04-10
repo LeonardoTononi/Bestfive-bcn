@@ -9,6 +9,12 @@ body {
   height: 100%;
 }
 
+/* ------ GENERAL STYLE ------  */
+
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 1.8rem;
   padding: 5px;
@@ -22,6 +28,11 @@ h2 {
   justify-self: center;
 }
 
+a {
+  text-decoration: none;
+  background: transparent;
+} 
+
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -34,38 +45,37 @@ i {
   color: #000;
 }
 
-#back {
-  text-align: center;
-}
-
-ion-icon {
-  font-size: 2rem;
-  padding: 10px;
-  color: darkgrey;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-} 
-
-header {
-  text-align: center;
-}
- 
-#back i {
-  font-size: 2rem;
-  position: absolute;
-} 
-
 .border {
   border: 3px solid #000;
   margin: 0 30px 0 30px;
 }
 
+/* ------ BACK BUTTON ------  */
+
+#back {
+  text-align: start;
+  padding: 15px;
+  position: fixed;
+  background: transparent;
+  display: none;
+}
+
+#back a i {
+  font-size: 2.5rem;
+  color: white;
+  padding: 10px;
+  background: #000;
+  border-radius: 50%;
+}
+
+/* ------- LOGO ------ */
+
 #logo img {
+  padding-top: 50px;
   max-width: 300px;
 }
+
+/* ------- REVIEW CARD ------- */
 
 .place {
   padding: 30px 0;
@@ -87,6 +97,8 @@ header {
   text-align: start;
   font-weight: bold;
 }
+
+/* ------- MEDIA QUERY ------  */
 
 @media screen and (min-width: 700px){
   #logo img {
@@ -121,6 +133,8 @@ header {
     font-size: 1.8rem;
   }
 }
+
+/* ------ FOOTER ------- */
 
 footer {
   background: #000;
