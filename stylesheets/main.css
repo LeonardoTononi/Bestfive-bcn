@@ -29,16 +29,6 @@ a {
 
 /* ------- UTILITY CLASS ------- */
 
-.show {
-  display: inline;
-  position: relative;
-}
-
-.hide {
-  display: none;
-  position: absolute;
-}
-
 .border {
   border: 3px solid #000;
   margin: 0 70px;
