@@ -70,22 +70,12 @@ header img {
 
 #info-bottom {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
   grid-gap: 30px;
   margin: 0 auto;
   padding: 20px 40px 20px 40px;
-}
-
-.icon-app-info h2 {
-  background: #000;
-  color: white;
-}
-
-.icon-app-info i {
-  background: #000;
-  color: white;
 }
 
 #how {
@@ -252,8 +242,11 @@ header img {
     }
   }
   @media screen and (min-width: 700px) {
-    #menu, #info-top {
+    #menu {
       grid-template-columns: 1fr 1fr 1fr;
+      padding: 20px 100px;
+    }
+    #info-top {
       padding: 20px 100px;
     }
     .hide {
