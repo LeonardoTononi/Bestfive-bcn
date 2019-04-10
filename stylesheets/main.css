@@ -27,6 +27,23 @@ a {
   text-decoration: none;
 } 
 
+/* ------- UTILITY CLASS ------- */
+
+.show {
+  display: inline;
+  position: relative;
+}
+
+.hide {
+  display: none;
+  position: absolute;
+}
+
+.border {
+  border: 3px solid #000;
+  margin: 0 70px;
+}
+
 /* ------ HEADER ------ */
 
 header {
@@ -36,8 +53,142 @@ header {
 
 header img {
   max-width: 300px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
+
+/* ------- ICONE APP INFORMATIONS ------ */
+
+#info-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  place-items: center;
+  grid-gap: 30px;
+  margin: 0 auto;
+  padding: 0 40px 20px 40px;
+}
+
+#info-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  place-items: center;
+  grid-gap: 30px;
+  margin: 0 auto;
+  padding: 20px 40px 20px 40px;
+}
+
+.icon-app-info h2 {
+  background: #000;
+  color: white;
+}
+
+.icon-app-info i {
+  background: #000;
+  color: white;
+}
+
+#how {
+  border: 1px solid #fd5c63;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+  background: #fd5c63;
+}
+
+#how h2 {
+  background: #fd5c63;
+  color: white;
+}
+
+#how i {
+  background: #fd5c63;
+  color: white;
+}
+  #how:hover > h2 {
+    background: white;
+    font-size: 1.1rem;
+    color: #fd5c63;
+  }
+  #how:hover {
+    background: white;
+    border-radius: 10px;
+  }
+  #how:hover > i {
+    font-size: 2.5rem;
+    color: #fd5c63;
+    background: white;
+  } 
+
+#map {
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+  background: #3b5998;
+}
+  
+#map h2 {
+  background: #3b5998;
+  color: white;
+}
+
+#map i {
+  background: #3b5998;
+  color: white;
+}
+  #map:hover > h2 {
+    background: white;
+    font-size: 1.1rem;
+    color: #3b5998;
+  }
+  #map:hover {
+    background: white;
+    border-radius: 10px;
+  }
+  #map:hover > i {
+    font-size: 2.5rem;
+    color: #3b5998;
+    background: white;
+  } 
+
+#contact {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+  background: #000;
+}
+    
+#contact h2 {
+  background: #000;
+  color: white;
+}
+  
+#contact i {
+  background: #000;
+  color: white;
+}
+    #contact:hover > h2 {
+      background: white;
+      font-size: 1.1rem;
+      color: #000;
+    }
+    #contact:hover {
+      background: white;
+      border-radius: 10px;
+    }
+    #contact:hover > i {
+      font-size: 2.5rem;
+      color: #000;
+      background: white;
+    } 
 
 /* ------- ICONE APP ------ */
 
@@ -46,10 +197,9 @@ header img {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
-  align-content: space-around;
   grid-gap: 30px;
   margin: 0 auto;
-  padding: 0 40px 20px 40px;
+  padding: 20px 40px 20px 40px;
 }
 
 .icon-app {
@@ -75,66 +225,120 @@ header img {
     background: #000;
   }
 
+/* ------ MEDIA QUERY ------  */
   @media screen and (min-width: 450px) {
     .icon-app {
       width: 120px;
       height: 120px;
       padding: 10px 10px 0 10px;
     }
-    #menu{
-      padding: 0 60px 20px 60px;
+    #menu, #info-top {
+      padding: 20px 60px 20px 60px;
+    }
+    #contact, #map, #how {
+      width: 120px;
+      height: 120px;
+    }
+    .border {
+      margin: 0 120px;
     }
   }
   @media screen and (min-width: 550px) {
-    #menu{
-      padding: 0 120px 20px 120px;
+    #menu, #info-top{
+      padding: 20px 120px;
+    }
+    .border {
+      margin: 0 180px;
     }
   }
   @media screen and (min-width: 700px) {
-    #menu {
+    #menu, #info-top {
       grid-template-columns: 1fr 1fr 1fr;
-      padding: 0 100px 20px 100px;
+      padding: 20px 100px;
+    }
+    .hide {
+      display: block;
+      position: relative;
+    }
+    .show {
+      display: none;
+      position: absolute;
     }
   }
   @media screen and (min-width: 800px) {
-    #menu {
-      padding: 0 140px 20px 140px;
+    #menu, #info-top {
+      padding: 20px 140px;
+    }
+    .border {
+      margin: 0 270px;
     }
   }
   @media screen and (min-width: 900px) {
     #menu {
       grid-gap: 20px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      padding: 0 50px 20px 50px;
+      padding: 20px 50px;
+    }
+    #info-top {
+      padding: 20px 200px;
+    }
+    .border {
+      margin: 0 300px;
     }
   } 
   @media screen and (min-width: 1000px) {
     #menu {
-      padding: 0 80px 20px 80px;
+      padding: 20px 80px;
+    }
+    #info-top {
+      padding: 20px 250px;
     }
   } 
   @media screen and (min-width: 1100px) {
     #menu {
-      padding: 0 100px 20px 100px;
+      padding: 20px 100px;
+    }
+    #info-top {
+      padding: 20px 300px;
     }
   } 
   @media screen and (min-width: 1200px) {
     #menu {
-      padding: 0 130px 20px 130px;
+      padding: 20px 130px;
+    }
+    #info-top {
+      padding: 20px 350px;
     }
   } 
   @media screen and (min-width: 1300px) {
     #menu {
-      padding: 0 230px 20px 230px;
+      padding: 20px 230px;
+    }
+    .border {
+      margin: 0 450px;
+    }
+    #info-top {
+      padding: 20px 410px;
     }
   } 
   @media screen and (min-width: 1400px) {
     #menu {
-      padding: 0 300px 20px 300px;
+      padding: 20px 300px;
+    }
+    #info-top {
+      padding: 20px 450px;
     }
   } 
   @media screen and (min-width: 1600px) {
     #menu {
-      padding: 0 430px 20px 430px;
+      padding: 20px 430px;
+    }
+    .border {
+      margin: 0 600px;
+    }
+    #info-top {
+      padding: 20px 520px;
     }
   } 
+
+

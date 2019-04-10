@@ -11,6 +11,6 @@ window.addEventListener("load", function(){
         "text": "white"
       }
     },
-    "theme": "edgeless"
+    "theme": "classic"
   });
 });
