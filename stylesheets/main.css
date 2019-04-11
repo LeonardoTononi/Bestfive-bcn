@@ -6,17 +6,18 @@
 
 body {
   height: 100%;
+  margin: 0 auto;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 100;
   transition: 0.3s ease-in-out;
   justify-self: center;
 }
 
 i {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 5px;
   transition: 0.3s ease-in-out;
   justify-self: center;
@@ -58,6 +59,10 @@ header img {
   padding: 0 40px 20px 40px;
 }
 
+#info-top a {
+  place-content: center;
+}
+
 #info-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -65,12 +70,12 @@ header img {
   place-items: center;
   grid-gap: 30px;
   margin: 0 auto;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px;
 }
 
 #how {
   border: 1px solid #fd5c63;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
   transition: 0.3s ease-in-out;
@@ -81,12 +86,13 @@ header img {
 #how h2 {
   background: #fd5c63;
   color: white;
+  font-size: 1.1rem;
 }
 
 #how i {
   background: #fd5c63;
   color: white;
-}
+}/* 
   #how:hover > h2 {
     background: white;
     font-size: 1.1rem;
@@ -100,11 +106,11 @@ header img {
     font-size: 2.5rem;
     color: #fd5c63;
     background: white;
-  } 
+  }  */
 
 #map {
   border: 1px solid #3b5998;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
   transition: 0.3s ease-in-out;
@@ -121,7 +127,7 @@ header img {
   background: #3b5998;
   color: white;
 }
-  #map:hover > h2 {
+  /* #map:hover > h2 {
     background: white;
     font-size: 1.1rem;
     color: #3b5998;
@@ -134,11 +140,11 @@ header img {
     font-size: 2.5rem;
     color: #3b5998;
     background: white;
-  } 
+  }  */
 
 #contact {
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
   transition: 0.3s ease-in-out;
@@ -155,20 +161,21 @@ header img {
   background: #000;
   color: white;
 }
-    #contact:hover > h2 {
+/* #contact:hover {
+  background: white;
+  border-radius: 15px;
+} */
+   /*  #contact:hover > h2 {
       background: white;
       font-size: 1.1rem;
       color: #000;
     }
-    #contact:hover {
-      background: white;
-      border-radius: 10px;
-    }
+    
     #contact:hover > i {
       font-size: 2.5rem;
       color: #000;
       background: white;
-    } 
+    }  */
 
 /* ------- ICONE APP ------ */
 
@@ -179,12 +186,12 @@ header img {
   place-items: center;
   grid-gap: 30px;
   margin: 0 auto;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px;
 }
 
 .icon-app {
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
   transition: 0.3s ease-in-out;
@@ -206,14 +213,15 @@ header img {
   }
 
 /* ------ MEDIA QUERY ------  */
+
   @media screen and (min-width: 450px) {
     .icon-app {
       width: 120px;
       height: 120px;
       padding: 10px 10px 0 10px;
     }
-    #menu, #info-top {
-      padding: 20px 60px 20px 60px;
+    #menu, #info-top, #info-bottom {
+      padding: 20px 60px;
     }
     #contact, #map, #how {
       width: 120px;
@@ -224,7 +232,7 @@ header img {
     }
   }
   @media screen and (min-width: 550px) {
-    #menu, #info-top{
+    #menu, #info-top, #info-bottom {
       padding: 20px 120px;
     }
     .border {
@@ -236,21 +244,16 @@ header img {
       grid-template-columns: 1fr 1fr 1fr;
       padding: 20px 100px;
     }
-    #info-top {
-      padding: 20px 100px;
-    }
-    .hide {
-      display: block;
-      position: relative;
-    }
-    .show {
-      display: none;
-      position: absolute;
+    #info-top, #info-bottom {
+      padding: 20px 180px;
     }
   }
   @media screen and (min-width: 800px) {
-    #menu, #info-top {
+    #menu {
       padding: 20px 140px;
+    }
+    #info-top, #info-bottom {
+      padding: 20px 240px;
     }
     .border {
       margin: 0 270px;
@@ -262,8 +265,8 @@ header img {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       padding: 20px 50px;
     }
-    #info-top {
-      padding: 20px 200px;
+    #info-top, #info-bottom {
+      padding: 20px 290px;
     }
     .border {
       margin: 0 300px;
@@ -273,24 +276,24 @@ header img {
     #menu {
       padding: 20px 80px;
     }
-    #info-top {
-      padding: 20px 250px;
+    #info-top, #info-bottom {
+      padding: 20px 340px;
     }
   } 
   @media screen and (min-width: 1100px) {
     #menu {
       padding: 20px 100px;
     }
-    #info-top {
-      padding: 20px 300px;
+    #info-top, #info-bottom {
+      padding: 20px 390px;
     }
   } 
   @media screen and (min-width: 1200px) {
     #menu {
       padding: 20px 130px;
     }
-    #info-top {
-      padding: 20px 350px;
+    #info-top, #info-bottom {
+      padding: 20px 440px;
     }
   } 
   @media screen and (min-width: 1300px) {
@@ -300,27 +303,27 @@ header img {
     .border {
       margin: 0 450px;
     }
-    #info-top {
-      padding: 20px 410px;
+    #info-top, #info-bottom {
+      padding: 20px 490px;
     }
   } 
   @media screen and (min-width: 1400px) {
     #menu {
       padding: 20px 300px;
     }
-    #info-top {
-      padding: 20px 450px;
+    #info-top, #info-bottom {
+      padding: 20px 540px;
     }
   } 
   @media screen and (min-width: 1600px) {
     #menu {
-      padding: 20px 430px;
+      padding: 20px 25%;
     }
     .border {
       margin: 0 600px;
     }
-    #info-top {
-      padding: 20px 520px;
+    #info-top, #info-bottom {
+      padding: 20px 640px;
     }
   } 
 
