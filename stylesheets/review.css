@@ -90,15 +90,44 @@ i {
   padding: 30px 0;
 }
 
-.text p {
+/* .text p {
   text-align: justify;
   padding: 20px 10px 20px 10px;
   font-size: 1.1rem;
-} 
+}  */
 
 .place a {
   text-align: start;
   font-weight: bold;
+}
+
+.text {
+  padding: 10px 10px 30px 10px;
+  font-size: 1rem;
+}
+
+.text h5 {
+  font-size: 1.3rem;
+  text-align: start;
+  margin-bottom: 10px;
+  margin-left: 55px;
+}
+
+.text ul {
+  list-style: none;
+  padding: 0;
+  text-align: start;
+}
+
+.text span {
+  font-size: 1.3rem;
+}
+
+.text ul li i {
+  margin-top: 15px;
+  width: 50px;
+  height: 44px;
+  text-align: center;
 }
 
 /* ------- MEDIA QUERY ------  */
@@ -111,10 +140,10 @@ i {
   .border {
     margin: 0 200px 0 200px;
   }
-  .text p {
+  /* .text p {
     padding: 80px;
     font-size: 1.3rem;
-  } 
+  }  */
   h1 {
     font-size: 2.3rem;
     padding: 15px;
@@ -122,16 +151,32 @@ i {
   .place a {
     font-size: 1.3rem;
   }
+  .text {
+    font-size: 1.3rem;
+  }
+  .text h5 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .text ul {
+    text-align: center;
+  }
+  .text ul li i {
+    margin-top: 15px;
+    width: 65px;
+    height: 55px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px){
   .border {
     margin: 0 400px 0 400px;
   }
-  .text p {
+  /* .text p {
     padding: 40px 140px;
     font-size: 1.3rem;
-  } 
+  }  */
   i {
     font-size: 1.8rem;
   }
