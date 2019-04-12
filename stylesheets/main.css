@@ -71,7 +71,7 @@ header img {
 
 #menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   text-align: center;
   place-items: center;
   grid-gap: 5px;
@@ -86,80 +86,101 @@ header img {
   height: 60px;
   transition: 0.3s ease-in-out;
   padding: 10px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 #app1 i {
   color: #3b5998;
 }
+
 #app2 i {
   color: #fd5c63;
 }
+
 #app3 i {
   color: #037ef3;
   transition: 0.2s ease-in;
   border-radius: 15px;
 }
-  #app3:hover i {
-    color: white;
-    background: #037ef3;
-    border-radius: 15px;
-  }
+
+#app3:hover i {
+  color: white;
+  background: #037ef3;
+  border-radius: 15px;
+}
+
 #app4 i {
   color: #008374;
   transition: 0.2s ease-in;
   border-radius: 15px;
 }
-  #app4:hover i {
-    color: white;
-    background: #008374;
-    border-radius: 15px;
-  }
+
+#app4:hover i {
+  color: white;
+  background: #008374;
+  border-radius: 15px;
+}
 
 #app5 i {
   color: #ffc845;
 }
+
 #app6 i {
   color: #be0027;
 }
+
 #app7 i {
   color: #002663;
 }
+
 #app8 i {
   color: #ff9933;
 }
+
 #app9 i {
   color: #3b5998;
 }
+
 #app10 i {
   color: #fd5c63;
 }
+
 #app11 i {
   color: #037ef3;
 }
+
 #app12 i {
   color: #008374;
 }
+
 #app13 i {
   color: #ffc845;
 }
+
 #app14 i {
   color: #be0027;
 }
+
 #app15 i {
   color: #002663;
 }
+
 #app16 i {
   color: #ff9933;
 }
+
 #app17 i {
   color: #ffc845;
 }
+
 #app18 i {
   color: #be0027;
 }
+
 #app19 i {
   color: #002663;
 }
+
 #app20 i {
   color: #ff9933;
 }
@@ -168,143 +189,93 @@ header img {
 
 @media screen and (min-width: 450px) {
   .icon-app {
-    width: 120px;
-    height: 120px;
-    padding: 10px 10px 0 10px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
   }
 
-  #menu,
+  #menu {
+    padding: 5px 20px;
+  }
+
   #info-bottom {
-    padding: 20px 60px;
+    padding: 5px 130px;
   }
 
   #contact {
-    width: 120px;
-    height: 120px;
-  }
-
-  .border {
-    margin: 0 120px;
+    padding: 20px;
   }
 }
 
 @media screen and (min-width: 550px) {
-
-  #menu,
-  #info-bottom {
-    padding: 20px 120px;
+  #menu {
+    padding: 20px 40px;
   }
 
-  .border {
-    margin: 0 180px;
+  #info-bottom {
+    padding: 5px 150px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #menu {
+    padding: 5px 70px;
+  }
+
+  #info-bottom {
+    padding: 5px 190px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #menu {
+    grid-template-columns: repeat(5, 1fr);
+    padding: 5px 60px;
+  }
+
+  #info-bottom {
+    padding: 5px 220px;
   }
 }
 
 @media screen and (min-width: 700px) {
   #menu {
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px 100px;
+    padding: 5px 90px;
   }
 
   #info-bottom {
-    padding: 20px 180px;
+    padding: 5px 250px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #menu {
+    padding: 5px 110px;
+  }
+
+  #info-bottom {
+    padding: 5px 270px;
   }
 }
 
 @media screen and (min-width: 800px) {
   #menu {
-    padding: 20px 140px;
+    padding: 5px 140px;
   }
 
   #info-bottom {
-    padding: 20px 240px;
-  }
-
-  .border {
-    margin: 0 270px;
+    padding: 5px 300px;
   }
 }
 
 @media screen and (min-width: 900px) {
   #menu {
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 20px 50px;
+    padding: 5px 180px;
+    max-width: 550px;
   }
 
   #info-bottom {
-    padding: 20px 290px;
-  }
-
-  .border {
-    margin: 0 300px;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  #menu {
-    padding: 20px 80px;
-  }
-
-  #info-bottom {
-    padding: 20px 340px;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  #menu {
-    padding: 20px 100px;
-  }
-
-  #info-bottom {
-    padding: 20px 390px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  #menu {
-    padding: 20px 130px;
-  }
-
-  #info-bottom {
-    padding: 20px 440px;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  #menu {
-    padding: 20px 230px;
-  }
-
-  .border {
-    margin: 0 450px;
-  }
-
-  #info-bottom {
-    padding: 20px 490px;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  #menu {
-    padding: 20px 300px;
-  }
-
-  #info-bottom {
-    padding: 20px 540px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  #menu {
-    padding: 20px 25%;
-  }
-
-  .border {
-    margin: 0 600px;
-  }
-
-  #info-bottom {
-    padding: 20px 640px;
+    padding: 5px 340px;
+    max-width: 230px;
   }
 }
