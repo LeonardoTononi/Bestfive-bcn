@@ -96,11 +96,25 @@ header img {
 }
 #app3 i {
   color: #037ef3;
+  transition: 0.2s ease-in;
+  border-radius: 15px;
 }
-
+  #app3:hover i {
+    color: white;
+    background: #037ef3;
+    border-radius: 15px;
+  }
 #app4 i {
   color: #008374;
+  transition: 0.2s ease-in;
+  border-radius: 15px;
 }
+  #app4:hover i {
+    color: white;
+    background: #008374;
+    border-radius: 15px;
+  }
+
 #app5 i {
   color: #ffc845;
 }
