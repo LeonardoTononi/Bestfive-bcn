@@ -10,14 +10,14 @@ body {
 }
 
 h2 {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   font-weight: 100;
   transition: 0.3s ease-in-out;
   justify-self: center;
 }
 
 i {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: 5px;
   transition: 0.3s ease-in-out;
   justify-self: center;
@@ -54,9 +54,9 @@ header img {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
-  grid-gap: 10px;
+  grid-gap: 30px;
   margin: 0 auto;
-  padding: 0 80px 20px 80px;
+  padding: 0 40px 20px 40px;
 }
 
 #info-top a {
@@ -68,16 +68,16 @@ header img {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
-  grid-gap: 10px;
+  grid-gap: 30px;
   margin: 0 auto;
-  padding: 20px 80px;
+  padding: 20px 40px;
 }
 
 #how {
   border: 1px solid #fd5c63;
   border-radius: 10px;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s ease-in-out;
   padding: 10px;
   background: #fd5c63;
@@ -86,6 +86,7 @@ header img {
 #how h2 {
   background: #fd5c63;
   color: white;
+  font-size: 1.1rem;
 }
 
 #how i {
@@ -110,8 +111,8 @@ header img {
 #map {
   border: 1px solid #3b5998;
   border-radius: 10px;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s ease-in-out;
   padding: 10px;
   background: #3b5998;
@@ -144,8 +145,8 @@ header img {
 #contact {
   border: 1px solid #000;
   border-radius: 10px;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s ease-in-out;
   padding: 10px;
   background: #000;
@@ -180,10 +181,10 @@ header img {
 
 #menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
-  grid-gap: 10px;
+  grid-gap: 30px;
   margin: 0 auto;
   padding: 20px 40px;
 }
@@ -191,12 +192,12 @@ header img {
 .icon-app {
   border: 1px solid #000;
   border-radius: 10px;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s ease-in-out;
   padding: 10px;
 }
-  ./* icon-app:hover > h2 {
+  .icon-app:hover > h2 {
     background: #000;
     font-size: 1.1rem;
     color: white;
@@ -209,7 +210,7 @@ header img {
     font-size: 2.5rem;
     color: white;
     background: #000;
-  } */
+  }
 
 /* ------ MEDIA QUERY ------  */
 
