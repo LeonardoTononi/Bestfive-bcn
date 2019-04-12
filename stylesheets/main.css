@@ -55,7 +55,7 @@ header img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 20px 100px;
+  padding: 5px 100px;
 }
 
 #contact {
@@ -76,7 +76,7 @@ header img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 0 13px 20px 13px;
+  padding: 0 13px;
 }
 
 .icon-app {
@@ -97,6 +97,7 @@ header img {
 #app3 i {
   color: #037ef3;
 }
+
 #app4 i {
   color: #008374;
 }
