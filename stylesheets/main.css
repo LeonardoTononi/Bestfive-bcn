@@ -68,7 +68,7 @@ header img {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
-  grid-gap: 10px;
+  grid-gap: 5px;
   margin: 0 auto;
   padding: 20px 100px;
 }
@@ -183,9 +183,9 @@ header img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
   place-items: center;
-  grid-gap: 10px;
+  grid-gap: 5px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding: 0 13px 20px 13px;
 }
 
 .icon-app {
@@ -326,4 +326,6 @@ header img {
     }
   } 
 
+
+/* ------- COLOR APP ------ */
 
