@@ -31,7 +31,7 @@ h2 {
 a {
   text-decoration: none;
   background: transparent;
-} 
+}
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -113,6 +113,10 @@ i {
   text-align: start;
 }
 
+.text ul li {
+  color: #323232;
+}
+
 .text ul li i {
   margin-top: 15px;
   width: 50px;
@@ -122,30 +126,37 @@ i {
 
 /* ------- MEDIA QUERY ------  */
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
   #logo img {
     max-width: 380px;
     padding-top: 50px;
   }
+
   .border {
     margin: 0 200px 0 200px;
   }
+
   h1 {
     font-size: 2.3rem;
     padding: 15px;
   }
+
   .place a {
     font-size: 1.3rem;
   }
+
   .text {
     font-size: 1.3rem;
   }
+
   .text h5 {
     font-size: 1.5rem;
   }
+
   .text ul {
     text-align: center;
   }
+
   .text ul li i {
     margin-top: 15px;
     width: 65px;
@@ -154,10 +165,11 @@ i {
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .border {
     margin: 0 400px 0 400px;
   }
+
   i {
     font-size: 1.8rem;
   }
