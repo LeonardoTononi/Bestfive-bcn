@@ -19,9 +19,13 @@ a {
   font-size: 1.3rem;
 }
 
-img {
+#header {
+  text-align: center;
+}
+
+#header img {
   padding-top: 10%;
-  width: 100%;
+  max-width: 300px;
 }
 
 #languages {
@@ -64,4 +68,26 @@ img {
 
 .lang:hover #es {
   color: #F8DE4B;
+}
+
+@media screen and (min-width: 600px) {
+  #languages {
+    padding-top: 10%;
+  }
+
+  #header img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #languages {
+    padding-top: 5%;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+
+  #header img {
+    max-width: 450px;
+  }
 }
