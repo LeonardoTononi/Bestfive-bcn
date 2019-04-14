@@ -1,17 +1,19 @@
-$(function () {
-  var controller = new ScrollMagic.Controller({
-    globalSceneOptions: {
-      triggerHook: 'onLeave'
-    }
-  });
-  var slides = document.querySelectorAll("header-card");
+// BACK BUTTON
+const backIcon_div = document.getElementById('back');
 
-  for (var i = 0; i < slides.length; i++) {
-    new ScrollMagic.Scene({
-        triggerElement: slides[i]
-      })
-      .setPin(slides[i])
-      .addIndicators()
-      .addTo(controller);
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  if (scrolled > 100) {
+    backIcon_div.style.display = "inline-block";
+  } else {
+    backIcon_div.style.display = "none";
   }
 });
+
+/* // EFFECT PAGE
+window.sr = ScrollReveal();
+sr.reveal('.place', {
+  duration: 1000,
+  origin: 'bottom',
+
+}); */
