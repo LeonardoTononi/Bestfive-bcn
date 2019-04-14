@@ -1,0 +1,22 @@
+{
+  "name": "bestfive",
+  "version": "1.0.0",
+  "description": "beta BestFiveBCN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Easaaa/Best-Five-Bcn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Easaaa/Best-Five-Bcn/issues"
+  },
+  "homepage": "https://github.com/Easaaa/Best-Five-Bcn#readme",
+  "dependencies": {
+    "jquery-parallax.js": "^1.5.0"
+  }
+}

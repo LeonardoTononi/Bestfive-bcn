@@ -1,9 +1,17 @@
-// EFFECT PAGE
+$(function () {
+  var controller = new ScrollMagic.Controller({
+    globalSceneOptions: {
+      triggerHook: 'onLeave'
+    }
+  });
+  var slides = document.querySelectorAll("header-card");
 
-/* window.sr = ScrollReveal();
-sr.reveal('.place', {
-  duration: 1000,
-  origin: 'bottom',
-  distance: '100px',
-  viewFactor: 0.2
-}); */
+  for (var i = 0; i < slides.length; i++) {
+    new ScrollMagic.Scene({
+        triggerElement: slides[i]
+      })
+      .setPin(slides[i])
+      .addIndicators()
+      .addTo(controller);
+  }
+});
