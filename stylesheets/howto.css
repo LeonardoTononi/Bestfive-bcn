@@ -86,7 +86,7 @@ i {
   border: 2px solid black;
   font-size: 1.2rem;
   text-align: center;
-  background: whitesmoke;
+  background: white;
   border-radius: 40px;
   font-family: 'Rubik', sans-serif;
 }
@@ -112,6 +112,11 @@ i {
     padding: 15px 200px;
   }
 }
+
+/* .answer {
+  display: none;
+  transition: 0.4s ease-in-out;
+} */
 
 /* ------ FOOTER ------- */
 
