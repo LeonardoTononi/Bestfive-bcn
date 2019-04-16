@@ -54,21 +54,38 @@ i {
 
 #back {
   text-align: start;
-  padding: 15px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  display: none;
+  transition: 0.3s ease-in;
+  width: 100%;
+}
+
+#back a i {
+  font-size: 2rem;
+  color: black;
+  background: transparent;
+}
+
+#map-action {
+  text-align: start;
+  padding: 10px;
   position: fixed;
   bottom: 0;
   right: 0;
   background: transparent;
-  display: none;
   transition: 0.3s ease-in;
 }
 
-#back a i {
-  font-size: 2.5rem;
-  color: white;
-  padding: 10px;
-  background: #000;
+#map-action a i {
+  font-size: 1.8rem;
+  padding: 10px 14px;
   border-radius: 50%;
+  background: black;
+  color: white;
 }
 
 /* ------- LOGO ------ */
