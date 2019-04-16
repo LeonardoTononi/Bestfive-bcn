@@ -77,11 +77,11 @@ i {
 
 /* ------- SEARCH BAR ------ */
 
-.search-bar {
+#search-bar {
   text-align: center;
 }
 
-.search-bar input {
+#search-bar input {
   padding: 15px 40px;
   border: 2px solid black;
   font-size: 1.2rem;
@@ -108,7 +108,7 @@ i {
 } */
 
 @media screen and (min-width: 800px) {
-  .search-bar input {
+  #search-bar input {
     padding: 15px 200px;
   }
 }
