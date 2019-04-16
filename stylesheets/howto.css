@@ -47,23 +47,51 @@ i {
 
 #back {
   text-align: start;
-  padding: 15px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  display: none;
+  transition: 0.3s ease-in;
+  width: 100%;
+}
+
+#back a i {
+  font-size: 2rem;
+  color: black;
+  background: transparent;
+}
+
+#map-action {
+  text-align: start;
+  padding: 10px;
   position: fixed;
   bottom: 0;
   right: 0;
   background: transparent;
-  display: none;
   transition: 0.3s ease-in;
 }
 
-#back a {
+#up {
+  text-align: start;
+  padding: 10px 15px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  transition: 0.3s ease-in;
+  display: none;
+}
+
+#up a {
   background: transparent;
 }
 
-#back a i {
-  font-size: 2.5rem;
+#up a i {
+  font-size: 2rem;
   color: white;
-  padding: 10px;
+  padding: 10px 15px;
   background: #000;
   border-radius: 50%;
 }
@@ -75,6 +103,28 @@ i {
   max-width: 300px;
 }
 
+/* ------- TITLE ------ */
+
+#title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#title h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#title em {
+  font-size: .8rem;
+}
+
+#title img {
+  width: 55px;
+}
+
 /* ------- SEARCH BAR ------ */
 
 #search-bar {
@@ -83,11 +133,11 @@ i {
 
 #search-bar input {
   padding: 15px 40px;
-  border: 2px solid black;
+  border: 1px solid rgb(51, 51, 51);
   font-size: 1.2rem;
   text-align: center;
-  background: white;
-  border-radius: 40px;
+  background: rgb(255, 212, 212);
+  border-radius: 10px;
   font-family: 'Rubik', sans-serif;
 }
 

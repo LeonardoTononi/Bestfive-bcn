@@ -8,6 +8,16 @@ window.addEventListener('scroll', () => {
     backIcon_div.style.display = "none";
   }
 });
+// UP BUTTON EFFECTS
+const scrollUp_div = document.getElementById('up');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  if (scrolled > 150) {
+    scrollUp_div.style.display = "inline-block";
+  } else {
+    scrollUp_div.style.display = "none";
+  }
+});
 /* // EFFECT PAGE
 window.sr = ScrollReveal();
 sr.reveal('.place', {

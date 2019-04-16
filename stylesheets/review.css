@@ -50,7 +50,28 @@ i {
   margin: 0 30px 0 30px;
 }
 
-/* ------ BACK BUTTON ------  */
+/* ------- TITLE ------ */
+
+#title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#title h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#title em {
+  font-size: .8rem;
+}
+
+#title img {
+  width: 55px;
+}
+
+/* ------ ICON CALL TO ACTION ------  */
 
 #back {
   text-align: start;
@@ -106,7 +127,7 @@ i {
 
 .place img {
   width: 100%;
-  padding: 30px 0;
+  padding-bottom: 30px;
 }
 
 .place a {
@@ -159,6 +180,10 @@ i {
     padding: 15px;
   }
 
+  #title h1 {
+    font-size: 2.6rem;
+  }
+
   .place a {
     font-size: 1.3rem;
   }
@@ -180,6 +205,10 @@ i {
     width: 65px;
     height: 55px;
     text-align: center;
+  }
+
+  #back {
+    padding: 15px;
   }
 }
 
