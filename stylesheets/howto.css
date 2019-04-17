@@ -108,7 +108,7 @@ i {
 #title {
   width: 100%;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #title h1 {
@@ -128,6 +128,7 @@ i {
 /* ------- SEARCH BAR ------ */
 
 #search-bar {
+  padding-top: 20px;
   text-align: center;
 }
 
