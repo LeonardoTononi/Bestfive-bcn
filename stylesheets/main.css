@@ -75,6 +75,7 @@ header img {
   background: whitesmoke;
   border-radius: 0;
   padding: 0;
+  box-shadow: none;
 }
 
 #info-bottom h2 {
@@ -134,9 +135,6 @@ header img {
     padding: 5px 150px 20px 150px;
   }
 
-  .border {
-    margin: 15px 140px;
-  }
 }
 
 @media screen and (min-width: 600px) {
@@ -159,9 +157,6 @@ header img {
     padding: 5px 220px 20px 220px;
   }
 
-  .border {
-    margin: 15px 170px;
-  }
 }
 
 @media screen and (min-width: 700px) {
@@ -181,10 +176,6 @@ header img {
 
   #info-bottom {
     padding: 5px 270px 20px 270px;
-  }
-
-  .border {
-    margin: 15px 220px;
   }
 }
 
@@ -209,32 +200,4 @@ header img {
     max-width: 230px;
   }
 
-  .border {
-    max-width: 400px;
-    margin: 15px auto;
-  }
-}
-
-/* ------- CATEGORY APP ------- */
-
-#app1 {
-  background: #00E676;
-  background: -webkit-linear-gradient(to top, #00E676, #139809);
-  background: linear-gradient(to top, #00E676, #139809);
-}
-
-#app2 {
-  background-color: purple;
-}
-
-#app3 {
-  background-color: blue;
-}
-
-.information {
-  background-color: green;
-}
-
-.shopBeach {
-  background-color: yellow;
 }
