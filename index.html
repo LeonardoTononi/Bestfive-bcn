@@ -2,55 +2,207 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="stylesheet" href="/stylesheets/languages.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
-  <script src="/javaScript/cookies.js"></script>
-  <title>Best Five Bcn</title>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+
+    <title>Best Five BCN</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
 </head>
 
 <body>
-  <div id="header">
-    <img src="/img/logo-min.png" alt="">
-  </div>
-  <div id="languages">
-    <a href="#">
-      <div class="lang">
-        <!-- <img src="https://img.icons8.com/ios/50/000000/spain-map-filled.png"> -->
-        <img src="https://img.icons8.com/color/96/000000/sagrada-familia.png">
-        <!-- <img src="https://img.icons8.com/bubbles/100/000000/dali.png"> -->
-        <p id="es">ESP</p>
-      </div>
-    </a>
-    <a href="en/index.html">
-      <div class="lang">
-        <!--  <img src="https://img.icons8.com/cotton/64/000000/tour-bus.png"> -->
-        <img src="https://img.icons8.com/color/100/000000/big-ben.png">
-        <!-- <img src="https://img.icons8.com/ios/50/000000/united-kingdom-map-filled.png"> -->
-        <p id="en">ENG</p>
-      </div>
-    </a>
-    <a href="#">
-      <div class="lang">
-        <img src="https://img.icons8.com/color/96/000000/coliseum.png">
-        <!-- <img src="https://img.icons8.com/ios/50/000000/italy-map-filled.png"> -->
-        <p id="it">ITA</p>
-      </div>
-    </a>
-    <a href="#">
-      <div class="lang">
-        <!-- <img src="https://img.icons8.com/dotty/80/000000/mime.png"> -->
-        <img src="https://img.icons8.com/office/80/000000/eiffel-tower.png">
-        <!-- <img src="https://img.icons8.com/ios/50/000000/france-map-filled.png"> -->
-        <p id="fr">FRA</p>
-      </div>
-    </a>
-  </div>
+
+    <header>
+        <a href="#">
+            <img src="img/logo-pink-hand.png" alt="">
+        </a>
+    </header>
+
+    <div id="menu">
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/globe.png">
+            </div>
+            <h2>Map</h2>
+        </a>
+        <a href="review/howto.html">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/search.png">
+            </div>
+            <h2>How To</h2>
+        </a>
+        <a href="review/cheapEats.html">
+            <div class="icon-app">
+                <!-- <i class="fas fa-hamburger"></i> -->
+                <img src="https://img.icons8.com/color/96/000000/hamburger.png">
+            </div>
+            <h2>CheapEats</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/healthy-food.png">
+            </div>
+            <h2>Vegan</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/pizza.png">
+            </div>
+            <h2>Italian</h2>
+        </a>
+        <!-- <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/cotton/64/000000/cafe.png">
+                <h2>Coffe</h2>
+            </div>
+        </a> -->
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/cafe.png">
+            </div>
+            <h2>CoffeWork</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/museum.png">
+            </div>
+            <h2>Museum</h2>
+        </a>
+        <!-- <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/office/80/000000/walking.png">
+                <h2>City Tour</h2>
+            </div>
+        </a> -->
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/cocktail.png">
+            </div>
+            <h2>Cocktail</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/tour-bus.png">
+            </div>
+            <h2>Day Trip</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/paella.png">
+            </div>
+            <h2>Paella</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/dancing-party.png">
+            </div>
+            <h2>Club</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/tapas.png">
+            </div>
+            <h2>Tapas Bar</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/beer.png">
+            </div>
+            <h2>Pub</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/shopping-basket.png">
+            </div>
+            <h2>LocalShop</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/ice-cream-cone.png">
+            </div>
+            <h2>IceCream</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/cathedral.png">
+            </div>
+            <h2>Church</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/french-fries.png">
+            </div>
+            <h2>Churro</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/summer.png">
+            </div>
+            <h2>Terrace</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/dancing.png">
+            </div>
+            <h2>BarStreet</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/48/000000/food-and-wine.png">
+            </div>
+            <h2>Wine</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/football.png">
+            </div>
+            <h2>SportBar</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/beach.png">
+            </div>
+            <h2>Beach</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/pancake.png">
+            </div>
+            <h2>Brunch</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/dining-room.png">
+            </div>
+            <h2>Spanish</h2>
+        </a>
+    </div>
+
+    <!-- <div class="border"></div> -->
+
+    <div id="info-bottom">
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/paper-plane.png">
+            </div>
+            <h2>Contact</h2>
+        </a>
+        <a href="#">
+            <div class="icon-app">
+                <img src="https://img.icons8.com/color/96/000000/critical-thinking.png">
+            </div>
+            <h2>About Us</h2>
+        </a>
+    </div>
 
 </body>
 

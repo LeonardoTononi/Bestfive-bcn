@@ -15,6 +15,7 @@ h2 {
   transition: 0.3s ease-in-out;
   justify-self: center;
   margin: 0;
+  background: transparent;
 }
 
 i {
@@ -29,7 +30,11 @@ a {
 }
 
 .icon-app img {
-  width: 40px;
+  width: 55px;
+}
+
+img {
+  background: transparent;
 }
 
 /* ------- UTILITY CLASS ------- */
@@ -47,7 +52,7 @@ header {
 }
 
 header img {
-  max-width: 270px;
+  max-width: 330px;
   padding-top: 15px;
 }
 
@@ -60,16 +65,18 @@ header img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 0px 105px 20px 105px;
+  padding: 0px 105px;
+  background: whitesmoke;
 }
 
-#contact {
-  border: 1px solid #000;
-  border-radius: 10px;
-  width: 60px;
-  height: 60px;
-  transition: 0.3s ease-in-out;
-  padding: 10px;
+#info-bottom .icon-app {
+  background: whitesmoke;
+  border-radius: 0;
+}
+
+#info-bottom h2 {
+  background: whitesmoke;
+  padding-bottom: 10px;
 }
 
 /* ------- ICONE APP ------ */
@@ -81,17 +88,15 @@ header img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 0 13px;
+  padding: 0 13px 10px 13px;
 }
 
 .icon-app {
-  border: 1px solid #000;
   border-radius: 10px;
   width: 60px;
   height: 60px;
   transition: 0.3s ease-in-out;
   padding: 10px;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 /* ------ MEDIA QUERY ------  */
@@ -111,9 +116,6 @@ header img {
     padding: 5px 130px 20px 130px;
   }
 
-  #contact {
-    padding: 20px;
-  }
 }
 
 @media screen and (min-width: 550px) {
@@ -204,4 +206,28 @@ header img {
     max-width: 400px;
     margin: 15px auto;
   }
+}
+
+/* ------- CATEGORY APP ------- */
+
+#app1 {
+  background: #00E676;
+  background: -webkit-linear-gradient(to top, #00E676, #139809);
+  background: linear-gradient(to top, #00E676, #139809);
+}
+
+#app2 {
+  background-color: purple;
+}
+
+#app3 {
+  background-color: blue;
+}
+
+.information {
+  background-color: green;
+}
+
+.shopBeach {
+  background-color: yellow;
 }
