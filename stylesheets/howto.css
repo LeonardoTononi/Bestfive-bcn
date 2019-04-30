@@ -43,57 +43,49 @@ i {
   margin: 0 30px;
 }
 
-/* ------ BACK BUTTON ------  */
+/* ------ ICON CALL TO ACTION ------  */
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: white;
+  transition: 0.3s ease-in;
+  width: 100%;
+  display: none;
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
 
 #back {
   text-align: start;
-  padding: 5px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: white;
-  display: none;
-  transition: 0.3s ease-in;
-  width: 100%;
+  float: left;
 }
 
-#back a i {
-  font-size: 2rem;
-  color: black;
+#back a img {
+  width: 30px;
+  padding-left: 10px;
   background: transparent;
 }
 
 #map-action {
-  text-align: start;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background: transparent;
-  transition: 0.3s ease-in;
+  text-align: end;
+  float: right;
 }
 
-#up {
-  text-align: start;
-  padding: 10px 15px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background: transparent;
-  transition: 0.3s ease-in;
-  display: none;
-}
-
-#up a {
+#map-action a img {
+  width: 30px;
+  padding-right: 10px;
   background: transparent;
 }
 
-#up a i {
-  font-size: 2rem;
-  color: white;
-  padding: 10px 15px;
-  background: #000;
-  border-radius: 50%;
+#icon-categ {
+  text-align: center;
+  float: center;
+}
+
+#icon-categ a img {
+  width: 30px;
+  background: transparent;
 }
 
 /* ------- LOGO ------ */
@@ -103,25 +95,24 @@ i {
   max-width: 300px;
 }
 
-/* ------- TITLE ------ */
+/* ------- HEADER ------ */
 
-#title {
-  width: 100%;
+header {
+  padding: 20px 0;
   text-align: center;
-  padding-bottom: 20px;
 }
 
-#title h1 {
+header h1 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 200;
 }
 
-#title em {
+header em {
   font-size: .8rem;
 }
 
-#title img {
+header img {
   width: 55px;
 }
 
@@ -138,7 +129,7 @@ i {
   font-size: 1.2rem;
   text-align: center;
   background: rgb(255, 212, 212);
-  border-radius: 10px;
+  border-radius: 20px;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -172,17 +163,18 @@ i {
 /* ------ FOOTER ------- */
 
 footer {
-  background: #000;
-  padding: 30px;
+  background: whitesmoke;
+  padding-bottom: 60px;
+  padding-top: 10px;
   text-align: center;
 }
 
 footer p {
-  background: #000;
-  color: white;
+  background: whitesmoke;
+  color: black;
 }
 
 footer a {
-  background: #000;
-  color: white;
+  background: whitesmoke;
+  color: black;
 }
