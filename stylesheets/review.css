@@ -7,13 +7,15 @@
 
 body {
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* ------ GENERAL STYLE ------  */
 
 h1 {
   font-size: 1.8rem;
-  padding: 10px;
+  padding: 10px 25px;
   font-weight: 400;
 }
 
@@ -42,15 +44,14 @@ i {
 }
 
 .border {
-  border: 3px solid #000;
+  border: 2px solid #000;
   margin: 0 30px 0 30px;
 }
 
 /* -------HEADER ------ */
 
 header {
-  text-align: center;
-  padding: 10px;
+  text-align: start;
 }
 
 header h1 {
@@ -68,18 +69,6 @@ header img {
 }
 
 /* ------ ICON CALL TO ACTION ------  */
-
-/* #back {
-  text-align: start;
-  padding: 5px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: white;
-  display: none;
-  transition: 0.3s ease-in;
-  width: 100%;
-} */
 
 .bottom-bar {
   position: fixed;
@@ -103,16 +92,6 @@ header img {
   background: transparent;
 }
 
-/* #map-action {
-  text-align: start;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background: transparent;
-  transition: 0.3s ease-in;
-} */
-
 #map-action {
   text-align: end;
   float: right;
@@ -121,6 +100,16 @@ header img {
 #map-action a img {
   width: 30px;
   padding-right: 10px;
+  background: transparent;
+}
+
+#icon-categ {
+  text-align: center;
+  float: center;
+}
+
+#icon-categ a img {
+  width: 30px;
   background: transparent;
 }
 
@@ -139,6 +128,10 @@ header img {
   text-align: center;
   height: 100%;
   width: 100%;
+}
+
+.place h1 {
+  text-align: start;
 }
 
 .place img {
@@ -160,7 +153,8 @@ header img {
 
 .text h5 {
   font-size: 1.3rem;
-  text-align: center;
+  text-align: start;
+  padding-left: 15px;
 }
 
 .text ul {
@@ -183,6 +177,12 @@ header img {
 .text p {
   padding: 15px;
   text-align: justify;
+}
+
+.link-div {
+  width: 100%;
+  text-align: start;
+  padding-left: 25px;
 }
 
 /* ------- MEDIA QUERY ------  */
