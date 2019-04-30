@@ -11,13 +11,9 @@ body {
 
 /* ------ GENERAL STYLE ------  */
 
-header {
-  text-align: center;
-}
-
 h1 {
   font-size: 1.8rem;
-  padding: 5px;
+  padding: 10px;
   font-weight: 400;
 }
 
@@ -50,30 +46,30 @@ i {
   margin: 0 30px 0 30px;
 }
 
-/* ------- TITLE ------ */
+/* -------HEADER ------ */
 
-#title {
-  width: 100%;
+header {
   text-align: center;
-  padding-bottom: 15px;
+  padding: 10px;
 }
 
-#title h1 {
+header h1 {
   font-size: 2rem;
   text-transform: uppercase;
+  background: none;
 }
 
-#title em {
+header em {
   font-size: .8rem;
 }
 
-#title img {
+header img {
   width: 55px;
 }
 
 /* ------ ICON CALL TO ACTION ------  */
 
-#back {
+/* #back {
   text-align: start;
   padding: 5px;
   position: fixed;
@@ -83,15 +79,31 @@ i {
   display: none;
   transition: 0.3s ease-in;
   width: 100%;
+} */
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: white;
+  transition: 0.3s ease-in;
+  width: 100%;
+  display: none;
+  padding-top: 7px;
+  padding-bottom: 6px;
 }
 
-#back a i {
-  font-size: 2rem;
-  color: black;
+#back {
+  text-align: start;
+  float: left;
+}
+
+#back a img {
+  width: 30px;
+  padding-left: 10px;
   background: transparent;
 }
 
-#map-action {
+/* #map-action {
   text-align: start;
   padding: 10px;
   position: fixed;
@@ -99,14 +111,17 @@ i {
   right: 0;
   background: transparent;
   transition: 0.3s ease-in;
+} */
+
+#map-action {
+  text-align: end;
+  float: right;
 }
 
-#map-action a i {
-  font-size: 1.8rem;
-  padding: 10px 14px;
-  border-radius: 50%;
-  background: black;
-  color: white;
+#map-action a img {
+  width: 30px;
+  padding-right: 10px;
+  background: transparent;
 }
 
 /* ------- LOGO ------ */
@@ -119,7 +134,8 @@ i {
 /* ------- REVIEW CARD ------- */
 
 .place {
-  padding: 30px 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;
   height: 100%;
   width: 100%;
@@ -186,7 +202,7 @@ i {
     padding: 15px;
   }
 
-  #title h1 {
+  header h1 {
     font-size: 2.6rem;
   }
 

@@ -1,11 +1,11 @@
-// BACK BUTTON EFFECTS
-const backIcon_div = document.getElementById('back');
+// BOTTOM BAR
+const bottomBar = document.querySelector('.bottom-bar');
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY;
   if (scrolled > 100) {
-    backIcon_div.style.display = "inline-block";
+    bottomBar.style.display = "inline-block";
   } else {
-    backIcon_div.style.display = "none";
+    bottomBar.style.display = "none";
   }
 });
 // UP BUTTON EFFECTS
