@@ -41,10 +41,6 @@ img {
 
 /* ------- UTILITY CLASS ------- */
 
-.border {
-  border: 1px solid #000;
-  margin: 15px 70px;
-}
 
 /* ------ HEADER ------ */
 
@@ -67,7 +63,7 @@ header img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 10px 105px;
+  padding: 5px 105px 0 105px;
   background: whitesmoke;
 }
 

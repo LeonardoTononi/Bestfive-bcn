@@ -1,12 +1,16 @@
 * {
   font-family: 'Rubik', sans-serif;
   background-color: white;
-  color: #000;
+  color: #484848;
   margin: 0 auto;
 }
 
 body {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ------ GENERAL STYLE ------  */
@@ -119,13 +123,15 @@ header img {
 /* ------- SEARCH BAR ------ */
 
 #search-bar {
-  padding-top: 20px;
   text-align: center;
 }
 
 #search-bar input {
   padding: 15px 40px;
-  border: 1px solid rgb(51, 51, 51);
+  border: none;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   font-size: 1.2rem;
   text-align: center;
   background: rgb(255, 212, 212);
@@ -171,10 +177,8 @@ footer {
 
 footer p {
   background: whitesmoke;
-  color: black;
 }
 
 footer a {
   background: whitesmoke;
-  color: black;
 }
