@@ -236,3 +236,22 @@ header img {
   }
 
 }
+
+/* ------ FOOTER ------- */
+
+footer {
+  background: rgb(226, 225, 225);
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  background: rgb(226, 225, 225);
+  font-size: 0.8rem;
+  color: #484848;
+}
+
+footer a {
+  background: rgb(226, 225, 225);
+  color: #484848;
+}
