@@ -1,11 +1,11 @@
 // BOTTOM BAR
-const bottomBar = document.querySelector('.bottom-bar');
+const bottomBar_div = document.querySelector('.bottom-bar');
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY;
   if (scrolled > 100) {
-    bottomBar.style.display = "inline-block";
+    bottomBar_div.style.display = "inline-block";
   } else {
-    bottomBar.style.display = "none";
+    bottomBar_div.style.display = "none";
   }
 });
 // UP BUTTON EFFECTS
@@ -18,12 +18,6 @@ window.addEventListener('scroll', () => {
     scrollUp_div.style.display = "none";
   }
 });
-/* // EFFECT PAGE
-window.sr = ScrollReveal();
-sr.reveal('.place', {
-  duration: 1000,
-  origin: 'bottom',
-}); */
 
 // HOW TO SEARCH BAR
 const searchBar_input = document.forms['search-bar'].querySelector('input');

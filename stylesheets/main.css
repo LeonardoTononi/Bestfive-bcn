@@ -31,10 +31,6 @@ a {
   background: transparent;
 }
 
-.icon-app img {
-  width: 45px;
-}
-
 img {
   background: transparent;
 }
@@ -79,6 +75,45 @@ header img {
   padding-bottom: 10px;
 }
 
+/* ------- LANGUAGES ------- */
+
+#languages-section {
+  position: fixed;
+  background: transparent;
+  bottom: 75%;
+}
+
+#languages-section img {
+  width: 50px;
+  background: transparent;
+}
+
+#languages {
+  background: transparent;
+  display: none;
+  transition: 0.5s ease-in-out;
+}
+
+#languages .language {
+  background: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+}
+
+#languages .language a {
+  padding: 20px;
+  background: whitesmoke;
+  border-radius: 50%;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+/* .language {
+  padding: 5px 5px;
+} */
+
 /* ------- ICONE APP ------ */
 
 #menu {
@@ -101,6 +136,10 @@ header img {
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+.icon-app img {
+  width: 45px;
 }
 
 /* ------ MEDIA QUERY ------  */
