@@ -36,6 +36,21 @@ img {
   background: transparent;
 }
 
+#content-body {
+  display: inline;
+}
+
+#img-logo-loader {
+  background: black;
+  display: none;
+}
+
+#img-logo-loader img {
+  bposition: absolute;
+  top: 50%;
+  left: 50%;
+}
+
 /* ------- UTILITY CLASS ------- */
 
 

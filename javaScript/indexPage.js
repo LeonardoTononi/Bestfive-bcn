@@ -1,4 +1,10 @@
-// BTN LANGUAGES 
+// LOAD LOGO INDEX PAGE
+const bodyIndex_div = document.getElementById('content-body');
+const logoLoader_div = document.getElementById('img-logo-loader');
+
+
+
+// BTN LANGUAGES
 const btnLanguage_a = document.getElementById('btn-lang');
 const languagesList_div = document.getElementById('languages');
 
