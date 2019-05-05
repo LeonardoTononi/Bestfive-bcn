@@ -1,4 +1,4 @@
-// BOTTOM BAR
+/* // BOTTOM BAR
 const bottomBar_div = document.querySelector('.bottom-bar');
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY;
@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
   } else {
     bottomBar_div.style.display = "none";
   }
-});
+}); */
 // UP BUTTON EFFECTS
 const scrollUp_div = document.getElementById('up');
 window.addEventListener('scroll', () => {

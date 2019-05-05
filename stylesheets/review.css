@@ -81,7 +81,6 @@ header img {
   background: white;
   transition: 0.3s ease-in;
   width: 100%;
-  display: none;
   padding-top: 7px;
   padding-bottom: 6px;
 }
@@ -136,6 +135,7 @@ header img {
 
 .place h1 {
   text-align: start;
+  font-size: 1.4rem;
 }
 
 .place img {
