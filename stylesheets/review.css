@@ -55,11 +55,13 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
-  text-transform: uppercase;
+  font-size: 1.8rem;
   background: none;
-  padding-left: 40px;
-  padding-top: 30px;
+  padding-left: 45px;
+  padding-top: 10px;
+  color: #28406F;
+  font-weight: 500;
+  letter-spacing: 1.2px;
 }
 
 header em {
@@ -74,6 +76,7 @@ header img {
 
 .bottom-bar {
   position: fixed;
+  border-top: .3px solid #484848;
   bottom: 0;
   background: white;
   transition: 0.3s ease-in;
@@ -128,7 +131,7 @@ header img {
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  margin: 15px;
+  margin: 0 20px 20px 20px;
 }
 
 .place h1 {
