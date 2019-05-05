@@ -12,7 +12,7 @@ body {
 
 header h1 {
   letter-spacing: 1.5px;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-align: start;
   padding: 0 20px;
   font-weight: 500;
@@ -24,7 +24,7 @@ header svg {
   background: transparent;
   width: 20px;
   right: 23px;
-  top: 14px;
+  top: 19px;
 }
 
 h2 {
