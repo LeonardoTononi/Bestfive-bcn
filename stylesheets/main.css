@@ -19,12 +19,12 @@ header h1 {
   color: #28406F;
 }
 
-header svg {
+header img {
   position: absolute;
   background: transparent;
-  width: 20px;
+  width: 22px;
   right: 23px;
-  top: 19px;
+  top: 33px;
 }
 
 h2 {
