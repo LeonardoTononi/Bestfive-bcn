@@ -10,6 +10,16 @@ body {
   margin: 0 auto;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: start;
+  padding: 10px 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #28406F;
+}
+
 h2 {
   font-size: 0.8rem;
   font-weight: 100;
@@ -140,7 +150,7 @@ header img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 20px 13px 10px 13px;
+  padding: 0 13px 10px 13px;
 }
 
 .icon-app {
