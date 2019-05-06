@@ -33,13 +33,6 @@ h2 {
   padding: 10px;
 }
 
-.question p {
-  font-family: 'Open Sans', sans-serif;
-  color: #323232;
-  letter-spacing: .8px;
-  margin: 0 auto;
-}
-
 i {
   font-size: 1.5rem;
   padding: 5px;
@@ -133,23 +126,26 @@ i {
 
 .question {
   padding: 10px;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 10px 0;
 }
 
-/* Add color to question when the answer is activated background: whitesmoke; */
-/* .answer {
-  display: none;
-} */
+.question p {
+  font-family: 'Open Sans', sans-serif;
+  color: #323232;
+  letter-spacing: .8px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
 
 @media screen and (min-width: 800px) {
   #search-bar input {
     padding: 15px 200px;
   }
 }
-
-/* .answer {
-  display: none;
-  transition: 0.4s ease-in-out;
-} */
 
 /* ------ FOOTER ------- */
 
