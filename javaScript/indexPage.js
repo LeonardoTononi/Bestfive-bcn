@@ -1,6 +1,8 @@
 // LOAD LOGO INDEX PAGE
-const bodyIndex_div = document.getElementById('content-body');
-const logoLoader_div = document.getElementById('img-logo-loader');
+window.addEventListener('load', function () {
+  const loader = document.querySelector('.loader');
+  loader.className += " hidden";
+});
 
 
 
