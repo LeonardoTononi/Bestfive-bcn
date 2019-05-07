@@ -28,7 +28,7 @@ header h1 {
   letter-spacing: 1.5px;
   font-size: 2.2rem;
   text-align: start;
-  padding: 0 20px;
+  padding: 0 25px;
   font-weight: 500;
   color: #28406F;
   margin: 0;
@@ -38,11 +38,11 @@ header h1 {
 header img {
   width: 22px;
   float: right;
-  padding: 10px 20px;
+  padding: 10px 25px;
 }
 
 h2 {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: 100;
   transition: 0.3s ease-in-out;
   justify-self: center;
@@ -90,11 +90,10 @@ img {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   place-items: center;
-  grid-gap: 5px;
   margin: 0 auto;
   padding: 5px 105px 0 105px;
   background: whitesmoke;
-  min-height: 12vh;
+  min-height: 8vh;
 }
 
 #info-bottom .icon-app {
@@ -309,18 +308,18 @@ img {
 /* ------ FOOTER ------- */
 
 footer {
-  background: rgb(226, 225, 225);
-  padding: 10px;
+  background: #28406F;
+  padding: 5px;
   text-align: center;
 }
 
 footer p {
-  background: rgb(226, 225, 225);
+  background: #28406F;
   font-size: 0.8rem;
-  color: #484848;
+  color: #fff;
 }
 
 footer a {
-  background: rgb(226, 225, 225);
-  color: #484848;
+  background: #28406F;
+  color: #fff;
 }
