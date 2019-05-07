@@ -1,7 +1,9 @@
 // LOAD LOGO INDEX PAGE
 window.addEventListener('load', function () {
-  const loader = document.querySelector('.loader');
-  loader.className += " hidden";
+  setInterval(() => {
+    const loader = document.querySelector('.loader');
+    loader.className += " hidden";
+  }, 1000);
 });
 
 
