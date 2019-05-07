@@ -91,12 +91,11 @@ img {
 }
 
 .loader.hidden {
-  animation: fade-out 1s;
+  animation: fade-out .4s;
   animation-fill-mode: forwards;
 }
 
-/* 
-.loader h1 {
+/* .loader h1 {
   letter-spacing: 1.5px;
   font-size: 2.2rem;
   text-align: center;
@@ -104,6 +103,12 @@ img {
   font-weight: 500;
   color: #28406F;
   margin: 0;
+  position: absolute;
+  background: transparent;
+  top: 200px;
+  left: 60px;
+  animation-name: go-up;
+  animation-duration: 3s;
 } */
 
 @keyframes fade-out {
