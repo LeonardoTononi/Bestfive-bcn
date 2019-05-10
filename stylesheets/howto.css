@@ -135,6 +135,11 @@ i {
   color: #fff;
 }
 
+#search-bar input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
 /* ------ QUESTIONS ------  */
 
 #questions {
