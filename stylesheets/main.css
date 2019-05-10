@@ -20,9 +20,9 @@ header {
   padding-top: 7px;
   padding-bottom: 6px;
   width: 100%;
-  -webkit-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
+  /*  -webkit-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75); */
 }
 
 header h1 {
@@ -40,6 +40,15 @@ header img {
   width: 22px;
   float: right;
   padding: 10px 25px;
+}
+
+#top-img {
+  width: 100%;
+}
+
+#top-img img {
+  width: 100%;
+  padding-top: 70px;
 }
 
 h2 {
@@ -201,7 +210,7 @@ img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 70px 13px 10px 13px;
+  padding: 20px 13px 10px 13px;
 }
 
 .icon-app {
