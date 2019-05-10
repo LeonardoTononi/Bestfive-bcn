@@ -18,7 +18,7 @@ header {
   background: white;
   transition: 0.3s ease-in;
   padding-top: 7px;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   width: 100%;
   /*  -webkit-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
@@ -34,6 +34,15 @@ header h1 {
   margin: 0;
   float: left;
   letter-spacing: 1.5px;
+  position: relative;
+}
+
+header h1::after {
+  content: 'Bcn';
+  font-size: .8rem;
+  position: absolute;
+  bottom: -10px;
+  right: 25px;
 }
 
 header img {
@@ -167,7 +176,7 @@ img {
 }
 
 #languages-section h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 0 30px;
   letter-spacing: 0;
 }
@@ -372,7 +381,7 @@ footer {
 
 footer p {
   background: #28406F;
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: #fff;
 }
 

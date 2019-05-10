@@ -12,10 +12,30 @@ body {
 
 /* ------ GENERAL STYLE ------  */
 
-h1 {
-  font-size: 1.8rem;
-  padding: 10px 25px;
-  font-weight: 400;
+header {
+  transition: 0.3s ease-in;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-align: start;
+  padding: 0 30px;
+  font-weight: 500;
+  color: #28406F;
+  float: left;
+  letter-spacing: 1.5px;
+  position: relative;
+}
+
+header h1::after {
+  content: 'CheapEats';
+  font-size: .8rem;
+  position: absolute;
+  bottom: -10px;
+  right: 25px;
 }
 
 h2 {
@@ -44,7 +64,7 @@ i {
 
 /* -------HEADER ------ */
 
-header {
+/* header {
   text-align: start;
 }
 
@@ -57,26 +77,22 @@ header h1 {
   font-weight: 500;
   letter-spacing: 1.2px;
 }
-
-header em {
-  font-size: .8rem;
-}
-
-header img {
-  width: 55px;
-}
-
+ */
 /* ------ ICON CALL TO ACTION ------  */
 
 .bottom-bar {
   position: fixed;
-  border-top: .3px solid #484848;
+  /* 
+  border-top: .3px solid #484848; */
   bottom: 0;
   background: white;
   transition: 0.3s ease-in;
   width: 100%;
   padding-top: 7px;
   padding-bottom: 6px;
+  -webkit-box-shadow: 2px 2px 16px -6px #484848;
+  -moz-box-shadow: 2px 2px 16px -6px #484848;
+  box-shadow: 2px 2px 16px -6px #484848;
 }
 
 #back {
@@ -125,6 +141,8 @@ header img {
 .place h1 {
   text-align: start;
   font-size: 1.4rem;
+  padding: 10px 25px;
+  font-weight: 400;
 }
 
 .place img {
@@ -265,16 +283,20 @@ header img {
 /* ------ FOOTER ------- */
 
 footer {
-  background: whitesmoke;
+  background: #28406F;
+  color: #fff;
   padding-bottom: 60px;
   padding-top: 10px;
   text-align: center;
 }
 
 footer p {
-  background: whitesmoke;
+  background: #28406F;
+  color: #fff;
+  font-size: .8rem;
 }
 
 footer a {
-  background: whitesmoke;
+  background: #28406F;
+  color: #fff;
 }
