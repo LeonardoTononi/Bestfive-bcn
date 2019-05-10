@@ -37,7 +37,7 @@ header h1 {
   position: relative;
 }
 
-header h1::after {
+header h1#company-name::after {
   content: 'Bcn';
   font-size: .8rem;
   position: absolute;
@@ -173,12 +173,14 @@ img {
   animation-name: fade-in;
   animation-duration: 100ms;
   animation-fill-mode: forwards;
+  padding: 8px 0;
 }
 
 #languages-section h1 {
   font-size: 2rem;
   padding: 0 30px;
   letter-spacing: 0;
+  position: relative;
 }
 
 .language {

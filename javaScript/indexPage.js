@@ -17,7 +17,6 @@ btnLanguage_a.addEventListener('click', function () {
   if (languagesList_div.style.display == "none") {
     /* languagesList_div.style.opacity = "1"; */
     languagesList_div.style.display = "inline";
-
     cleanBtn_a.addEventListener('click', function () {
       languagesList_div.style.display = "none";
       /* languagesList_div.style.opacity = "0"; */
