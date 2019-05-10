@@ -22,7 +22,7 @@ header {
 header h1 {
   font-size: 2rem;
   text-align: start;
-  padding: 0 30px;
+  padding-left: 30px;
   font-weight: 500;
   color: #28406F;
   float: left;

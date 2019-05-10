@@ -14,15 +14,30 @@ a {
 }
 
 /* ------ GENERAL STYLE ------  */
+header {
+  transition: 0.3s ease-in;
+  padding: 10px;
+  margin-bottom: 60px;
+  width: 100%;
+}
 
 header h1 {
-  margin: 0;
   font-size: 2rem;
-  text-align: center;
-  padding: 20px 20px;
+  text-align: start;
+  padding-left: 30px;
   font-weight: 500;
-  letter-spacing: 1.5px;
   color: #28406F;
+  float: left;
+  letter-spacing: 1.5px;
+  position: relative;
+}
+
+header h1::after {
+  content: 'AskAnything';
+  font-size: .8rem;
+  position: absolute;
+  bottom: -10px;
+  right: 25px;
 }
 
 h2 {
@@ -50,13 +65,15 @@ i {
 
 .bottom-bar {
   position: fixed;
-  border-top: .3px solid #484848;
   bottom: 0;
   background: white;
   transition: 0.3s ease-in;
   width: 100%;
   padding-top: 7px;
   padding-bottom: 6px;
+  -webkit-box-shadow: 2px 2px 16px -6px #484848;
+  -moz-box-shadow: 2px 2px 16px -6px #484848;
+  box-shadow: 2px 2px 16px -6px #484848;
 }
 
 #back {
@@ -112,9 +129,10 @@ i {
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   font-size: 1.2rem;
   text-align: center;
-  background: rgb(255, 212, 212);
+  background: rgba(108, 136, 187, 0.749);
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
+  color: #fff;
 }
 
 /* ------ QUESTIONS ------  */
@@ -150,16 +168,20 @@ i {
 /* ------ FOOTER ------- */
 
 footer {
-  background: whitesmoke;
+  background: #28406F;
+  color: #fff;
   padding-bottom: 60px;
   padding-top: 10px;
   text-align: center;
 }
 
 footer p {
-  background: whitesmoke;
+  background: #28406F;
+  color: #fff;
+  font-size: .8rem;
 }
 
 footer a {
-  background: whitesmoke;
+  background: #28406F;
+  color: #fff;
 }

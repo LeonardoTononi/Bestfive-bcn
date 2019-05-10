@@ -6,8 +6,6 @@ window.addEventListener('load', function () {
   }, 1000);
 });
 
-
-
 // BTN LANGUAGES
 const btnLanguage_a = document.getElementById('btn-lang');
 const languagesList_div = document.getElementById('languages-section');
