@@ -15,10 +15,8 @@ a {
 
 /* ------ GENERAL STYLE ------  */
 header {
-  transition: 0.3s ease-in;
   padding: 10px;
   margin-bottom: 60px;
-  width: 100%;
 }
 
 header h1 {
