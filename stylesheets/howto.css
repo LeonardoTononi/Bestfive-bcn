@@ -35,7 +35,7 @@ header h1::after {
   font-size: .8rem;
   position: absolute;
   bottom: -10px;
-  right: 0;
+  left: 32px;
 }
 
 h2 {
