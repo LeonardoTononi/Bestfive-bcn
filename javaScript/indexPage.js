@@ -12,8 +12,12 @@ window.addEventListener('scroll', () => {
   const scrolled = window.scrollY;
   if (scrolled > 5) {
     scrollDown_div.style.background = "#fff";
+    scrollDown_div.style.boxShadow = "2px 2px 16px -8px #484848";
+    /* scrollDown_div.style.borderBottom = ".2px solid #484848"; */
   } else {
     scrollDown_div.style.background = "transparent";
+    scrollDown_div.style.boxShadow = "none";
+    /* scrollDown_div.style.borderBottom = "none"; */
   }
 });
 

@@ -15,7 +15,7 @@ header {
   position: fixed;
   top: 0;
   background: transparent;
-  transition: .2s ease-in-out;
+  transition: .1s ease-in-out;
   padding-top: 7px;
   padding-bottom: 10px;
   width: 100%;
@@ -25,7 +25,7 @@ header {
 }
 
 header h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-align: start;
   padding: 0 25px;
   font-weight: 500;
@@ -147,20 +147,27 @@ img {
   place-items: center;
   margin: 0 auto;
   padding: 5px 105px 0 105px;
-  background: whitesmoke;
+  background: #28406F;
   min-height: 8vh;
+  border-bottom: 1px solid white;
 }
 
 #info-bottom .icon-app {
-  background: whitesmoke;
+  background: transparent;
   border-radius: 0;
   padding: 0;
   box-shadow: none;
 }
 
+#info-bottom .icon-app img {
+  width: 35px;
+}
+
 #info-bottom h2 {
-  background: whitesmoke;
-  padding-bottom: 10px;
+  background: transparent;
+  padding: 0;
+  padding-bottom: 5px;
+  color: white;
 }
 
 /* ------- LANGUAGES ------- */
@@ -170,7 +177,7 @@ img {
   position: absolute;
   text-align: center;
   right: 10px;
-  transition: opacity 1s;
+  transition: all opacity 1s;
   display: none;
   animation-name: fade-in;
   animation-duration: 100ms;
@@ -380,13 +387,13 @@ img {
 
 footer {
   background: #28406F;
-  padding: 5px;
+  padding: 2px;
   text-align: center;
 }
 
 footer p {
   background: #28406F;
-  font-size: .8rem;
+  font-size: .6rem;
   color: #fff;
 }
 
