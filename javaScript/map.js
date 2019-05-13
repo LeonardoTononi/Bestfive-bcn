@@ -10,35 +10,39 @@ function initMap() {
   // New map
   let map = new google.maps.Map(document.getElementById('map'), options);
 
-  // Add marker
-  /*  let marker = new google.maps.Marker({
-    position: {
-      lat: 41.378038,
-      lng: 2.177780
-    },
-    map: map,
-    icon: 'https://img.icons8.com/color/25/000000/cafe.png'
-  });
+  // Array of markers
+  let markers = [
+    // COFFEWORK - FEDERAL CAFE 
+    {
+      coords: {
+        lat: 41.378038,
+        lng: 2.177780
+      },
+      iconImage: 'https://img.icons8.com/color/25/000000/cafe.png',
+      content: '<h3>Federal Café</h3><p>Good coffè and good place to work!</p>'
+    }
+  ];
 
-  let infoWindow = new google.maps.InfoWindow({
-    content: '<h3>Federal Café</h3><p>Good coffè and good place to work!</p>'
-  });
-
-  marker.addListener('click', function () {
-    infoWindow.open(map, marker);
-  }); */
+  // Loop through markers 
+  for (let i = 0; i < markers.length; i++) {
+    addMarker(markers[i]);
+  };
 
   // Add marker function 
-  function addMarker(coords) {
+  function addMarker(props) {
     let marker = new google.maps.Marker({
-      position: coords,
+      position: props.coords,
       map: map,
-      icon: 'https://img.icons8.com/color/25/000000/cafe.png'
+      icon: props.iconImage
     });
+    // Check content 
+    if (props.content) {
+      let infoWindow = new google.maps.InfoWindow({
+        content: props.content
+      });
+      marker.addListener('click', function () {
+        infoWindow.open(map, marker);
+      });
+    }
   }
-
-  addMarker({
-    lat: 41.378038,
-    lng: 2.177780
-  });
 }
