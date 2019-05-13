@@ -30,6 +30,15 @@ function initMap() {
 
   // Add marker function 
   function addMarker(coords) {
-
+    let marker = new google.maps.Marker({
+      position: coords,
+      map: map,
+      icon: 'https://img.icons8.com/color/25/000000/cafe.png'
+    });
   }
+
+  addMarker({
+    lat: 41.378038,
+    lng: 2.177780
+  });
 }
