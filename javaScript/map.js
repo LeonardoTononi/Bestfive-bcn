@@ -5,7 +5,34 @@ function initMap() {
     center: {
       lat: 41.3887,
       lng: 2.1589
-    }
+    },
+    styles: [{
+        "featureType": "poi",
+        "elementType": "labels.text",
+        "stylers": [{
+          "visibility": "off"
+        }]
+      },
+      {
+        "featureType": "poi.business",
+        "stylers": [{
+          "visibility": "off"
+        }]
+      },
+      {
+        "featureType": "road",
+        "elementType": "labels.icon",
+        "stylers": [{
+          "visibility": "off"
+        }]
+      },
+      {
+        "featureType": "transit",
+        "stylers": [{
+          "visibility": "off"
+        }]
+      }
+    ]
   };
   // New map
   let map = new google.maps.Map(document.getElementById('map'), options);

@@ -37,6 +37,7 @@ header h1 {
   position: relative;
 }
 
+/* 
 header h1#company-name::after {
   content: 'Bcn';
   font-size: .8rem;
@@ -44,17 +45,28 @@ header h1#company-name::after {
   bottom: -10px;
   left: 27px;
   color: #28406F;
-}
+} */
 
-header img {
+header #btn-lang {
   width: 22px;
   float: right;
   padding: 10px 25px;
+  padding-top: 16px;
+}
+
+.logo-img {
+  width: 180px;
+  text-align: start;
+  float: left;
+  position: absolute;
+  top: -20px;
+  left: 8px;
+  padding: 0;
 }
 
 #top-img {
   width: 100%;
-  padding-top: 40px;
+  padding-top: 50px;
   margin-bottom: -5px;
 }
 
