@@ -31,7 +31,7 @@ header h1 {
 }
 
 header h1::after {
-  content: 'AskAnything';
+  content: 'Ask anything';
   font-size: .8rem;
   position: absolute;
   bottom: -10px;
