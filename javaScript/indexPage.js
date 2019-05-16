@@ -22,7 +22,7 @@ window.addEventListener('scroll', () => {
 });
 
 // BTN LANGUAGES
-const btnLanguage_a = document.getElementById('btn-lang');
+const btnLanguage_a = document.querySelector('.btn-lang');
 const languagesList_div = document.getElementById('languages-section');
 const cleanBtn_a = document.getElementById('clean-lang');
 

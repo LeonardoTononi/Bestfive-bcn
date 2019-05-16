@@ -24,14 +24,28 @@ header h1 {
   text-align: start;
   padding-left: 30px;
   font-weight: 500;
-  color: #28406F;
+  color: #db3f47;
   float: left;
   letter-spacing: 1.5px;
   position: relative;
 }
 
+.menu {
+  padding: 15px;
+  background: transparent;
+}
+
+.logo-img {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  padding: 0;
+  background: transparent;
+}
+
 header h1::after {
-  content: 'Ask anything';
+  content: 'ask anything';
   font-size: .8rem;
   position: absolute;
   bottom: -10px;
@@ -127,7 +141,8 @@ i {
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   font-size: 1.2rem;
   text-align: center;
-  background: rgba(108, 136, 187, 0.749);
+  /* background: rgba(108, 136, 187, 0.749); */
+  background: #fa6c7394;
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
   color: #fff;
@@ -169,6 +184,9 @@ i {
 }
 
 /* ------ FOOTER ------- */
+.space {
+  padding: 20px;
+}
 
 footer {
   background: #28406F;
@@ -176,6 +194,7 @@ footer {
   padding-bottom: 60px;
   padding-top: 10px;
   text-align: center;
+  display: none;
 }
 
 footer p {

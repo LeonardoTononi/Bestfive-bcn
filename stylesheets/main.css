@@ -29,7 +29,8 @@ header h1 {
   text-align: start;
   padding: 0 25px;
   font-weight: 500;
-  color: #28406F;
+  /* color: #003580; */
+  color: #000;
   background: transparent;
   margin: 0;
   float: left;
@@ -37,30 +38,47 @@ header h1 {
   position: relative;
 }
 
-/* 
 header h1#company-name::after {
   content: 'Bcn';
   font-size: .8rem;
   position: absolute;
   bottom: -10px;
   left: 27px;
-  color: #28406F;
-} */
+  /* color: #003580; */
+}
 
 header #btn-lang {
   width: 22px;
   float: right;
   padding: 10px 25px;
-  padding-top: 16px;
+  padding-top: 12px;
+}
+
+.btn-lang {
+  position: absolute;
+  background: transparent;
+  right: 10px;
+  top: -10px;
+  color: #111111f0;
+  font-size: .7rem;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+.btn-lang img {
+  width: 10px;
 }
 
 .logo-img {
-  width: 180px;
+  width: 200px;
   text-align: start;
   float: left;
   position: absolute;
-  top: -20px;
-  left: 8px;
+  top: -30px;
+  left: -20px;
   padding: 0;
 }
 
@@ -133,7 +151,7 @@ img {
   text-align: center;
   padding: 0 25px;
   font-weight: 500;
-  color: #28406F;
+  color: #003580;
   margin: 0;
   position: absolute;
   background: transparent;
@@ -159,9 +177,9 @@ img {
   place-items: center;
   margin: 0 auto;
   padding: 5px 105px 0 105px;
-  background: #28406F;
+  background: white;
   min-height: 8vh;
-  border-bottom: 1px solid white;
+  display: none;
 }
 
 #info-bottom .icon-app {
@@ -179,7 +197,7 @@ img {
   background: transparent;
   padding: 0;
   padding-bottom: 5px;
-  color: white;
+  color: #000;
 }
 
 /* ------- LANGUAGES ------- */
@@ -206,7 +224,7 @@ img {
 
 .language {
   background: transparent;
-  display: inline-block;
+  padding: 10px;
 }
 
 .language a {
@@ -243,7 +261,7 @@ img {
   grid-gap: 5px;
   margin: 0 auto;
   padding: 0 13px 10px 13px;
-  margin-top: -35px;
+  /* margin-top: -35px; */
 }
 
 .icon-app {
@@ -398,18 +416,19 @@ img {
 /* ------ FOOTER ------- */
 
 footer {
-  background: #28406F;
+  background: #003580;
   padding: 2px;
   text-align: center;
+  display: none;
 }
 
 footer p {
-  background: #28406F;
+  background: transparent;
   font-size: .6rem;
   color: #fff;
 }
 
 footer a {
-  background: #28406F;
+  background: transparent;
   color: #fff;
 }

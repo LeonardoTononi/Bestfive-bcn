@@ -17,19 +17,33 @@ header {
   margin-bottom: 50px;
 }
 
+
+.menu {
+  padding: 15px;
+}
+
+.logo-img {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  padding: 0;
+}
+
 header h1 {
   font-size: 2rem;
   text-align: start;
   padding-left: 30px;
   font-weight: 500;
-  color: #28406F;
+  /*  color: #003580; */
+  color: #db3f47;
   float: left;
   letter-spacing: 1.5px;
   position: relative;
 }
 
 header h1::after {
-  content: 'Cheap eats';
+  content: 'cheap eats';
   font-size: .8rem;
   position: absolute;
   bottom: -10px;
@@ -140,7 +154,8 @@ header h1 {
   text-align: start;
   font-size: 1.4rem;
   padding: 10px 25px;
-  font-weight: 400;
+  font-weight: 500;
+  color: #000;
 }
 
 .place img {
@@ -196,6 +211,10 @@ header h1 {
 .place a {
   text-align: start;
   text-decoration: underline;
+}
+
+.last-card {
+  margin-bottom: 70px;
 }
 
 /* ------- LOGO ------ */
@@ -280,12 +299,17 @@ header h1 {
 
 /* ------ FOOTER ------- */
 
+.space {
+  padding: 20px;
+}
+
 footer {
   background: #28406F;
   color: #fff;
   padding-bottom: 60px;
   padding-top: 10px;
   text-align: center;
+  display: none;
 }
 
 footer p {
