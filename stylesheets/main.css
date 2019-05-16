@@ -27,7 +27,7 @@ header {
 header h1 {
   font-size: 2rem;
   text-align: start;
-  padding: 0 25px;
+  padding: 0 60px;
   font-weight: 500;
   /* color: #003580; */
   color: #000;
@@ -43,8 +43,16 @@ header h1#company-name::after {
   font-size: .8rem;
   position: absolute;
   bottom: -10px;
+  padding: 0 35px;
   left: 27px;
   /* color: #003580; */
+}
+
+#company-name img {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 120px;
 }
 
 header #btn-lang {
@@ -260,7 +268,7 @@ img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 0 13px 10px 13px;
+  padding: 0 13px 30px 13px;
   /* margin-top: -35px; */
 }
 
