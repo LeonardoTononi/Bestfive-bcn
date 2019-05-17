@@ -58,10 +58,8 @@ floatText_div.addEventListener('click', function () {
 closeBtn_div.addEventListener('click', function () {
   if (footer.style.display == "inline") {
     infoBottom_div.style.visibility = "hidden";
-    setInterval(function () {
-      floatText_div.style.display = "inline";
-      footer.style.display = "none";
-    }, 300);
+    floatText_div.style.display = "inline";
+    footer.style.display = "none";
   } else {
     footer.style.display = "inline";
   }

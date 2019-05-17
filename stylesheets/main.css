@@ -459,25 +459,6 @@ img {
 }
 
 .float-footer {
-  width: 100%;
-  /*  padding: 10px;
-  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  position: absolute;
-  bottom: -95px;
-  right: 20px;
-  border-radius: 10px;
-  cursor: pointer; */
-}
-
-.float-footer img {
-  width: 30px;
-}
-
-.float-footer p {
-  font-size: .9rem;
-  margin: 0;
   padding: 10px;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
@@ -487,6 +468,15 @@ img {
   right: 20px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.float-footer img {
+  width: 30px;
+}
+
+.float-footer p {
+  font-size: .9rem;
+  margin: 0;
 }
 
 footer {
@@ -535,43 +525,43 @@ footer section a:hover {
 }
 
 @media screen and (min-height: 574px) {
-  .float-footer p {
+  .float-footer {
     bottom: -180px;
   }
 }
 
 @media screen and (min-height: 620px) {
-  .float-footer p {
+  .float-footer {
     bottom: -140px;
   }
 }
 
 @media screen and (min-height: 650px) {
-  .float-footer p {
+  .float-footer {
     bottom: -100px;
   }
 }
 
 @media screen and (min-height: 680px) {
-  .float-footer p {
+  .float-footer {
     bottom: -80px;
   }
 }
 
 @media screen and (min-height: 710px) {
-  .float-footer p {
+  .float-footer {
     bottom: -40px;
   }
 }
 
 @media screen and (min-height: 740px) {
-  .float-footer p {
+  .float-footer {
     bottom: 0;
   }
 }
 
 @media screen and (min-height: 780px) {
-  .float-footer p {
+  .float-footer {
     bottom: 40px;
   }
 }
