@@ -51,15 +51,15 @@ header h5 {
 }
 
 #back-btn {
-  width: 30px;
+  width: 35px;
   float: right;
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 20px;
 }
 
 .story {
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 
 .story img {
@@ -72,23 +72,94 @@ header h5 {
   padding: 10px 20px;
   font-size: 1.2rem;
   line-height: 1.7rem;
+}
 
+.last-story {
+  padding-bottom: 40px;
+}
+
+/* ------ FOOTER ------- */
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-btn img {
+  width: 30px;
+  position: absolute;
+  left: -30px;
+  top: 3px;
+}
+
+.close-btn p {
+  font-size: 1rem;
+}
+
+.float-footer {
+  padding: 10px;
+  background: white;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.float-footer img {
+  width: 30px;
+}
+
+.float-footer p {
+  font-size: .7rem;
+  margin: 0;
 }
 
 footer {
-  /* background: #003580; */
-  color: #fff;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding: 2px;
   text-align: center;
-  width: 100%;
+  display: none;
+  color: #484848;
+  background: whitesmoke;
+}
+
+footer section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding: 10px 40px;
+}
+
+.last-section {
+  border-top: 1px solid #484848;
+  margin: 0 80px;
+}
+
+footer h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+  letter-spacing: 1.3px;
+  text-align: start;
 }
 
 footer p {
   background: transparent;
   font-size: .8rem;
+  color: #484848;
+  margin: 0;
+  padding-top: 10px;
 }
 
 footer a {
   background: transparent;
+  color: #484848;
+}
+
+footer section a:hover {
+  text-decoration: inherit;
 }

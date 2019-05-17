@@ -13,10 +13,19 @@ body {
 /* ------ GENERAL STYLE ------  */
 
 header {
-  padding: 10px;
-  margin-bottom: 50px;
+  padding: 15px 20px;
 }
 
+header h5 {
+  font-size: 1.5rem;
+  text-align: start;
+  padding: 0 0 20px 27px;
+  font-weight: 200;
+  color: #B3B3B3;
+  float: left;
+  letter-spacing: 1.5px;
+  position: relative;
+}
 
 .menu {
   padding: 15px;
@@ -25,7 +34,7 @@ header {
 .logo-img {
   width: 120px;
   position: absolute;
-  top: 10px;
+  top: 30px;
   right: 0;
   padding: 0;
 }
@@ -110,8 +119,8 @@ header h1 {
 }
 
 #back a img {
-  width: 30px;
-  padding: 3px 0 0 15px;
+  width: 25px;
+  padding: 5px 0 0 15px;
   background: transparent;
 }
 
