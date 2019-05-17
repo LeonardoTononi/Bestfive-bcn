@@ -459,7 +459,8 @@ img {
 }
 
 .float-footer {
-  padding: 10px;
+  width: 100%;
+  /*  padding: 10px;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
@@ -467,7 +468,7 @@ img {
   bottom: -95px;
   right: 20px;
   border-radius: 10px;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .float-footer img {
@@ -477,6 +478,15 @@ img {
 .float-footer p {
   font-size: .9rem;
   margin: 0;
+  padding: 10px;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  bottom: -95px;
+  right: 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 footer {
@@ -522,4 +532,46 @@ footer a {
 
 footer section a:hover {
   text-decoration: inherit;
+}
+
+@media screen and (min-height: 574px) {
+  .float-footer p {
+    bottom: -180px;
+  }
+}
+
+@media screen and (min-height: 620px) {
+  .float-footer p {
+    bottom: -140px;
+  }
+}
+
+@media screen and (min-height: 650px) {
+  .float-footer p {
+    bottom: -100px;
+  }
+}
+
+@media screen and (min-height: 680px) {
+  .float-footer p {
+    bottom: -80px;
+  }
+}
+
+@media screen and (min-height: 710px) {
+  .float-footer p {
+    bottom: -40px;
+  }
+}
+
+@media screen and (min-height: 740px) {
+  .float-footer p {
+    bottom: 0;
+  }
+}
+
+@media screen and (min-height: 780px) {
+  .float-footer p {
+    bottom: 40px;
+  }
 }
