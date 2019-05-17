@@ -6,7 +6,9 @@
 }
 
 body {
+  width: 100%;
   height: 100%;
+  overflow-x: hidden
 }
 
 a {
@@ -81,12 +83,12 @@ i {
   background: white;
   transition: 0.3s ease-in;
   width: 100%;
-  padding-top: 7px;
-  padding-bottom: 6px;
+  padding: 7px 0 6px 0;
   -webkit-box-shadow: 2px 2px 16px -6px #484848;
   -moz-box-shadow: 2px 2px 16px -6px #484848;
   box-shadow: 2px 2px 16px -6px #484848;
 }
+
 
 #back {
   text-align: start;
@@ -95,7 +97,7 @@ i {
 
 #back a img {
   width: 30px;
-  padding-left: 10px;
+  padding: 3px 0 0 15px;
   background: transparent;
 }
 
@@ -105,7 +107,7 @@ i {
 }
 
 #map-action a img {
-  width: 30px;
+  width: 35px;
   padding-right: 10px;
   background: transparent;
 }
@@ -116,9 +118,10 @@ i {
 }
 
 #icon-categ a img {
-  width: 30px;
+  width: 35px;
   background: transparent;
 }
+
 
 /* ------- LOGO ------ */
 
@@ -162,9 +165,9 @@ i {
 
 .question {
   padding: 10px;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75); */
   border-radius: 10px;
   margin: 10px 0;
 }

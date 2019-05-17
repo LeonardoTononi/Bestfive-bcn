@@ -19,9 +19,6 @@ header {
   padding-top: 7px;
   padding-bottom: 10px;
   width: 100%;
-  /*  -webkit-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 2px 16px -12px rgba(0, 0, 0, 0.75); */
 }
 
 header h1 {
@@ -55,31 +52,6 @@ header h1#company-name::after {
   width: 120px;
 }
 
-header #btn-lang {
-  width: 22px;
-  float: right;
-  padding: 10px 25px;
-  padding-top: 12px;
-}
-
-.btn-lang {
-  position: absolute;
-  background: transparent;
-  right: 10px;
-  top: -10px;
-  color: #111111f0;
-  font-size: .7rem;
-  padding: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-}
-
-.btn-lang img {
-  width: 10px;
-}
-
 .logo-img {
   width: 200px;
   text-align: start;
@@ -101,7 +73,8 @@ header #btn-lang {
 }
 
 h2 {
-  font-size: .8rem;
+  color: #666;
+  font-size: .7rem;
   font-weight: 100;
   transition: 0.3s ease-in-out;
   justify-self: center;
@@ -210,17 +183,37 @@ img {
 
 /* ------- LANGUAGES ------- */
 
+.btn-lang {
+  position: absolute;
+  background: transparent;
+  right: 10px;
+  top: -10px;
+  color: #111111f0;
+  font-size: .8rem;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+.btn-lang img {
+  width: 10px;
+}
+
 #languages-section {
-  width: 100%;
+  width: 70px;
   position: absolute;
   text-align: center;
   right: 10px;
   transition: all opacity 1s;
   display: none;
   animation-name: fade-in;
-  animation-duration: 100ms;
+  animation-duration: 500ms;
   animation-fill-mode: forwards;
-  padding: 8px 0;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 #languages-section h1 {
@@ -235,16 +228,13 @@ img {
   padding: 10px;
 }
 
-.language a {
-  background: transparent;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+#clean-lang {
+  background: #fd5c63;
 }
 
-.language a img {
-  width: 28px;
-  padding: 5px;
+#clean-lang a img {
+  width: 15px;
+  padding: 0;
 }
 
 @keyframes fade-in {
@@ -268,14 +258,14 @@ img {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 0 13px 30px 13px;
+  padding: 0 25px 30px 25px;
   /* margin-top: -35px; */
 }
 
 .icon-app {
   border-radius: 10px;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s ease-in-out;
   padding: 10px;
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
@@ -284,7 +274,7 @@ img {
 }
 
 .icon-app img {
-  width: 45px;
+  width: 37px;
 }
 
 /* ------ MEDIA QUERY ------  */

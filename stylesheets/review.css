@@ -94,14 +94,11 @@ header h1 {
 
 .bottom-bar {
   position: fixed;
-  /* 
-  border-top: .3px solid #484848; */
   bottom: 0;
   background: white;
   transition: 0.3s ease-in;
   width: 100%;
-  padding-top: 7px;
-  padding-bottom: 6px;
+  padding: 7px 0 6px 0;
   -webkit-box-shadow: 2px 2px 16px -6px #484848;
   -moz-box-shadow: 2px 2px 16px -6px #484848;
   box-shadow: 2px 2px 16px -6px #484848;
@@ -114,7 +111,7 @@ header h1 {
 
 #back a img {
   width: 30px;
-  padding-left: 10px;
+  padding: 3px 0 0 15px;
   background: transparent;
 }
 
@@ -124,7 +121,7 @@ header h1 {
 }
 
 #map-action a img {
-  width: 30px;
+  width: 35px;
   padding-right: 10px;
   background: transparent;
 }
@@ -135,7 +132,7 @@ header h1 {
 }
 
 #icon-categ a img {
-  width: 30px;
+  width: 35px;
   background: transparent;
 }
 
