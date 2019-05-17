@@ -43,9 +43,11 @@ btnLanguage_a.addEventListener('click', function () {
 const floatText_div = document.querySelector('.float-footer');
 const footer = document.getElementById('foot');
 const closeBtn_div = document.querySelector('.close-btn');
+const infoBottom_div = document.getElementById('info-bottom');
 
 floatText_div.addEventListener('click', function () {
   if (footer.style.display == "none") {
+    infoBottom_div.style.visibility = "visible";
     floatText_div.style.display = "none";
     footer.style.display = "inline";
   } else {
@@ -55,6 +57,7 @@ floatText_div.addEventListener('click', function () {
 
 closeBtn_div.addEventListener('click', function () {
   if (footer.style.display == "inline") {
+    infoBottom_div.style.visibility = "hidden";
     floatText_div.style.display = "inline";
     footer.style.display = "none";
   } else {
