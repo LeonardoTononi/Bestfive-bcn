@@ -464,7 +464,7 @@ img {
   -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   position: absolute;
-  bottom: -75px;
+  bottom: -95px;
   right: 20px;
   border-radius: 10px;
   cursor: pointer;
