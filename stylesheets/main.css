@@ -230,12 +230,13 @@ img {
 }
 
 #languages-section {
-  width: 70px;
+  width: 50px;
   position: absolute;
   text-align: center;
   right: 10px;
   transition: all opacity 1s;
   display: none;
+  border-radius: 10px;
   animation-name: fade-in;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
@@ -253,7 +254,11 @@ img {
 
 .language {
   background: transparent;
-  padding: 10px;
+  padding: 4px;
+}
+
+.language img {
+  width: 30px;
 }
 
 #clean-lang {
@@ -459,9 +464,9 @@ img {
 
 .float-footer {
   padding: 10px;
-  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   position: fixed;
   bottom: 10px;
   right: 10px;
