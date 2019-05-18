@@ -147,6 +147,7 @@ i {
   background: #fa6c7394;
   border-radius: 20px;
   color: #fff;
+  margin: 0 auto;
 }
 
 #search-bar input::placeholder {
