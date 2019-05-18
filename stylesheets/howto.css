@@ -134,6 +134,8 @@ i {
 
 #search-bar {
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #search-bar input {
