@@ -33,3 +33,12 @@ searchBar_input.addEventListener('keyup', function (e) {
     }
   });
 });
+
+searchBar_input.addEventListener('focus', function () {
+  searchBar_input.style.boxShadow = "6px 6px 25px -12px rgba(0, 0, 0, 0.75)";
+  searchBar_input.style.background = "#ffdd00";
+});
+searchBar_input.addEventListener('blur', function () {
+  searchBar_input.style.boxShadow = "none";
+  searchBar_input.style.background = "none";
+});

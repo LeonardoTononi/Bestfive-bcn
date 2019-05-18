@@ -24,7 +24,7 @@ header {
 header h5 {
   font-size: 1.5rem;
   text-align: start;
-  padding: 0 0 20px 25px;
+  padding-left: 25px;
   font-weight: 500;
   color: #B3B3B3;
   float: left;
@@ -143,18 +143,19 @@ i {
   border: none;
   font-size: 1.2rem;
   text-align: center;
-  background: #fa6c7394;
-  border-radius: 20px;
-  color: #fff;
+  border-radius: 24px;
+  color: #000;
   margin: 0 auto;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  transition: all 100ms ease-in;
 }
 
 #search-bar input::placeholder {
-  color: #fff;
-  opacity: 1;
+  color: #B3B3B3;
+  ;
+  opacity: .8;
+  font-size: 1rem;
 }
 
 /* ------ QUESTIONS ------  */
