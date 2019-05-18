@@ -139,7 +139,10 @@ i {
 }
 
 #search-bar input {
-  padding: 15px 40px;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  padding: 15px 50px;
   font-size: 1.2rem;
   text-align: center;
   border-radius: 40px;
@@ -147,9 +150,6 @@ i {
   margin: 0 auto;
   border: 1px solid #dfe1e5;
   transition: all 100ms ease-in;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
 }
 
 #search-bar input::placeholder {
