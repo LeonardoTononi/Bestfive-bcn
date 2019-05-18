@@ -215,7 +215,7 @@ img {
 
 .btn-lang {
   position: absolute;
-  background: white;
+  background: transparent;
   right: 10px;
   top: 3px;
   color: #111111f0;
