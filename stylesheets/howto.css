@@ -139,15 +139,15 @@ i {
 #search-bar input {
   padding: 15px 40px;
   border: none;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   font-size: 1.2rem;
   text-align: center;
   background: #fa6c7394;
   border-radius: 20px;
   color: #fff;
   margin: 0 auto;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
 }
 
 #search-bar input::placeholder {
