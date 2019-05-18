@@ -150,6 +150,7 @@ i {
   margin: 0 auto;
   border: 1px solid #dfe1e5;
   transition: all 100ms ease-in;
+  background: #efe746;
 }
 
 #search-bar input::placeholder {
