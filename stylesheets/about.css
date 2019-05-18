@@ -1,5 +1,5 @@
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: sans-serif;
   color: #484848;
   margin: 0 auto;
 }
@@ -68,9 +68,9 @@ header h5 {
 }
 
 .story p {
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
   padding: 10px 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.7rem;
 }
 
@@ -87,27 +87,32 @@ header h5 {
 }
 
 .close-btn img {
-  width: 30px;
+  width: 18px;
   position: absolute;
-  left: -30px;
-  top: 3px;
+  right: 0;
+  top: 5px;
 }
 
 .close-btn p {
-  font-size: 1rem;
+  font-size: .8rem;
+  padding: 7px 25px 7px 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
 }
 
 .float-footer {
   padding: 10px;
-  background: white;
-  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   position: fixed;
   bottom: 10px;
   right: 10px;
   border-radius: 10px;
   cursor: pointer;
+  background: white;
 }
 
 .float-footer img {
@@ -124,7 +129,7 @@ footer {
   text-align: center;
   display: none;
   color: #484848;
-  background: whitesmoke;
+  background: white;
 }
 
 footer section {
@@ -143,7 +148,7 @@ footer h2 {
   font-size: 1rem;
   font-weight: 700;
   color: black;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.1px;
   text-align: start;
 }
 
@@ -158,8 +163,9 @@ footer p {
 footer a {
   background: transparent;
   color: #484848;
+  font-size: .9rem;
 }
 
-footer section a:hover {
+#foot section a:hover {
   text-decoration: inherit;
 }
