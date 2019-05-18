@@ -24,7 +24,7 @@ header {
 header h5 {
   font-size: 1.5rem;
   text-align: start;
-  padding: 0 25px 10px 25px;
+  padding: 0 25px;
   font-weight: 500;
   color: #B3B3B3;
   float: left;
@@ -40,7 +40,7 @@ header h5 {
 .logo-img {
   width: 120px;
   position: absolute;
-  top: 35px;
+  top: 50px;
   right: 0;
   padding: 0;
   background: transparent;
@@ -135,7 +135,7 @@ i {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 #search-bar input {
@@ -161,7 +161,7 @@ i {
 /* ------ QUESTIONS ------  */
 
 #questions {
-  padding: 3% 7% 5% 7%;
+  padding: 0 7% 5% 7%;
   text-align: center;
 }
 
