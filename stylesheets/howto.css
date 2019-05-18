@@ -148,11 +148,13 @@ i {
   border: 1px solid #dfe1e5;
   box-shadow: none;
   transition: all 100ms ease-in;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
 }
 
 #search-bar input::placeholder {
   color: #B3B3B3;
-  ;
   opacity: .8;
   font-size: 1rem;
 }
@@ -166,9 +168,6 @@ i {
 
 .question {
   padding: 10px;
-  /* -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75); */
   border-radius: 10px;
   margin: 10px 0;
 }
