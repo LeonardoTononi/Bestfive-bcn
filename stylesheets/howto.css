@@ -25,7 +25,7 @@ header h5 {
   font-size: 1.5rem;
   text-align: start;
   padding: 0 0 20px 25px;
-  font-weight: 200;
+  font-weight: 500;
   color: #B3B3B3;
   float: left;
   letter-spacing: 1.5px;
@@ -144,7 +144,6 @@ i {
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   font-size: 1.2rem;
   text-align: center;
-  /* background: rgba(108, 136, 187, 0.749); */
   background: #fa6c7394;
   border-radius: 20px;
   color: #fff;
