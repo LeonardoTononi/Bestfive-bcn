@@ -24,7 +24,7 @@ header {
 header h5 {
   font-size: 1.5rem;
   text-align: start;
-  padding-left: 25px;
+  padding: 0 25px 10px 25px;
   font-weight: 500;
   color: #B3B3B3;
   float: left;
