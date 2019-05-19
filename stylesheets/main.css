@@ -1,6 +1,7 @@
 * {
   /* font-family: 'Rubik', sans-serif; */
   font-family: sans-serif;
+  box-sizing: border-box;
   background-color: white;
   color: #000;
   -webkit-tap-highlight-color: transparent;
