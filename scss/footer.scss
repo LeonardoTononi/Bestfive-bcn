@@ -1,0 +1,85 @@
+@import "variables";
+@import "mixins";
+
+
+.float-footer {
+  padding: 10px;
+  @include deepShadow;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: $mainWhite;
+
+  img {
+    width: 30px;
+  }
+
+  p {
+    font-size: .7rem;
+    margin: 0;
+  }
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+
+  img {
+    width: 18px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+
+  p {
+    font-size: .8rem;
+    padding: 7px 25px 7px 5px;
+    border-radius: 10px;
+    @include midShadow;
+  }
+}
+
+footer {
+  padding: 2px;
+  text-align: center;
+  display: none;
+  color: $mainGray;
+  background: $mainWhite;
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 10px 40px;
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: $mainBlack;
+      letter-spacing: 1.1px;
+      text-align: start;
+    }
+  }
+
+  .last-section {
+    border-top: 1px solid $mainGray;
+    margin: 0 80px;
+  }
+
+  p {
+    background: transparent;
+    font-size: .8rem;
+    color: $mainGray;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  a {
+    color: $mainGray;
+    font-size: .9rem;
+  }
+
+}

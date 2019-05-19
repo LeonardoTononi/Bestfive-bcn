@@ -1,0 +1,85 @@
+.float-footer {
+  padding: 10px;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.float-footer img {
+  width: 30px;
+}
+
+.float-footer p {
+  font-size: .7rem;
+  margin: 0;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-btn img {
+  width: 18px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.close-btn p {
+  font-size: .8rem;
+  padding: 7px 25px 7px 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  padding: 2px;
+  text-align: center;
+  display: none;
+  color: #484848;
+  background: #fff;
+}
+
+footer section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding: 10px 40px;
+}
+
+footer section h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 1.1px;
+  text-align: start;
+}
+
+footer .last-section {
+  border-top: 1px solid #484848;
+  margin: 0 80px;
+}
+
+footer p {
+  background: transparent;
+  font-size: .8rem;
+  color: #484848;
+  margin: 0;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #484848;
+  font-size: .9rem;
+}
+/*# sourceMappingURL=footer.css.map */

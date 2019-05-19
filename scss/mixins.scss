@@ -1,0 +1,55 @@
+@mixin mainStyle {
+  font-family: sans-serif;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@mixin shadow {
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+@mixin midShadow {
+  -webkit-box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+}
+
+@mixin deepShadow {
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+@mixin app {
+  border-radius: 13px;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+
+  img {
+    width: 37px;
+  }
+}
+
+@mixin revTitle {
+  font-size: 1.5rem;
+  text-align: start;
+  padding: 0 0 20px 27px;
+  font-weight: 500;
+  color: #B3B3B3;
+  float: left;
+  letter-spacing: 1.5px;
+  position: relative;
+}
+
+@mixin clean-link {
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: $mainBlack;
+}

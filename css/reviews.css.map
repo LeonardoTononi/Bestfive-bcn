@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EEFH,WAAW,EAAE,UAAU;EACvB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;CFAf",
+    "sources": [
+        "../scss/reviews.scss",
+        "../scss/variables.scss",
+        "../scss/mixins.scss"
+    ],
+    "names": [],
+    "file": "reviews.css"
+}

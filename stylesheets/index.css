@@ -1,7 +1,6 @@
 * {
   /* font-family: 'Rubik', sans-serif; */
   font-family: sans-serif;
-  background-color: white;
   color: #000;
   -webkit-tap-highlight-color: transparent;
 }
@@ -58,36 +57,24 @@ header h1 {
   left: 27px;
 } */
 
-#company-name img {
+.handLogo {
   position: absolute;
   left: -20px;
   top: 0;
   width: 100px;
 }
 
-.logo-img {
-  width: 200px;
-  text-align: start;
-  float: left;
-  position: absolute;
-  top: -30px;
-  left: -20px;
-  padding: 0;
-}
-
-#top-img {
+.skyline {
   width: 100%;
   padding-top: 50px;
   margin-bottom: -5px;
 }
 
-#top-img img {
+.skyline img {
   width: 100%;
 }
 
 h2 {
-  /* color: #484848; */
-  color: #000;
   font-size: .7rem;
   font-weight: 100;
   transition: 0.3s ease-in-out;
@@ -97,12 +84,7 @@ h2 {
   padding: 5px 0 10px 0
 }
 
-i {
-  font-size: 1.2rem;
-  padding: 5px;
-  transition: 0.3s ease-in-out;
-  justify-self: center;
-}
+
 
 a {
   text-decoration: none;
@@ -120,7 +102,6 @@ img {
 }
 
 .loader {
-  /* background: #000; */
   background: #fff;
   position: fixed;
   z-index: 99;
@@ -142,22 +123,6 @@ img {
   animation-fill-mode: forwards;
 }
 
-/* .loader h1 {
-  letter-spacing: 1.5px;
-  font-size: 2.2rem;
-  text-align: center;
-  padding: 0 25px;
-  font-weight: 500;
-  color: #003580;
-  margin: 0;
-  position: absolute;
-  background: transparent;
-  top: 200px;
-  left: 60px;
-  animation-name: go-up;
-  animation-duration: 3s;
-} */
-
 @keyframes fade-out {
   100% {
     opacity: 0;
@@ -167,7 +132,7 @@ img {
 
 /* ------- ICONE APP INFORMATIONS ------ */
 
-#info-bottom {
+.applications-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
@@ -198,7 +163,7 @@ img {
   width: 10px;
 }
 
-#languages-section {
+.languages {
   width: 50px;
   position: absolute;
   text-align: center;
@@ -214,7 +179,7 @@ img {
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
-#languages-section h1 {
+.languages h1 {
   font-size: 2rem;
   padding: 0 30px;
   letter-spacing: 0;
@@ -230,14 +195,6 @@ img {
   width: 30px;
 }
 
-#clean-lang {
-  background: #000;
-}
-
-#clean-lang a img {
-  width: 15px;
-  padding: 0;
-}
 
 @keyframes fade-in {
   from {
@@ -253,7 +210,7 @@ img {
 
 /* ------- ICONE APP ------ */
 
-#menu {
+.applications {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
@@ -294,24 +251,24 @@ img {
     padding: 20px;
   }
 
-  #menu {
+  .applications {
     padding: 5px 20px;
     padding-top: 80px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 130px 20px 130px;
   }
 
 }
 
 @media screen and (min-width: 550px) {
-  #menu {
+  .applications {
     padding: 20px 40px;
     padding-top: 80px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 150px 20px 150px;
   }
 
@@ -322,12 +279,12 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-  #menu {
+  .applications {
     padding: 5px 70px;
     padding-top: 80px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 190px 20px 190px;
   }
 
@@ -337,36 +294,36 @@ img {
 }
 
 @media screen and (min-width: 650px) {
-  #menu {
+  .applications {
     grid-template-columns: repeat(5, 1fr);
     padding: 5px 60px;
     padding-top: 100px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 220px 20px 220px;
   }
 
 }
 
 @media screen and (min-width: 700px) {
-  #menu {
+  .applications {
     padding: 5px 90px;
     padding-top: 100px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 250px 20px 250px;
   }
 }
 
 @media screen and (min-width: 750px) {
-  #menu {
+  .applications {
     padding: 20px 110px;
     padding-top: 100px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 270px 20px 270px;
   }
 }
@@ -376,45 +333,45 @@ img {
     font-size: 2.5rem;
   }
 
-  #menu {
+  .applications {
     padding: 25px 140px;
     padding-top: 100px;
 
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 300px 20px 300px;
   }
 }
 
 @media screen and (min-width: 900px) {
-  #menu {
+  .applications {
     padding: 40px 180px;
     padding-top: 100px;
     max-width: 550px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 40%;
   }
 
-  #languages-section {
+  .languages {
     left: 20%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  #menu {
+  .applications {
     padding: 40px 180px;
     padding-top: 100px;
     max-width: 550px;
   }
 
-  #info-bottom {
+  .applications-info {
     padding: 5px 40%;
   }
 
-  #languages-section {
+  .languages {
     left: 30%;
   }
 }
