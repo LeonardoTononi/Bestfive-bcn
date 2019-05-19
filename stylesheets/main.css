@@ -215,7 +215,7 @@ img {
 
 .btn-lang {
   position: absolute;
-  background: transparent;
+  background: #fff;
   right: 10px;
   top: 3px;
   color: #111111f0;
@@ -302,9 +302,17 @@ img {
   height: 40px;
   transition: 0.3s ease-in-out;
   padding: 10px;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  background: whitesmoke;
+  /* -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75); */
+}
+
+.icon-app:hover,
+.icon-app:active {
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .icon-app img {
