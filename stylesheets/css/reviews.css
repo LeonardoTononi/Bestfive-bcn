@@ -4,5 +4,234 @@ body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+
+i {
+  font-size: 1.5rem;
+  padding: 5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: #000;
+}
+
+img {
+  background: transparent;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  padding: 15px 20px;
+}
+
+header h5 {
+  font-size: 1.5rem;
+  padding: 0 0 20px 27px;
+  font-weight: 500;
+  color: #B3B3B3;
+  float: left;
+  letter-spacing: 1.5px;
+  position: relative;
+}
+
+.menu {
+  padding: 15px;
+}
+
+.menu .logo-img {
+  width: 120px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  padding: 0;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  width: 100%;
+  padding: 4px 0 3px 0;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.bottom-bar #back {
+  text-align: start;
+  float: left;
+}
+
+.bottom-bar #back a img {
+  width: 25px;
+  padding: 5px 0 0 15px;
+}
+
+.bottom-bar #map-action {
+  text-align: end;
+  float: right;
+}
+
+.bottom-bar #map-action a img {
+  width: 35px;
+  padding-right: 10px;
+}
+
+.bottom-bar #icon-categ {
+  text-align: center;
+  float: center;
+}
+
+.bottom-bar #icon-categ a img {
+  width: 35px;
+}
+
+.place {
+  margin: 0 30px 20px 30px;
+  padding: 10px 0;
+  border-radius: 25px;
+  -webkit-box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -9px rgba(0, 0, 0, 0.75);
+}
+
+.place h1 {
+  text-align: start;
+  font-size: 1.4rem;
+  padding: 10px 25px;
+  font-weight: 500;
+  color: #000;
+}
+
+.place img {
+  width: 100%;
+  max-width: 800px;
+  padding-bottom: 10px;
+}
+
+.place a {
+  text-align: start;
+  text-decoration: underline;
+  color: #000;
+}
+
+.place .text {
+  padding: 5px;
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+.place .text h5 {
+  font-size: 1.3rem;
+  text-align: start;
+  padding-left: 15px;
+  font-weight: 400;
+}
+
+.place .text ul {
+  list-style: none;
+  padding: 0;
+  text-align: start;
+}
+
+.place .text ul li {
+  color: #484848;
+}
+
+.place .text ul li i {
+  margin-top: 15px;
+  width: 40px;
+  font-size: 1rem;
+  text-align: center;
+  color: #484848;
+}
+
+.place .text p {
+  letter-spacing: 1.1px;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.place .link-div {
+  text-align: start;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+
+.last-card {
+  margin-bottom: 70px;
+}
+
+/* ------- MEDIA QUERY ------  */
+@media screen and (min-width: 700px) {
+  h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 10px 0;
+  }
+  header h1 {
+    padding-left: 0;
+    font-size: 2.7rem;
+  }
+  .place {
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  .header-card {
+    text-align: center;
+  }
+  .place h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .place img {
+    text-align: center;
+  }
+  .text {
+    font-size: 1.3rem;
+  }
+  .text h5 {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .text ul {
+    text-align: center;
+  }
+  .text ul li {
+    padding: 10px;
+  }
+  .text ul li i {
+    width: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .link-div {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .bottom-bar {
+    padding: 0;
+  }
+  #map-action a img,
+  #back a img,
+  #icon-categ a img {
+    width: 50px;
+  }
+}
+
+.space {
+  padding: 20px;
 }
 /*# sourceMappingURL=reviews.css.map */

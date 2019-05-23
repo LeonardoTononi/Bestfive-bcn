@@ -48,8 +48,6 @@ img {
 // ============ MENU ============ 
 
 header {
-  position: fixed;
-  top: 0;
   background: transparent;
   transition: .1s ease-in-out;
   padding-top: 7px;
@@ -99,7 +97,8 @@ header {
     animation-name: fade-in;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
-    background: $mainWhite;
+    background: $mainBlack;
+    color: $mainWhite;
     @include deepShadow;
 
     h1 {
@@ -111,10 +110,14 @@ header {
 
     .language {
       background: transparent;
-      padding: 4px;
+      padding: 10px;
 
       img {
         width: 30px;
+      }
+
+      a {
+        color: $mainWhite;
       }
     }
   }
@@ -134,7 +137,6 @@ header {
 
 .skyline {
   width: 100%;
-  padding-top: 50px;
   margin-bottom: -5px;
 
   img {
@@ -183,8 +185,8 @@ h2 {
   padding: 10px;
   @include shadow;
 
-  :hover,
-  :active {
+  &:hover,
+  &:active {
     @include midShadow;
   }
 

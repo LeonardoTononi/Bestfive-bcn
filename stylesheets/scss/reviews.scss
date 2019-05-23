@@ -3,4 +3,247 @@
 
 body {
   @include mainStyle;
+  @include clean-link;
+}
+
+i {
+  font-size: 1.5rem;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+  justify-self: center;
+  color: $mainBlack;
+}
+
+img {
+  background: transparent;
+}
+
+* {
+  margin: 0;
+}
+
+// ============ HEADER ============ 
+
+header {
+  padding: 15px 20px;
+
+  h5 {
+    font-size: 1.5rem;
+    padding: 0 0 20px 27px;
+    font-weight: 500;
+    color: $lightGray;
+    float: left;
+    letter-spacing: 1.5px;
+    position: relative;
+  }
+}
+
+.menu {
+  padding: 15px;
+
+  .logo-img {
+    width: 120px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 0;
+  }
+}
+
+
+// ============ BOTTOM NAV BAR ============ 
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: $mainWhite;
+  transition: 0.3s ease-in;
+  width: 100%;
+  padding: 4px 0 3px 0;
+  @include deepShadow;
+
+  #back {
+    text-align: start;
+    float: left;
+
+    a img {
+      width: 25px;
+      padding: 5px 0 0 15px;
+    }
+  }
+
+  #map-action {
+    text-align: end;
+    float: right;
+
+    a img {
+      width: 35px;
+      padding-right: 10px;
+    }
+  }
+
+  #icon-categ {
+    text-align: center;
+    float: center;
+
+    a img {
+      width: 35px;
+    }
+  }
+}
+
+// ============ CARD PLACES "REVIEW" ============ 
+
+.place {
+  margin: 0 30px 20px 30px;
+  padding: 10px 0;
+  border-radius: 25px;
+  @include midShadow;
+
+  h1 {
+    text-align: start;
+    font-size: 1.4rem;
+    padding: 10px 25px;
+    font-weight: 500;
+    color: $mainBlack;
+  }
+
+  img {
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 10px;
+  }
+
+  a {
+    text-align: start;
+    text-decoration: underline;
+    color: $mainBlack;
+  }
+
+  .text {
+    padding: 5px;
+    font-size: 1rem;
+    max-width: 800px;
+
+    h5 {
+      font-size: 1.3rem;
+      text-align: start;
+      padding-left: 15px;
+      font-weight: 400;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: start;
+
+      li {
+        color: $mainGray;
+
+        i {
+          margin-top: 15px;
+          width: 40px;
+          font-size: 1rem;
+          text-align: center;
+          color: $mainGray;
+        }
+      }
+    }
+
+    p {
+      letter-spacing: 1.1px;
+      padding: 15px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: justify;
+    }
+  }
+
+  .link-div {
+    text-align: start;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-weight: 100;
+  }
+}
+
+.last-card {
+  margin-bottom: 70px;
+}
+
+/* ------- MEDIA QUERY ------  */
+
+@media screen and (min-width: 700px) {
+  h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 10px 0;
+  }
+
+  header h1 {
+    padding-left: 0;
+    font-size: 2.7rem;
+  }
+
+  .place {
+    max-width: 900px;
+    margin: 30px auto;
+  }
+
+  .header-card {
+    text-align: center;
+  }
+
+  .place h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .place img {
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1.3rem;
+  }
+
+  .text h5 {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .text ul {
+    text-align: center;
+  }
+
+  .text ul li {
+    padding: 10px;
+  }
+
+  .text ul li i {
+    width: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .link-div {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .bottom-bar {
+    padding: 0;
+  }
+
+
+  #map-action a img,
+  #back a img,
+  #icon-categ a img {
+    width: 50px;
+  }
+}
+
+.space {
+  padding: 20px;
 }
