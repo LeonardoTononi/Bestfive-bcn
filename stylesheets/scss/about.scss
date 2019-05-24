@@ -1,2 +1,86 @@
 @import "variables";
 @import "mixins";
+
+body {
+  @include mainStyle;
+  @include clean-link;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  background: transparent;
+}
+
+/* ================ HEADER =============== */
+
+.menu {
+  padding: 40px;
+
+  .logo-img {
+    width: 120px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    padding: 0;
+  }
+
+  #back-btn {
+    width: 35px;
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 60px;
+
+  h5 {
+    font-size: 1.2rem;
+    text-align: start;
+    padding: 0 0 20px 30px;
+    font-weight: 200;
+    color: $lightGray;
+    float: left;
+    letter-spacing: 1.5px;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: start;
+    padding-left: 30px;
+    font-weight: 500;
+    color: $mainBlack;
+    float: left;
+    letter-spacing: 1.5px;
+  }
+}
+
+/* ================ ABOUT CONTENT =============== */
+
+.story {
+  padding: 10px 10px;
+
+  img {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  p {
+    letter-spacing: 1.1px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+}
+
+.last-story {
+  padding-bottom: 40px;
+}

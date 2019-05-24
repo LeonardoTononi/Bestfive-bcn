@@ -1,1 +1,89 @@
-/* No CSS *//*# sourceMappingURL=about.css.map */
+body {
+  font-family: sans-serif;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  background: transparent;
+}
+
+/* ================ HEADER =============== */
+.menu {
+  padding: 40px;
+}
+
+.menu .logo-img {
+  width: 120px;
+  float: left;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  padding: 0;
+}
+
+.menu #back-btn {
+  width: 35px;
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+header h5 {
+  font-size: 1.2rem;
+  text-align: start;
+  padding: 0 0 20px 30px;
+  font-weight: 200;
+  color: #B3B3B3;
+  float: left;
+  letter-spacing: 1.5px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  text-align: start;
+  padding-left: 30px;
+  font-weight: 500;
+  color: #000;
+  float: left;
+  letter-spacing: 1.5px;
+}
+
+/* ================ ABOUT CONTENT =============== */
+.story {
+  padding: 10px 10px;
+}
+
+.story img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.story p {
+  letter-spacing: 1.1px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.last-story {
+  padding-bottom: 40px;
+}
+/*# sourceMappingURL=about.css.map */
