@@ -66,32 +66,35 @@ header {
   -webkit-transition: .1s ease-in-out;
   transition: .1s ease-in-out;
   padding-top: 7px;
-  padding-bottom: 8px;
   width: 100%;
 }
 
 header h1 {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   padding: 0 60px;
   font-weight: 500;
   margin: 0;
   text-align: center;
   letter-spacing: 1.5px;
   font-family: 'Pacifico', cursive;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #833ab4), color-stop(0.47, #833ab4), color-stop(0.58, #fcb045));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header .handLogo {
   position: absolute;
   left: -20px;
-  top: 5px;
-  width: 100px;
+  top: 10px;
+  width: 130px;
 }
 
 header .btn-lang {
   position: absolute;
   background: #fff;
-  right: 10px;
-  top: 3px;
+  color: #833ab4;
+  right: 20px;
+  top: 14px;
   font-size: .8rem;
   padding: 5px;
   border-radius: 5px;
@@ -116,7 +119,7 @@ header .languages {
           animation-duration: 500ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  background: #000;
+  background: #833ab4;
   color: #fff;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
@@ -167,6 +170,10 @@ header .languages .language a {
 
 .skyline img {
   width: 100%;
+  background: white;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
 }
 
 .applications {
@@ -178,7 +185,7 @@ header .languages .language a {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 0 25px;
+  padding: 30px 25px;
 }
 
 .applications-info {
@@ -224,5 +231,11 @@ h2 {
 
 .icon-app img {
   width: 37px;
+}
+
+.icon-app.info {
+  background: #833ab4;
+  /*  background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); */
 }
 /*# sourceMappingURL=index.css.map */
