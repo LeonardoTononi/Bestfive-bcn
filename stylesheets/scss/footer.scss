@@ -4,20 +4,19 @@
 
 .float-footer {
   padding: 10px;
-  @include deepShadow;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 70px;
+  left: -10px;
   border-radius: 10px;
-  background: $mainWhite;
+  color: #833ab4;
   cursor: pointer;
 
   img {
-    width: 30px;
+    width: 38px;
   }
 
   p {
-    font-size: .7rem;
+    font-size: .6rem;
     margin: 0;
   }
 }
@@ -38,12 +37,14 @@
     font-size: .8rem;
     padding: 7px 25px 7px 5px;
     border-radius: 10px;
+    background: #fcb045;
     @include midShadow;
   }
 }
 
 footer {
   padding: 2px;
+  padding-bottom: 130px;
   text-align: center;
   display: none;
   color: $mainGray;
