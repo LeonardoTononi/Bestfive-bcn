@@ -68,6 +68,40 @@ img {
   }
 }
 
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.navbar ul li {
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  width: 22.75%;
+  list-style: none;
+}
+
+.navbar ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  cursor: pointer;
+}
+
+.navbar ul li h2 {
+  margin: 0;
+  font-size: .7rem;
+  padding: 0;
+}
+
+.navbar ul li img {
+  width: 30px;
+}
+
 header {
   background: transparent;
   -webkit-transition: .1s ease-in-out;
@@ -78,7 +112,7 @@ header {
 
 header h1 {
   font-size: 1.8rem;
-  padding: 0 60px;
+  padding: 10px 60px;
   font-weight: 500;
   margin: 0;
   text-align: center;
@@ -179,6 +213,7 @@ header .languages .language a {
   width: 100%;
   background: white;
   padding-top: 10px;
+  padding-bottom: 70px;
   position: fixed;
   bottom: 0;
 }
