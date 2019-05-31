@@ -3,6 +3,13 @@
 
 body {
   @include mainStyle;
+  /* background: url("/img/barcelona-city.png"); */
+  line-height: 1;
+  height: 100vh;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 400px;
 }
 
 a {
