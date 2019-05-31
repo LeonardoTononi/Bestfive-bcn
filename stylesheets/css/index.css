@@ -99,7 +99,7 @@ img {
 }
 
 .navbar ul li img {
-  width: 30px;
+  width: 33px;
 }
 
 header {
@@ -227,7 +227,7 @@ header .languages .language a {
   place-items: center;
   grid-gap: 5px;
   margin: 0 auto;
-  padding: 30px 25px;
+  padding: 45px 25px 30px 25px;
 }
 
 .applications-info {
