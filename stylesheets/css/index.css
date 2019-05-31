@@ -218,6 +218,12 @@ header .languages .language a {
   bottom: 0;
 }
 
+@media screen and (max-height: 667px) {
+  .skyline img {
+    visibility: hidden;
+  }
+}
+
 .applications {
   display: -ms-grid;
   display: grid;

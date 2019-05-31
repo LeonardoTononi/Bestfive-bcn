@@ -189,6 +189,14 @@ header {
   }
 }
 
+@media screen and (max-height: 667px) {
+  .skyline {
+    img {
+      visibility: hidden;
+    }
+  }
+}
+
 // ============ APP ============ 
 
 .applications {
