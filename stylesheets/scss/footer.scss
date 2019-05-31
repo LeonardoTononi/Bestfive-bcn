@@ -5,14 +5,15 @@
 .float-footer {
   padding: 10px;
   position: fixed;
-  bottom: 70px;
-  left: -10px;
+  bottom: 0;
+  left: 35%;
   border-radius: 10px;
-  color: #833ab4;
+  color: #000;
+
   cursor: pointer;
 
   img {
-    width: 38px;
+    width: 28px;
   }
 
   p {
@@ -27,9 +28,9 @@
   cursor: pointer;
 
   img {
-    width: 18px;
+    width: 40px;
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 5px;
   }
 
