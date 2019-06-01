@@ -36,7 +36,7 @@ header h5 {
   font-size: 1.5rem;
   padding: 0 0 20px 27px;
   font-weight: 500;
-  color: #B3B3B3;
+  color: #fcb045;
   float: left;
   letter-spacing: 1.5px;
   position: relative;
@@ -72,8 +72,8 @@ header h5 {
 }
 
 .bottom-bar #back a img {
-  width: 25px;
-  padding: 5px 0 0 15px;
+  width: 30px;
+  padding: 4px 0 0 15px;
 }
 
 .bottom-bar #map-action {
@@ -82,8 +82,8 @@ header h5 {
 }
 
 .bottom-bar #map-action a img {
-  width: 35px;
-  padding-right: 10px;
+  width: 30px;
+  padding: 4px 15px 0 0;
 }
 
 .bottom-bar #icon-categ {
