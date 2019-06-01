@@ -56,13 +56,20 @@ img {
 .navbar {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  @include deepShadow;
+  width: 90%;
+  left: 4%;
+  margin: 5px 0 5px 5px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
 
   ul {
+    padding: 0;
+    text-align: center;
+
     li {
-      @include grid(4, 3%);
+      @include grid(4, 5%);
       list-style: none;
+      padding: 10px 0;
 
       a {
         cursor: pointer;
@@ -75,7 +82,7 @@ img {
       }
 
       img {
-        width: 33px;
+        width: 37px;
       }
     }
   }
@@ -181,9 +188,8 @@ header {
 
   img {
     width: 100%;
-    background: white;
     padding-top: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 110px;
     position: fixed;
     bottom: 0;
   }
@@ -204,9 +210,9 @@ header {
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
   place-items: center;
-  grid-gap: 5px;
+  grid-gap: 3px;
   margin: 0 auto;
-  padding: 45px 25px 30px 25px;
+  padding: 45px 35px 30px 35px;
 }
 
 .applications-info {

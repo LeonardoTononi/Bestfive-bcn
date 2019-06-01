@@ -71,17 +71,25 @@ img {
 .navbar {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  width: 90%;
+  left: 4%;
+  margin: 5px 0 5px 5px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+}
+
+.navbar ul {
+  padding: 0;
+  text-align: center;
 }
 
 .navbar ul li {
-  float: left;
-  margin-right: 3%;
-  margin-bottom: 3%;
-  width: 22.75%;
+  display: inline-block;
+  text-align: center;
+  width: 21.25%;
   list-style: none;
+  padding: 10px 0;
 }
 
 .navbar ul li:nth-child(4n) {
@@ -99,7 +107,7 @@ img {
 }
 
 .navbar ul li img {
-  width: 33px;
+  width: 37px;
 }
 
 header {
@@ -211,9 +219,8 @@ header .languages .language a {
 
 .skyline img {
   width: 100%;
-  background: white;
   padding-top: 10px;
-  padding-bottom: 70px;
+  padding-bottom: 110px;
   position: fixed;
   bottom: 0;
 }
@@ -231,9 +238,9 @@ header .languages .language a {
       grid-template-columns: repeat(4, 1fr);
   text-align: center;
   place-items: center;
-  grid-gap: 5px;
+  grid-gap: 3px;
   margin: 0 auto;
-  padding: 45px 25px 30px 25px;
+  padding: 45px 35px 30px 35px;
 }
 
 .applications-info {

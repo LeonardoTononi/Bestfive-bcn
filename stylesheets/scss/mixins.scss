@@ -55,9 +55,8 @@
 }
 
 @mixin grid($cols, $mgn) {
-  float: left;
-  margin-right: $mgn;
-  margin-bottom: $mgn;
+  display: inline-block;
+  text-align: center;
   width: ((100% - (($cols - 1) * $mgn)) / $cols);
 
   &:nth-child(#{$cols}n) {
