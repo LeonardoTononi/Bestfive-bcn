@@ -8,6 +8,13 @@ window.addEventListener('scroll', () => {
     bottomBar_div.style.display = "none";
   }
 }); */
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then((reg) => console.log('service worker registered', reg))
+    .catch((err) => console.log('service worker not registered', err));
+}
+
 // UP BUTTON EFFECTS
 const scrollUp_div = document.getElementById('up');
 window.addEventListener('scroll', () => {

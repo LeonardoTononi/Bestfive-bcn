@@ -1,0 +1,14 @@
+{
+  "name": "Bestfive Bcn",
+  "short_name": "BestfiveBcn",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "orientation": "portrait-primary",
+  "icons": [{
+    "src": "/img/redHand.png",
+    "type": "image/png",
+    "sizes": "72x72"
+  }]
+}
