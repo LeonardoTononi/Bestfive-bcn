@@ -201,6 +201,14 @@ header {
       visibility: hidden;
     }
   }
+
+  .navbar {
+    ul {
+      li {
+        padding: 0;
+      }
+    }
+  }
 }
 
 // ============ APP ============ 

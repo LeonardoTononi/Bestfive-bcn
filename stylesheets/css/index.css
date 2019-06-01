@@ -229,6 +229,9 @@ header .languages .language a {
   .skyline img {
     visibility: hidden;
   }
+  .navbar ul li {
+    padding: 0;
+  }
 }
 
 .applications {
