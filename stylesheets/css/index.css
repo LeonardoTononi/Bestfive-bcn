@@ -89,7 +89,6 @@ img {
   text-align: center;
   width: 21.25%;
   list-style: none;
-  padding: 10px 0;
 }
 
 .navbar ul li:nth-child(4n) {
@@ -220,7 +219,7 @@ header .languages .language a {
 .skyline img {
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 110px;
+  padding-bottom: 95px;
   position: fixed;
   bottom: 0;
 }
@@ -228,9 +227,6 @@ header .languages .language a {
 @media screen and (max-height: 667px) {
   .skyline img {
     visibility: hidden;
-  }
-  .navbar ul li {
-    padding: 0;
   }
 }
 

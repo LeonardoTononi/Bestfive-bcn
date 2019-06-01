@@ -69,7 +69,6 @@ img {
     li {
       @include grid(4, 5%);
       list-style: none;
-      padding: 10px 0;
 
       a {
         cursor: pointer;
@@ -189,7 +188,7 @@ header {
   img {
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 110px;
+    padding-bottom: 95px;
     position: fixed;
     bottom: 0;
   }
@@ -199,14 +198,6 @@ header {
   .skyline {
     img {
       visibility: hidden;
-    }
-  }
-
-  .navbar {
-    ul {
-      li {
-        padding: 0;
-      }
     }
   }
 }

@@ -27,7 +27,7 @@ header h5 {
   font-size: 1.5rem;
   padding: 0 25px;
   font-weight: 500;
-  color: #B3B3B3;
+  color: #833ab4;
   float: left;
   letter-spacing: 1.5px;
   position: relative;
@@ -66,8 +66,8 @@ header h5 {
 }
 
 .bottom-bar #back a img {
-  width: 25px;
-  padding: 5px 0 0 15px;
+  width: 30px;
+  padding: 4px 0 0 15px;
 }
 
 .bottom-bar #map-action {
@@ -76,8 +76,8 @@ header h5 {
 }
 
 .bottom-bar #map-action a img {
-  width: 35px;
-  padding-right: 10px;
+  width: 30px;
+  padding: 4px 15px 0 0;
 }
 
 .bottom-bar #icon-categ {
@@ -86,7 +86,7 @@ header h5 {
 }
 
 .bottom-bar #icon-categ a img {
-  width: 33px;
+  width: 35px;
 }
 
 /* ================ SEARCH BAR =============== */
@@ -99,37 +99,38 @@ header h5 {
 #search-bar input {
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  padding: 15px 30px;
+  padding: 15px 40px;
   font-size: 1.2rem;
   text-align: center;
   border-radius: 40px;
   color: #000;
   margin: 0 auto;
-  border: 1px solid #dfe1e5;
+  border: none;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
+  background: #fcb045b9;
 }
 
 #search-bar input::-webkit-input-placeholder {
-  color: #B3B3B3;
+  color: white;
   opacity: .8;
   font-size: 1rem;
 }
 
 #search-bar input:-ms-input-placeholder {
-  color: #B3B3B3;
+  color: white;
   opacity: .8;
   font-size: 1rem;
 }
 
 #search-bar input::-ms-input-placeholder {
-  color: #B3B3B3;
+  color: white;
   opacity: .8;
   font-size: 1rem;
 }
 
 #search-bar input::placeholder {
-  color: #B3B3B3;
+  color: white;
   opacity: .8;
   font-size: 1rem;
 }
@@ -162,7 +163,7 @@ header h5 {
   transition: 0.3s ease-in-out;
   -ms-grid-column-align: center;
       justify-self: center;
-  color: #000;
+  color: #833ab4;
 }
 
 #questions .question p {
