@@ -33,18 +33,21 @@ header h5 {
   position: relative;
 }
 
+header h5 img {
+  width: 30px;
+}
+
 .menu {
   padding: 15px;
   background: transparent;
 }
 
 .menu .logo-img {
-  width: 120px;
+  width: 70px;
   position: absolute;
-  top: 50px;
-  right: 0;
+  top: 40px;
+  right: 30px;
   padding: 0;
-  background: transparent;
 }
 
 /* ================ BOTTOM NAV BAR =============== */
@@ -55,7 +58,7 @@ header h5 {
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 4px 0 3px 0;
+  padding: 2px 0;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
@@ -66,8 +69,8 @@ header h5 {
 }
 
 .bottom-bar #back a img {
-  width: 30px;
-  padding: 4px 0 0 15px;
+  width: 35px;
+  padding-left: 15px;
 }
 
 .bottom-bar #map-action {
@@ -76,17 +79,8 @@ header h5 {
 }
 
 .bottom-bar #map-action a img {
-  width: 30px;
-  padding: 4px 15px 0 0;
-}
-
-.bottom-bar #icon-categ {
-  text-align: center;
-  float: center;
-}
-
-.bottom-bar #icon-categ a img {
-  width: 35px;
+  width: 40px;
+  padding-right: 15px;
 }
 
 /* ================ SEARCH BAR =============== */
@@ -103,7 +97,7 @@ header h5 {
   font-size: 1.2rem;
   text-align: center;
   border-radius: 40px;
-  color: #000;
+  color: #fff;
   margin: 0 auto;
   border: none;
   -webkit-transition: all 100ms ease-in;

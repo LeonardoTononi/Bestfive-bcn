@@ -31,13 +31,15 @@ header {
     font-size: 1.5rem;
     padding: 0 0 20px 10px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.468);
+    color: #fcb045b9;
     float: left;
     letter-spacing: 1.5px;
     position: relative;
 
     img {
-      width: 30px;
+      width: 40px;
+      padding-bottom: 5px;
+      padding-right: 7px;
     }
   }
 
@@ -86,13 +88,12 @@ header {
       padding-right: 15px;
     }
   }
-
 }
 
 // ============ CARD PLACES "REVIEW" ============ 
 
 .place {
-  margin: 0 30px 20px 30px;
+  margin: 10px 30px 20px 30px;
   padding: 10px 0;
   border-radius: 25px;
   @include midShadow;

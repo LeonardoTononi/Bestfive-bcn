@@ -27,24 +27,30 @@ header {
     float: left;
     letter-spacing: 1.5px;
     position: relative;
+
+    img {
+      width: 30px;
+    }
   }
 }
+
 
 .menu {
   padding: 15px;
   background: transparent;
 
   .logo-img {
-    width: 120px;
+    width: 70px;
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 40px;
+    right: 30px;
     padding: 0;
-    background: transparent;
   }
 }
 
 /* ================ BOTTOM NAV BAR =============== */
+
+// ============ BOTTOM NAV BAR ============ 
 
 .bottom-bar {
   position: fixed;
@@ -52,7 +58,7 @@ header {
   background: $mainWhite;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 4px 0 3px 0;
+  padding: 2px 0;
   @include deepShadow;
 
   #back {
@@ -60,8 +66,8 @@ header {
     float: left;
 
     a img {
-      width: 30px;
-      padding: 4px 0 0 15px;
+      width: 35px;
+      padding-left: 15px;
     }
   }
 
@@ -70,20 +76,12 @@ header {
     float: right;
 
     a img {
-      width: 30px;
-      padding: 4px 15px 0 0;
-    }
-  }
-
-  #icon-categ {
-    text-align: center;
-    float: center;
-
-    a img {
-      width: 35px;
+      width: 40px;
+      padding-right: 15px;
     }
   }
 }
+
 
 /* ================ SEARCH BAR =============== */
 
@@ -98,7 +96,7 @@ header {
     font-size: 1.2rem;
     text-align: center;
     border-radius: 40px;
-    color: $mainBlack;
+    color: $mainWhite;
     margin: 0 auto;
     border: none;
     transition: all 100ms ease-in;
