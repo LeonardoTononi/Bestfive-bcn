@@ -72,7 +72,7 @@ header h5 {
 }
 
 .bottom-bar #back a img {
-  width: 30px;
+  width: 40px;
   padding: 4px 0 0 15px;
 }
 
@@ -82,7 +82,7 @@ header h5 {
 }
 
 .bottom-bar #map-action a img {
-  width: 30px;
+  width: 40px;
   padding: 4px 15px 0 0;
 }
 
@@ -167,6 +167,12 @@ header h5 {
   padding-left: 25px;
   padding-bottom: 20px;
   font-weight: 100;
+}
+
+#carouselExampleIndicators .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 .last-card {
