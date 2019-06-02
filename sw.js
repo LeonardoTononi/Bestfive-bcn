@@ -2,7 +2,10 @@ const staticCacheName = 'site-static';
 const assets = [
   '/',
   '/index.html',
-  '/en',
+  '/en/about.html',
+  '/en/howto.html',
+  '/en/map.html',
+  '/en/review/cheapEats.html',
   '/img',
   '/javaScript/app.js',
   '/javaScript/footer.js',
