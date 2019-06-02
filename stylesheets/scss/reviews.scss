@@ -66,7 +66,7 @@ header {
   background: $mainWhite;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 2px 0;
+  padding: 5px 0;
   @include deepShadow;
 
   #back {
@@ -128,7 +128,7 @@ header {
       font-size: 1.3rem;
       text-align: start;
       padding-left: 15px;
-      font-weight: 400;
+      font-weight: 700;
     }
 
     ul {

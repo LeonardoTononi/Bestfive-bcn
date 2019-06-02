@@ -67,7 +67,7 @@ header h5 img {
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 2px 0;
+  padding: 5px 0;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
@@ -131,7 +131,7 @@ header h5 img {
   font-size: 1.3rem;
   text-align: start;
   padding-left: 15px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .place .text ul {
