@@ -8,7 +8,6 @@ const assets = [
   '/javaScript/map.js',
   '/js/materialize.min.js',
   '/stylesheets/css',
-  '/img/violetHand.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2'
 ];

@@ -3,7 +3,7 @@
 
 body {
   @include mainStyle;
-  /* background: url("/img/barcelona-city.png"); */
+  background: white;
   line-height: 1;
   height: 100vh;
   background-attachment: scroll;
@@ -56,10 +56,10 @@ img {
 .navbar {
   position: fixed;
   bottom: 0;
-  width: 90%;
-  left: 4%;
+  width: 80%;
+  left: 8.5%;
   margin: 5px 0 5px 5px;
-  border-radius: 30px;
+  border-radius: 35px;
   box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
 
   ul {
@@ -183,18 +183,18 @@ header {
 
 .skyline {
   width: 100%;
-  margin-bottom: -5px;
 
   img {
-    width: 100%;
+    width: 80%;
     padding-top: 10px;
-    padding-bottom: 95px;
+    padding-bottom: 90px;
     position: fixed;
     bottom: 0;
+    left: 10%;
   }
 }
 
-@media screen and (max-height: 667px) {
+@media screen and (max-height: 665px) {
   .skyline {
     img {
       visibility: hidden;
@@ -212,6 +212,7 @@ header {
   grid-gap: 3px;
   margin: 0 auto;
   padding: 45px 35px 30px 35px;
+  background: white;
 }
 
 .applications-info {
@@ -252,8 +253,3 @@ h2 {
     width: 37px;
   }
 }
-
-/* 
-.icon-app.info {
-  background: #833ab4;
-} */

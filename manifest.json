@@ -3,12 +3,18 @@
   "short_name": "BestfiveBcn",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "white",
+  "theme_color": "white",
   "orientation": "portrait-primary",
   "icons": [{
-    "src": "/img/redHand.png",
-    "type": "image/png",
-    "sizes": "72x72"
-  }]
+      "src": "/img/violetHand192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/blackHand.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
