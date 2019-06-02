@@ -35,7 +35,7 @@ header {
 header h5 {
   font-size: 1.5rem;
   padding: 0 0 20px 10px;
-  font-weight: 500;
+  font-weight: 400;
   color: #fcb045b9;
   float: left;
   letter-spacing: 1.5px;
@@ -98,6 +98,7 @@ header h5 img {
   border-radius: 40px;
   -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
           box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+  color: #000000ba;
 }
 
 .place h1 {
@@ -141,22 +142,21 @@ header h5 img {
 
 .place .text ul li {
   color: #484848;
+  text-align: start;
+  padding: 5px 0 0 15px;
 }
 
-.place .text ul li i {
-  margin-top: 15px;
-  width: 40px;
-  font-size: 1rem;
-  text-align: center;
-  color: #484848;
+.place .text ul li span {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .place .text p {
   letter-spacing: 1.1px;
-  padding: 15px;
+  padding: 0 15px 15px 15px;
   font-size: 1rem;
   line-height: 1.5rem;
-  text-align: justify;
+  color: #000000ba;
 }
 
 .place .link-div {

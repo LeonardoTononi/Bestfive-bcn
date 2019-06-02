@@ -99,7 +99,7 @@ img {
 
 .navbar ul li h2 {
   margin: 0;
-  font-size: .7rem;
+  font-size: .78rem;
   padding: 0;
 }
 
@@ -259,7 +259,7 @@ header .languages .language a {
 }
 
 h2 {
-  font-size: .7rem;
+  font-size: .78rem;
   font-weight: 100;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
