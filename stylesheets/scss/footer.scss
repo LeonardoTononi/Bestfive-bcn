@@ -4,6 +4,7 @@
 
 .float-footer {
   cursor: pointer;
+  padding: 10px;
 
   img {
     width: 28px;
@@ -11,12 +12,10 @@
 
   p {
     font-size: 1rem;
-    text-decoration: underline;
-    margin: 0;
+    margin: 0 20%;
     padding: 10px;
     background: #833ab4;
     color: white;
-    font-weight: 400;
     text-align: center;
   }
 }
@@ -26,12 +25,19 @@
   right: 20px;
   cursor: pointer;
 
-  img {
+  p {
+    padding: 10px;
+    background: #833ab4;
+    color: white;
+    text-align: center;
+  }
+
+  /* img {
     width: 40px;
     position: absolute;
     right: 30px;
     top: 5px;
-  }
+  } */
 }
 
 footer {
