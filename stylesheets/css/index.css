@@ -44,7 +44,7 @@ img {
 }
 
 .loader img {
-  width: 250px;
+  width: 120px;
 }
 
 .loader.hidden {
@@ -130,9 +130,9 @@ header h1 {
 
 header .handLogo {
   position: absolute;
-  left: -20px;
-  top: 10px;
-  width: 130px;
+  left: 10px;
+  top: 5px;
+  width: 60px;
 }
 
 header .btn-lang {

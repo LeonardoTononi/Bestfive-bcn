@@ -29,23 +29,28 @@ header {
 
   h5 {
     font-size: 1.5rem;
-    padding: 0 0 20px 27px;
+    padding: 0 0 20px 10px;
     font-weight: 500;
-    color: #fcb045;
+    color: rgba(0, 0, 0, 0.468);
     float: left;
     letter-spacing: 1.5px;
     position: relative;
+
+    img {
+      width: 30px;
+    }
   }
+
 }
 
 .menu {
   padding: 15px;
 
   .logo-img {
-    width: 120px;
+    width: 70px;
     position: absolute;
     top: 30px;
-    right: 0;
+    right: 20px;
     padding: 0;
   }
 }
@@ -59,7 +64,7 @@ header {
   background: $mainWhite;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 4px 0 3px 0;
+  padding: 2px 0;
   @include deepShadow;
 
   #back {
@@ -67,8 +72,8 @@ header {
     float: left;
 
     a img {
-      width: 40px;
-      padding: 4px 0 0 15px;
+      width: 45px;
+      padding-left: 15px;
     }
   }
 
@@ -77,19 +82,11 @@ header {
     float: right;
 
     a img {
-      width: 40px;
-      padding: 4px 15px 0 0;
+      width: 50px;
+      padding-right: 15px;
     }
   }
 
-  #icon-categ {
-    text-align: center;
-    float: center;
-
-    a img {
-      width: 35px;
-    }
-  }
 }
 
 // ============ CARD PLACES "REVIEW" ============ 
@@ -104,7 +101,7 @@ header {
     text-align: start;
     font-size: 1.4rem;
     padding: 10px 25px;
-    font-weight: 500;
+    font-weight: 400;
     color: $mainBlack;
   }
 

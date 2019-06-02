@@ -34,12 +34,16 @@ header {
 
 header h5 {
   font-size: 1.5rem;
-  padding: 0 0 20px 27px;
+  padding: 0 0 20px 10px;
   font-weight: 500;
-  color: #fcb045;
+  color: rgba(0, 0, 0, 0.468);
   float: left;
   letter-spacing: 1.5px;
   position: relative;
+}
+
+header h5 img {
+  width: 30px;
 }
 
 .menu {
@@ -47,10 +51,10 @@ header h5 {
 }
 
 .menu .logo-img {
-  width: 120px;
+  width: 70px;
   position: absolute;
   top: 30px;
-  right: 0;
+  right: 20px;
   padding: 0;
 }
 
@@ -61,7 +65,7 @@ header h5 {
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 4px 0 3px 0;
+  padding: 2px 0;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
@@ -72,8 +76,8 @@ header h5 {
 }
 
 .bottom-bar #back a img {
-  width: 40px;
-  padding: 4px 0 0 15px;
+  width: 45px;
+  padding-left: 15px;
 }
 
 .bottom-bar #map-action {
@@ -82,17 +86,8 @@ header h5 {
 }
 
 .bottom-bar #map-action a img {
-  width: 40px;
-  padding: 4px 15px 0 0;
-}
-
-.bottom-bar #icon-categ {
-  text-align: center;
-  float: center;
-}
-
-.bottom-bar #icon-categ a img {
-  width: 35px;
+  width: 50px;
+  padding-right: 15px;
 }
 
 .place {
@@ -107,7 +102,7 @@ header h5 {
   text-align: start;
   font-size: 1.4rem;
   padding: 10px 25px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
 }
 
