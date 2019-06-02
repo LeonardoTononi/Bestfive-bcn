@@ -71,10 +71,7 @@ img {
 .navbar {
   position: fixed;
   bottom: 0;
-  width: 80%;
-  left: 8.5%;
-  margin: 5px 0 5px 5px;
-  border-radius: 35px;
+  width: 100%;
   -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
           box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
 }
@@ -216,12 +213,11 @@ header .languages .language a {
 }
 
 .skyline img {
-  width: 80%;
+  width: 100%;
   padding-top: 10px;
-  padding-bottom: 90px;
+  padding-bottom: 80px;
   position: fixed;
   bottom: 0;
-  left: 10%;
 }
 
 @media screen and (max-height: 665px) {
