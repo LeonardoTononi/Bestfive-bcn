@@ -2,11 +2,13 @@ const staticCacheName = 'site-static';
 const assets = [
   '/',
   '/index.html',
+  '/en',
+  '/img',
   '/javaScript/app.js',
   '/javaScript/footer.js',
   '/javaScript/indexPage.js',
   '/javaScript/map.js',
-  '/js/materialize.min.js',
+  '/javaScript/howto.js',
   '/stylesheets/css',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2'
