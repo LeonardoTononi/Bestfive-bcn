@@ -58,6 +58,7 @@ img {
   bottom: 0;
   width: 100%;
   box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+  background: #fff;
 
   ul {
     padding: 0;
@@ -190,13 +191,23 @@ header {
   }
 }
 
-@media screen and (max-height: 665px) {
+@media screen and (max-height: 625px) {
+  .skyline {
+    img {
+      left: 13%;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-height: 605px) {
   .skyline {
     img {
       visibility: hidden;
     }
   }
 }
+
 
 // ============ APP ============ 
 

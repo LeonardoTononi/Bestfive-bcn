@@ -74,6 +74,7 @@ img {
   width: 100%;
   -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
           box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+  background: #fff;
 }
 
 .navbar ul {
@@ -220,7 +221,14 @@ header .languages .language a {
   bottom: 0;
 }
 
-@media screen and (max-height: 665px) {
+@media screen and (max-height: 625px) {
+  .skyline img {
+    left: 13%;
+    width: 300px;
+  }
+}
+
+@media screen and (max-height: 605px) {
   .skyline img {
     visibility: hidden;
   }

@@ -1,9 +1,4 @@
 .float-footer {
-  padding: 10px;
-  left: 35%;
-  border-radius: 10px;
-  color: #000;
-  text-align: center;
   cursor: pointer;
 }
 
@@ -19,6 +14,7 @@
   background: #833ab4;
   color: white;
   font-weight: 400;
+  text-align: center;
 }
 
 .close-btn {
