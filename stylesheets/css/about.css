@@ -24,24 +24,15 @@ img {
 }
 
 .menu .logo-img {
-  width: 120px;
-  float: left;
+  width: 60px;
   position: absolute;
   top: 10px;
-  left: -20px;
+  left: 10px;
   padding: 0;
 }
 
-.menu #back-btn {
-  width: 35px;
-  float: right;
-  position: absolute;
-  top: 15px;
-  right: 20px;
-}
-
 header {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 60px;
 }
 
