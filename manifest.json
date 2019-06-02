@@ -7,14 +7,8 @@
   "theme_color": "white",
   "orientation": "portrait-primary",
   "icons": [{
-      "src": "/img/violetHand192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/img/blackHand.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ]
+    "src": "/img/violetHand-bg.jpf",
+    "type": "image/jpf",
+    "sizes": "512x512"
+  }]
 }
