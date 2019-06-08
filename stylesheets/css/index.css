@@ -4,6 +4,10 @@ body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   background: white;
   line-height: 1;
   height: 100vh;
@@ -241,7 +245,7 @@ header .languages .language a {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 45px 35px 30px 35px;
+  padding: 40px 35px 30px 35px;
   background: white;
 }
 
