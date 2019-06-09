@@ -1,10 +1,12 @@
-const staticCacheName = 'site-static:v5';
-const dynamicCacheName = 'site-dynamic:v2';
+const staticCacheName = 'site-static:v7';
+const dynamicCacheName = 'site-dynamic:v3';
 const assets = [
   '/',
   '/index.html',
   '/img/barcelona-city.png',
   '/img/violetHand.png',
+  '/en/fallback.html',
+  '/stylesheets/css/fallback.css',
   '/javaScript/app.js',
   '/javaScript/footer.js',
   '/javaScript/indexPage.js',
@@ -57,13 +59,14 @@ self.addEventListener('fetch', evt => {
       return cacheRes || fetch(evt.request).then(fetchRes => {
         return caches.open(dynamicCacheName).then(cache => {
           cache.put(evt.request.url, fetchRes.clone());
-          limitCacheSize(dynamicCacheName, 15);
+          // check cached items size
+          limitCacheSize(dynamicCacheName, 300);
           return fetchRes;
         });
       });
     }).catch(() => {
       if (evt.request.url.indexOf('.html') > -1) {
-        caches.match('/en/fallback.html');
+        return caches.match('/en/fallback.html');
       }
     })
   );
