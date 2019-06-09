@@ -76,8 +76,8 @@ img {
   position: fixed;
   bottom: 0;
   width: 100%;
-  -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
-          box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.75);
   background: #fff;
 }
 
@@ -225,13 +225,6 @@ header .languages .language a {
 }
 
 @media screen and (max-height: 625px) {
-  .skyline img {
-    left: 13%;
-    width: 300px;
-  }
-}
-
-@media screen and (max-height: 605px) {
   .skyline img {
     visibility: hidden;
   }
