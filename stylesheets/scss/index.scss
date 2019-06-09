@@ -63,6 +63,7 @@ img {
   ul {
     padding: 0;
     text-align: center;
+    margin: 8px;
 
     li {
       @include grid(4, 5%);
@@ -79,7 +80,7 @@ img {
       }
 
       img {
-        width: 37px;
+        width: 30px;
       }
     }
   }
@@ -183,7 +184,7 @@ header {
   img {
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     position: fixed;
     bottom: 0;
   }

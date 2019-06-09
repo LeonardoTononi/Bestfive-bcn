@@ -84,6 +84,7 @@ img {
 .navbar ul {
   padding: 0;
   text-align: center;
+  margin: 8px;
 }
 
 .navbar ul li {
@@ -108,7 +109,7 @@ img {
 }
 
 .navbar ul li img {
-  width: 37px;
+  width: 30px;
 }
 
 header {
@@ -218,7 +219,7 @@ header .languages .language a {
 .skyline img {
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   position: fixed;
   bottom: 0;
 }
