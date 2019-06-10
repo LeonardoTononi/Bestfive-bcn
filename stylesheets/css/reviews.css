@@ -57,9 +57,9 @@ header h5 img {
 }
 
 .menu .logo-img {
-  width: 70px;
+  width: 50px;
   position: absolute;
-  top: 30px;
+  top: 5px;
   right: 20px;
   padding: 0;
 }
@@ -99,48 +99,115 @@ header h5 img {
 .place {
   margin: 10px 20px 20px 20px;
   padding: 10px 0;
-  border-radius: 40px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
           box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
   color: #000000ba;
+  /* .link-div {
+    text-align: start;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-weight: 100;
+  } */
 }
 
 .place h1 {
   text-align: start;
   font-size: 1.4rem;
-  padding: 10px 25px;
+  padding: 10px 25px 0 25px;
   font-weight: 400;
   color: #000;
+}
+
+.place h1 a {
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+  cursor: pointer;
+  float: right;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.place h1 a img {
+  width: 25px;
+}
+
+.place h2 {
+  font-size: .9rem;
+  margin: 0;
+  padding: 0 0 10px 25px;
+}
+
+.place .close {
+  color: #da2222;
+  font-weight: 700;
+}
+
+.place .open {
+  color: #23ae23;
+  font-weight: 700;
 }
 
 .place img {
   width: 100%;
   max-width: 800px;
-  padding-bottom: 10px;
-}
-
-.place a {
-  text-align: start;
-  text-decoration: underline;
-  color: #000;
 }
 
 .place .text {
   padding: 5px;
   font-size: 1rem;
   max-width: 800px;
+  /*  p {
+      letter-spacing: 1.1px;
+      padding: 0 15px 15px 15px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: #000000ba;
+    } */
+}
+
+.place .text .avg {
+  margin: 0;
+}
+
+.place .text .avg li {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.place .text .avg li span {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.place .text .pros {
+  background: #d4ecde;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.place .text .cons {
+  background: #f6d5cb;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .place .text h5 {
   font-size: 1.3rem;
   text-align: start;
   padding-left: 15px;
-  font-weight: 700;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 0;
 }
 
 .place .text ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   text-align: start;
 }
 
@@ -150,30 +217,10 @@ header h5 img {
   padding: 5px 0 0 15px;
 }
 
-.place .text ul li span {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-.place .text p {
-  letter-spacing: 1.1px;
-  padding: 0 15px 15px 15px;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: #000000ba;
-}
-
-.place .link-div {
-  text-align: start;
-  padding-left: 25px;
-  padding-bottom: 20px;
-  font-weight: 100;
-}
-
-#carouselExampleIndicators .carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+.place .text ul li i {
+  font-size: 1.2rem;
+  padding-top: 5px;
+  color: #833ab4;
 }
 
 .last-card {
@@ -194,9 +241,6 @@ header h5 img {
   .place {
     max-width: 900px;
     margin: 30px auto;
-  }
-  .header-card {
-    text-align: center;
   }
   .place h1 {
     text-align: center;

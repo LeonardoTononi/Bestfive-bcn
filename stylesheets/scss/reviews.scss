@@ -49,9 +49,9 @@ header {
   padding: 15px;
 
   .logo-img {
-    width: 70px;
+    width: 50px;
     position: absolute;
-    top: 30px;
+    top: 5px;
     right: 20px;
     padding: 0;
   }
@@ -95,28 +95,49 @@ header {
 .place {
   margin: 10px 20px 20px 20px;
   padding: 10px 0;
-  border-radius: 40px;
+  border-radius: 3px;
   box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
   color: #000000ba;
 
   h1 {
     text-align: start;
     font-size: 1.4rem;
-    padding: 10px 25px;
+    padding: 10px 25px 0 25px;
     font-weight: 400;
     color: $mainBlack;
+
+    a {
+      @include clean-link;
+      cursor: pointer;
+      float: right;
+      font-size: .9rem;
+      font-weight: 400;
+
+      img {
+        width: 25px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: .9rem;
+    margin: 0;
+    padding: 0 0 10px 25px;
+  }
+
+  .close {
+    color: rgb(218, 34, 34);
+    font-weight: 700;
+  }
+
+  .open {
+    color: rgb(35, 174, 35);
+    font-weight: 700;
   }
 
   img {
     width: 100%;
     max-width: 800px;
-    padding-bottom: 10px;
-  }
-
-  a {
-    text-align: start;
-    text-decoration: underline;
-    color: $mainBlack;
   }
 
   .text {
@@ -124,16 +145,46 @@ header {
     font-size: 1rem;
     max-width: 800px;
 
+    .avg {
+      margin: 0;
+
+      li {
+        text-align: center;
+        padding-bottom: 5px;
+
+        span {
+          font-weight: 700;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .pros {
+      background: #d4ecde;
+      border-radius: 3px;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    .cons {
+      background: #f6d5cb;
+      border-radius: 3px;
+      padding: 10px;
+    }
+
     h5 {
       font-size: 1.3rem;
       text-align: start;
       padding-left: 15px;
-      font-weight: 700;
+      font-weight: 400;
+      text-decoration: underline;
+      margin: 0;
     }
 
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
       text-align: start;
 
       li {
@@ -141,38 +192,30 @@ header {
         text-align: start;
         padding: 5px 0 0 15px;
 
-        span {
-          font-size: 1.3rem;
-          font-weight: bold;
+        i {
+          font-size: 1.2rem;
+          padding-top: 5px;
+          color: #833ab4;
         }
       }
     }
 
-    p {
+    /*  p {
       letter-spacing: 1.1px;
       padding: 0 15px 15px 15px;
       font-size: 1rem;
       line-height: 1.5rem;
       color: #000000ba;
-    }
+    } */
   }
 
-  .link-div {
+  /* .link-div {
     text-align: start;
     padding-left: 25px;
     padding-bottom: 20px;
     font-weight: 100;
-  }
+  } */
 }
-
-#carouselExampleIndicators {
-  .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-  }
-}
-
 
 .last-card {
   margin-bottom: 70px;
@@ -195,10 +238,6 @@ header {
   .place {
     max-width: 900px;
     margin: 30px auto;
-  }
-
-  .header-card {
-    text-align: center;
   }
 
   .place h1 {
