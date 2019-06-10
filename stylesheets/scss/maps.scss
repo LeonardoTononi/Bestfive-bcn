@@ -11,11 +11,12 @@
   bottom: 30px;
   @include clean-link;
   padding: 10px;
+  margin-left: 15px;
   border-radius: 50%;
   background: white;
   cursor: pointer;
 
   img {
-    width: 30px;
+    width: 25px;
   }
 }
