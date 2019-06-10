@@ -73,7 +73,6 @@ header {
     @include clean-link;
     font-size: .8rem;
     margin: 0;
-    padding: 0 15px;
     font-weight: 100;
   }
 
@@ -85,6 +84,10 @@ header {
       width: 45px;
       padding-left: 15px;
     }
+
+    h2 {
+      padding-left: 18px;
+    }
   }
 
   #map-action {
@@ -92,8 +95,12 @@ header {
     float: right;
 
     a img {
-      width: 45px;
+      width: 43px;
       padding-right: 15px;
+    }
+
+    h2 {
+      padding-right: 9px;
     }
   }
 }
@@ -181,11 +188,11 @@ header {
     }
 
     h5 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       text-align: start;
       padding-left: 15px;
       font-weight: 400;
-      text-decoration: underline;
+      text-transform: uppercase;
       margin: 0;
     }
 
