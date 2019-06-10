@@ -66,8 +66,16 @@ header {
   background: $mainWhite;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 5px 0;
+  padding: 2px;
   @include deepShadow;
+
+  h2 {
+    @include clean-link;
+    font-size: .8rem;
+    margin: 0;
+    padding: 0 15px;
+    font-weight: 100;
+  }
 
   #back {
     text-align: start;
@@ -84,7 +92,7 @@ header {
     float: right;
 
     a img {
-      width: 50px;
+      width: 45px;
       padding-right: 15px;
     }
   }
