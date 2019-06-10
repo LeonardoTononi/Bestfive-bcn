@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=maps.css.map */
+#map {
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=maps.css.map */
