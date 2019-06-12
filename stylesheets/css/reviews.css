@@ -197,7 +197,17 @@ header h5 img {
 
 .place .text .avg li {
   text-align: center;
-  padding-bottom: 5px;
+  padding: 0 0 5px 0;
+}
+
+.place .text .avg li img {
+  width: 20px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.place .text .avg li .more {
+  cursor: pointer;
 }
 
 .place .text .avg li span {
@@ -208,12 +218,26 @@ header h5 img {
 .place .text .pros {
   background: #d4ecde;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 50px 10px 0px;
   margin: 0 10px 5px 10px;
+  display: none;
+  -webkit-transition-property: all 0.4s;
+  transition-property: all 0.4s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 
 .place .text .cons {
   padding: 10px;
+  display: none;
+  -webkit-transition-property: all 0.4s 0.5s;
+  transition-property: all 0.4s 0.5s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 
 .place .text h5 {
@@ -246,6 +270,11 @@ header h5 img {
 
 .last-card {
   margin-bottom: 70px;
+}
+
+.rotate-img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 /* ------- MEDIA QUERY ------  */

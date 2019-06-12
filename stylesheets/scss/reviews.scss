@@ -169,7 +169,16 @@ header {
 
       li {
         text-align: center;
-        padding-bottom: 5px;
+        padding: 0 0 5px 0;
+
+        img {
+          width: 20px;
+          transition: 0.2s ease-in-out;
+        }
+
+        .more {
+          cursor: pointer;
+        }
 
         span {
           font-weight: 700;
@@ -181,12 +190,18 @@ header {
     .pros {
       background: #d4ecde;
       border-radius: 10px;
-      padding: 10px;
+      padding: 10px 50px 10px 0px;
       margin: 0 10px 5px 10px;
+      display: none;
+      transition-property: all 0.4s;
+      transition-property: transform;
     }
 
     .cons {
       padding: 10px;
+      display: none;
+      transition-property: all 0.4s 0.5s;
+      transition-property: transform;
     }
 
     h5 {
@@ -236,6 +251,10 @@ header {
 
 .last-card {
   margin-bottom: 70px;
+}
+
+.rotate-img {
+  transform: rotate(180deg);
 }
 
 /* ------- MEDIA QUERY ------  */
