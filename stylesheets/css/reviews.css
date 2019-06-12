@@ -142,10 +142,15 @@ header h5 img {
   background: transparent;
   font-weight: 100;
   color: #000;
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   cursor: pointer;
   float: right;
   font-size: .9rem;
   font-weight: 400;
+  padding: 10px;
+  border-radius: 10px;
+  background: #000;
 }
 
 .place h1 a img {
