@@ -6,15 +6,20 @@
   height: 98vh;
 }
 
+.maps-content {
+  padding: 5px;
+}
+
 h5 {
   font-size: 1.2rem;
   margin: 0;
   font-weight: 400;
+  padding: 5px;
 }
 
 p {
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
 
 .back-btn {
@@ -36,6 +41,7 @@ h2 {
   font-size: .9rem;
   margin: 0;
   font-weight: 200;
+  padding: 5px;
 }
 
 .close {
@@ -52,7 +58,9 @@ h1 {
   text-align: center;
   font-size: .9rem;
   font-weight: 400;
+  margin: 10px;
   color: $mainBlack;
+  padding: 5px;
 
   img {
     width: 25px;
@@ -61,8 +69,10 @@ h1 {
   a {
     @include clean-link;
     cursor: pointer;
-    float: right;
     font-size: .9rem;
     font-weight: 400;
+    padding: 5px 8px;
+    @include deepShadow;
+    border-radius: 20px;
   }
 }
