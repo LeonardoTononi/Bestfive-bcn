@@ -1,7 +1,6 @@
-function initMap() {
-  // Map options 
+function startMap() {
   let options = {
-    zoom: 12,
+    zoom: 13.5,
     center: {
       lat: 41.3887,
       lng: 2.1589
@@ -34,33 +33,45 @@ function initMap() {
       }
     ]
   };
+
   // New map
   let map = new google.maps.Map(document.getElementById('map'), options);
 
   // Array of markers
   let markers = [
-    // COFFEWORK - FEDERAL CAFE 
+    // La platilleria
     {
       coords: {
-        lat: 41.378038,
-        lng: 2.177780
+        lat: 41.371562,
+        lng: 2.165384
       },
-      iconImage: 'https://img.icons8.com/color/25/000000/cafe.png',
-      content: '<h3>Federal Café</h3><p>Good coffè and good place to work!</p>'
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      content: '<p>FancyTapas</p><h5>La platilleria</h5><h2>Now: <span class="open">Open</span> (12.00 - 23.00)</h2><h1><img src="https://img.icons8.com/ios/50/000000/near-me.png"> <span class="open"> GO! <span></a></h1>'
+    },
+    // Bar canete
+    {
+      coords: {
+        lat: 41.379161,
+        lng: 2.173134
+      },
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      content: '<p>FancyTapas</p><h5>Bar cañete</h5>'
     }
   ];
 
   // Loop through markers 
   for (let i = 0; i < markers.length; i++) {
     addMarker(markers[i]);
-  };
+  }
 
   // Add marker function 
   function addMarker(props) {
     let marker = new google.maps.Marker({
       position: props.coords,
       map: map,
-      icon: props.iconImage
+      icon: props.iconImage,
+      draggable: true,
+      animation: google.maps.Animation.DROP
     });
     // Check content 
     if (props.content) {
@@ -69,7 +80,15 @@ function initMap() {
       });
       marker.addListener('click', function () {
         infoWindow.open(map, marker);
-      });
+      }, toggleBounce);
+    }
+  }
+
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
     }
   }
 }

@@ -6,6 +6,17 @@
   height: 98vh;
 }
 
+h5 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .back-btn {
   position: absolute;
   bottom: 30px;
@@ -18,5 +29,40 @@
 
   img {
     width: 25px;
+  }
+}
+
+h2 {
+  font-size: .9rem;
+  margin: 0;
+  font-weight: 200;
+}
+
+.close {
+  color: rgb(218, 34, 34);
+  font-weight: 700;
+}
+
+.open {
+  color: rgb(35, 174, 35);
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 400;
+  color: $mainBlack;
+
+  img {
+    width: 25px;
+  }
+
+  a {
+    @include clean-link;
+    cursor: pointer;
+    float: right;
+    font-size: .9rem;
+    font-weight: 400;
   }
 }
