@@ -62,7 +62,6 @@ function startMap() {
       map: map,
       icon: props.iconImage
     });
-    let scaledSize = new.google.maps.Size(50, 50);
     // Check content 
     if (props.content) {
       let infoWindow = new google.maps.InfoWindow({
