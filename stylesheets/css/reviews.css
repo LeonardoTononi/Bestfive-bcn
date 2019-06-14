@@ -150,7 +150,6 @@ header h5 img {
   font-weight: 400;
   padding: 10px;
   border-radius: 10px;
-  background: #000;
 }
 
 .place h1 a img {
@@ -195,6 +194,11 @@ header h5 img {
   margin: 0;
 }
 
+.place .text .avg .more {
+  cursor: pointer;
+  padding: 0;
+}
+
 .place .text .avg li {
   text-align: center;
   padding: 0 0 5px 0;
@@ -206,21 +210,17 @@ header h5 img {
   transition: 0.2s ease-in-out;
 }
 
-.place .text .avg li .more {
-  cursor: pointer;
-}
-
 .place .text .avg li span {
   font-weight: 700;
   font-size: 1.2rem;
 }
 
 .place .text .pros {
+  display: none;
   background: #d4ecde;
   border-radius: 10px;
   padding: 10px 50px 10px 0px;
   margin: 0 10px 5px 10px;
-  display: none;
   -webkit-transition-property: all 0.4s;
   transition-property: all 0.4s;
   -webkit-transition-property: -webkit-transform;
@@ -230,8 +230,8 @@ header h5 img {
 }
 
 .place .text .cons {
-  padding: 10px;
   display: none;
+  padding: 10px;
   -webkit-transition-property: all 0.4s 0.5s;
   transition-property: all 0.4s 0.5s;
   -webkit-transition-property: -webkit-transform;
@@ -270,11 +270,6 @@ header h5 img {
 
 .last-card {
   margin-bottom: 70px;
-}
-
-.rotate-img {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
 }
 
 /* ------- MEDIA QUERY ------  */
