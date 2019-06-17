@@ -89,29 +89,27 @@ header h5 img {
 .bottom-bar #back {
   text-align: start;
   float: left;
+  /* h2 {
+      padding-left: 25px;
+    } */
 }
 
 .bottom-bar #back a img {
-  width: 45px;
-  padding-left: 15px;
-}
-
-.bottom-bar #back h2 {
-  padding-left: 18px;
+  width: 60px;
+  padding-left: 25px;
 }
 
 .bottom-bar #map-action {
   text-align: end;
   float: right;
+  /* h2 {
+      padding-right: 17px;
+    } */
 }
 
 .bottom-bar #map-action a img {
-  width: 43px;
-  padding-right: 15px;
-}
-
-.bottom-bar #map-action h2 {
-  padding-right: 9px;
+  width: 65px;
+  padding-right: 25px;
 }
 
 .place {
