@@ -1,10 +1,10 @@
 //LOAD LOGO INDEX PAGE
-window.addEventListener('load', function () {
+/* window.addEventListener('load', function () {
   setInterval(() => {
     const loader = document.querySelector('.loader');
     loader.className += " hidden";
   }, 1000);
-});
+}); */
 
 // BTN LANGUAGES
 const btnLanguage_a = document.querySelector('.btn-lang');
