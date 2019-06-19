@@ -123,7 +123,7 @@ header {
 
 header h1 {
   font-size: 2rem;
-  padding: 10px 60px 0 50px;
+  padding: 10px 60px 0 90px;
   font-weight: 200;
   margin: 0;
   text-align: start;
@@ -148,9 +148,9 @@ header h1 .small-text {
 
 header .handLogo {
   position: absolute;
-  left: 10px;
-  top: 5px;
-  width: 60px;
+  left: 30px;
+  top: 10px;
+  width: 55px;
 }
 
 header .btn-lang {
