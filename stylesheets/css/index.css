@@ -172,7 +172,8 @@ header .languages {
   width: 50px;
   position: absolute;
   text-align: center;
-  right: 10px;
+  right: 30px;
+  top: 55px;
   -webkit-transition: all opacity 1s;
   transition: all opacity 1s;
   display: none;

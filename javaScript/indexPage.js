@@ -13,9 +13,6 @@ const languagesList_div = document.querySelector('.languages');
 btnLanguage_a.addEventListener('click', function () {
   if (languagesList_div.style.display == "none") {
     languagesList_div.style.display = "inline";
-    cleanBtn_a.addEventListener('click', function () {
-      languagesList_div.style.display = "none";
-    });
   } else {
     languagesList_div.style.display = "none";
   }
