@@ -20,7 +20,7 @@ img {
   background: transparent;
 }
 
-// ============ LOADER ============ 
+// ============ LOADER ============
 
 .loader {
   background: #fff;
@@ -40,7 +40,7 @@ img {
 }
 
 .loader.hidden {
-  animation: fade-out .4s;
+  animation: fade-out 0.4s;
   animation-fill-mode: forwards;
 }
 
@@ -76,7 +76,7 @@ img {
 
       h2 {
         margin: 0;
-        font-size: .78rem;
+        font-size: 0.78rem;
         padding: 0;
       }
 
@@ -87,26 +87,37 @@ img {
   }
 }
 
-
-// ============ MENU ============ 
+// ============ MENU ============
 
 header {
   background: transparent;
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
   padding-top: 7px;
   width: 100%;
 
   h1 {
-    font-size: 1.8rem;
-    padding: 10px 60px;
-    font-weight: 500;
+    font-size: 2rem;
+    padding: 10px 60px 0 50px;
+    font-weight: 200;
     margin: 0;
-    text-align: center;
+    text-align: start;
     letter-spacing: 1.5px;
-    font-family: 'Pacifico', cursive;
+    color: #833ab4;
+    /* font-family: 'Pacifico', cursive;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #833ab4), color-stop(0.47, #833ab4), color-stop(0.58, #fcb045));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+
+    span {
+      font-weight: 500;
+    }
+
+    .small-text {
+      font-weight: 200;
+      font-size: 0.9rem;
+      position: relative;
+      top: -15px;
+    }
   }
 
   .handLogo {
@@ -116,15 +127,15 @@ header {
     width: 60px;
   }
 
-  // LANGUAGES 
+  // LANGUAGES
   .btn-lang {
     position: absolute;
     background: $mainWhite;
     color: #833ab4;
-    right: 20px;
-    top: 14px;
-    font-size: .8rem;
-    padding: 5px;
+    right: 30px;
+    top: 8px;
+    font-size: 0.8rem;
+    padding: 10px;
     border-radius: 5px;
 
     img {
@@ -177,7 +188,7 @@ header {
   }
 }
 
-// ============ IMAGE HEADER ============ 
+// ============ IMAGE HEADER ============
 
 .skyline {
   width: 100%;
@@ -199,8 +210,7 @@ header {
   }
 }
 
-
-// ============ APP ============ 
+// ============ APP ============
 
 .applications {
   display: grid;
@@ -209,7 +219,7 @@ header {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 40px 35px 30px 35px;
+  padding: 25px 35px 30px 35px;
   background: white;
 }
 
@@ -225,13 +235,13 @@ header {
 }
 
 h2 {
-  font-size: .78rem;
+  font-size: 0.78rem;
   font-weight: 100;
   transition: 0.3s ease-in-out;
   justify-self: center;
   margin: 0;
   background: transparent;
-  padding: 5px 0 10px 0
+  padding: 5px 0 10px 0;
 }
 
 .icon-app {

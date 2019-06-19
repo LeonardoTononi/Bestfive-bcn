@@ -52,8 +52,8 @@ img {
 }
 
 .loader.hidden {
-  -webkit-animation: fade-out .4s;
-          animation: fade-out .4s;
+  -webkit-animation: fade-out 0.4s;
+          animation: fade-out 0.4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -105,7 +105,7 @@ img {
 
 .navbar ul li h2 {
   margin: 0;
-  font-size: .78rem;
+  font-size: 0.78rem;
   padding: 0;
 }
 
@@ -115,23 +115,35 @@ img {
 
 header {
   background: transparent;
-  -webkit-transition: .1s ease-in-out;
-  transition: .1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
   padding-top: 7px;
   width: 100%;
 }
 
 header h1 {
-  font-size: 1.8rem;
-  padding: 10px 60px;
-  font-weight: 500;
+  font-size: 2rem;
+  padding: 10px 60px 0 50px;
+  font-weight: 200;
   margin: 0;
-  text-align: center;
+  text-align: start;
   letter-spacing: 1.5px;
-  font-family: 'Pacifico', cursive;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #833ab4), color-stop(0.47, #833ab4), color-stop(0.58, #fcb045));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #833ab4;
+  /* font-family: 'Pacifico', cursive;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #833ab4), color-stop(0.47, #833ab4), color-stop(0.58, #fcb045));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+header h1 span {
+  font-weight: 500;
+}
+
+header h1 .small-text {
+  font-weight: 200;
+  font-size: 0.9rem;
+  position: relative;
+  top: -15px;
 }
 
 header .handLogo {
@@ -145,10 +157,10 @@ header .btn-lang {
   position: absolute;
   background: #fff;
   color: #833ab4;
-  right: 20px;
-  top: 14px;
-  font-size: .8rem;
-  padding: 5px;
+  right: 30px;
+  top: 8px;
+  font-size: 0.8rem;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -240,7 +252,7 @@ header .languages .language a {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 40px 35px 30px 35px;
+  padding: 25px 35px 30px 35px;
   background: white;
 }
 
@@ -258,7 +270,7 @@ header .languages .language a {
 }
 
 h2 {
-  font-size: .78rem;
+  font-size: 0.78rem;
   font-weight: 100;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;

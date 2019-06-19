@@ -58,3 +58,13 @@ expandBtn_img[4].addEventListener('click', function () {
     expandBtn_img[4].style.transform = "initial";
   }
 });
+
+/* 
+function showProsCons(e) {
+  if (e.target.classList.contains('.more-img')) {
+    if (e.target.parentElement.nextElement.style.display = 'none') {
+      e.target.parentElement.nextElement.style.display = 'inline-block';
+      e.target.parentElement.nextElement.nextElement.style.display = 'inline-block';
+    }
+  }
+} */
