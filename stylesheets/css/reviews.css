@@ -37,8 +37,8 @@ header {
 }
 
 header h5 {
-  font-size: 1.5rem;
-  padding: 0 0 20px 10px;
+  font-size: 1.7rem;
+  padding-bottom: 20px;
   font-weight: 400;
   color: #833ab4;
   float: left;
@@ -81,7 +81,7 @@ header h5 img {
   background: transparent;
   font-weight: 100;
   color: #000;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 0;
   font-weight: 100;
 }
@@ -144,7 +144,7 @@ header h5 img {
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   cursor: pointer;
   float: right;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 10px;
   border-radius: 10px;
@@ -155,7 +155,7 @@ header h5 img {
 }
 
 .place h2 {
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin: 0;
   padding: 0 0 10px 25px;
 }
@@ -209,13 +209,12 @@ header h5 img {
 }
 
 .place .text .avg li span {
-  font-weight: 700;
   font-size: 1.2rem;
 }
 
 .place .text .pros {
   display: none;
-  background: #d4ecde;
+  background: #fffea0;
   border-radius: 10px;
   padding: 10px 50px 10px 0px;
   margin: 0 10px 5px 10px;

@@ -22,14 +22,14 @@ img {
   margin: 0;
 }
 
-// ============ HEADER ============ 
+// ============ HEADER ============
 
 header {
   padding: 15px 20px;
 
   h5 {
-    font-size: 1.5rem;
-    padding: 0 0 20px 10px;
+    font-size: 1.7rem;
+    padding-bottom: 20px;
     font-weight: 400;
     color: #833ab4;
     float: left;
@@ -42,7 +42,6 @@ header {
       padding-right: 7px;
     }
   }
-
 }
 
 .menu {
@@ -57,8 +56,7 @@ header {
   }
 }
 
-
-// ============ BOTTOM NAV BAR ============ 
+// ============ BOTTOM NAV BAR ============
 
 .bottom-bar {
   position: fixed;
@@ -71,7 +69,7 @@ header {
 
   h2 {
     @include clean-link;
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin: 0;
     font-weight: 100;
   }
@@ -105,7 +103,7 @@ header {
   }
 }
 
-// ============ CARD PLACES "REVIEW" ============ 
+// ============ CARD PLACES "REVIEW" ============
 
 .place {
   margin: 10px 20px 20px 20px;
@@ -126,7 +124,7 @@ header {
       @include deepShadow;
       cursor: pointer;
       float: right;
-      font-size: .9rem;
+      font-size: 0.9rem;
       font-weight: 400;
       padding: 10px;
       border-radius: 10px;
@@ -138,7 +136,7 @@ header {
   }
 
   h2 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin: 0;
     padding: 0 0 10px 25px;
   }
@@ -181,7 +179,6 @@ header {
         }
 
         span {
-          font-weight: 700;
           font-size: 1.2rem;
         }
       }
@@ -189,7 +186,7 @@ header {
 
     .pros {
       display: none;
-      background: #d4ecde;
+      background: #fffea0;
       border-radius: 10px;
       padding: 10px 50px 10px 0px;
       margin: 0 10px 5px 10px;
@@ -313,7 +310,6 @@ header {
   .bottom-bar {
     padding: 0;
   }
-
 
   #map-action a img,
   #back a img,
