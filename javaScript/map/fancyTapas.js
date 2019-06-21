@@ -1,6 +1,4 @@
-let map, infoWindow;
-
-function startMap() {
+function fancyTapasInitMap() {
   let options = {
     zoom: 13,
     center: {
