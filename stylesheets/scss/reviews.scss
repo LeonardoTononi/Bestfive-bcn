@@ -7,6 +7,7 @@
 
 body {
   @include mainStyle;
+  overflow-x: hidden;
 }
 
 i {
@@ -143,6 +144,7 @@ header {
       padding: 5px 0;
       border-radius: 6px;
       position: absolute;
+      left: -100px;
       z-index: 1;
       @include shadow;
 

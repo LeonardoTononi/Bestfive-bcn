@@ -15,6 +15,7 @@ body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -moz-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 i {
@@ -160,6 +161,7 @@ header .logo-img {
   padding: 5px 0;
   border-radius: 6px;
   position: absolute;
+  left: -100px;
   z-index: 1;
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
