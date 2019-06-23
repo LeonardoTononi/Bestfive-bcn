@@ -63,13 +63,14 @@ expandBtn_img[4].addEventListener('click', function () {
 
 // GET INFORMATION FROM GOOGLE MAPS FOR OPENING HOURS 
 
-const now = document.querySelector('.now');
-const weeklyHours = document.querySelector('.weekly-hours');
+const now = document.querySelectorAll('.now');
+const weeklyHours = document.querySelectorAll('.weekly-hours');
 
 function logPlaceDetails() {
   var service = new google.maps.places.PlacesService(document.getElementById('map'));
   service.getDetails({
-    placeId: 'ChIJ0c3t9laipBIRvEUHQJkXfJU'
+    // La platilleria
+    placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s'
   }, function (place, status) {
     const weeklyData = `
 <ul>
@@ -81,13 +82,13 @@ function logPlaceDetails() {
     <li>${place.opening_hours.weekday_text[5]}</li>
     <li>${place.opening_hours.weekday_text[6]}</li>
 </ul>`;
-    weeklyHours.innerHTML = weeklyData;
+    weeklyHours[0].innerHTML = weeklyData;
     if (place.opening_hours.open_now === true) {
-      now.innerText = 'Open';
-      now.classList.add('open');
+      now[0].innerText = 'Open';
+      now[0].classList.add('open');
     } else {
-      now.innerText = 'Closed';
-      now.classList.add('close');
+      now[0].innerText = 'Closed';
+      now[0].classList.add('close');
     }
   });
 }
