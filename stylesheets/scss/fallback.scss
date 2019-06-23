@@ -7,6 +7,11 @@ body {
   height: 100vh;
 }
 
+a {
+  @include removeTouch;
+  @include clean-link;
+}
+
 // ============ HEADER ============ 
 
 header {

@@ -1,3 +1,5 @@
+// HIDE AND SHOW PROS AND CONS
+
 const expandBtn_img = document.querySelectorAll('.more-img');
 const pros_ul = document.querySelectorAll('.pros');
 const cons_ul = document.querySelectorAll('.cons');
@@ -59,12 +61,33 @@ expandBtn_img[4].addEventListener('click', function () {
   }
 });
 
-/* 
-function showProsCons(e) {
-  if (e.target.classList.contains('.more-img')) {
-    if (e.target.parentElement.nextElement.style.display = 'none') {
-      e.target.parentElement.nextElement.style.display = 'inline-block';
-      e.target.parentElement.nextElement.nextElement.style.display = 'inline-block';
+// GET INFORMATION FROM GOOGLE MAPS FOR OPENING HOURS 
+
+const now = document.querySelector('.now');
+const weeklyHours = document.querySelector('.weekly-hours');
+
+function logPlaceDetails() {
+  var service = new google.maps.places.PlacesService(document.getElementById('map'));
+  service.getDetails({
+    placeId: 'ChIJ0c3t9laipBIRvEUHQJkXfJU'
+  }, function (place, status) {
+    const weeklyData = `
+<ul>
+    <li>${place.opening_hours.weekday_text[0]}</li>
+    <li>${place.opening_hours.weekday_text[1]}</li>
+    <li>${place.opening_hours.weekday_text[2]}</li>
+    <li>${place.opening_hours.weekday_text[3]}</li>
+    <li>${place.opening_hours.weekday_text[4]}</li>
+    <li>${place.opening_hours.weekday_text[5]}</li>
+    <li>${place.opening_hours.weekday_text[6]}</li>
+</ul>`;
+    weeklyHours.innerHTML = weeklyData;
+    if (place.opening_hours.open_now === true) {
+      now.innerText = 'Open';
+      now.classList.add('open');
+    } else {
+      now.innerText = 'Closed';
+      now.classList.add('close');
     }
-  }
-} */
+  });
+}

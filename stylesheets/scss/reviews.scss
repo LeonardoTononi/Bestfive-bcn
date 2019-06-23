@@ -1,9 +1,12 @@
 @import "variables";
 @import "mixins";
 
+* {
+  margin: 0;
+}
+
 body {
   @include mainStyle;
-  @include clean-link;
 }
 
 i {
@@ -18,34 +21,29 @@ img {
   background: transparent;
 }
 
-* {
-  margin: 0;
+a {
+  @include removeTouch;
+  @include clean-link;
 }
 
 // ============ HEADER ============
 
 header {
-  padding: 15px 20px;
+  padding: 5px 20px;
 
   h5 {
-    font-size: 1.7rem;
-    padding-bottom: 20px;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #833ab4;
-    float: left;
     letter-spacing: 1.5px;
-    position: relative;
 
     img {
       width: 40px;
-      padding-bottom: 5px;
-      padding-right: 7px;
+      position: relative;
+      bottom: -7px;
+      left: -4px;
     }
   }
-}
-
-.menu {
-  padding: 15px;
 
   .logo-img {
     width: 50px;
@@ -64,42 +62,24 @@ header {
   background: $mainWhite;
   transition: 0.3s ease-in;
   width: 100%;
-  padding: 2px;
   @include deepShadow;
 
-  h2 {
-    @include clean-link;
-    font-size: 0.8rem;
-    margin: 0;
-    font-weight: 100;
-  }
-
   #back {
-    text-align: start;
     float: left;
 
-    a img {
-      width: 60px;
+    .back-btn {
+      width: 40px;
       padding-left: 25px;
     }
-
-    /* h2 {
-      padding-left: 25px;
-    } */
   }
 
   #map-action {
-    text-align: end;
     float: right;
 
-    a img {
-      width: 65px;
+    .map-btn {
+      width: 40px;
       padding-right: 25px;
     }
-
-    /* h2 {
-      padding-right: 17px;
-    } */
   }
 }
 
@@ -107,7 +87,7 @@ header {
 
 .place {
   margin: 10px 20px 20px 20px;
-  padding: 10px 0;
+  padding-top: 10px;
   border-radius: 10px;
   box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
   color: #000000ba;
@@ -137,8 +117,53 @@ header {
 
   h2 {
     font-size: 0.9rem;
-    margin: 0;
+    margin: 5px 0;
     padding: 0 0 10px 25px;
+  }
+
+  .google-info {
+
+    .hours-btn {
+      font-size: .8rem;
+      text-decoration: underline;
+    }
+
+    .hours-btn {
+      position: relative;
+      display: inline-block;
+    }
+
+    .hours-btn .weekly-hours {
+      visibility: hidden;
+      font-weight: 100;
+      width: 240px;
+      background-color: rgb(255, 255, 255);
+      color: #000;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+      @include shadow;
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+
+        li {
+          padding: 5px 0;
+        }
+      }
+    }
+
+    .hours-btn:hover .weekly-hours {
+      visibility: visible;
+    }
+
+    .hours-btn:active .weekly-hours {
+      visibility: visible;
+    }
   }
 
   .close {
@@ -228,22 +253,7 @@ header {
         }
       }
     }
-
-    /*  p {
-      letter-spacing: 1.1px;
-      padding: 0 15px 15px 15px;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      color: #000000ba;
-    } */
   }
-
-  /* .link-div {
-    text-align: start;
-    padding-left: 25px;
-    padding-bottom: 20px;
-    font-weight: 100;
-  } */
 }
 
 .last-card {

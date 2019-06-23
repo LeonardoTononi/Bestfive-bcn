@@ -1,6 +1,9 @@
 @import "variables";
 @import "mixins";
 
+a {
+  @include removeTouch;
+}
 
 .float-footer {
   cursor: pointer;

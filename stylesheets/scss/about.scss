@@ -14,6 +14,11 @@ img {
   background: transparent;
 }
 
+a {
+  @include removeTouch;
+  @include clean-link;
+}
+
 /* ================ HEADER =============== */
 
 .menu {

@@ -13,6 +13,7 @@ body {
 }
 
 a {
+  @include removeTouch;
   @include clean-link;
 }
 
