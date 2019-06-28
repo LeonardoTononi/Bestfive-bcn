@@ -137,7 +137,8 @@ header {
     top: 8px;
     font-size: 0.8rem;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
+    box-shadow: inset 0 0 20px 0 #833ab424;
 
     img {
       width: 10px;
@@ -155,7 +156,8 @@ header {
     animation-name: fade-in;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
-    background: #fff;
+    background: #833ab4;
+    border-radius: 3px;
     @include deepShadow;
 
     h1 {
@@ -174,7 +176,7 @@ header {
       }
 
       a {
-        color: #833ab4;
+        color: #fff;
       }
     }
   }
