@@ -121,14 +121,14 @@ header .logo-img {
   background: transparent;
   font-weight: 100;
   color: #000;
-  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 0px 0px 10px 0px #76767643;
+          box-shadow: inset 0px 0px 10px 0px #76767643;
   cursor: pointer;
   float: right;
   font-size: 0.9rem;
   font-weight: 400;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .place h1 a img {
@@ -206,6 +206,23 @@ header .logo-img {
   max-width: 800px;
 }
 
+.place .text .more {
+  text-align: center;
+}
+
+.place .text .more .more-img {
+  -webkit-transform: initial;
+          transform: initial;
+  width: 25px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.place .text .more .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .place .text .avg {
   margin: 0;
 }
@@ -220,18 +237,11 @@ header .logo-img {
   padding: 0 0 5px 0;
 }
 
-.place .text .avg li img {
-  width: 25px;
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-
 .place .text .avg li span {
   font-size: 1.2rem;
 }
 
-.place .text .pros {
-  display: none;
+.place .text .prosCons .pros {
   background: #fffea0;
   border-radius: 10px;
   padding: 10px 50px 10px 0px;
@@ -244,8 +254,7 @@ header .logo-img {
   transition-property: transform, -webkit-transform;
 }
 
-.place .text .cons {
-  display: none;
+.place .text .prosCons .cons {
   padding: 10px;
   -webkit-transition-property: all 0.4s 0.5s;
   transition-property: all 0.4s 0.5s;
@@ -253,6 +262,10 @@ header .logo-img {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
+}
+
+.place .text .hide {
+  display: none;
 }
 
 .place .text h5 {

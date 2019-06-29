@@ -102,13 +102,13 @@ header {
 
     a {
       @include clean-link;
-      @include deepShadow;
+      box-shadow: inset 0px 0px 10px 0px #76767643;
       cursor: pointer;
       float: right;
       font-size: 0.9rem;
       font-weight: 400;
       padding: 10px;
-      border-radius: 10px;
+      border-radius: 8px;
 
       img {
         width: 25px;
@@ -188,6 +188,21 @@ header {
     font-size: 1rem;
     max-width: 800px;
 
+    .more {
+      text-align: center;
+
+      .more-img {
+        transform: initial;
+        width: 25px;
+        transition: 0.2s ease-in-out;
+      }
+
+      .rotateImg {
+        transform: rotate(180deg);
+      }
+    }
+
+
     .avg {
       margin: 0;
 
@@ -200,33 +215,34 @@ header {
         text-align: center;
         padding: 0 0 5px 0;
 
-        img {
-          width: 25px;
-          transition: 0.2s ease-in-out;
-        }
-
         span {
           font-size: 1.2rem;
         }
       }
     }
 
-    .pros {
-      display: none;
-      background: #fffea0;
-      border-radius: 10px;
-      padding: 10px 50px 10px 0px;
-      margin: 0 10px 5px 10px;
-      transition-property: all 0.4s;
-      transition-property: transform;
+    .prosCons {
+
+      .pros {
+        background: #fffea0;
+        border-radius: 10px;
+        padding: 10px 50px 10px 0px;
+        margin: 0 10px 5px 10px;
+        transition-property: all 0.4s;
+        transition-property: transform;
+      }
+
+      .cons {
+        padding: 10px;
+        transition-property: all 0.4s 0.5s;
+        transition-property: transform;
+      }
     }
 
-    .cons {
+    .hide {
       display: none;
-      padding: 10px;
-      transition-property: all 0.4s 0.5s;
-      transition-property: transform;
     }
+
 
     h5 {
       font-size: 1.1rem;
