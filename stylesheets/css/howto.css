@@ -92,13 +92,13 @@ header .logo-img {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 15px auto;
+  margin: 55px auto 0 auto;
 }
 
 #search-bar input {
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  padding: 15px 40px;
+  padding: 20px 40px;
   font-size: 1.2rem;
   text-align: center;
   border-radius: 40px;
@@ -116,29 +116,29 @@ header .logo-img {
 }
 
 #search-bar input::-webkit-input-placeholder {
-  color: white;
-  opacity: .8;
+  color: #fff;
+  opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
 #search-bar input:-ms-input-placeholder {
-  color: white;
-  opacity: .8;
+  color: #fff;
+  opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
 #search-bar input::-ms-input-placeholder {
-  color: white;
-  opacity: .8;
+  color: #fff;
+  opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
 #search-bar input::placeholder {
-  color: white;
-  opacity: .8;
+  color: #fff;
+  opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
@@ -165,7 +165,7 @@ input:focus {
   font-weight: 400;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   padding: 10px;
 }
 
@@ -180,11 +180,13 @@ input:focus {
 }
 
 #questions .question p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #323232;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   margin: 0 auto;
   padding: 10px 0;
+  /* 
+      display: none; */
 }
 
 @media screen and (min-width: 800px) {
@@ -195,5 +197,9 @@ input:focus {
 
 .space {
   padding: 20px;
+}
+
+.hl {
+  background: #ffc600;
 }
 /*# sourceMappingURL=howto.css.map */

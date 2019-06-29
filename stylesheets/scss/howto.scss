@@ -75,17 +75,16 @@ header {
   }
 }
 
-
 /* ================ SEARCH BAR =============== */
 
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 15px auto;
+  margin: 55px auto 0 auto;
 
   input {
     @include shadow;
-    padding: 15px 40px;
+    padding: 20px 40px;
     font-size: 1.2rem;
     text-align: center;
     border-radius: 40px;
@@ -97,8 +96,8 @@ header {
     @include removeTouch;
 
     &::placeholder {
-      color: white;
-      opacity: .8;
+      color: #fff;
+      opacity: 1;
       font-size: 1.1rem;
       letter-spacing: 1.1px;
     }
@@ -125,7 +124,7 @@ input:focus {
       font-size: 1.3rem;
       font-weight: 400;
       transition: 0.3s ease-in-out;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
       padding: 10px;
 
       i {
@@ -138,11 +137,13 @@ input:focus {
     }
 
     p {
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Open Sans", sans-serif;
       color: #323232;
-      letter-spacing: .8px;
+      letter-spacing: 0.8px;
       margin: 0 auto;
       padding: 10px 0;
+      /* 
+      display: none; */
     }
   }
 }
@@ -155,4 +156,8 @@ input:focus {
 
 .space {
   padding: 20px;
+}
+
+.hl {
+  background: #ffc600;
 }
