@@ -120,6 +120,7 @@ header {
     font-size: 0.9rem;
     margin: 5px 0;
     padding: 0 0 10px 25px;
+    font-weight: 400;
   }
 
   .google-info {
@@ -169,10 +170,12 @@ header {
 
   .close {
     color: rgb(218, 34, 34);
+    font-weight: 400;
   }
 
   .open {
     color: rgb(35, 174, 35);
+    font-weight: 400;
   }
 
   img {
@@ -181,8 +184,8 @@ header {
   }
 
   .text {
-    padding: 5px;
-    font-size: 1rem;
+    padding: 10px;
+    font-size: .9rem;
     max-width: 800px;
 
     .more {
@@ -190,7 +193,7 @@ header {
 
       .more-img {
         transform: initial;
-        width: 25px;
+        width: 20px;
         transition: 0.2s ease-in-out;
       }
 
@@ -202,7 +205,7 @@ header {
     .avg {
       margin: 0;
 
-      .hl-phrase  {
+      .hl-phrase {
         font-weight: 700;
       }
 

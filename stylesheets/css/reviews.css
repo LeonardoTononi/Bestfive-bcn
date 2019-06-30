@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
 }
@@ -140,6 +139,7 @@ header .logo-img {
   font-size: 0.9rem;
   margin: 5px 0;
   padding: 0 0 10px 25px;
+  font-weight: 400;
 }
 
 .place .google-info .hours-btn {
@@ -188,10 +188,12 @@ header .logo-img {
 
 .place .close {
   color: #da2222;
+  font-weight: 400;
 }
 
 .place .open {
   color: #23ae23;
+  font-weight: 400;
 }
 
 .place img {
@@ -200,8 +202,8 @@ header .logo-img {
 }
 
 .place .text {
-  padding: 5px;
-  font-size: 1rem;
+  padding: 10px;
+  font-size: .9rem;
   max-width: 800px;
 }
 
@@ -212,7 +214,7 @@ header .logo-img {
 .place .text .more .more-img {
   -webkit-transform: initial;
           transform: initial;
-  width: 25px;
+  width: 20px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -226,7 +228,7 @@ header .logo-img {
   margin: 0;
 }
 
-.place .text .avg .hl-phrase  {
+.place .text .avg .hl-phrase {
   font-weight: 700;
 }
 
