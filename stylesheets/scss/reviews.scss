@@ -90,7 +90,7 @@ header {
   margin: 10px 20px 20px 20px;
   padding-top: 10px;
   border-radius: 10px;
-  box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
   color: #000000ba;
 
   h1 {
@@ -123,9 +123,8 @@ header {
   }
 
   .google-info {
-
     .hours-btn {
-      font-size: .8rem;
+      font-size: 0.8rem;
       text-decoration: underline;
     }
 
@@ -170,12 +169,10 @@ header {
 
   .close {
     color: rgb(218, 34, 34);
-    font-weight: 700;
   }
 
   .open {
     color: rgb(35, 174, 35);
-    font-weight: 700;
   }
 
   img {
@@ -202,9 +199,12 @@ header {
       }
     }
 
-
     .avg {
       margin: 0;
+
+      .hl-phrase  {
+        font-weight: 700;
+      }
 
       .more {
         cursor: pointer;
@@ -222,7 +222,6 @@ header {
     }
 
     .prosCons {
-
       .pros {
         background: #9900ff2b;
         border-radius: 10px;
@@ -242,7 +241,6 @@ header {
     .hide {
       display: none;
     }
-
 
     h5 {
       font-size: 1.1rem;

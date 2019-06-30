@@ -132,7 +132,6 @@ const place_div = document.querySelectorAll('.place');
 const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
 
-
 const laPlatilleriaID = 'ChIJS3TrRV2ipBIRh7qXj5lHy3s';
 const caneteID = 'ChIJGcsrQViipBIRY_vN9Piydxw';
 const resolisID = 'ChIJM4r5ZF-ipBIRqCl27q6hy2w';
@@ -140,6 +139,8 @@ const calPepID = 'ChIJbd9pOf6ipBIRt8JasLJbTHI';
 const canCisaBarBrutalID = 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ';
 
 const fancyTapasArray = [laPlatilleriaID, caneteID, resolisID, calPepID, canCisaBarBrutalID];
+
+
 
 function logPlaceDetails() {
   var service = new google.maps.places.PlacesService(map);

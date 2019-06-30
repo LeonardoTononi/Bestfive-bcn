@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
 }
@@ -103,8 +104,8 @@ header .logo-img {
   margin: 10px 20px 20px 20px;
   padding-top: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
-          box-shadow: 0 0 30px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
   color: #000000ba;
 }
 
@@ -142,7 +143,7 @@ header .logo-img {
 }
 
 .place .google-info .hours-btn {
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-decoration: underline;
 }
 
@@ -187,12 +188,10 @@ header .logo-img {
 
 .place .close {
   color: #da2222;
-  font-weight: 700;
 }
 
 .place .open {
   color: #23ae23;
-  font-weight: 700;
 }
 
 .place img {
@@ -225,6 +224,10 @@ header .logo-img {
 
 .place .text .avg {
   margin: 0;
+}
+
+.place .text .avg .hl-phrase  {
+  font-weight: 700;
 }
 
 .place .text .avg .more {
