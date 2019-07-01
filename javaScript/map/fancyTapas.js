@@ -123,3 +123,159 @@ function fancyTapasInitMap() {
     }
   }
 }
+
+
+
+// ===============================================
+// GET INFORMATION FROM GOOGLE MAPS FOR OPENING HOURS
+// ===============================================
+
+const place_div = document.querySelectorAll('.place');
+const now = document.querySelectorAll('.now');
+const weeklyHours = document.querySelectorAll('.weekly-hours');
+
+const laPlatilleriaID = 'ChIJS3TrRV2ipBIRh7qXj5lHy3s';
+const caneteID = 'ChIJGcsrQViipBIRY_vN9Piydxw';
+const resolisID = 'ChIJM4r5ZF-ipBIRqCl27q6hy2w';
+const calPepID = 'ChIJbd9pOf6ipBIRt8JasLJbTHI';
+const canCisaBarBrutalID = 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ';
+
+const fancyTapasArray = [laPlatilleriaID, caneteID, resolisID, calPepID, canCisaBarBrutalID];
+
+function logPlaceDetails(fancyTapasArray) {
+  var service = new google.maps.places.PlacesService(document.getElementById('map'));
+  service.getDetails({
+    placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s',
+    fields: ['opening_hours', 'name']
+  }, function (place, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+      const weeklyData = `
+        <ul>
+            <li>${place.name}</li>
+            <li>${place.opening_hours.weekday_text[0]}</li>
+            <li>${place.opening_hours.weekday_text[1]}</li>
+            <li>${place.opening_hours.weekday_text[2]}</li>
+            <li>${place.opening_hours.weekday_text[3]}</li>
+            <li>${place.opening_hours.weekday_text[4]}</li>
+            <li>${place.opening_hours.weekday_text[5]}</li>
+            <li>${place.opening_hours.weekday_text[6]}</li>
+        </ul>`;
+      weeklyHours[0].innerHTML = weeklyData;
+      if (place.opening_hours.open_now === true) {
+        now[0].innerText = 'Open';
+        now[0].classList.add('open');
+      } else {
+        now[0].innerText = 'Closed';
+        now[0].classList.add('close');
+      }
+    }
+  });
+  service.getDetails({
+    placeId: 'ChIJGcsrQViipBIRY_vN9Piydxw',
+    fields: ['opening_hours', 'name']
+  }, function (place, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+      const weeklyData = `
+        <ul>
+            <li>${place.name}</li>
+            <li>${place.opening_hours.weekday_text[0]}</li>
+            <li>${place.opening_hours.weekday_text[1]}</li>
+            <li>${place.opening_hours.weekday_text[2]}</li>
+            <li>${place.opening_hours.weekday_text[3]}</li>
+            <li>${place.opening_hours.weekday_text[4]}</li>
+            <li>${place.opening_hours.weekday_text[5]}</li>
+            <li>${place.opening_hours.weekday_text[6]}</li>
+        </ul>`;
+      weeklyHours[1].innerHTML = weeklyData;
+      if (place.opening_hours.open_now === true) {
+        now[1].innerText = 'Open';
+        now[1].classList.add('open');
+      } else {
+        now[1].innerText = 'Closed';
+        now[1].classList.add('close');
+      }
+    }
+  });
+  service.getDetails({
+    placeId: 'ChIJM4r5ZF-ipBIRqCl27q6hy2w',
+    fields: ['opening_hours', 'name']
+  }, function (place, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+      const weeklyData = `
+        <ul>
+            <li>${place.name}</li>
+            <li>${place.opening_hours.weekday_text[0]}</li>
+            <li>${place.opening_hours.weekday_text[1]}</li>
+            <li>${place.opening_hours.weekday_text[2]}</li>
+            <li>${place.opening_hours.weekday_text[3]}</li>
+            <li>${place.opening_hours.weekday_text[4]}</li>
+            <li>${place.opening_hours.weekday_text[5]}</li>
+            <li>${place.opening_hours.weekday_text[6]}</li>
+        </ul>`;
+      weeklyHours[2].innerHTML = weeklyData;
+      if (place.opening_hours.open_now === true) {
+        now[2].innerText = 'Open';
+        now[2].classList.add('open');
+      } else {
+        now[2].innerText = 'Closed';
+        now[2].classList.add('close');
+      }
+    }
+  });
+  service.getDetails({
+    placeId: 'ChIJbd9pOf6ipBIRt8JasLJbTHI',
+    fields: ['opening_hours', 'name']
+  }, function (place, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+      const weeklyData = `
+        <ul>
+            <li>${place.name}</li>
+            <li>${place.opening_hours.weekday_text[0]}</li>
+            <li>${place.opening_hours.weekday_text[1]}</li>
+            <li>${place.opening_hours.weekday_text[2]}</li>
+            <li>${place.opening_hours.weekday_text[3]}</li>
+            <li>${place.opening_hours.weekday_text[4]}</li>
+            <li>${place.opening_hours.weekday_text[5]}</li>
+            <li>${place.opening_hours.weekday_text[6]}</li>
+        </ul>`;
+      weeklyHours[3].innerHTML = weeklyData;
+      if (place.opening_hours.open_now === true) {
+        now[3].innerText = 'Open';
+        now[3].classList.add('open');
+      } else {
+        now[3].innerText = 'Closed';
+        now[3].classList.add('close');
+      }
+    }
+  });
+  service.getDetails({
+    placeId: 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ',
+    fields: ['opening_hours', 'name']
+  }, function (place, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+      const weeklyData = `
+        <ul>
+            <li>${place.name}</li>
+            <li>${place.opening_hours.weekday_text[0]}</li>
+            <li>${place.opening_hours.weekday_text[1]}</li>
+            <li>${place.opening_hours.weekday_text[2]}</li>
+            <li>${place.opening_hours.weekday_text[3]}</li>
+            <li>${place.opening_hours.weekday_text[4]}</li>
+            <li>${place.opening_hours.weekday_text[5]}</li>
+            <li>${place.opening_hours.weekday_text[6]}</li>
+        </ul>`;
+      weeklyHours[4].innerHTML = weeklyData;
+      if (place.opening_hours.open_now === true) {
+        now[4].innerText = 'Open';
+        now[4].classList.add('open');
+      } else {
+        now[4].innerText = 'Closed';
+        now[4].classList.add('close');
+      }
+    }
+  });
+}
+
+/* fancyTapasArray.map(placeID => {
+  logPlaceDetails(placeID);
+}); */
