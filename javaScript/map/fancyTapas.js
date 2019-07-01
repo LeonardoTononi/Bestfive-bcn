@@ -133,6 +133,7 @@ function fancyTapasInitMap() {
 const place_div = document.querySelectorAll('.place');
 const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
+const goBtn_span = document.querySelectorAll('.goBtn');
 
 const laPlatilleriaID = 'ChIJS3TrRV2ipBIRh7qXj5lHy3s';
 const caneteID = 'ChIJGcsrQViipBIRY_vN9Piydxw';
@@ -165,6 +166,8 @@ function logPlaceDetails(fancyTapasArray) {
         now[0].innerText = 'Open';
         now[0].classList.add('open');
       } else {
+        goBtn_span[0].classList.remove('open');
+        goBtn_span[0].classList.add('close');
         now[0].innerText = 'Closed';
         now[0].classList.add('close');
       }
@@ -191,6 +194,8 @@ function logPlaceDetails(fancyTapasArray) {
         now[1].innerText = 'Open';
         now[1].classList.add('open');
       } else {
+        goBtn_span[1].classList.remove('open');
+        goBtn_span[1].classList.add('close');
         now[1].innerText = 'Closed';
         now[1].classList.add('close');
       }
@@ -217,6 +222,8 @@ function logPlaceDetails(fancyTapasArray) {
         now[2].innerText = 'Open';
         now[2].classList.add('open');
       } else {
+        goBtn_span[2].classList.remove('open');
+        goBtn_span[2].classList.add('close');
         now[2].innerText = 'Closed';
         now[2].classList.add('close');
       }
@@ -243,6 +250,8 @@ function logPlaceDetails(fancyTapasArray) {
         now[3].innerText = 'Open';
         now[3].classList.add('open');
       } else {
+        goBtn_span[3].classList.remove('open');
+        goBtn_span[3].classList.add('close');
         now[3].innerText = 'Closed';
         now[3].classList.add('close');
       }
@@ -269,6 +278,8 @@ function logPlaceDetails(fancyTapasArray) {
         now[4].innerText = 'Open';
         now[4].classList.add('open');
       } else {
+        goBtn_span[4].classList.remove('open');
+        goBtn_span[4].classList.add('close');
         now[4].innerText = 'Closed';
         now[4].classList.add('close');
       }
