@@ -48,7 +48,7 @@ function fancyTapasInitMap() {
         lat: 41.371562,
         lng: 2.165384
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
       content: '<section class="maps-content"><p>FancyTapas</p><h5>La platilleria</h5><h2>Now: <span class="open">Open</span> (12.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
     // Bar canete
@@ -57,7 +57,7 @@ function fancyTapasInitMap() {
         lat: 41.379161,
         lng: 2.173134
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
       content: '<section class="maps-content"><p>FancyTapas</p><h5>Bar cañete</h5><h2>Now: <span class="open">Open</span> (18.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
     // Bar Resolis
@@ -66,7 +66,7 @@ function fancyTapasInitMap() {
         lat: 41.380420,
         lng: 2.167989
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
       content: '<section class="maps-content"><p>FancyTapas</p><h5>Bar Resolis</h5><h2>Now: <span class="open">Open</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
     // Cal Pep
@@ -75,7 +75,7 @@ function fancyTapasInitMap() {
         lat: 41.383975,
         lng: 2.183409
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
       content: '<section class="maps-content"><p>FancyTapas</p><h5>Cal Pep</h5><h2>Now: <span class="open">Open</span> (19.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
     // Bar Brutal
@@ -84,7 +84,7 @@ function fancyTapasInitMap() {
         lat: 41.384772,
         lng: 2.179837
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
       content: '<section class="maps-content"><p>FancyTapas</p><h5>Can Cisa Bar Brutal</h5><h2>Now: <span class="close">Close</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="close"> GO! <span></a></h1></section>'
     }
 
@@ -122,49 +122,4 @@ function fancyTapasInitMap() {
       marker.setAnimation(google.maps.Animation.BOUNCE);
     }
   }
-}
-
-// ===============================================
-// GET INFORMATION FROM GOOGLE MAPS FOR OPENING HOURS
-// ===============================================
-
-const place_div = document.querySelectorAll('.place');
-const now = document.querySelectorAll('.now');
-const weeklyHours = document.querySelectorAll('.weekly-hours');
-
-const laPlatilleriaID = 'ChIJS3TrRV2ipBIRh7qXj5lHy3s';
-const caneteID = 'ChIJGcsrQViipBIRY_vN9Piydxw';
-const resolisID = 'ChIJM4r5ZF-ipBIRqCl27q6hy2w';
-const calPepID = 'ChIJbd9pOf6ipBIRt8JasLJbTHI';
-const canCisaBarBrutalID = 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ';
-
-const fancyTapasArray = [laPlatilleriaID, caneteID, resolisID, calPepID, canCisaBarBrutalID];
-
-
-
-function logPlaceDetails() {
-  var service = new google.maps.places.PlacesService(map);
-  service.getDetails({
-    // La platilleria
-    placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s'
-  }, function (place, status) {
-    const weeklyData = `
-  <ul>
-      <li>${place.opening_hours.weekday_text[0]}</li>
-      <li>${place.opening_hours.weekday_text[1]}</li>
-      <li>${place.opening_hours.weekday_text[2]}</li>
-      <li>${place.opening_hours.weekday_text[3]}</li>
-      <li>${place.opening_hours.weekday_text[4]}</li>
-      <li>${place.opening_hours.weekday_text[5]}</li>
-      <li>${place.opening_hours.weekday_text[6]}</li>
-  </ul>`;
-    weeklyHours[0].innerHTML = weeklyData;
-    if (place.opening_hours.open_now === true) {
-      now[0].innerText = 'Open';
-      now[0].classList.add('open');
-    } else {
-      now[0].innerText = 'Closed';
-      now[0].classList.add('close');
-    }
-  });
 }
