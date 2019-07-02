@@ -49,7 +49,19 @@ function fancyTapasInitMap() {
         lng: 2.165384
       },
       /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>La platilleria</h5><h2>Now: <span class="open">Open</span> (12.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                     <p>FancyTapas</p>
+                     <h5>La platilleria</h5>
+                     <img src="/img/place/laPlatilleria.jpg" alt="...">
+                     <h2>Now: 
+                        <span class="open">Open</span> (12.00 - 23.00)
+                     </h2>
+                     <h1>
+                       <a href="#">
+                          <span class="open">GO!<span>
+                       </a>
+                     </h1>
+                </section>`
     },
     // Bar canete
     {

@@ -11,7 +11,10 @@ a {
 }
 
 .maps-content {
-  padding: 5px;
+
+  img {
+    width: 100%;
+  }
 }
 
 h5 {
@@ -23,7 +26,7 @@ h5 {
 
 p {
   margin: 0;
-  padding: 5px;
+  padding: 2px 5px;
 }
 
 .back-btn {
@@ -51,12 +54,12 @@ h2 {
 
 .close {
   color: rgb(218, 34, 34);
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .open {
   color: rgb(35, 174, 35);
-  font-weight: 700;
+  font-weight: 200;
 }
 
 h1 {

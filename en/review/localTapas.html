@@ -7,8 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" href="../../stylesheets/css/reviews.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="manifest" href="/manifest.json">
   <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”> <meta
@@ -18,29 +16,29 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <title>LocalTapas - Bestfive Bcn</title>
+  <title>LocalTapas</title>
 </head>
 
 <body ontouchstart="">
 
+  <div id="map"></div>
+
   <header>
     <h5><img src="/img/icon/localTapas.png">LocalTapas</h5>
-  </header>
-  <div class="menu">
     <a href="/index.html">
       <img class="logo-img" src="/img/violetHand.png" alt="">
     </a>
-  </div>
+  </header>
 
   <div class="bottom-bar">
     <div id="map-action">
-      <a href="#">
-        <img src="https://img.icons8.com/color/96/000000/place-marker.png">
+      <a href="/en/maps/fancyTapasMap.html">
+        <img class="map-btn" src="https://img.icons8.com/color/96/000000/place-marker.png">
       </a>
     </div>
     <div id="back">
       <a href="/index.html">
-        <img id="back-btn" src="/img/icon/violetLeftHand.png">
+        <img class="back-btn" src="/img/icon/violetLeftHand.png">
       </a>
     </div>
   </div>
@@ -48,98 +46,216 @@
 
   <div class="place">
     <div class="header-card">
-      <h1>La cova fumada</h1>
+      <h1>La cova fumada
+        <a href="#">
+          <span class="open goBtn">GO!</span>
+        </a>
+      </h1>
+      <h2 class="google-info">Now:
+        <span class="now"></span>
+        <span class="hours-btn">(Weekly Hours)
+          <span class="weekly-hours"></span>
+        </span>
+      </h2>
       <img src="/img/place/covaFumada.jpg" alt="...">
       <div class="text">
-        <ul>
-          <li><span>€ 12 </span> Average price.</li>
+        <ul class="avg">
+          <li><span>€ 12 </span> Average price</li>
+          <li class="hl-phrase">This is the most local place you can find in Barceloneta. Not the cleanest, nothing
+            fancy and It is very very
+            noisy! There are 8 tables and a bar where you can eat, its always full of people. They serve the most
+            authentic food. Try seafood here and the artichoke! Wow! Cheap.</li>
         </ul>
-        <p>This is the most local place you can find in Barceloneta. Not the cleanest, nothing fancy and It is very very
-          noisy! There are 8 tables and a bar where you can eat, its always full of people. They serve the most
-          authentic food. Try seafood here and the artichoke! Wow! Cheap.</p>
+        <div class="more">
+          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
+        </div>
+        <div class="prosCons hide">
+          <ul class="pros">
+            <h5>Pros.</h5>
+            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
+            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
+            <li><i class="fas fa-caret-right"></i>Cheap</li>
+          </ul>
+          <ul class="cons">
+            <h5>Cons.</h5>
+            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="place">
     <div class="header-card">
-      <h1>Can paixano</h1>
+      <h1>Can paixano
+        <a href="#">
+          <span class="open goBtn">GO!</span>
+        </a>
+      </h1>
+      <h2 class="google-info">Now:
+        <span class="now"></span>
+        <span class="hours-btn">(Weekly Hours)
+          <span class="weekly-hours"></span>
+        </span>
+      </h2>
       <img src="/img/place/canPaixano.jpg" alt="...">
       <div class="text">
-        <ul>
-          <li><span>€ 9,80 </span> Average price.</li>
+        <ul class="avg">
+          <li><span>€ 12 </span> Average price</li>
+          <li class="hl-phrase">Traditional cava and “embutidos” catalan bar. Very small place, full of people standing,
+            you have to yell to
+            the barman what you want. They only serve cava (catalan champgne) and embutidos (sausages, chorizo, cheese).
+            Eveything is local and definitely worth the try. They close at 22:00. Cheap.</li>
         </ul>
-        <p>Traditional cava and “embutidos” catalan bar. Very small place, full of people standing, you have to yell to
-          the barman what you want. They only serve cava (catalan champgne) and embutidos (sausages, chorizo, cheese).
-          Eveything is local and definitely worth the try. They close at 22:00. Cheap.</p>
+        <div class="more">
+          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
+        </div>
+        <div class="prosCons hide">
+          <ul class="pros">
+            <h5>Pros.</h5>
+            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
+            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
+            <li><i class="fas fa-caret-right"></i>Cheap</li>
+          </ul>
+          <ul class="cons">
+            <h5>Cons.</h5>
+            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="place">
     <div class="header-card">
-      <h1>Bar celta pulperia</h1>
+      <h1>Bar celta pulperia
+        <a href="#">
+          <span class="open goBtn">GO!</span>
+        </a>
+      </h1>
+      <h2 class="google-info">Now:
+        <span class="now"></span>
+        <span class="hours-btn">(Weekly Hours)
+          <span class="weekly-hours"></span>
+        </span>
+      </h2>
       <img src="/img/place/pulperiaCelta.jpg" alt="...">
       <div class="text">
-        <ul>
-          <li><span>€ 14,50 </span> Average price.</li>
+        <ul class="avg">
+          <li><span>€ 12 </span> Average price</li>
+          <li class="hl-phrase">Go and eat octopus, our favorite place! This is a bar from Galicia (north-west spain)
+            they have the typical
+            Galician tapas. All the seafood here is fantastic! Try “navajas” and of course “pulpo a la gallega” you can
+            also drink the Galician wine that they serve you in typical Galician cups, each cup only cost 1,5€.</li>
         </ul>
-        <p>Go and eat octopus, our favorite place! This is a bar from Galicia (north-west spain) they have the typical
-          Galician tapas. All the seafood here is fantastic! Try “navajas” and of course “pulpo a la gallega” you can
-          also drink the Galician wine that they serve you in typical Galician cups, each cup only cost 1,5€.</p>
+        <div class="more">
+          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
+        </div>
+        <div class="prosCons hide">
+          <ul class="pros">
+            <h5>Pros.</h5>
+            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
+            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
+            <li><i class="fas fa-caret-right"></i>Cheap</li>
+          </ul>
+          <ul class="cons">
+            <h5>Cons.</h5>
+            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
+          </ul>
+        </div>
       </div>
-      <!--  <div class="link-div">
-        <a href="https://www.bacoaburger.com/" target="_blank">www.bacoaburger.com</a>
-      </div> -->
     </div>
   </div>
 
   <div class="place">
     <div class="header-card">
-      <h1>Can punyetes</h1>
+      <h1>Can punyetes
+        <a href="#">
+          <span class="open goBtn">GO!</span>
+        </a>
+      </h1>
+      <h2 class="google-info">Now:
+        <span class="now"></span>
+        <span class="hours-btn">(Weekly Hours)
+          <span class="weekly-hours"></span>
+        </span>
+      </h2>
       <img src="/img/place/canPunyetes.jpg" alt="...">
       <div class="text">
-        <ul>
-          <li><span>€ 11 </span> Average price.</li>
+        <ul class="avg">
+          <li><span>€ 12 </span> Average price</li>
+          <li class="hl-phrase">Amazing place that Fran didn't reviewed yet!</li>
         </ul>
-        <p>TO DO IT FRAN!</p>
+        <div class="more">
+          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
+        </div>
+        <div class="prosCons hide">
+          <ul class="pros">
+            <h5>Pros.</h5>
+            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
+            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
+            <li><i class="fas fa-caret-right"></i>Cheap</li>
+          </ul>
+          <ul class="cons">
+            <h5>Cons.</h5>
+            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
+          </ul>
+        </div>
       </div>
-      <!-- <div class="link-div">
-        <a href="https://www.bacoaburger.com/" target="_blank">www.bacoaburger.com</a>
-      </div> -->
     </div>
   </div>
 
   <div class="place">
     <div class="header-card">
-      <h1>La bombeta</h1>
+      <h1>La bombeta
+        <a href="#">
+          <span class="open goBtn">GO!</span>
+        </a>
+      </h1>
+      <h2 class="google-info">Now:
+        <span class="now"></span>
+        <span class="hours-btn">(Weekly Hours)
+          <span class="weekly-hours"></span>
+        </span>
+      </h2>
       <img src="/img/place/laBombeta.jpg" alt="...">
       <div class="text">
-        <ul>
-          <li><span>€ 15,20 </span> Average price.</li>
+        <ul class="avg">
+          <li><span>€ 12 </span> Average price</li>
+          <li class="hl-phrase">The bar that has the best “bomba” in Bcn. Bomba is a potato ball filled with meat and
+            has a spicy sauce on
+            top. They also make very good pimientos del padrón (green peppers). They have no wifi, they don’t speak
+            English and its a bit messy but worth the try!</li>
         </ul>
-        <p>The bar that has the best “bomba” in Bcn. Bomba is a potato ball filled with meat and has a spicy sauce on
-          top. They also make very good pimientos del padrón (green peppers). They have no wifi, they don’t speak
-          English and its a bit messy but worth the try!</p>
+        <div class="more">
+          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
+        </div>
+        <div class="prosCons hide">
+          <ul class="pros">
+            <h5>Pros.</h5>
+            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
+            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
+            <li><i class="fas fa-caret-right"></i>Cheap</li>
+          </ul>
+          <ul class="cons">
+            <h5>Cons.</h5>
+            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
+          </ul>
+        </div>
       </div>
-      <!-- <div class="link-div">
-        <a href="https://www.bacoaburger.com/" target="_blank">www.bacoaburger.com</a>
-      </div> -->
     </div>
   </div>
+
   <div class="space"></div>
 
-  <script src="../../javaScript/app.js"></script>
+  <script src="/javaScript/map/localTapas.js"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYLiYenTQ1VH4uDzAlI-MUGv6b7cJaTc&libraries=places&callback=logPlaceDetails"
+    async defer>
+  </script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+  <script src="/javaScript/app.js"></script>
+  <script src="/javaScript/reviews.js"></script>
 </body>
 
 </html>
