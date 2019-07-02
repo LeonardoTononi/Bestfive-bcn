@@ -80,14 +80,14 @@ header {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 55px auto 0 auto;
+  margin: 40px auto 0 auto;
 
   input {
     @include shadow;
-    padding: 20px 40px;
+    padding: 20px 50px;
     font-size: 1.2rem;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 10px;
     color: $mainWhite;
     margin: 0 auto;
     border: none;
@@ -113,19 +113,23 @@ input:focus {
 
 #questions {
   padding: 0 7% 5% 7%;
-  text-align: center;
+  text-align: start;
 
   .question {
     padding: 10px;
     border-radius: 10px;
     margin: 10px 0;
 
+    a {
+      color: #000;
+    }
+
     h2 {
       font-size: 1.3rem;
       font-weight: 400;
       transition: 0.3s ease-in-out;
       letter-spacing: 0.5px;
-      padding: 10px;
+      padding: 10px 0;
 
       i {
         font-size: 1.5rem;
@@ -144,6 +148,29 @@ input:focus {
       padding: 10px 0;
       /* 
       display: none; */
+    }
+
+    .metroL2 {
+      background: rgb(172, 94, 172);
+      color: #fff;
+      padding: 4px;
+    }
+
+    .metroL3 {
+      background: rgb(23, 97, 23);
+      color: #fff;
+      padding: 4px;
+    }
+
+    .metroL5 {
+      background: rgb(27, 27, 182);
+      color: #fff;
+      padding: 4px;
+    }
+
+    .option {
+      color: #000;
+      font-weight: 700;
     }
   }
 }

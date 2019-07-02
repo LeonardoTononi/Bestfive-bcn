@@ -92,16 +92,16 @@ header .logo-img {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 55px auto 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 #search-bar input {
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  padding: 20px 40px;
+  padding: 20px 50px;
   font-size: 1.2rem;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 10px;
   color: #fff;
   margin: 0 auto;
   border: none;
@@ -151,7 +151,7 @@ input:focus {
 /* ================ QUESTIONS =============== */
 #questions {
   padding: 0 7% 5% 7%;
-  text-align: center;
+  text-align: start;
 }
 
 #questions .question {
@@ -160,13 +160,17 @@ input:focus {
   margin: 10px 0;
 }
 
+#questions .question a {
+  color: #000;
+}
+
 #questions .question h2 {
   font-size: 1.3rem;
   font-weight: 400;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   letter-spacing: 0.5px;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 #questions .question h2 i {
@@ -187,6 +191,29 @@ input:focus {
   padding: 10px 0;
   /* 
       display: none; */
+}
+
+#questions .question .metroL2 {
+  background: #ac5eac;
+  color: #fff;
+  padding: 4px;
+}
+
+#questions .question .metroL3 {
+  background: #176117;
+  color: #fff;
+  padding: 4px;
+}
+
+#questions .question .metroL5 {
+  background: #1b1bb6;
+  color: #fff;
+  padding: 4px;
+}
+
+#questions .question .option {
+  color: #000;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 800px) {
