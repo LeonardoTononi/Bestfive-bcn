@@ -93,7 +93,8 @@ header {
     border: none;
     transition: all 100ms ease-in;
     background: #fcb045b9;
-    @include removeTouch;
+    /* 
+    @include removeTouch; */
 
     &::placeholder {
       color: #fff;

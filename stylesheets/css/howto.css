@@ -108,11 +108,8 @@ header .logo-img {
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
   background: #fcb045b9;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  /* 
+    @include removeTouch; */
 }
 
 #search-bar input::-webkit-input-placeholder {
