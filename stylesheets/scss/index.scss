@@ -133,11 +133,11 @@ header {
     position: absolute;
     background: $mainWhite;
     color: #833ab4;
-    right: 30px;
+    right: 40px;
     top: 8px;
     font-size: 0.8rem;
-    padding: 10px;
-    border-radius: 3px;
+    padding: 10px 8px;
+    border-radius: 50%;
     box-shadow: inset 0 0 20px 0 #833ab424;
 
     img {
@@ -146,19 +146,15 @@ header {
   }
 
   .languages {
-    width: 50px;
     position: absolute;
     text-align: center;
-    right: 30px;
-    top: 55px;
+    right: 4px;
+    top: 4px;
     transition: all opacity 1s;
     display: none;
     animation-name: fade-in;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
-    background: #833ab4;
-    border-radius: 3px;
-    @include deepShadow;
 
     h1 {
       font-size: 2rem;
@@ -168,12 +164,10 @@ header {
     }
 
     .language {
-      background: transparent;
-      padding: 10px;
-
-      img {
-        width: 30px;
-      }
+      background: #833ab4;
+      padding: 10px 8px;
+      box-shadow: 0 0 10px 0 #00000045;
+      border-radius: 50%;
 
       a {
         color: #fff;
