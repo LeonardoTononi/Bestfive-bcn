@@ -161,7 +161,7 @@ input:focus {
 .filters .filter {
   display: inline-block;
   width: auto;
-  margin: 0 0.2rem 0.2rem 0.2rem;
+  margin: 0.25rem;
   min-height: 0;
   overflow: hidden;
   max-width: 100%;
