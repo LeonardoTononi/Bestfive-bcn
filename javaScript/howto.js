@@ -48,6 +48,8 @@ const questions = [{
       Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank">www.holabarcelona.com</a>`
 }];
 
+
+
 function findMatches(wordToMatch, questions) {
   return questions.filter(question => {
     const regex = new RegExp(wordToMatch, 'gi');
@@ -98,3 +100,36 @@ search_input.addEventListener('keyup', displayMatches);
     }
   });
 }); */
+
+// FILTERS LOGIC
+
+const filter = document.querySelectorAll('.filter');
+
+filter.forEach(elt => elt.addEventListener('click', function () {
+  this.classList.toggle('active-filter');
+  targetFilter = this;
+  if (this.classList.contains('active-filter')) {
+    displayMatches2(targetFilter);
+  } else {
+    questions_div.innerHTML = `
+    <div class="question">
+      
+    </div>`
+  }
+}));
+
+function displayMatches2(filter) {
+  if (filter.classList.contains('active-filter')) {
+    const matchArray = findMatches(filter.innerText, questions);
+    const html = matchArray.map(question => {
+      const regex = new RegExp(filter.innerText, 'gi');
+      return `
+        <div class="question">
+           <h2><i class="fas fa-caret-right"></i>${question.q}</h2>
+           <p class="answer">${question.a}</p>
+        </div>
+            `;
+    }).join('');
+    questions_div.innerHTML = html;
+  }
+}
