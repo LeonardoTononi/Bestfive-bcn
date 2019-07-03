@@ -21,7 +21,7 @@ btnLanguage_a.addEventListener('click', function () {
 // Popup add home screen for IOS 
 
 // Detects if device is on iOS 
-const popUp = document.querySelector('.add-home');
+const popUp = document.getElementById('popUp');
 
 const isIos = () => {
   const userAgent = window.navigator.userAgent.toLowerCase();
@@ -31,11 +31,14 @@ const isIos = () => {
 const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
 
 // Checks if should display install popup notification:
+const nav = document.querySelector('.navbar');
 if (isIos() && !isInStandaloneMode()) {
   popUp.style.display = "inline";
   setInterval(function () {
+    nav.style.zIndex = "1";
     popUp.style.display = "none";
-  }, 8000)
+  }, 5000);
 } else {
   popUp.style.display = "none";
+  nav.style.zIndex = "1";
 }
