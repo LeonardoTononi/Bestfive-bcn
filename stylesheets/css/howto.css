@@ -92,7 +92,7 @@ header .logo-img {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
   position: relative;
 }
 
@@ -114,6 +114,7 @@ header .logo-img {
   transition: all 100ms ease-in;
   background: #e7e7e7;
   border-radius: 60px;
+  border: 2px solid transparent;
 }
 
 #search-bar input::-webkit-input-placeholder {
@@ -144,9 +145,17 @@ header .logo-img {
   letter-spacing: 1.1px;
 }
 
+#search-bar input:focus {
+  outline: none;
+  border: 2px solid #833ab4;
+  background: #fff;
+}
+
 textarea:focus,
 input:focus {
   outline: none;
+  border: 2px solid #833ab4;
+  background: #fff;
 }
 
 .filters {

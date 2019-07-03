@@ -80,7 +80,7 @@ header {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
   position: relative;
 
   img {
@@ -101,6 +101,7 @@ header {
     transition: all 100ms ease-in;
     background: rgb(231, 231, 231);
     border-radius: 60px;
+    border: 2px solid transparent;
 
     &::placeholder {
       color: rgba(80, 80, 80, 0.678);
@@ -108,12 +109,20 @@ header {
       font-size: 1.1rem;
       letter-spacing: 1.1px;
     }
+
+    &:focus {
+      outline: none;
+      border: 2px solid #833ab4;
+      background: #fff;
+    }
   }
 }
 
 textarea:focus,
 input:focus {
   outline: none;
+  border: 2px solid #833ab4;
+  background: #fff;
 }
 
 // ======================= FILTERS ======================
