@@ -88,6 +88,7 @@ img {
           box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.75);
   background: #fff;
   padding: 5px 0;
+  z-index: -1;
 }
 
 .navbar ul {
@@ -241,6 +242,7 @@ header .languages .language a {
   padding-bottom: 50px;
   position: fixed;
   bottom: 0;
+  z-index: -1;
 }
 
 @media screen and (max-height: 625px) {
@@ -307,5 +309,45 @@ h2 {
 
 .icon-app img {
   width: 37px;
+}
+
+.add-home {
+  display: none;
+  background: #ffba59;
+  color: #fff;
+  margin: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+          box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+}
+
+.add-home p {
+  padding: 10px;
+  letter-spacing: 1.2px;
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+.add-home p img {
+  width: 17px;
+}
+
+.add-home:after {
+  background: #ffba59;
+  -webkit-box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+          box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+  content: "";
+  height: 15px;
+  left: 50%;
+  position: absolute;
+  bottom: -12px;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
+  width: 15px;
 }
 /*# sourceMappingURL=index.css.map */

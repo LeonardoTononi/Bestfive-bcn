@@ -61,6 +61,7 @@ img {
   box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.75);
   background: #fff;
   padding: 5px 0;
+  z-index: -1;
 
   ul {
     padding: 0;
@@ -197,6 +198,7 @@ header {
     padding-bottom: 50px;
     position: fixed;
     bottom: 0;
+    z-index: -1;
   }
 }
 
@@ -260,5 +262,44 @@ h2 {
 
   img {
     width: 37px;
+  }
+}
+
+// =============== HOME SCREEN POPUP ==============
+
+.add-home {
+  display: none;
+  background: #ffba59;
+  color: #fff;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, .4);
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+
+  p {
+    padding: 10px;
+    letter-spacing: 1.2px;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin: 0;
+
+    img {
+      width: 17px;
+    }
+  }
+
+  &:after {
+    background: #ffba59;
+    box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, .4);
+    content: "";
+    height: 15px;
+    left: 50%;
+    position: absolute;
+    bottom: -12px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 15px;
   }
 }
