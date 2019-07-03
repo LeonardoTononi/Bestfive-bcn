@@ -85,14 +85,14 @@ header {
 
   img {
     position: absolute;
-    bottom: 10px;
-    left: 40px;
+    bottom: .7rem;
+    left: 2.8rem;
   }
 
   input {
     padding: 12px 60px;
     font-size: 1.2rem;
-    text-align: start;
+    text-align: center;
     border-radius: 10px;
     color: #000;
     margin: 0 auto;
@@ -135,11 +135,13 @@ input:focus {
     border-radius: 80px;
     color: #111;
     font-size: 0.9rem;
+    transition: all 0.2s ease;
   }
 
   .active-filter {
     background: #833ab4;
     color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
