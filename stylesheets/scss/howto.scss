@@ -81,9 +81,16 @@ header {
   text-align: center;
   width: 100%;
   margin: 40px auto 0 auto;
+  position: relative;
+
+  img {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+  }
 
   input {
-    padding: 15px 60px;
+    padding: 12px 60px;
     font-size: 1.2rem;
     text-align: start;
     border-radius: 10px;
@@ -94,21 +101,12 @@ header {
     transition: all 100ms ease-in;
     background: rgb(231, 231, 231);
     border-radius: 60px;
-    position: relative;
 
     &::placeholder {
       color: rgba(80, 80, 80, 0.678);
       opacity: 1;
       font-size: 1.1rem;
       letter-spacing: 1.1px;
-    }
-
-    &::before {
-      content: "wow";
-      display: block;
-      position: relative;
-      bottom: 0;
-      color: black;
     }
   }
 }

@@ -93,10 +93,17 @@ header .logo-img {
   text-align: center;
   width: 100%;
   margin: 40px auto 0 auto;
+  position: relative;
+}
+
+#search-bar img {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
 }
 
 #search-bar input {
-  padding: 15px 60px;
+  padding: 12px 60px;
   font-size: 1.2rem;
   text-align: start;
   border-radius: 10px;
@@ -107,7 +114,6 @@ header .logo-img {
   transition: all 100ms ease-in;
   background: #e7e7e7;
   border-radius: 60px;
-  position: relative;
 }
 
 #search-bar input::-webkit-input-placeholder {
@@ -136,14 +142,6 @@ header .logo-img {
   opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
-}
-
-#search-bar input::before {
-  content: "wow";
-  display: block;
-  position: relative;
-  bottom: 0;
-  color: black;
 }
 
 textarea:focus,
