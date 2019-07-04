@@ -21,7 +21,8 @@ a {
 // ============ HEADER ============
 
 header {
-  padding: 5px 20px;
+  padding: 5px 20px 15px 20px;
+  border-bottom: 1px solid #80808038;
 
   h5 {
     font-size: 1.6rem;
@@ -195,6 +196,12 @@ input:focus {
       display: none; */
     }
 
+    .metroL1 {
+      background: rgb(201, 0, 0);
+      color: #fff;
+      padding: 4px;
+    }
+
     .metroL2 {
       background: rgb(172, 94, 172);
       color: #fff;
@@ -209,6 +216,24 @@ input:focus {
 
     .metroL5 {
       background: rgb(27, 27, 182);
+      color: #fff;
+      padding: 4px;
+    }
+
+    .train {
+      background: rgb(223, 145, 0);
+      color: #fff;
+      padding: 4px;
+    }
+
+    .taxi {
+      background: rgb(205, 205, 44);
+      color: #fff;
+      padding: 4px;
+    }
+
+    .aereobus {
+      background: rgb(89, 181, 211);
       color: #fff;
       padding: 4px;
     }

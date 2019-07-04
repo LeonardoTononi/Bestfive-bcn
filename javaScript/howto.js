@@ -46,6 +46,46 @@ const questions = [{
       <span class="option">Port cable car:</span> 11€ one way, 16,50€, way and back (buy tickets on counter with cash). <br>
       <span class="option">Mountain cable car:</span> 12,70€ (you can purchase online with 20% discount). <br>
       Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank">www.holabarcelona.com</a>`
+}, {
+  q: "How to take the cable car up montjuic?",
+  a: `There are 2 cable cars, one that takes you from the port to the mountain and another one that has 3 stops on the mountain with views of the city. <br>
+      <span class="option">Port cable car:</span>Sebastian tower on the beach (Passeig Don Joan Borbó Comte Barcelona, S/N, 08039 Barcelona). <br>
+      <span class="option">Mountain cable car:</span> Avenida de Miramar, 30 (08038 Barcelona) <br>
+      Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank">www.holabarcelona.com</a>`
+}, {
+  q: "How to get to Montserrat? Time / Price?",
+  a: `Go to metro España (<span class="metroL3">L3</span> or <span class="metroL1">L1</span>). You can buy a Ticket there from ticket booths just in front of Line <span class="train">R5</span> to Manresa. We recommend buy Montserrat <span class="train">R5</span> + Aeri (Aeri is the cable car that goes up the mountain. views are amazing! <br>
+      <span class="option">Time:</span> 1 hour to Montserrat (every hour from 8:36 to 16:36) + 20min for Aeri Funicular. <br>
+      <span class="option">Price:</span> 22€ adult round trip. <br>`
+}, {
+  q: "How to use the public transport (subway-bus)?",
+  a: `Go to any Metro station and on the ticket booths buy the ticket that is most convinent for you, we reccomend: <br>
+        T10 card: it costs 10,20€ and it has 10 rides, you can use them in metro, bus, and funicular up Montjuic. You can also share it as long as you validate all rides. `
+}, {
+  q: "How to get to Sitges?",
+  a: `You can start in the Railway stop on Passeig de Gracia or in the Railway in Sants Estació.`
+}, {
+  q: "How to get to the airport?",
+  a: `<span class="option">Option 1:</span> <span class="aereobus">Aerobus</span> (blue bus), starts from Plaza Cataluña every 10min (from 5am to 1am),  stops in Paza España in between. <span class="aereobus">A1</span> goes to Terminal 1 and <span class="aereobus">A2</span> goes to Terminal 2. One way ride is 5,90€. <br>
+      <span class="option">Option 2:</span> public transport: metro, bus or train. cheapest option but slowest. Metro will take you at least 3 line changes (1 hour at least). Bus stops all the time, at least 45-55 min to the airport. Train is good but only goes to Terminal 2, you can take it in Passeig de Gracia or in Barcelona Sants train station. <br>
+      <span class="option">Option 3:</span> <span class="taxi">Taxi</span>, it will cost you around 30€ .`
+}, {
+  q: "How to get to Barcelona centre from the airport?",
+  a: `<span class="option">Option 1:</span> <span class="aereobus">Aerobus</span> (blue bus), you get on it outside of the airport and it goes         directly to city center. Stops in Plaza España and then in Plaza Cataluña. One way ride is 5,90€  <br>
+      <span class="option">Option 2:</span> public transport (metro, bus or train). Cheapest option but slowest. Metro will take you at least 3 line changes. Bus stops all the time, at least 45-50 min ti the city center. Train is good but only runs from T2 to Barcelona center. Nearest stop from the city center is Passeig de Gracia. <br>
+      <span class="option">Option 3:</span> <span class="taxi">Taxi</span>, it will cost you around 30€ .`
+}, {
+  q: "What time is the magic fountain show?",
+  a: `<span class="option">From 1 November to 6 January:</span> Thursday, Friday and Saturday (20 pm / 20.30). <br>
+      <span class="option">From 7 January to 28 February:</span> Every day (closed).<br>
+      <span class="option">From 1 March to 31 March:</span> Thursday, Friday and Saturday (20 pm / 20.30).<br>
+      <span class="option">From 1 April to 31 May:</span> Thursday, Friday and Saturday (21 pm / 21.30).<br>
+      <span class="option">From 1 June to 30 September:</span> From Wednesday to Sunday (21.30 / 22 h).<br>
+      <span class="option">From 1 October to 31 October:</span> Thursday, Friday and Saturday (21 pm / 21.30).<br>
+      Surprise surprise...it's free!`
+}, {
+  q: "How much is magic mountain show?",
+  a: `Surprise surprise...it's free for everyone!`
 }];
 
 

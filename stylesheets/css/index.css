@@ -127,6 +127,7 @@ header {
   transition: 0.1s ease-in-out;
   padding-top: 7px;
   width: 100%;
+  border-bottom: 1px solid #80808038;
 }
 
 header h1 {

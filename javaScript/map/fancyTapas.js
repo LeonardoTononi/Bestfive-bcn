@@ -149,23 +149,23 @@ const goBtn_span = document.querySelectorAll('.goBtn');
 
 const laPlatilleriaID = {
   placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s',
-  fields: ['opening_hours', 'name']
+  fields: ['opening_hours']
 };
 const caneteID = {
   placeId: 'ChIJGcsrQViipBIRY_vN9Piydxw',
-  fields: ['opening_hours', 'name']
+  fields: ['opening_hours']
 };
 const resolisID = {
   placeId: 'ChIJM4r5ZF-ipBIRqCl27q6hy2w',
-  fields: ['opening_hours', 'name']
+  fields: ['opening_hours']
 };
 const calPepID = {
   placeId: 'ChIJbd9pOf6ipBIRt8JasLJbTHI',
-  fields: ['opening_hours', 'name']
+  fields: ['opening_hours']
 };
 const canCisaBarBrutalID = {
   placeId: 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ',
-  fields: ['opening_hours', 'name']
+  fields: ['opening_hours']
 };
 
 const fancyTapasArray = [laPlatilleriaID, caneteID, resolisID, calPepID, canCisaBarBrutalID];
@@ -176,7 +176,6 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.name}</li>
             <li>${place.opening_hours.weekday_text[0]}</li>
             <li>${place.opening_hours.weekday_text[1]}</li>
             <li>${place.opening_hours.weekday_text[2]}</li>
@@ -201,7 +200,6 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.name}</li>
             <li>${place.opening_hours.weekday_text[0]}</li>
             <li>${place.opening_hours.weekday_text[1]}</li>
             <li>${place.opening_hours.weekday_text[2]}</li>
@@ -226,7 +224,6 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.name}</li>
             <li>${place.opening_hours.weekday_text[0]}</li>
             <li>${place.opening_hours.weekday_text[1]}</li>
             <li>${place.opening_hours.weekday_text[2]}</li>
@@ -251,7 +248,6 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.name}</li>
             <li>${place.opening_hours.weekday_text[0]}</li>
             <li>${place.opening_hours.weekday_text[1]}</li>
             <li>${place.opening_hours.weekday_text[2]}</li>
@@ -276,7 +272,6 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.name}</li>
             <li>${place.opening_hours.weekday_text[0]}</li>
             <li>${place.opening_hours.weekday_text[1]}</li>
             <li>${place.opening_hours.weekday_text[2]}</li>

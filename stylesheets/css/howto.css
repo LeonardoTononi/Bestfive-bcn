@@ -34,7 +34,8 @@ a {
 }
 
 header {
-  padding: 5px 20px;
+  padding: 5px 20px 15px 20px;
+  border-bottom: 1px solid #80808038;
 }
 
 header h5 {
@@ -233,6 +234,12 @@ input:focus {
       display: none; */
 }
 
+#questions .question .metroL1 {
+  background: #c90000;
+  color: #fff;
+  padding: 4px;
+}
+
 #questions .question .metroL2 {
   background: #ac5eac;
   color: #fff;
@@ -247,6 +254,24 @@ input:focus {
 
 #questions .question .metroL5 {
   background: #1b1bb6;
+  color: #fff;
+  padding: 4px;
+}
+
+#questions .question .train {
+  background: #df9100;
+  color: #fff;
+  padding: 4px;
+}
+
+#questions .question .taxi {
+  background: #cdcd2c;
+  color: #fff;
+  padding: 4px;
+}
+
+#questions .question .aereobus {
+  background: #59b5d3;
   color: #fff;
   padding: 4px;
 }
