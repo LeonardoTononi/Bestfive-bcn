@@ -3,6 +3,7 @@ const nav = document.querySelector('.navbar');
 const btnLanguage_a = document.querySelector('.btn-lang');
 const languagesList_div = document.querySelector('.languages');
 const popUp = document.getElementById('popUp');
+const loaderID = document.getElementById('loader');
 
 // ============ GENERAL UTILITY ====================
 // Detects if is IOS
@@ -21,6 +22,8 @@ if (!isInStandaloneMode()) {
       loader.className += " hidden";
     }, 1000);
   });
+} else {
+  loaderID.classList.remove('loader');
 }
 
 // ============== BTN LANGUAGES =====================
