@@ -151,6 +151,7 @@ header .logo-img {
 .place .google-info .hours-btn {
   position: relative;
   display: inline-block;
+  z-index: -1;
 }
 
 .place .google-info .hours-btn .weekly-hours {
