@@ -3,7 +3,7 @@ const nav = document.querySelector('.navbar');
 const btnLanguage_a = document.querySelector('.btn-lang');
 const languagesList_div = document.querySelector('.languages');
 const popUp = document.getElementById('popUp');
-const loaderID = document.getElementById('loader');
+const loader = document.querySelector('.loader');
 
 // ============ GENERAL UTILITY ====================
 // Detects if is IOS
@@ -18,12 +18,11 @@ const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.n
 if (!isInStandaloneMode()) {
   window.addEventListener('load', function () {
     setInterval(() => {
-      const loader = document.querySelector('.loader');
       loader.className += " hidden";
     }, 1000);
   });
 } else {
-  loaderID.classList.remove('loader');
+  loader.remove();
 }
 
 // ============== BTN LANGUAGES =====================
