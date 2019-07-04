@@ -249,6 +249,7 @@ header .languages .language a {
 .booking {
   width: 60%;
   margin: 0 auto;
+  display: none;
 }
 
 .booking h5 {
@@ -273,7 +274,7 @@ header .languages .language a {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 17px 35px 30px 35px;
+  padding: 30px 35px;
   background: transparent;
 }
 
@@ -340,7 +341,7 @@ h2 {
 .add-home p {
   padding: 10px;
   letter-spacing: 1.2px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.2rem;
   margin: 0;
