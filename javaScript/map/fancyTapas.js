@@ -52,7 +52,6 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>FancyTapas</p>
                      <h5>La platilleria</h5>
-                     <img src="/img/place/laPlatilleria.jpg" alt="...">
                      <h2>Now: 
                         <span class="open">Open</span> (12.00 - 23.00)
                      </h2>

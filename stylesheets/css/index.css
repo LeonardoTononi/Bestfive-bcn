@@ -137,10 +137,6 @@ header h1 {
   text-align: start;
   letter-spacing: 1.5px;
   color: #833ab4;
-  /* font-family: 'Pacifico', cursive;
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.03, #833ab4), color-stop(0.47, #833ab4), color-stop(0.58, #fcb045));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
 
 header h1 span {
