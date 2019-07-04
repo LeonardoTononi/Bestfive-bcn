@@ -78,6 +78,7 @@ header .logo-img {
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   width: 100%;
+  z-index: 2;
   -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
@@ -151,7 +152,6 @@ header .logo-img {
 .place .google-info .hours-btn {
   position: relative;
   display: inline-block;
-  z-index: -1;
 }
 
 .place .google-info .hours-btn .weekly-hours {
@@ -166,6 +166,7 @@ header .logo-img {
   position: absolute;
   left: -100px;
   z-index: 1;
+  border: 4px solid #833ab4;
   -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
 }
@@ -180,10 +181,7 @@ header .logo-img {
   padding: 5px 0;
 }
 
-.place .google-info .hours-btn:hover .weekly-hours {
-  visibility: visible;
-}
-
+.place .google-info .hours-btn:hover .weekly-hours,
 .place .google-info .hours-btn:active .weekly-hours {
   visibility: visible;
 }
