@@ -1,15 +1,29 @@
-//LOAD LOGO INDEX PAGE
-/* window.addEventListener('load', function () {
-  setInterval(() => {
-    const loader = document.querySelector('.loader');
-    loader.className += " hidden";
-  }, 1000);
-}); */
-
-// BTN LANGUAGES
+// ============= DOM SELECTORS =================
+const nav = document.querySelector('.navbar');
 const btnLanguage_a = document.querySelector('.btn-lang');
 const languagesList_div = document.querySelector('.languages');
+const popUp = document.getElementById('popUp');
 
+// ============ GENERAL UTILITY ====================
+// Detects if is IOS
+const isIos = () => {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /iphone|ipad|ipod/.test(userAgent);
+};
+// Detects if device is in standalone mode
+const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+// ============= LOAD LOGO INDEX PAGE =================
+if (!isInStandaloneMode()) {
+  window.addEventListener('load', function () {
+    setInterval(() => {
+      const loader = document.querySelector('.loader');
+      loader.className += " hidden";
+    }, 1000);
+  });
+}
+
+// ============== BTN LANGUAGES =====================
 btnLanguage_a.addEventListener('click', function () {
   if (languagesList_div.style.display == "none") {
     languagesList_div.style.display = "inline";
@@ -18,20 +32,7 @@ btnLanguage_a.addEventListener('click', function () {
   }
 });
 
-// Popup add home screen for IOS 
-
-// Detects if device is on iOS 
-const popUp = document.getElementById('popUp');
-
-const isIos = () => {
-  const userAgent = window.navigator.userAgent.toLowerCase();
-  return /iphone|ipad|ipod/.test(userAgent);
-}
-// Detects if device is in standalone mode
-const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
-
-// Checks if should display install popup notification:
-const nav = document.querySelector('.navbar');
+// ============== PUPUP NOTIFICATION ==================
 if (isIos() && !isInStandaloneMode()) {
   popUp.style.display = "inline";
   setInterval(function () {

@@ -313,7 +313,7 @@ h2 {
 
 .add-home {
   display: none;
-  background: #ffba59;
+  background: #833ab4;
   color: #fff;
   margin: 10px;
   border-radius: 4px;
@@ -338,7 +338,7 @@ h2 {
 }
 
 .add-home:after {
-  background: #ffba59;
+  background: #833ab4;
   -webkit-box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
           box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
   content: "";
