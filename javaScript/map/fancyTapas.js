@@ -146,20 +146,33 @@ const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
 const goBtn_span = document.querySelectorAll('.goBtn');
 
-const laPlatilleriaID = 'ChIJS3TrRV2ipBIRh7qXj5lHy3s';
-const caneteID = 'ChIJGcsrQViipBIRY_vN9Piydxw';
-const resolisID = 'ChIJM4r5ZF-ipBIRqCl27q6hy2w';
-const calPepID = 'ChIJbd9pOf6ipBIRt8JasLJbTHI';
-const canCisaBarBrutalID = 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ';
+
+const laPlatilleriaID = {
+  placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s',
+  fields: ['opening_hours', 'name']
+};
+const caneteID = {
+  placeId: 'ChIJGcsrQViipBIRY_vN9Piydxw',
+  fields: ['opening_hours', 'name']
+};
+const resolisID = {
+  placeId: 'ChIJM4r5ZF-ipBIRqCl27q6hy2w',
+  fields: ['opening_hours', 'name']
+};
+const calPepID = {
+  placeId: 'ChIJbd9pOf6ipBIRt8JasLJbTHI',
+  fields: ['opening_hours', 'name']
+};
+const canCisaBarBrutalID = {
+  placeId: 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ',
+  fields: ['opening_hours', 'name']
+};
 
 const fancyTapasArray = [laPlatilleriaID, caneteID, resolisID, calPepID, canCisaBarBrutalID];
 
-function logPlaceDetails(fancyTapasArray) {
+function logPlaceDetails() {
   var service = new google.maps.places.PlacesService(document.getElementById('map'));
-  service.getDetails({
-    placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s',
-    fields: ['opening_hours', 'name']
-  }, function (place, status) {
+  service.getDetails(laPlatilleriaID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
@@ -184,10 +197,7 @@ function logPlaceDetails(fancyTapasArray) {
       }
     }
   });
-  service.getDetails({
-    placeId: 'ChIJGcsrQViipBIRY_vN9Piydxw',
-    fields: ['opening_hours', 'name']
-  }, function (place, status) {
+  service.getDetails(caneteID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
@@ -212,10 +222,7 @@ function logPlaceDetails(fancyTapasArray) {
       }
     }
   });
-  service.getDetails({
-    placeId: 'ChIJM4r5ZF-ipBIRqCl27q6hy2w',
-    fields: ['opening_hours', 'name']
-  }, function (place, status) {
+  service.getDetails(resolisID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
@@ -240,10 +247,7 @@ function logPlaceDetails(fancyTapasArray) {
       }
     }
   });
-  service.getDetails({
-    placeId: 'ChIJbd9pOf6ipBIRt8JasLJbTHI',
-    fields: ['opening_hours', 'name']
-  }, function (place, status) {
+  service.getDetails(calPepID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
@@ -268,10 +272,7 @@ function logPlaceDetails(fancyTapasArray) {
       }
     }
   });
-  service.getDetails({
-    placeId: 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ',
-    fields: ['opening_hours', 'name']
-  }, function (place, status) {
+  service.getDetails(canCisaBarBrutalID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
@@ -297,7 +298,3 @@ function logPlaceDetails(fancyTapasArray) {
     }
   });
 }
-
-/* fancyTapasArray.map(placeID => {
-  logPlaceDetails(placeID);
-}); */

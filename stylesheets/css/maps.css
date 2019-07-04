@@ -110,9 +110,7 @@ h1 a {
 }
 
 .gm-style-iw-a .gm-style-iw-t .gm-style-iw-c .gm-style-iw-d {
-  overflow: visible;
   border: 4px solid #833ab4;
-  border-radius: none;
 }
 
 .gm-style .gm-style-iw-t::after {
