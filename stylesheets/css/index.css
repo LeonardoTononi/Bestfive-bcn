@@ -87,7 +87,6 @@ img {
   -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
-  padding: 5px 0;
   z-index: -1;
 }
 
@@ -114,7 +113,7 @@ img {
 
 .navbar ul li h2 {
   margin: 0;
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   padding: 0;
 }
 
@@ -278,7 +277,7 @@ header .languages .language a {
 }
 
 h2 {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   font-weight: 100;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -291,8 +290,8 @@ h2 {
 
 .icon-app {
   border-radius: 13px;
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   padding: 10px;
@@ -308,7 +307,7 @@ h2 {
 }
 
 .icon-app img {
-  width: 37px;
+  width: 35px;
 }
 
 .add-home {

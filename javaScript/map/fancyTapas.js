@@ -1,7 +1,7 @@
 // ==========================
 //         INIT MAP 
 // ==========================
-function fancyTapasInitMap() {
+function initMap() {
   let options = {
     zoom: 13,
     center: {

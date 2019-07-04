@@ -53,14 +53,16 @@ function startMap() {
   // Loop through markers 
   for (let i = 0; i < markers.length; i++) {
     addMarker(markers[i]);
-  };
+  }
 
   // Add marker function 
   function addMarker(props) {
     let marker = new google.maps.Marker({
       position: props.coords,
       map: map,
-      icon: props.iconImage
+      icon: props.iconImage,
+      draggable: true,
+      animation: google.maps.Animation.DROP
     });
     // Check content 
     if (props.content) {
@@ -69,7 +71,15 @@ function startMap() {
       });
       marker.addListener('click', function () {
         infoWindow.open(map, marker);
-      });
+      }, toggleBounce);
+    }
+  }
+
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
     }
   }
 }
