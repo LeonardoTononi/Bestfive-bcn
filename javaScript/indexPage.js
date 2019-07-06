@@ -35,7 +35,9 @@ btnLanguage_a.addEventListener('click', function () {
 });
 
 // ============== PUPUP NOTIFICATION ==================
-if (isIos() && !isInStandaloneMode()) {
+const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+if (isIos() && !isInStandaloneMode() && isSafari) {
   popUp.style.display = "inline";
   setInterval(function () {
     nav.style.zIndex = "1";
