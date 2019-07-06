@@ -50,7 +50,7 @@ header h5 img {
 }
 
 header .logo-img {
-  width: 50px;
+  width: 60px;
   position: absolute;
   top: 5px;
   right: 20px;
@@ -61,10 +61,9 @@ header .logo-img {
   position: fixed;
   bottom: 0;
   background: #fff;
-  -webkit-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
   width: 100%;
   z-index: 2;
+  padding-top: 5px;
   -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -74,7 +73,7 @@ header .logo-img {
 }
 
 .bottom-bar #back .back-btn {
-  width: 40px;
+  width: 30px;
   padding-left: 25px;
 }
 
@@ -83,7 +82,7 @@ header .logo-img {
 }
 
 .bottom-bar #map-action .map-btn {
-  width: 40px;
+  width: 30px;
   padding-right: 25px;
 }
 
@@ -93,7 +92,7 @@ header .logo-img {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
-  color: #000000ba;
+  color: #484848;
   position: relative;
 }
 
@@ -109,15 +108,15 @@ header .logo-img {
 .place .header-card {
   position: absolute;
   z-index: 1;
-  background: whitesmoke;
+  background: #f3f3f3;
   padding: 15px 10px;
   border-radius: 5px;
   top: 13rem;
   left: .75rem;
   width: 280px;
   margin: 0 auto;
-  -webkit-box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.571);
-          box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.571);
+  -webkit-box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.71);
+          box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.71);
   display: -ms-grid;
   display: grid;
   grid-gap: 3px;
@@ -141,7 +140,6 @@ header .logo-img {
   letter-spacing: 1.4px;
   font-size: 1.7rem;
   font-weight: 200;
-  color: #000;
 }
 
 .place .header-card .place_google_info {
@@ -185,7 +183,7 @@ header .logo-img {
   text-align: center;
   border-radius: 6px;
   position: absolute;
-  left: -120px;
+  left: -165px;
   bottom: 100px;
   z-index: 2;
   border: 4px solid #833ab4;
@@ -201,6 +199,7 @@ header .logo-img {
 
 .place .header-card .place_google_info .google-info .hours-btn .weekly-hours ul li {
   padding: 3px 0;
+  border-radius: 4px;
 }
 
 .place .header-card .place_google_info .google-info .hours-btn:hover .weekly-hours,
@@ -222,14 +221,15 @@ header .logo-img {
   text-decoration: none;
   background: transparent;
   font-weight: 100;
-  color: #000;
-  -webkit-box-shadow: inset 0px 0px 10px 0px #76767643;
-  box-shadow: inset 0px 0px 10px 0px #76767643;
+  /*   -webkit-box-shadow: inset 0px 0px 10px 0px #76767643;
+        box-shadow: inset 0px 0px 10px 0px #76767643; */
   cursor: pointer;
-  font-size: 0.7rem;
-  font-weight: 400;
-  padding: 11px 8px;
+  font-size: 0.9rem;
   border-radius: 50%;
+}
+
+.place .header-card .place_go-btn .go_btn span {
+  font-weight: 700;
 }
 
 .place .header-card .place_avg_price {
@@ -238,16 +238,30 @@ header .logo-img {
   grid-area: avg;
 }
 
+.place .header-card .place_avg_price img {
+  width: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.place .header-card .place_avg_price span {
+  font-weight: 100;
+  /* 
+        border-bottom: 1px solid #484848; */
+  cursor: pointer;
+  font-size: .9rem;
+}
+
 .place .place_tips {
   position: relative;
-  padding: 90px 10px 10px 10px;
+  padding: 90px 10px 25px 10px;
   font-size: .9rem;
 }
 
 .place .place_tips img {
   position: absolute;
-  left: 18px;
-  width: 25px;
+  left: 15px;
+  width: 23px;
 }
 
 .place .place_tips p {
@@ -258,12 +272,10 @@ header .logo-img {
 
 .place .close {
   color: #da2222;
-  font-weight: 400;
 }
 
 .place .open {
   color: #23ae23;
-  font-weight: 400;
 }
 
 .place .hide {

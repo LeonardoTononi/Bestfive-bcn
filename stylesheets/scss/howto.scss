@@ -55,13 +55,14 @@ header {
   background: $mainWhite;
   transition: 0.3s ease-in;
   width: 100%;
+  padding-top: 5px;
   box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
 
   #back {
     float: left;
 
     .back-btn {
-      width: 40px;
+      width: 30px;
       padding-left: 25px;
     }
   }
