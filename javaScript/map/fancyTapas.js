@@ -146,6 +146,7 @@ const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
 const goBtn_span = document.querySelectorAll('.goBtn');
 
+console.log(weeklyHours);
 
 const laPlatilleriaID = {
   placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s',
@@ -176,13 +177,13 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.opening_hours.weekday_text[0]}</li>
-            <li>${place.opening_hours.weekday_text[1]}</li>
-            <li>${place.opening_hours.weekday_text[2]}</li>
-            <li>${place.opening_hours.weekday_text[3]}</li>
-            <li>${place.opening_hours.weekday_text[4]}</li>
-            <li>${place.opening_hours.weekday_text[5]}</li>
-            <li>${place.opening_hours.weekday_text[6]}</li>
+            <li class="today">${place.opening_hours.weekday_text[0]}</li>
+            <li class="today">${place.opening_hours.weekday_text[1]}</li>
+            <li class="today">${place.opening_hours.weekday_text[2]}</li>
+            <li class="today">${place.opening_hours.weekday_text[3]}</li>
+            <li class="today">${place.opening_hours.weekday_text[4]}</li>
+            <li class="today">${place.opening_hours.weekday_text[5]}</li>
+            <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[0].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
@@ -200,13 +201,13 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.opening_hours.weekday_text[0]}</li>
-            <li>${place.opening_hours.weekday_text[1]}</li>
-            <li>${place.opening_hours.weekday_text[2]}</li>
-            <li>${place.opening_hours.weekday_text[3]}</li>
-            <li>${place.opening_hours.weekday_text[4]}</li>
-            <li>${place.opening_hours.weekday_text[5]}</li>
-            <li>${place.opening_hours.weekday_text[6]}</li>
+            <li class="today">${place.opening_hours.weekday_text[0]}</li>
+            <li class="today">${place.opening_hours.weekday_text[1]}</li>
+            <li class="today">${place.opening_hours.weekday_text[2]}</li>
+            <li class="today">${place.opening_hours.weekday_text[3]}</li>
+            <li class="today">${place.opening_hours.weekday_text[4]}</li>
+            <li class="today">${place.opening_hours.weekday_text[5]}</li>
+            <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[1].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
@@ -224,13 +225,13 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.opening_hours.weekday_text[0]}</li>
-            <li>${place.opening_hours.weekday_text[1]}</li>
-            <li>${place.opening_hours.weekday_text[2]}</li>
-            <li>${place.opening_hours.weekday_text[3]}</li>
-            <li>${place.opening_hours.weekday_text[4]}</li>
-            <li>${place.opening_hours.weekday_text[5]}</li>
-            <li>${place.opening_hours.weekday_text[6]}</li>
+            <li class="today">${place.opening_hours.weekday_text[0]}</li>
+            <li class="today">${place.opening_hours.weekday_text[1]}</li>
+            <li class="today">${place.opening_hours.weekday_text[2]}</li>
+            <li class="today">${place.opening_hours.weekday_text[3]}</li>
+            <li class="today">${place.opening_hours.weekday_text[4]}</li>
+            <li class="today">${place.opening_hours.weekday_text[5]}</li>
+            <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[2].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
@@ -248,13 +249,13 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.opening_hours.weekday_text[0]}</li>
-            <li>${place.opening_hours.weekday_text[1]}</li>
-            <li>${place.opening_hours.weekday_text[2]}</li>
-            <li>${place.opening_hours.weekday_text[3]}</li>
-            <li>${place.opening_hours.weekday_text[4]}</li>
-            <li>${place.opening_hours.weekday_text[5]}</li>
-            <li>${place.opening_hours.weekday_text[6]}</li>
+            <li class="today">${place.opening_hours.weekday_text[0]}</li>
+            <li class="today">${place.opening_hours.weekday_text[1]}</li>
+            <li class="today">${place.opening_hours.weekday_text[2]}</li>
+            <li class="today">${place.opening_hours.weekday_text[3]}</li>
+            <li class="today">${place.opening_hours.weekday_text[4]}</li>
+            <li class="today">${place.opening_hours.weekday_text[5]}</li>
+            <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[3].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
@@ -272,13 +273,13 @@ function logPlaceDetails() {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li>${place.opening_hours.weekday_text[0]}</li>
-            <li>${place.opening_hours.weekday_text[1]}</li>
-            <li>${place.opening_hours.weekday_text[2]}</li>
-            <li>${place.opening_hours.weekday_text[3]}</li>
-            <li>${place.opening_hours.weekday_text[4]}</li>
-            <li>${place.opening_hours.weekday_text[5]}</li>
-            <li>${place.opening_hours.weekday_text[6]}</li>
+            <li class="today">${place.opening_hours.weekday_text[0]}</li>
+            <li class="today">${place.opening_hours.weekday_text[1]}</li>
+            <li class="today">${place.opening_hours.weekday_text[2]}</li>
+            <li class="today">${place.opening_hours.weekday_text[3]}</li>
+            <li class="today">${place.opening_hours.weekday_text[4]}</li>
+            <li class="today">${place.opening_hours.weekday_text[5]}</li>
+            <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[4].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
