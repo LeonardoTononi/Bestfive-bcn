@@ -336,8 +336,8 @@ h2 {
   color: #fff;
   margin: 10px;
   border-radius: 4px;
-  -webkit-box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
-          box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+  -webkit-box-shadow: 0px 0px 15px 0 rgba(123, 123, 123, 0.6);
+          box-shadow: 0px 0px 15px 0 rgba(123, 123, 123, 0.6);
   position: absolute;
   bottom: 20px;
   left: 5px;
