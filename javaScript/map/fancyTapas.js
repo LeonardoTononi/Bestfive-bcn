@@ -141,6 +141,48 @@ function initMap() {
 // GET INFORMATION FROM GOOGLE MAPS FOR OPENING HOURS
 // ===============================================
 
+
+const today = new Date().getDate();
+
+const monday = document.querySelector('.monday');
+const tuesday = document.querySelector('.tuesday');
+const wednesday = document.querySelector('.wednesday');
+const thursday = document.querySelector('.thursday');
+const friday = document.querySelector('.friday');
+const saturday = document.querySelector('.saturday');
+const sunday = document.querySelector('.sunday');
+
+function changeBgToday() {
+  if (today === 1) {
+    monday.style.background = "#833ab4";
+    monday.style.color = "#fff";
+  }
+  if (today === 2) {
+    tuesday.style.background = "#833ab4";
+    tuesday.style.color = "#fff";
+  }
+  if (today === 3) {
+    wednesday.style.background = "#833ab4";
+    wednesday.style.color = "#fff";
+  }
+  if (today === 4) {
+    thursday.style.background = "#833ab4";
+    thursday.style.color = "#fff";
+  }
+  if (today === 5) {
+    friday.style.background = "#833ab4";
+    friday.style.color = "#fff";
+  }
+  if (today === 6) {
+    saturday.style.background = "#833ab4";
+    saturday.style.color = "#fff";
+  }
+  if (today === 0) {
+    sunday.style.background = "#833ab4";
+    sunday.style.color = "#fff";
+  }
+}
+
 const place_div = document.querySelectorAll('.place');
 const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
@@ -184,6 +226,7 @@ function logPlaceDetails() {
             <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[0].innerHTML = weeklyData;
+
       if (place.opening_hours.open_now === true) {
         now[0].innerText = 'Open';
         now[0].classList.add('open');
@@ -292,46 +335,3 @@ function logPlaceDetails() {
     }
   });
 }
-
-const today = new Date().getDate();
-
-const monday = document.querySelector('.monday');
-const tuesday = document.querySelector('.tuesday');
-const wednesday = document.querySelector('.wednesday');
-const thursday = document.querySelector('.thursday');
-const friday = document.querySelector('.friday');
-const saturday = document.querySelector('.saturday');
-const sunday = document.querySelector('.sunday');
-
-function changeBgToday() {
-  if (today === 1) {
-    monday.style.background = "#833ab4";
-    monday.style.color = "#fff";
-  }
-  if (today === 2) {
-    tuesday.style.background = "#833ab4";
-    tuesday.style.color = "#fff";
-  }
-  if (today === 3) {
-    wednesday.style.background = "#833ab4";
-    wednesday.style.color = "#fff";
-  }
-  if (today === 4) {
-    thursday.style.background = "#833ab4";
-    thursday.style.color = "#fff";
-  }
-  if (today === 5) {
-    friday.style.background = "#833ab4";
-    friday.style.color = "#fff";
-  }
-  if (today === 6) {
-    saturday.style.background = "#833ab4";
-    saturday.style.color = "#fff";
-  }
-  if (today === 0) {
-    sunday.style.background = "#833ab4";
-    sunday.style.color = "#fff";
-  }
-}
-
-changeBgToday();
