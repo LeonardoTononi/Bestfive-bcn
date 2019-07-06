@@ -162,6 +162,15 @@ header .logo-img {
   width: 15px;
   position: relative;
   top: 2px;
+  -webkit-transform: initial;
+          transform: initial;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.place .header-card .place_google_info .google-info .rotateImg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .place .header-card .place_google_info .google-info .hours-btn {
@@ -200,11 +209,6 @@ header .logo-img {
 .place .header-card .place_google_info .google-info .hours-btn .weekly-hours ul li {
   padding: 3px 0;
   border-radius: 4px;
-}
-
-.place .header-card .place_google_info .google-info .hours-btn:hover .weekly-hours,
-.place .header-card .place_google_info .google-info .hours-btn:active .weekly-hours {
-  visibility: visible;
 }
 
 .place .header-card .place_go-btn {
@@ -276,10 +280,6 @@ header .logo-img {
 
 .place .open {
   color: #23ae23;
-}
-
-.place .hide {
-  display: none;
 }
 
 .place:last-of-type {

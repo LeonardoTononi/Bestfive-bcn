@@ -1,9 +1,14 @@
 // HIDE AND SHOW PROS AND CONS
 
-/* const expandBtn_img = document.querySelectorAll('.more-img');
+const expandBtn_img = document.querySelectorAll('.arrowBtn');
 expandBtn_img.forEach(img => img.addEventListener('click', effectImg));
 
 function effectImg(e) {
   this.classList.toggle('rotateImg');
-  this.parentElement.nextElementSibling.classList.toggle('hide');
-} */
+  this.nextElementSibling.style.visibility = "visible";
+  if (!this.classList.contains("rotateImg")) {
+    this.nextElementSibling.style.visibility = "hidden";
+  } else {
+    this.nextElementSibling.style.visibility = "visible";
+  }
+}
