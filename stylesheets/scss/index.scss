@@ -290,19 +290,19 @@ h2 {
 
 .add-home {
   display: none;
-  background: #833ab4;
+  background: #686868;
   color: #fff;
   margin: 10px;
-  border-radius: 4px;
-  box-shadow: 0px 0px 15px 0 rgba(123, 123, 123, 0.6);
+  box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.714);
+  border-radius: 3px;
   position: absolute;
   bottom: 20px;
   left: 5px;
+  letter-spacing: 1.1px;
 
   p {
-    padding: 10px;
-    letter-spacing: 1.2px;
-    font-size: 0.8rem;
+    padding: 15px;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.2rem;
     margin: 0;
@@ -313,7 +313,7 @@ h2 {
   }
 
   &:after {
-    background: #833ab4;
+    background: #686868;
     box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
     content: "";
     height: 15px;
