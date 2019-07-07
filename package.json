@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Easaaa/Best-Five-Bcn#readme",
   "dependencies": {
+    "es5-ext": "^0.10.50",
     "gulp": "^4.0.2",
     "jquery-parallax.js": "^1.5.0",
     "swiper": "^4.5.0"
