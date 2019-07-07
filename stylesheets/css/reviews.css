@@ -120,7 +120,8 @@ header .logo-img {
           box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.71);
   display: -ms-grid;
   display: grid;
-  grid-gap: 3px;
+  -ms-grid-columns: 80px 1fr 1fr 80px;
+      grid-template-columns: 80px 1fr 1fr 80px;
       grid-template-areas: "title title title title" "avg hours hours goBtn";
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -136,11 +137,11 @@ header .logo-img {
 }
 
 .place .header-card .place_title h1 {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   text-align: center;
   letter-spacing: 1.4px;
   font-size: 1.7rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .place .header-card .place_google_info {
@@ -196,15 +197,17 @@ header .logo-img {
   left: -165px;
   bottom: 100px;
   z-index: 2;
-  border: 4px solid #833ab4;
-  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .place .header-card .place_google_info .google-info .hours-btn .weekly-hours ul {
   list-style-type: none;
   margin: 0;
   padding: 5px;
+  text-align: start;
+  font-weight: 400;
+  color: #484848;
 }
 
 .place .header-card .place_google_info .google-info .hours-btn .weekly-hours ul li {
@@ -225,7 +228,7 @@ header .logo-img {
   color: #000;
   text-decoration: none;
   background: transparent;
-  font-weight: 100;
+  font-weight: 400;
   /*   -webkit-box-shadow: inset 0px 0px 10px 0px #76767643;
         box-shadow: inset 0px 0px 10px 0px #76767643; */
   cursor: pointer;
@@ -234,13 +237,23 @@ header .logo-img {
 }
 
 .place .header-card .place_go-btn .go_btn span {
-  font-weight: 700;
+  padding: 0 3px;
+}
+
+.place .header-card .place_go-btn .go_btn img {
+  width: 1rem;
+  position: relative;
+  top: 3px;
 }
 
 .place .header-card .place_avg_price {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: avg;
+}
+
+.place .header-card .place_avg_price i {
+  font-size: 0.9rem;
 }
 
 .place .header-card .place_avg_price img {
