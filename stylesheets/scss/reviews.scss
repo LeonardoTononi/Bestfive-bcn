@@ -52,8 +52,9 @@ header {
   background: $mainWhite;
   width: 100%;
   z-index: 2;
-  padding-top: 5px;
+  padding-top: 8px;
   box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 40px;
 
   #back {
     float: left;
@@ -312,6 +313,6 @@ header {
   left: 10px !important;
 }
 
-.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #fff !important;
-}
+/* .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: transparent !important;
+} */
