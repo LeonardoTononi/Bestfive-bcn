@@ -146,6 +146,7 @@ search_input.addEventListener('keyup', displayMatches);
 const filter = document.querySelectorAll('.filter');
 
 filter.forEach(elt => elt.addEventListener('click', function () {
+
   this.classList.toggle('active-filter');
   targetFilter = this;
   if (this.classList.contains('active-filter')) {
