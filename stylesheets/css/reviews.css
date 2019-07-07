@@ -112,7 +112,7 @@ header .logo-img {
   padding: 15px 10px;
   border-radius: 5px;
   top: 13rem;
-  left: .75rem;
+  left: 0.75rem;
   width: 280px;
   margin: 0 auto;
   -webkit-box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.71);
@@ -155,7 +155,7 @@ header .logo-img {
 }
 
 .place .header-card .place_google_info .google-info i {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .place .header-card .place_google_info .google-info img {
@@ -253,13 +253,13 @@ header .logo-img {
   /* 
         border-bottom: 1px solid #484848; */
   cursor: pointer;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .place .place_tips {
   position: relative;
   padding: 90px 10px 25px 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .place .place_tips img {
@@ -284,5 +284,59 @@ header .logo-img {
 
 .place:last-of-type {
   margin-bottom: 80px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 55% !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/img/icon/arrow-right-white.png") !important;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 55% !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/img/icon/arrow-left-white.png") !important;
+  left: 10px !important;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #fff !important;
 }
 /*# sourceMappingURL=reviews.css.map */
