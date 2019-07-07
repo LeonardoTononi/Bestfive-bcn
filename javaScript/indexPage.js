@@ -35,17 +35,14 @@ btnLanguage_a.addEventListener('click', function () {
 });
 
 // ============== PUPUP NOTIFICATION ==================
-const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
-if (isSafari) {
-  if (isIos() && !isInStandaloneMode()) {
-    popUp.style.display = "inline";
-    setInterval(function () {
-      nav.style.zIndex = "1";
-      popUp.style.display = "none";
-    }, 5000);
-  } else {
-    popUp.style.display = "none";
+if (isIos() && !isInStandaloneMode()) {
+  popUp.style.display = "inline";
+  setInterval(function () {
     nav.style.zIndex = "1";
-  }
+    popUp.style.display = "none";
+  }, 5000);
+} else {
+  popUp.style.display = "none";
+  nav.style.zIndex = "1";
 }
