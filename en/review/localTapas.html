@@ -6,13 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="stylesheet" href="../../stylesheets/css/reviews.css">
+  <link rel="stylesheet" href="/stylesheets/css/reviews.css">
+  <link rel="stylesheet" href="/dist/css/swiper.min.css">
 
   <link rel="manifest" href="/manifest.json">
   <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”> <meta
     name=“apple-mobile-web-app-status-bar” content=“white”>
   <meta name="theme-color" content="white">
-  <link rel="icon" href="/img/violetHand.png" type="image/png">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link rel="icon" href="/img/homePage/violetHand.png" type="image/png">
   <title>LocalTapas</title>
 </head>
 
@@ -22,237 +27,254 @@
 
   <header>
     <h5><img src="/img/icon/localTapas.png">LocalTapas</h5>
-    <a href="/index.html">
-      <img class="logo-img" src="/img/violetHand.png" alt="">
-    </a>
   </header>
 
   <div class="bottom-bar">
     <div id="map-action">
-      <a href="/en/maps/localTapasMap.html">
-        <img class="map-btn" src="https://img.icons8.com/color/96/000000/place-marker.png">
+      <a href="/en/maps/iceCreamMap.html">
+        <img class="map-btn" src="/img/icon/position.png">
       </a>
     </div>
     <div id="back">
       <a href="/index.html">
-        <img class="back-btn" src="/img/icon/violetLeftHand.png">
+        <img class="back-btn" src="/img/icon/back-hand.png">
       </a>
     </div>
   </div>
 
 
   <div class="place">
-    <div class="header-card">
-      <h1>La cova fumada
-        <a href="#">
-          <span class="open goBtn">GO!</span>
-        </a>
-      </h1>
-      <h2 class="google-info">Now:
-        <span class="now"></span>
-        <span class="hours-btn">(Weekly Hours)
-          <span class="weekly-hours"></span>
-        </span>
-      </h2>
-      <img src="/img/place/covaFumada.jpg" alt="...">
-      <div class="text">
-        <ul class="avg">
-          <li><span>€ 12 </span> Average price</li>
-          <li class="hl-phrase">This is the most local place you can find in Barceloneta. Not the cleanest, nothing
-            fancy and It is very very
-            noisy! There are 8 tables and a bar where you can eat, its always full of people. They serve the most
-            authentic food. Try seafood here and the artichoke! Wow! Cheap.</li>
-        </ul>
-        <div class="more">
-          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
-        </div>
-        <div class="prosCons hide">
-          <ul class="pros">
-            <h5>Pros.</h5>
-            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
-            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
-            <li><i class="fas fa-caret-right"></i>Cheap</li>
-          </ul>
-          <ul class="cons">
-            <h5>Cons.</h5>
-            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
-          </ul>
-        </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte5.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte1.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte3.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte4.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte2.png" alt="...">
       </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>Gocce di Latte</h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
+            <span class="weekly-hours"></span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" href="#">
+          <img src="https://img.icons8.com/ios-glyphs/48/000000/navigation.png"><span class="goBtn open">GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span>€€€</span>
+      </div>
+    </div>
+    <div class="place_tips">
+      <img src="/img/icon/tips.png">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
     </div>
   </div>
 
   <div class="place">
-    <div class="header-card">
-      <h1>Can paixano
-        <a href="#">
-          <span class="open goBtn">GO!</span>
-        </a>
-      </h1>
-      <h2 class="google-info">Now:
-        <span class="now"></span>
-        <span class="hours-btn">(Weekly Hours)
-          <span class="weekly-hours"></span>
-        </span>
-      </h2>
-      <img src="/img/place/canPaixano.jpg" alt="...">
-      <div class="text">
-        <ul class="avg">
-          <li><span>€ 12 </span> Average price</li>
-          <li class="hl-phrase">Traditional cava and “embutidos” catalan bar. Very small place, full of people standing,
-            you have to yell to
-            the barman what you want. They only serve cava (catalan champgne) and embutidos (sausages, chorizo, cheese).
-            Eveything is local and definitely worth the try. They close at 22:00. Cheap.</li>
-        </ul>
-        <div class="more">
-          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
-        </div>
-        <div class="prosCons hide">
-          <ul class="pros">
-            <h5>Pros.</h5>
-            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
-            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
-            <li><i class="fas fa-caret-right"></i>Cheap</li>
-          </ul>
-          <ul class="cons">
-            <h5>Cons.</h5>
-            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
-          </ul>
-        </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo3.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo6.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo1.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo4.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo5.png" alt="...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo2.png" alt="...">
       </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>Paral•lelo</h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
+            <span class="weekly-hours"></span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" href="#">
+          <span class="goBtn open">GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span>12€<img class="arrowBtn" src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"></span>
+      </div>
+    </div>
+    <div class="place_tips">
+      <img src="/img/icon/tips.png">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
     </div>
   </div>
 
   <div class="place">
-    <div class="header-card">
-      <h1>Bar celta pulperia
-        <a href="#">
-          <span class="open goBtn">GO!</span>
-        </a>
-      </h1>
-      <h2 class="google-info">Now:
-        <span class="now"></span>
-        <span class="hours-btn">(Weekly Hours)
-          <span class="weekly-hours"></span>
-        </span>
-      </h2>
-      <img src="/img/place/pulperiaCelta.jpg" alt="...">
-      <div class="text">
-        <ul class="avg">
-          <li><span>€ 12 </span> Average price</li>
-          <li class="hl-phrase">Go and eat octopus, our favorite place! This is a bar from Galicia (north-west spain)
-            they have the typical
-            Galician tapas. All the seafood here is fantastic! Try “navajas” and of course “pulpo a la gallega” you can
-            also drink the Galician wine that they serve you in typical Galician cups, each cup only cost 1,5€.</li>
-        </ul>
-        <div class="more">
-          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
-        </div>
-        <div class="prosCons hide">
-          <ul class="pros">
-            <h5>Pros.</h5>
-            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
-            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
-            <li><i class="fas fa-caret-right"></i>Cheap</li>
-          </ul>
-          <ul class="cons">
-            <h5>Cons.</h5>
-            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
-          </ul>
-        </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem2.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem1.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem3.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem4.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem5.png" alt=" ...">
       </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>DelaCrem</h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
+            <span class="weekly-hours"></span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" href="#">
+          <span class="goBtn open">GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span>12€<img class="arrowBtn" src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"></span>
+      </div>
+    </div>
+    <div class="place_tips resolis_padding">
+      <img src="/img/icon/tips.png">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
     </div>
   </div>
 
   <div class="place">
-    <div class="header-card">
-      <h1>Can punyetes
-        <a href="#">
-          <span class="open goBtn">GO!</span>
-        </a>
-      </h1>
-      <h2 class="google-info">Now:
-        <span class="now"></span>
-        <span class="hours-btn">(Weekly Hours)
-          <span class="weekly-hours"></span>
-        </span>
-      </h2>
-      <img src="/img/place/canPunyetes.jpg" alt="...">
-      <div class="text">
-        <ul class="avg">
-          <li><span>€ 12 </span> Average price</li>
-          <li class="hl-phrase">Amazing place that Fran didn't reviewed yet!</li>
-        </ul>
-        <div class="more">
-          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
-        </div>
-        <div class="prosCons hide">
-          <ul class="pros">
-            <h5>Pros.</h5>
-            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
-            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
-            <li><i class="fas fa-caret-right"></i>Cheap</li>
-          </ul>
-          <ul class="cons">
-            <h5>Cons.</h5>
-            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
-          </ul>
-        </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati3.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati1.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati2.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati4.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati5.png" alt=" ...">
       </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>Gelaaati!</h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
+            <span class="weekly-hours"></span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" href="#">
+          <span class="goBtn open">GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span>18€<img class="arrowBtn" src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"></span>
+      </div>
+    </div>
+    <div class="place_tips">
+      <img src="/img/icon/tips.png">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
     </div>
   </div>
 
   <div class="place">
-    <div class="header-card">
-      <h1>La bombeta
-        <a href="#">
-          <span class="open goBtn">GO!</span>
-        </a>
-      </h1>
-      <h2 class="google-info">Now:
-        <span class="now"></span>
-        <span class="hours-btn">(Weekly Hours)
-          <span class="weekly-hours"></span>
-        </span>
-      </h2>
-      <img src="/img/place/laBombeta.jpg" alt="...">
-      <div class="text">
-        <ul class="avg">
-          <li><span>€ 12 </span> Average price</li>
-          <li class="hl-phrase">The bar that has the best “bomba” in Bcn. Bomba is a potato ball filled with meat and
-            has a spicy sauce on
-            top. They also make very good pimientos del padrón (green peppers). They have no wifi, they don’t speak
-            English and its a bit messy but worth the try!</li>
-        </ul>
-        <div class="more">
-          <img class="more-img" src="https://img.icons8.com/metro/52/000000/expand-arrow.png">
-        </div>
-        <div class="prosCons hide">
-          <ul class="pros">
-            <h5>Pros.</h5>
-            <li><i class="fas fa-caret-right"></i>Cousine quality food</li>
-            <li><i class="fas fa-caret-right"></i>Small place, cozy atmosphere</li>
-            <li><i class="fas fa-caret-right"></i>Cheap</li>
-          </ul>
-          <ul class="cons">
-            <h5>Cons.</h5>
-            <li><i class="fas fa-caret-right"></i>You need to walk 10/min from city center to get there</li>
-          </ul>
-        </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/oggi5.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/oggi1.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/oggi3.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/oggi4.png" alt=" ...">
+        <img class="place_img swiper-slide" src="/img/place/iceCream/oggi2.png" alt=" ...">
       </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>Oggi Gelato</h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
+            <span class="weekly-hours"></span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" href="#">
+          <span class="goBtn open">GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span>14€<img class="arrowBtn" src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"></span>
+      </div>
+    </div>
+    <div class="place_tips">
+      <img src="/img/icon/tips.png">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
     </div>
   </div>
 
-  <div class="space"></div>
-
-  <script src="/javaScript/map/localTapas.js"></script>
-  <script type="text/javascript"
+  <script src="/javaScript/map/fancyTapas.js"></script>
+  <!-- <script type="text/javascript"
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYLiYenTQ1VH4uDzAlI-MUGv6b7cJaTc&libraries=places&callback=logPlaceDetails"
     async defer>
-  </script>
+  </script> -->
+
 
   <script src="/javaScript/app.js"></script>
   <script src="/javaScript/reviews.js"></script>
+
+
+  <script src="/dist/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
 </body>
 
 </html>
