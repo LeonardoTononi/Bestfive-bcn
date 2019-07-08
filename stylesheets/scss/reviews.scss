@@ -243,16 +243,15 @@ header {
 
     img {
       position: absolute;
-      left: 15px;
+      left: 8px;
       width: 23px;
-      bottom: 40px;
     }
 
     p {
-      text-align: center;
+      text-align: justify;
       letter-spacing: 1.15px;
       color: $mainGray;
-      padding-top: 10px;
+      padding: 10px 20px 0 20px;
     }
   }
 
