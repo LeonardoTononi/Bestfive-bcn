@@ -99,8 +99,8 @@ header .logo-img {
 .place .place_img {
   border-radius: 10px 10px 0 0;
   width: 100%;
-  height: 80%;
-  max-width: 500px;
+  height: 220px;
+  max-width: 350px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -111,7 +111,7 @@ header .logo-img {
   background: #f3f3f3;
   padding: 15px 10px;
   border-radius: 5px;
-  top: 13rem;
+  top: 12.5rem;
   left: 0.75rem;
   width: 280px;
   margin: 0 auto;
@@ -279,12 +279,14 @@ header .logo-img {
   position: absolute;
   left: 15px;
   width: 23px;
+  bottom: 40px;
 }
 
 .place .place_tips p {
   text-align: center;
   letter-spacing: 1.15px;
   color: #484848;
+  padding-top: 10px;
 }
 
 .place .close {
@@ -348,8 +350,4 @@ header .logo-img {
   background-image: url("/img/icon/arrow-left-white.png") !important;
   left: 10px !important;
 }
-
-/* .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: transparent !important;
-} */
 /*# sourceMappingURL=reviews.css.map */
