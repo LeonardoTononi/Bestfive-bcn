@@ -290,30 +290,33 @@ h2 {
 
 .add-home {
   display: none;
-  background: #686868;
-  color: #fff;
+  background: whitesmoke;
+  color: #484848;
   margin: 10px;
   box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.714);
-  border-radius: 3px;
+  border-radius: 8px;
   position: absolute;
   bottom: 20px;
   left: 5px;
   letter-spacing: 1.1px;
 
   p {
-    padding: 15px;
-    font-size: 0.9rem;
+    padding: 12px;
+    font-size: .8rem;
     font-weight: 400;
     line-height: 1.2rem;
     margin: 0;
+    position: relative;
 
     img {
+      position: relative;
+      top: 2px;
       width: 17px;
     }
   }
 
   &:after {
-    background: #686868;
+    background: whitesmoke;
     box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
     content: "";
     height: 15px;
