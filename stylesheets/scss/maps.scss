@@ -10,14 +10,14 @@ a {
   height: 98vh;
 }
 
-.maps-content {
+/* .maps-content {
   padding: 5px;
 
   img {
     width: 100%;
     text-align: center;
   }
-}
+} */
 
 h5 {
   font-size: 1.2rem;
@@ -78,21 +78,21 @@ h1 {
 
   a {
     @include clean-link;
-    @include clean-link;
-    box-shadow: inset 0px 0px 10px 0px #76767643;
+    box-shadow: 0px 0px 5px 0px #76767643;
+    border: 1px solid gray;
+    border-radius: 50%;
     cursor: pointer;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 10px 7px;
   }
 }
 
 // ============== STYLE CARD OF MARKERS ==============
 
 // Click on place Card style
-.gm-style {
+/* .gm-style {
   padding: 5px;
 }
 
@@ -106,7 +106,7 @@ h1 {
       }
     }
   }
-}
+} */
 
 .gm-style .gm-style-iw-t::after {
   background: transparent;
