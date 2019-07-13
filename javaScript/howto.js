@@ -88,8 +88,6 @@ const questions = [{
   a: `Surprise surprise...it's free for everyone!`
 }];
 
-
-
 function findMatches(wordToMatch, questions) {
   return questions.filter(question => {
     const regex = new RegExp(wordToMatch, 'gi');
