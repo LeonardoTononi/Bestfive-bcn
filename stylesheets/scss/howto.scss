@@ -55,16 +55,36 @@ header {
   background: $mainWhite;
   width: 100%;
   z-index: 2;
-  padding-top: 8px;
+  padding: 5px 0;
   box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
-  height: 40px;
+  text-align: center;
+
+  a {
+    @include clean-link;
+  }
+
+  img {
+    width: 25px;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: 200;
+  }
 
   #back {
     float: left;
 
     .back-btn {
-      width: 30px;
-      padding-left: 25px;
+      img {
+        left: 10px;
+      }
+
+      h2 {
+        padding-left: 25px;
+      }
     }
   }
 
@@ -72,8 +92,13 @@ header {
     float: right;
 
     .map-btn {
-      width: 40px;
-      padding-right: 25px;
+      img {
+        right: 10px;
+      }
+
+      h2 {
+        padding-right: 25px;
+      }
     }
   }
 }
