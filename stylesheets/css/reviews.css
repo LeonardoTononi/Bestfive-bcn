@@ -257,6 +257,10 @@ header .logo-img {
   padding: 0 3px;
 }
 
+.place .header-card .place_go-btn .go_btn i {
+  padding-right: 3px;
+}
+
 .place .header-card .place_go-btn .go_btn img {
   width: 1rem;
   position: relative;
@@ -270,13 +274,14 @@ header .logo-img {
 }
 
 .place .header-card .place_avg_price i {
-  font-size: 0.9rem;
+  padding-right: 3px;
 }
 
 .place .header-card .place_avg_price img {
   width: 15px;
   position: relative;
   top: 2px;
+  right: 3px;
 }
 
 .place .header-card .place_avg_price span {
