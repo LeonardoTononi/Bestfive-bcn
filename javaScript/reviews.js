@@ -20,14 +20,17 @@ const laPlatilleria = {
   long: 2.1631936
 }
 
-function getDirection(lat, long) {
+/* function getDirection(lat, long) {
   if ((navigator.platform.indexOf("iPhone") != -1) ||
     (navigator.platform.indexOf("iPad") != -1) ||
     (navigator.platform.indexOf("iPod") != -1)) {
-    window.open(`maps://maps.google.com/maps?daddr=41.3715617,2.1631936&amp;ll=`);
+    window.open(`maps://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`);
   } else {
-    window.open(`https://maps.google.com/maps?daddr=41.3715617,2.1631936&amp;ll=`);
+    window.open(`https://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`);
   }
-}
+} */
 
-getDirection(laPlatilleria.lat, laPlatilleria.long);
+function getDirection(lat, long) {
+  window.open(`maps://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`) ||
+    window.open(`https://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`)
+}
