@@ -36,7 +36,7 @@ btnLanguage_a.addEventListener('click', function () {
 
 // ============== PUPUP NOTIFICATION ==================
 
-if (isIos() && !isInStandaloneMode()) {
+/* if (isIos() && !isInStandaloneMode()) {
   popUp.style.display = "inline";
   setInterval(function () {
     nav.style.zIndex = "1";
@@ -45,4 +45,4 @@ if (isIos() && !isInStandaloneMode()) {
 } else {
   popUp.style.display = "none";
   nav.style.zIndex = "1";
-}
+} */
