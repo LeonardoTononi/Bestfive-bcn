@@ -91,6 +91,8 @@ img {
   background: #fff;
   z-index: -1;
   height: 65px;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
 }
 
 .navbar ul {
@@ -234,12 +236,14 @@ header .languages .language a {
 
 .skyline {
   width: 100%;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .skyline img {
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   position: fixed;
   bottom: 0;
   z-index: -1;
@@ -281,6 +285,8 @@ header .languages .language a {
   margin: 0 auto;
   padding: 30px 35px;
   background: transparent;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .applications-info {
@@ -352,6 +358,13 @@ h2 {
     transform: translate(-50%, -50%) rotate(-45deg);
     width: 15px;
   } */
+}
+
+.add-home .closeBtn {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  font-size: .7rem;
 }
 
 .add-home .app-best {

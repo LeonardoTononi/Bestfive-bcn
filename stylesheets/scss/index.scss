@@ -64,6 +64,7 @@ img {
   background: #fff;
   z-index: -1;
   height: 65px;
+  transition: 0.15s ease-in-out;
 
   ul {
     padding: 0;
@@ -191,11 +192,12 @@ header {
 
 .skyline {
   width: 100%;
+  transition: 0.25s ease-in-out;
 
   img {
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     position: fixed;
     bottom: 0;
     z-index: -1;
@@ -241,6 +243,7 @@ header {
   margin: 0 auto;
   padding: 30px 35px;
   background: transparent;
+  transition: 0.25s ease-in-out;
 }
 
 .applications-info {
@@ -299,6 +302,13 @@ h2 {
   padding: 20px;
   position: absolute;
   bottom: 10px;
+
+  .closeBtn {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: .7rem;
+  }
 
   .app-best {
     padding: 30px;
