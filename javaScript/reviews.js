@@ -31,6 +31,5 @@ const laPlatilleria = {
 } */
 
 function getDirection(lat, long) {
-  window.open(`maps://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`) ||
-    window.open(`https://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`)
+  window.open(`https://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`)
 }
