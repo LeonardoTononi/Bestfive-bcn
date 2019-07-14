@@ -19,43 +19,80 @@ a {
   @include clean-link;
 }
 
-/* ================ HEADER =============== */
+// ============ HEADER ============
 
-.menu {
-  padding: 40px;
+header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #80808038;
 
-  .logo-img {
-    width: 60px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 0;
+  img {
+    width: 33px;
+    position: relative;
+    bottom: -7px;
+    left: -4px;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #484848;
   }
 }
 
-header {
-  padding: 10px;
-  margin-bottom: 60px;
+// ============ BOTTOM NAV BAR ============
 
-  h5 {
-    font-size: 1.2rem;
-    text-align: start;
-    padding: 0 0 20px 30px;
-    font-weight: 200;
-    color: $lightGray;
-    float: left;
-    letter-spacing: 1.5px;
-    position: relative;
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: $mainWhite;
+  width: 100%;
+  z-index: 2;
+  padding: 2px 0;
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  a {
+    @include clean-link;
   }
 
-  h1 {
-    font-size: 1.5rem;
-    text-align: start;
-    padding-left: 30px;
-    font-weight: 500;
-    color: $mainBlack;
+  img {
+    width: 25px;
+    position: relative;
+    top: 3px;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: 200;
+  }
+
+  #back {
     float: left;
-    letter-spacing: 1.5px;
+
+    .back-btn {
+      img {
+        left: 10px;
+      }
+
+      h2 {
+        padding-left: 25px;
+      }
+    }
+  }
+
+  #map-action {
+    float: right;
+
+    .map-btn {
+      img {
+        right: 10px;
+      }
+
+      h2 {
+        padding-right: 25px;
+      }
+    }
   }
 }
 
@@ -78,5 +115,5 @@ header {
 }
 
 .last-story {
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }

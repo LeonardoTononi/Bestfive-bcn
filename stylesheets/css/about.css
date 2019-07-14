@@ -37,43 +37,77 @@ a {
   color: #000;
 }
 
-/* ================ HEADER =============== */
-.menu {
-  padding: 40px;
-}
-
-.menu .logo-img {
-  width: 60px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  padding: 0;
-}
-
 header {
-  padding: 10px;
-  margin-bottom: 60px;
+  padding: 15px 20px;
+  border-bottom: 1px solid #80808038;
+}
+
+header img {
+  width: 33px;
+  position: relative;
+  bottom: -7px;
+  left: -4px;
 }
 
 header h5 {
-  font-size: 1.2rem;
-  text-align: start;
-  padding: 0 0 20px 30px;
-  font-weight: 200;
-  color: #B3B3B3;
-  float: left;
-  letter-spacing: 1.5px;
-  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #484848;
 }
 
-header h1 {
-  font-size: 1.5rem;
-  text-align: start;
-  padding-left: 30px;
-  font-weight: 500;
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 2;
+  padding: 2px 0;
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.bottom-bar a {
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
   color: #000;
+}
+
+.bottom-bar img {
+  width: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.bottom-bar h2 {
+  font-size: 0.7rem;
+  margin: 0;
+  font-weight: 200;
+}
+
+.bottom-bar #back {
   float: left;
-  letter-spacing: 1.5px;
+}
+
+.bottom-bar #back .back-btn img {
+  left: 10px;
+}
+
+.bottom-bar #back .back-btn h2 {
+  padding-left: 25px;
+}
+
+.bottom-bar #map-action {
+  float: right;
+}
+
+.bottom-bar #map-action .map-btn img {
+  right: 10px;
+}
+
+.bottom-bar #map-action .map-btn h2 {
+  padding-right: 25px;
 }
 
 /* ================ ABOUT CONTENT =============== */
@@ -94,6 +128,6 @@ header h1 {
 }
 
 .last-story {
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 /*# sourceMappingURL=about.css.map */

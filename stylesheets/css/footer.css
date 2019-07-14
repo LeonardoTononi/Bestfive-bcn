@@ -17,7 +17,7 @@ a {
 
 .float-footer p {
   font-size: 1rem;
-  margin: 0 20%;
+  margin: 0 15%;
   padding: 10px;
   background: #833ab4;
   color: white;
@@ -28,12 +28,6 @@ a {
   position: absolute;
   right: 20px;
   cursor: pointer;
-  /* img {
-    width: 40px;
-    position: absolute;
-    right: 30px;
-    top: 5px;
-  } */
 }
 
 .close-btn p {
