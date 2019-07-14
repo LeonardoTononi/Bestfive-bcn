@@ -15,21 +15,25 @@ function effectImg(e) {
 
 // GET DIRECTIONS 
 
+const getDirection = document.querySelector('go_btn').href;
+
 const laPlatilleria = {
-  lat: 41.3715617,
-  long: 2.1631936
+  lat: 41.371567,
+  long: 2.165384
 }
 
-/* function getDirection(lat, long) {
+function getPlatilleria(lat, long) {
   if ((navigator.platform.indexOf("iPhone") != -1) ||
     (navigator.platform.indexOf("iPad") != -1) ||
     (navigator.platform.indexOf("iPod") != -1)) {
-    window.open(`maps://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`);
+    window.open("https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=");
+    myWindow.close();
   } else {
-    window.open(`https://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`);
+    window.open("https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=");
+    myWindow.close();
   }
-} */
-
-function getDirection(lat, long) {
-  window.open(`https://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`)
 }
+
+/* function getPlatilleria() {
+  window.open("https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=")
+} */
