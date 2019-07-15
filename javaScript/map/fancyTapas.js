@@ -48,7 +48,7 @@ function initMap() {
         lat: 41.371562,
         lng: 2.165384
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
       content: `<section class="maps-content">
                      <p>FancyTapas</p>
                      <h5>La platilleria</h5>
@@ -68,36 +68,46 @@ function initMap() {
         lat: 41.379161,
         lng: 2.173134
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Bar cañete</h5><h2>Now: <span class="open">Open</span> (18.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      content: `<section class="maps-content">
+                  <p>FancyTapas</p>
+                  <h5>Bar cañete</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (18.00 - 23.00)
+                  </h2>
+                  <h1>
+                    <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     },
-    // Bar Resolis
+    // La Alcoba Azul
     {
       coords: {
-        lat: 41.380420,
-        lng: 2.167989
+        lat: 41.382905,
+        lng: 2.175482
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Bar Resolis</h5><h2>Now: <span class="open">Open</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      content: '<section class="maps-content"><p>FancyTapas</p><h5>La Alcoba Azul</h5><h2>Now: <span class="open">Open</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
-    // Cal Pep
+    // El Nacional
+    {
+      coords: {
+        lat: 41.390548,
+        lng: 2.168283
+      },
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      content: '<section class="maps-content"><p>FancyTapas</p><h5>El Nacional</h5><h2>Now: <span class="close">Close</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="close"> GO! <span></a></h1></section>'
+    }, // Cal Pep
     {
       coords: {
         lat: 41.383975,
         lng: 2.183409
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
+      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
       content: '<section class="maps-content"><p>FancyTapas</p><h5>Cal Pep</h5><h2>Now: <span class="open">Open</span> (19.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
-    // Bar Brutal
-    {
-      coords: {
-        lat: 41.384772,
-        lng: 2.179837
-      },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Can Cisa Bar Brutal</h5><h2>Now: <span class="close">Close</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="close"> GO! <span></a></h1></section>'
-    }
 
   ];
 
@@ -148,20 +158,20 @@ const caneteID = {
   placeId: 'ChIJGcsrQViipBIRY_vN9Piydxw',
   fields: ['opening_hours']
 };
-const resolisID = {
-  placeId: 'ChIJM4r5ZF-ipBIRqCl27q6hy2w',
+const alcobaAzulID = {
+  placeId: 'ChIJ8dubNviipBIRfwWByME5Om0',
+  fields: ['opening_hours']
+};
+const nacionalID = {
+  placeId: 'ChIJM5FFbvKipBIRdWugDh577Ao',
   fields: ['opening_hours']
 };
 const calPepID = {
   placeId: 'ChIJbd9pOf6ipBIRt8JasLJbTHI',
   fields: ['opening_hours']
 };
-const canCisaBarBrutalID = {
-  placeId: 'ChIJdXhLpf6ipBIRzHMdlLjKdWQ',
-  fields: ['opening_hours']
-};
 
-const fancyTapasArray = [laPlatilleriaID, caneteID, resolisID, calPepID, canCisaBarBrutalID];
+const fancyTapasArray = [laPlatilleriaID, caneteID, alcobaAzulID, nacionalID, calPepID];
 
 function logPlaceDetails() {
   var service = new google.maps.places.PlacesService(document.getElementById('map'));
@@ -214,7 +224,7 @@ function logPlaceDetails() {
       }
     }
   });
-  service.getDetails(resolisID, function (place, status) {
+  service.getDetails(alcobaAzulID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
@@ -238,17 +248,17 @@ function logPlaceDetails() {
       }
     }
   });
-  service.getDetails(calPepID, function (place, status) {
+  service.getDetails(nacionalID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li class="today">${place.opening_hours.weekday_text[0]}</li>
-            <li class="today">${place.opening_hours.weekday_text[1]}</li>
-            <li class="today">${place.opening_hours.weekday_text[2]}</li>
-            <li class="today">${place.opening_hours.weekday_text[3]}</li>
-            <li class="today">${place.opening_hours.weekday_text[4]}</li>
-            <li class="today">${place.opening_hours.weekday_text[5]}</li>
-            <li class="today">${place.opening_hours.weekday_text[6]}</li>
+            <li class="monday">${place.opening_hours.weekday_text[0]}</li>
+            <li class="tuesday">${place.opening_hours.weekday_text[1]}</li>
+            <li class="wednesday">${place.opening_hours.weekday_text[2]}</li>
+            <li class="thursdai">${place.opening_hours.weekday_text[3]}</li>
+            <li class="friday">${place.opening_hours.weekday_text[4]}</li>
+            <li class="saturday">${place.opening_hours.weekday_text[5]}</li>
+            <li class="sunday">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[3].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
@@ -262,17 +272,17 @@ function logPlaceDetails() {
       }
     }
   });
-  service.getDetails(canCisaBarBrutalID, function (place, status) {
+  service.getDetails(calPepID, function (place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `
         <ul>
-            <li class="monday">${place.opening_hours.weekday_text[0]}</li>
-            <li class="tuesday">${place.opening_hours.weekday_text[1]}</li>
-            <li class="wednesday">${place.opening_hours.weekday_text[2]}</li>
-            <li class="thursdai">${place.opening_hours.weekday_text[3]}</li>
-            <li class="friday">${place.opening_hours.weekday_text[4]}</li>
-            <li class="saturday">${place.opening_hours.weekday_text[5]}</li>
-            <li class="sunday">${place.opening_hours.weekday_text[6]}</li>
+            <li class="today">${place.opening_hours.weekday_text[0]}</li>
+            <li class="today">${place.opening_hours.weekday_text[1]}</li>
+            <li class="today">${place.opening_hours.weekday_text[2]}</li>
+            <li class="today">${place.opening_hours.weekday_text[3]}</li>
+            <li class="today">${place.opening_hours.weekday_text[4]}</li>
+            <li class="today">${place.opening_hours.weekday_text[5]}</li>
+            <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[4].innerHTML = weeklyData;
       if (place.opening_hours.open_now === true) {
