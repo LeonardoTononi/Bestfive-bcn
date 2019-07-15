@@ -42,17 +42,16 @@ function initMap() {
 
   // Array of markers
   let markers = [
-    // La platilleria
+    // La Cova Fumada
     {
       coords: {
-        lat: 41.371562,
-        lng: 2.165384
+        lat: 41.379294,
+        lng: 2.189208
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
+      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
       content: `<section class="maps-content">
-                     <p>FancyTapas</p>
-                     <h5>La platilleria</h5>
-                     <img src="/img/place/laPlatilleria.jpg" alt="...">
+                     <p>LocalTapas</p>
+                     <h5>La Cova Fumada</h5>
                      <h2>Now: 
                         <span class="open">Open</span> (12.00 - 23.00)
                      </h2>
@@ -63,41 +62,85 @@ function initMap() {
                      </h1>
                 </section>`
     },
-    // Bar canete
+    // Can Paixano
     {
       coords: {
-        lat: 41.379161,
-        lng: 2.173134
+        lat: 41.381815,
+        lng: 2.183370
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Bar cañete</h5><h2>Now: <span class="open">Open</span> (18.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      content: `<section class="maps-content">
+                  <p>LocalTapas</p>
+                  <h5>Can Paixano</h5>
+                  <h2>Now: 
+                     <span class="open">Open</span> (18.00 - 23.00)
+                  </h2>
+                  <h1>
+                     <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     },
-    // Bar Resolis
+    // Bar Celta Pulperia
     {
       coords: {
-        lat: 41.380420,
-        lng: 2.167989
+        lat: 41.379938,
+        lng: 2.180088
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Bar Resolis</h5><h2>Now: <span class="open">Open</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      content: `<section class="maps-content">
+                  <p>LocalTapas</p>
+                  <h5>Bar Celta Pulperia</h5>
+                  <h2>Now: 
+                     <span class="open">Open</span> (18.00 - 23.00)
+                  </h2>
+                  <h1>
+                     <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     },
-    // Cal Pep
+    // Bodega Vasconia
     {
       coords: {
-        lat: 41.383975,
-        lng: 2.183409
+        lat: 41.381087,
+        lng: 2.179913
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Cal Pep</h5><h2>Now: <span class="open">Open</span> (19.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      content: `<section class="maps-content">
+                  <p>LocalTapas</p>
+                  <h5>Bodega Vasconia</h5>
+                  <h2>Now: 
+                     <span class="open">Open</span> (18.00 - 23.00)
+                  </h2>
+                  <h1>
+                     <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     },
-    // Bar Brutal
+    // La Bombeta
     {
       coords: {
-        lat: 41.384772,
-        lng: 2.179837
+        lat: 41.380577,
+        lng: 2.187703
       },
-      /* iconImage: 'https://img.icons8.com/color/40/000000/tapas.png', */
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Can Cisa Bar Brutal</h5><h2>Now: <span class="close">Close</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="close"> GO! <span></a></h1></section>'
+      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      content: `<section class="maps-content">
+                  <p>LocalTapas</p>
+                  <h5>La Bombeta</h5>
+                  <h2>Now: 
+                     <span class="open">Open</span> (18.00 - 23.00)
+                  </h2>
+                  <h1>
+                     <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     }
 
   ];
@@ -135,3 +178,29 @@ function initMap() {
     }
   }
 }
+
+const place_div = document.querySelectorAll('.place');
+const now = document.querySelectorAll('.now');
+const weeklyHours = document.querySelectorAll('.weekly-hours');
+const goBtn_span = document.querySelectorAll('.goBtn');
+
+const covaFumadaID = {
+  placeId: 'ChIJvdFY9amjpBIRVecxFX2krK0',
+  fields: ['opening_hours']
+};
+const canPaixanoID = {
+  placeId: 'ChIJI1v-6f-ipBIRTeac1KdrUcg',
+  fields: ['opening_hours']
+};
+const celtaPulperiaID = {
+  placeId: 'ChIJgRiL71WipBIRnjR7UYyv0lA',
+  fields: ['opening_hours']
+};
+const bodegaVasconiaID = {
+  placeId: 'ChIJQxfpUP-ipBIREELTr1GFoLg',
+  fields: ['opening_hours']
+};
+const bombetaID = {
+  placeId: 'ChIJAR8SngCjpBIRw77ZED15xAY',
+  fields: ['opening_hours']
+};
