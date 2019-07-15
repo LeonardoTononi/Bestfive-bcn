@@ -3,7 +3,7 @@
 // ==========================
 function initMap() {
   let options = {
-    zoom: 13,
+    zoom: 14,
     center: {
       lat: 41.3887,
       lng: 2.1589

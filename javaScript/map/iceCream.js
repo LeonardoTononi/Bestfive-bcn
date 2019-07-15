@@ -69,15 +69,6 @@ function initMap() {
       iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
       content: '<section class="maps-content"><p>IceCream</p><h5>Paral•lelo</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
-    // Gelaaati!
-    {
-      coords: {
-        lat: 41.383209,
-        lng: 2.177303
-      },
-      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
-      content: '<section class="maps-content"><p>IceCream</p><h5>Gelaaati! di marco</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
-    },
     // DelaCrem
     {
       coords: {
@@ -86,6 +77,15 @@ function initMap() {
       },
       iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
       content: '<section class="maps-content"><p>IceCream</p><h5>DelaCrem</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+    },
+    // Gelaaati!
+    {
+      coords: {
+        lat: 41.383209,
+        lng: 2.177303
+      },
+      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
+      content: '<section class="maps-content"><p>IceCream</p><h5>Gelaaati! di marco</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
     },
     // Oggi Gelato
     {

@@ -66,12 +66,12 @@ const questions = [{
   a: `You can start in the Railway stop on Passeig de Gracia or in the Railway in Sants Estació.`
 }, {
   q: "How to get to the airport?",
-  a: `<span class="option">Option 1:</span> <span class="aereobus">Aerobus</span> (blue bus), starts from Plaza Cataluña every 10min (from 5am to 1am),  stops in Paza España in between. <span class="aereobus">A1</span> goes to Terminal 1 and <span class="aereobus">A2</span> goes to Terminal 2. One way ride is 5,90€. <br>
+  a: `<span class="option">Option 1:</span> <span class="aereobus">Aerobus</span> (blue bus), starts from Plaza Cataluña (Plaça de Catalunya) every 10min (from 5am to 1am),  stops in Paza España in between. <span class="aereobus">A1</span> goes to Terminal 1 and <span class="aereobus">A2</span> goes to Terminal 2. One way ride is 5,90€. <br>
       <span class="option">Option 2:</span> public transport: metro, bus or train. cheapest option but slowest. Metro will take you at least 3 line changes (1 hour at least). Bus stops all the time, at least 45-55 min to the airport. Train is good but only goes to Terminal 2, you can take it in Passeig de Gracia or in Barcelona Sants train station. <br>
       <span class="option">Option 3:</span> <span class="taxi">Taxi</span>, it will cost you around 30€ .`
 }, {
   q: "How to get to Barcelona centre from the airport?",
-  a: `<span class="option">Option 1:</span> <span class="aereobus">Aerobus</span> (blue bus), you get on it outside of the airport and it goes         directly to city center. Stops in Plaza España and then in Plaza Cataluña. One way ride is 5,90€  <br>
+  a: `<span class="option">Option 1:</span> <span class="aereobus">Aerobus</span> (blue bus), you get on it outside of the airport and it goes directly to city center. Stops in Plaza España and then in Plaza Cataluña (Plaça de Catalunya). One way ride is 5,90€  <br>
       <span class="option">Option 2:</span> public transport (metro, bus or train). Cheapest option but slowest. Metro will take you at least 3 line changes. Bus stops all the time, at least 45-50 min ti the city center. Train is good but only runs from T2 to Barcelona center. Nearest stop from the city center is Passeig de Gracia. <br>
       <span class="option">Option 3:</span> <span class="taxi">Taxi</span>, it will cost you around 30€ .`
 }, {
