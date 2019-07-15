@@ -77,6 +77,7 @@ closeBtn_popUp.addEventListener('click', () => {
   applications.style.opacity = "1";
   skyline.style.opacity = "1";
   navbar.style.opacity = "1";
+  nav.style.zIndex = "1";
   popUp.style.display = "none"
 });
 
