@@ -89,7 +89,18 @@ function initMap() {
         lng: 2.175482
       },
       iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>La Alcoba Azul</h5><h2>Now: <span class="open">Open</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                  <p>FancyTapas</p>
+                  <h5>La Alcoba Azul</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (12.00 - 23.00)
+                  </h2>
+                  <h1>
+                    <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     },
     // El Nacional
     {
@@ -98,7 +109,18 @@ function initMap() {
         lng: 2.168283
       },
       iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>El Nacional</h5><h2>Now: <span class="close">Close</span> (11.00 - 23.00)</h2><h1><a href="#"><span class="close"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                  <p>FancyTapas</p>
+                  <h5>El Nacional</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (10.00 - 23.00)
+                  </h2>
+                  <h1>
+                    <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
     }, // Cal Pep
     {
       coords: {
@@ -106,9 +128,19 @@ function initMap() {
         lng: 2.183409
       },
       iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
-      content: '<section class="maps-content"><p>FancyTapas</p><h5>Cal Pep</h5><h2>Now: <span class="open">Open</span> (19.00 - 23.00)</h2><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
-    },
-
+      content: `<section class="maps-content">
+                  <p>FancyTapas</p>
+                  <h5>Cal Pep</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (14.00 - 23.00)
+                  </h2>
+                  <h1>
+                    <a href="#">
+                       <span class="open"> GO! <span>
+                    </a>
+                  </h1>
+                </section>`
+    }
   ];
 
   // Loop through markers 

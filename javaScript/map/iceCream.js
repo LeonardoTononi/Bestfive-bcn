@@ -67,7 +67,15 @@ function initMap() {
         lng: 2.156378
       },
       iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
-      content: '<section class="maps-content"><p>IceCream</p><h5>Paral•lelo</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                     <p>IceCream</p>
+                     <h5>Paral•lelo</h5>
+                     <h1>
+                       <a href="#">
+                          <span class="open">GO!<span>
+                       </a>
+                     </h1>
+                </section>`
     },
     // DelaCrem
     {
@@ -76,7 +84,15 @@ function initMap() {
         lng: 2.161797
       },
       iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
-      content: '<section class="maps-content"><p>IceCream</p><h5>DelaCrem</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                     <p>IceCream</p>
+                     <h5>DelaCrem</h5>
+                     <h1>
+                       <a href="#">
+                          <span class="open">GO!<span>
+                       </a>
+                     </h1>
+                </section>`
     },
     // Gelaaati!
     {
@@ -85,7 +101,15 @@ function initMap() {
         lng: 2.177303
       },
       iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
-      content: '<section class="maps-content"><p>IceCream</p><h5>Gelaaati! di marco</h5><h1><a href="#"><span class="open"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                     <p>IceCream</p>
+                     <h5>Gelaaati! di marco</h5>
+                     <h1>
+                       <a href="#">
+                          <span class="open">GO!<span>
+                       </a>
+                     </h1>
+                </section>`
     },
     // Oggi Gelato
     {
@@ -94,7 +118,15 @@ function initMap() {
         lng: 2.173393
       },
       iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
-      content: '<section class="maps-content"><p>IceCream</p><h5>Oggi Gelato</h5><h1><a href="#"><span class="close"> GO! <span></a></h1></section>'
+      content: `<section class="maps-content">
+                     <p>IceCream</p>
+                     <h5>Oggi Gelato</h5>
+                     <h1>
+                       <a href="#">
+                          <span class="open">GO!<span>
+                       </a>
+                     </h1>
+                </section>`
     }
 
   ];
