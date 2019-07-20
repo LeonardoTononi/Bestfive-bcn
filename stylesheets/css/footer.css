@@ -1,0 +1,86 @@
+a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.float-footer {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.float-footer img {
+  width: 28px;
+}
+
+.float-footer p {
+  font-size: 1rem;
+  margin: 0 15%;
+  padding: 10px;
+  background: #833ab4;
+  color: white;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-btn p {
+  padding: 10px;
+  background: #833ab4;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  display: none;
+  color: #484848;
+  background: #fff;
+}
+
+footer section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding: 10px 40px;
+}
+
+footer section h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+
+footer .last-section {
+  border-top: 1px solid #484848;
+  margin: 0 80px;
+}
+
+footer p {
+  background: transparent;
+  font-size: .8rem;
+  color: #484848;
+  margin: 0;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #484848;
+  font-size: .9rem;
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+/*# sourceMappingURL=footer.css.map */

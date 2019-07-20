@@ -1,0 +1,133 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -moz-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  background: transparent;
+}
+
+a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+
+header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #80808038;
+}
+
+header img {
+  width: 33px;
+  position: relative;
+  bottom: -7px;
+  left: -4px;
+}
+
+header h5 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #484848;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 2;
+  padding: 2px 0;
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.bottom-bar a {
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+
+.bottom-bar img {
+  width: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.bottom-bar h2 {
+  font-size: 0.7rem;
+  margin: 0;
+  font-weight: 200;
+}
+
+.bottom-bar #back {
+  float: left;
+}
+
+.bottom-bar #back .back-btn img {
+  left: 10px;
+}
+
+.bottom-bar #back .back-btn h2 {
+  padding-left: 25px;
+}
+
+.bottom-bar #map-action {
+  float: right;
+}
+
+.bottom-bar #map-action .map-btn img {
+  right: 10px;
+}
+
+.bottom-bar #map-action .map-btn h2 {
+  padding-right: 25px;
+}
+
+/* ================ ABOUT CONTENT =============== */
+.story {
+  padding: 10px 10px;
+}
+
+.story img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.story p {
+  letter-spacing: 1.1px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.last-story {
+  padding-bottom: 70px;
+}
+/*# sourceMappingURL=about.css.map */
