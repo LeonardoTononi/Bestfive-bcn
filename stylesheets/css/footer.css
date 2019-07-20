@@ -83,4 +83,10 @@ footer a {
   font-weight: 100;
   color: #000;
 }
+
+@media only screen and (max-width: 340px) {
+  .float-footer p {
+    margin: 0 11%;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
