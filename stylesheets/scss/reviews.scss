@@ -349,3 +349,14 @@ header {
   background-image: url("/img/icon/arrow-left-white.png") !important;
   left: 10px !important;
 }
+
+
+@media only screen and (max-width: 340px) {
+  .place {
+    max-width: 290px;
+
+    .header-card {
+      width: 245px;
+    }
+  }
+}

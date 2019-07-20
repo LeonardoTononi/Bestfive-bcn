@@ -252,6 +252,7 @@ header .languages .language a {
 @media screen and (max-height: 625px) {
   .skyline img {
     opacity: .15;
+    padding-bottom: 58px;
   }
 }
 
