@@ -286,3 +286,17 @@ input:focus {
 .hl {
   background: #ffc600;
 }
+
+@media only screen and (max-width: 340px) {
+  #search-bar {
+    input {
+      padding: 10px 40px;
+    }
+  }
+
+  .filters {
+    .filter {
+      padding: 5px 7px;
+    }
+  }
+}
