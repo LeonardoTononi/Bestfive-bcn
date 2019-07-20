@@ -3,10 +3,10 @@
 // ==========================
 function initMap() {
   let options = {
-    zoom: 14,
+    zoom: 13,
     center: {
       lat: 41.3887,
-      lng: 2.1589
+      lng: 2.1789
     },
     styles: [{
         "featureType": "poi",
@@ -48,7 +48,10 @@ function initMap() {
         lat: 41.379294,
         lng: 2.189208
       },
-      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      iconImage: {
+        url: '/img/icon/localTapas.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
                      <h5>La Cova Fumada</h5>
@@ -68,7 +71,10 @@ function initMap() {
         lat: 41.381815,
         lng: 2.183370
       },
-      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      iconImage: {
+        url: '/img/icon/localTapas.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Can Paixano</h5>
@@ -88,7 +94,10 @@ function initMap() {
         lat: 41.379938,
         lng: 2.180088
       },
-      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      iconImage: {
+        url: '/img/icon/localTapas.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Bar Celta Pulperia</h5>
@@ -108,7 +117,10 @@ function initMap() {
         lat: 41.381087,
         lng: 2.179913
       },
-      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      iconImage: {
+        url: '/img/icon/localTapas.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Bodega Vasconia</h5>
@@ -128,7 +140,10 @@ function initMap() {
         lat: 41.380577,
         lng: 2.187703
       },
-      iconImage: 'https://img.icons8.com/color/30/000000/jamon.png',
+      iconImage: {
+        url: '/img/icon/localTapas.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>La Bombeta</h5>
@@ -145,10 +160,39 @@ function initMap() {
 
   ];
 
-  // Loop through markers 
-  for (let i = 0; i < markers.length; i++) {
-    addMarker(markers[i]);
+  // ==========================
+  //         GET LIVE LOCATION
+  // ==========================
+
+  function getLocation() {
+    console.log("getting live location");
+    if (navigator.geolocation) {
+      navigator.geolocation.watchPosition(saveCoordinate);
+    } else {
+      // Nothing;
+    }
   }
+
+  function saveCoordinate(position) {
+    markers.push({
+      coords: {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      },
+      iconImage: '',
+      zIndex: 999
+    })
+  }
+  getLocation();
+  /*
+  setInterval(() => getLocation(), 2000); */
+
+  // Loop through markers
+  setTimeout(function () {
+    for (let i = 0; i < markers.length; i++) {
+      addMarker(markers[i]);
+    }
+  }, 1000)
 
   // Add marker function 
   function addMarker(props) {
