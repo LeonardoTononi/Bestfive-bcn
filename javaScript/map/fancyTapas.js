@@ -48,7 +48,10 @@ function initMap() {
         lat: 41.371562,
         lng: 2.165384
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      iconImage: {
+        url: '/img/icon/fancyTapas2.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>FancyTapas</p>
                      <h5>La platilleria</h5>
@@ -68,7 +71,10 @@ function initMap() {
         lat: 41.379161,
         lng: 2.173134
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      iconImage: {
+        url: '/img/icon/fancyTapas2.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>Bar cañete</h5>
@@ -88,7 +94,10 @@ function initMap() {
         lat: 41.382905,
         lng: 2.175482
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      iconImage: {
+        url: '/img/icon/fancyTapas2.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>La Alcoba Azul</h5>
@@ -108,7 +117,10 @@ function initMap() {
         lat: 41.390548,
         lng: 2.168283
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      iconImage: {
+        url: '/img/icon/fancyTapas2.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>El Nacional</h5>
@@ -127,7 +139,10 @@ function initMap() {
         lat: 41.383975,
         lng: 2.183409
       },
-      iconImage: 'https://img.icons8.com/color/40/000000/tapas.png',
+      iconImage: {
+        url: '/img/icon/fancyTapas2.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>Cal Pep</h5>
@@ -149,8 +164,9 @@ function initMap() {
   // ==========================
 
   function getLocation() {
+    console.log("getting live location");
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(saveCoordinate);
+      navigator.geolocation.watchPosition(saveCoordinate);
     } else {
       // Nothing;
     }
@@ -162,13 +178,13 @@ function initMap() {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       },
-      iconImage: 'https://img.icons8.com/officel/25/000000/circled-dot.png',
+      iconImage: '',
       zIndex: 999
     })
   }
-
-
-  setInterval(getLocation(), 2000);
+  getLocation();
+  /*
+  setInterval(() => getLocation(), 2000); */
 
   // Loop through markers
   setTimeout(function () {
