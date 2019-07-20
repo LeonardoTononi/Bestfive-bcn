@@ -80,7 +80,10 @@ function hideOnClickOutside(element) {
 
 closeBtn_popUp.addEventListener('click', () => {
   popUp.style.maxHeight = "0px";
-  popUp.style.bottom = "-40px";
+  popUp.style.bottom = "-80px";
+  setInterval(function () {
+    popUp.style.display = 'none';
+  }, 500)
   applications.style.opacity = "1";
   skyline.style.opacity = "1";
   navbar.style.opacity = "1";
