@@ -154,7 +154,7 @@ function initMap() {
       position: props.coords,
       map: map,
       icon: props.iconImage,
-      draggable: true,
+      draggable: false,
       animation: google.maps.Animation.DROP
     });
     // Check content 
