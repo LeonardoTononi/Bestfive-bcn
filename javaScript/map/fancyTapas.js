@@ -143,10 +143,39 @@ function initMap() {
     }
   ];
 
-  // Loop through markers 
-  for (let i = 0; i < markers.length; i++) {
-    addMarker(markers[i]);
+
+  // ==========================
+  //         GET LIVE LOCATION
+  // ==========================
+
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(saveCoordinate);
+    } else {
+      // Nothing;
+    }
   }
+
+  function saveCoordinate(position) {
+    markers.push({
+      coords: {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      },
+      iconImage: 'https://img.icons8.com/officel/25/000000/circled-dot.png',
+      zIndex: 999
+    })
+  }
+
+
+  setInterval(getLocation(), 2000);
+
+  // Loop through markers
+  setTimeout(function () {
+    for (let i = 0; i < markers.length; i++) {
+      addMarker(markers[i]);
+    }
+  }, 1000)
 
   // Add marker function 
   function addMarker(props) {
@@ -155,6 +184,7 @@ function initMap() {
       map: map,
       icon: props.iconImage,
       draggable: false,
+      zIndex: props.zIndex,
       animation: google.maps.Animation.DROP
     });
     // Check content 
@@ -176,6 +206,10 @@ function initMap() {
     }
   }
 }
+
+// ==========================
+//  GET DETAILS GOOGLE MAPS
+// ==========================
 
 const place_div = document.querySelectorAll('.place');
 const now = document.querySelectorAll('.now');
