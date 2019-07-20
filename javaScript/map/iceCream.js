@@ -48,7 +48,10 @@ function initMap() {
         lat: 41.383204,
         lng: 2.182705
       },
-      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Gocce di Latte</h5>
@@ -66,7 +69,10 @@ function initMap() {
         lat: 41.396990,
         lng: 2.156378
       },
-      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Paral•lelo</h5>
@@ -83,7 +89,10 @@ function initMap() {
         lat: 41.387996,
         lng: 2.161797
       },
-      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>DelaCrem</h5>
@@ -100,7 +109,10 @@ function initMap() {
         lat: 41.383209,
         lng: 2.177303
       },
-      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Gelaaati! di marco</h5>
@@ -117,7 +129,10 @@ function initMap() {
         lat: 41.386571,
         lng: 2.173393
       },
-      iconImage: 'https://img.icons8.com/dusk/40/000000/ice-cream-cone.png',
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(40, 40),
+      },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Oggi Gelato</h5>
@@ -131,10 +146,39 @@ function initMap() {
 
   ];
 
-  // Loop through markers 
-  for (let i = 0; i < markers.length; i++) {
-    addMarker(markers[i]);
+  // ==========================
+  //         GET LIVE LOCATION
+  // ==========================
+
+  function getLocation() {
+    console.log("getting live location");
+    if (navigator.geolocation) {
+      navigator.geolocation.watchPosition(saveCoordinate);
+    } else {
+      // Nothing;
+    }
   }
+
+  function saveCoordinate(position) {
+    markers.push({
+      coords: {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      },
+      iconImage: '',
+      zIndex: 999
+    })
+  }
+  getLocation();
+  /*
+  setInterval(() => getLocation(), 2000); */
+
+  // Loop through markers
+  setTimeout(function () {
+    for (let i = 0; i < markers.length; i++) {
+      addMarker(markers[i]);
+    }
+  }, 1000)
 
   // Add marker function 
   function addMarker(props) {
