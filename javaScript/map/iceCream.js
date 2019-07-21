@@ -1,5 +1,5 @@
 // ==========================
-//         INIT MAP 
+//         INIT MAP
 // ==========================
 function initMap() {
   let options = {
@@ -8,31 +8,40 @@ function initMap() {
       lat: 41.3887,
       lng: 2.1589
     },
-    styles: [{
-        "featureType": "poi",
-        "elementType": "labels.text",
-        "stylers": [{
-          "visibility": "off"
-        }]
+    styles: [
+      {
+        featureType: 'poi',
+        elementType: 'labels.text',
+        stylers: [
+          {
+            visibility: 'off'
+          }
+        ]
       },
       {
-        "featureType": "poi.business",
-        "stylers": [{
-          "visibility": "off"
-        }]
+        featureType: 'poi.business',
+        stylers: [
+          {
+            visibility: 'off'
+          }
+        ]
       },
       {
-        "featureType": "road",
-        "elementType": "labels.icon",
-        "stylers": [{
-          "visibility": "off"
-        }]
+        featureType: 'road',
+        elementType: 'labels.icon',
+        stylers: [
+          {
+            visibility: 'off'
+          }
+        ]
       },
       {
-        "featureType": "transit",
-        "stylers": [{
-          "visibility": "off"
-        }]
+        featureType: 'transit',
+        stylers: [
+          {
+            visibility: 'off'
+          }
+        ]
       }
     ]
   };
@@ -50,7 +59,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40),
+        scaledSize: new google.maps.Size(40, 40)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -65,13 +74,12 @@ function initMap() {
     // Parallelo
     {
       coords: {
-
-        lat: 41.396990,
+        lat: 41.39699,
         lng: 2.156378
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40),
+        scaledSize: new google.maps.Size(40, 40)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -91,7 +99,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40),
+        scaledSize: new google.maps.Size(40, 40)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -111,7 +119,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40),
+        scaledSize: new google.maps.Size(40, 40)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -131,7 +139,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40),
+        scaledSize: new google.maps.Size(40, 40)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -143,7 +151,6 @@ function initMap() {
                      </h1>
                 </section>`
     }
-
   ];
 
   // ==========================
@@ -151,9 +158,8 @@ function initMap() {
   // ==========================
 
   function getLocation() {
-    console.log("getting live location");
     if (navigator.geolocation) {
-      navigator.geolocation.watchPosition(saveCoordinate);
+      navigator.geolocation.getCurrentPosition(saveCoordinate);
     } else {
       // Nothing;
     }
@@ -167,20 +173,18 @@ function initMap() {
       },
       iconImage: '',
       zIndex: 999
-    })
+    });
   }
   getLocation();
-  /*
-  setInterval(() => getLocation(), 2000); */
 
   // Loop through markers
-  setTimeout(function () {
+  setTimeout(function() {
     for (let i = 0; i < markers.length; i++) {
       addMarker(markers[i]);
     }
-  }, 1000)
+  }, 1000);
 
-  // Add marker function 
+  // Add marker function
   function addMarker(props) {
     let marker = new google.maps.Marker({
       position: props.coords,
@@ -189,14 +193,18 @@ function initMap() {
       draggable: false,
       animation: google.maps.Animation.DROP
     });
-    // Check content 
+    // Check content
     if (props.content) {
       let infoWindow = new google.maps.InfoWindow({
         content: props.content
       });
-      marker.addListener('click', function () {
-        infoWindow.open(map, marker);
-      }, toggleBounce);
+      marker.addListener(
+        'click',
+        function() {
+          infoWindow.open(map, marker);
+        },
+        toggleBounce
+      );
     }
   }
 
