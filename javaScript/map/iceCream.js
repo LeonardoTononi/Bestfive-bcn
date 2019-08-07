@@ -51,6 +51,24 @@ function initMap() {
 
   // Array of markers
   let markers = [
+    // Oggi Gelato
+    {
+      coords: {
+        lat: 41.386571,
+        lng: 2.173393
+      },
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                     <p>IceCream</p>
+                     <h5>Oggi Gelato</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.386571,2.173393&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
     // Gocce di latte
     {
       coords: {
@@ -64,11 +82,9 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Gocce di Latte</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                    <div class="go-btn">
+                        <a href="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">GO!</a>
+                     </div>
                 </section>`
     },
     // Parallelo
@@ -84,11 +100,9 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Paral•lelo</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.396990,2.156378&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // DelaCrem
@@ -104,11 +118,9 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>DelaCrem</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.387996,2.161797&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // Gelaaati!
@@ -124,31 +136,9 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Gelaaati! di marco</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
-                </section>`
-    },
-    // Oggi Gelato
-    {
-      coords: {
-        lat: 41.386571,
-        lng: 2.173393
-      },
-      iconImage: {
-        url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40)
-      },
-      content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>Oggi Gelato</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383209,2.177303&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     }
   ];
