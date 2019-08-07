@@ -17,6 +17,13 @@ h5 {
   padding: 5px 5px 15px 5px;
 }
 
+h2 {
+  font-size: .9rem;
+  margin: 0;
+  font-weight: 200;
+  padding: 5px 0 20px 5px;
+}
+
 p {
   margin: 0;
   padding: 2px 5px;
@@ -54,17 +61,17 @@ p {
     color: #fff;
   }
 
-  .close {
-    background-color: rgb(218, 34, 34);
-    color: #fff;
-    font-weight: 200;
-  }
+  /* .close {
+  background-color: rgb(218, 34, 34);
+  color: #fff;
+  font-weight: 200;
+}
 
-  .open {
-    background-color: rgb(35, 174, 35);
-    color: #fff;
-    font-weight: 200;
-  }
+.open {
+  background-color: rgb(35, 174, 35);
+  color: #fff;
+  font-weight: 200;
+} */
 }
 
 // ============== STYLE CARD OF MARKERS ==============

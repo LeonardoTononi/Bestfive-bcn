@@ -18,6 +18,13 @@ h5 {
   padding: 5px 5px 15px 5px;
 }
 
+h2 {
+  font-size: .9rem;
+  margin: 0;
+  font-weight: 200;
+  padding: 5px 0 20px 5px;
+}
+
 p {
   margin: 0;
   padding: 2px 5px;
@@ -49,6 +56,17 @@ p {
   font-size: 0.8rem;
   font-weight: 400;
   padding: 10px 7px;
+  /* .close {
+  background-color: rgb(218, 34, 34);
+  color: #fff;
+  font-weight: 200;
+}
+
+.open {
+  background-color: rgb(35, 174, 35);
+  color: #fff;
+  font-weight: 200;
+} */
 }
 
 .go-btn a {
@@ -62,18 +80,6 @@ p {
           box-shadow: 0px 0px 5px 0px #76767643;
   background-color: #000;
   color: #fff;
-}
-
-.go-btn .close {
-  background-color: #da2222;
-  color: #fff;
-  font-weight: 200;
-}
-
-.go-btn .open {
-  background-color: #23ae23;
-  color: #fff;
-  font-weight: 200;
 }
 
 .gm-style {
