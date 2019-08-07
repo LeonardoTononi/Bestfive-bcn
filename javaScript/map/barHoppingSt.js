@@ -64,11 +64,9 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>HoppingStreet</p>
                      <h5>Carrer de Blai</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.373677,2.164501&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     },
     // Carrer del Parlament
@@ -84,11 +82,9 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
                   <h5>Carrer del Parlament</h5>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.376485,2.162581&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     },
     // Carrer de la Mercè
@@ -104,11 +100,9 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
                   <h5>Carrer de la Mercè</h5>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     },
     // Carrer de Joaquín Costa
@@ -124,11 +118,9 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
                   <h5>Carrer de Joaquín Costa</h5>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382505,2.165831&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     }, // Passeig del Born
     {
@@ -143,11 +135,9 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
                   <h5>Passeig del Born</h5>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.38473,2.182853&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     }
   ];
