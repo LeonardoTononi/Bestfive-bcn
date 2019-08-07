@@ -67,11 +67,9 @@ function initMap() {
                      <h2>Now: 
                         <span class="open">Open</span> (12.00 - 23.00)
                      </h2>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                      <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.379294,2.189208&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // Can Paixano
@@ -90,11 +88,9 @@ function initMap() {
                   <h2>Now: 
                      <span class="open">Open</span> (18.00 - 23.00)
                   </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.381815,2.183370&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // Bar Celta Pulperia
@@ -113,11 +109,9 @@ function initMap() {
                   <h2>Now: 
                      <span class="open">Open</span> (18.00 - 23.00)
                   </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.379938,2.180088&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // Bodega Vasconia
@@ -136,11 +130,9 @@ function initMap() {
                   <h2>Now: 
                      <span class="open">Open</span> (18.00 - 23.00)
                   </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.381087,2.179913&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // La Bombeta
@@ -159,11 +151,9 @@ function initMap() {
                   <h2>Now: 
                      <span class="open">Open</span> (18.00 - 23.00)
                   </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.380577,2.187703&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     }
   ];
@@ -174,7 +164,7 @@ function initMap() {
 
   function getLocation() {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(saveCoordinate);
+      navigator.geolocation.watchPosition(saveCoordinate);
     } else {
       // Nothing;
     }
