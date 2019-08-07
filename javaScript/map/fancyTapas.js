@@ -67,11 +67,9 @@ function initMap() {
                      <h2>Now: 
                         <span class="open">Open</span> (12.00 - 23.00)
                      </h2>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     },
     // Bar canete
@@ -90,11 +88,9 @@ function initMap() {
                   <h2>Now: 
                     <span class="open">Open</span> (18.00 - 23.00)
                   </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.379161,2.173134&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     },
     // La Alcoba Azul
@@ -113,11 +109,9 @@ function initMap() {
                   <h2>Now: 
                     <span class="open">Open</span> (12.00 - 23.00)
                   </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                 <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     },
     // El Nacional
@@ -136,11 +130,9 @@ function initMap() {
                   <h2>Now: 
                     <span class="open">Open</span> (10.00 - 23.00)
                   </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.390548,2.168283&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     }, // Cal Pep
     {
@@ -158,11 +150,9 @@ function initMap() {
                   <h2>Now: 
                     <span class="open">Open</span> (14.00 - 23.00)
                   </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383975,2.183409&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     }
   ];
