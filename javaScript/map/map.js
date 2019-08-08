@@ -383,6 +383,278 @@ function startMap() {
                        </a>
                      </h1>
                 </section>`
+    },
+    // ================================= STREET FOOD ===========================================
+    // Gallo Nero
+    {
+      coords: {
+        lat: 41.383029,
+        lng: 2.177472
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                     <p>CheapEats</p>
+                     <h5>Gallo Nero</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=441.383029,2.177472&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // The fish and chips shop
+    {
+      coords: {
+        lat: 41.378535,
+        lng: 2.154525
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>The fish and chips shop</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.378535,2.154525&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // La Parra
+    {
+      coords: {
+        lat: 41.383025,
+        lng: 2.165318
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>La Parra</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383025,2.165318&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Bacoa Burger
+    {
+      coords: {
+        lat: 41.380678,
+        lng: 2.174705
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>Bacoa Burger</h5>
+                  <div class="go-btn">
+                      <a href="https://maps.google.com/maps?daddr=41.380678,2.174705&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Maoz
+    {
+      coords: {
+        lat: 41.38084,
+        lng: 2.174755
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>Maoz</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.380840,2.174755&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+
+    // ================================= HOPPING STREETS ===========================================
+    // Carrer de Blai
+    {
+      coords: {
+        lat: 41.373677,
+        lng: 2.164501
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                     <p>HoppingStreet</p>
+                     <h5>Carrer de Blai</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.373677,2.164501&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Carrer del Parlament
+    {
+      coords: {
+        lat: 41.376485,
+        lng: 2.162581
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>HoppingStreet</p>
+                  <h5>Carrer del Parlament</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.376485,2.162581&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Carrer de la Mercè
+    {
+      coords: {
+        lat: 41.382905,
+        lng: 2.175482
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>HoppingStreet</p>
+                  <h5>Carrer de la Mercè</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Carrer de Joaquín Costa
+    {
+      coords: {
+        lat: 41.382505,
+        lng: 2.165831
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>HoppingStreet</p>
+                  <h5>Carrer de Joaquín Costa</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382505,2.165831&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Passeig del Born
+    {
+      coords: {
+        lat: 41.38473,
+        lng: 2.182853
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>HoppingStreet</p>
+                  <h5>Passeig del Born</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.38473,2.182853&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+
+    // ================================= BEACH ===========================================
+    // Barceloneta
+    {
+      coords: {
+        lat: 41.378399,
+        lng: 2.192519
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/beach.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                     <p>Beach</p>
+                     <h5>Platja Barceloneta</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.378399,2.192519&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Bogatell
+    {
+      coords: {
+        lat: 41.394434,
+        lng: 2.207097
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/beach.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>Beach</p>
+                  <h5>Platja del Bogatell</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.394434,2.207097&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Platja de la Nova Icària
+    {
+      coords: {
+        lat: 41.390398,
+        lng: 2.202294
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/beach.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>Beach</p>
+                  <h5>Platja de la Nova Icària</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.390398,2.202294&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Platja de la marbella
+    {
+      coords: {
+        lat: 41.398589,
+        lng: 2.21256
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/beach.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>Beach</p>
+                  <h5>Platja de la marbella</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.398589,2.212560&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Platja del Somorrostro
+    {
+      coords: {
+        lat: 41.3855099,
+        lng: 2.1947129
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/beach.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>Beach</p>
+                  <h5>Platja del Somorrostro</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.38473,2.182853&amp;ll=">GO!</a>
+                  </div>
+                </section>`
     }
   ];
 
