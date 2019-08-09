@@ -251,7 +251,7 @@ header .languages .language a {
 
 @media screen and (max-height: 625px) {
   .skyline img {
-    opacity: .15;
+    opacity: 0.15;
     padding-bottom: 58px;
   }
 }
@@ -336,6 +336,41 @@ h2 {
 
 .icon-app img {
   width: 35px;
+}
+
+.coming-soon {
+  background: #484848;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.coming-soon-pop {
+  position: absolute;
+  bottom: 40vh;
+  left: 25%;
+  text-align: center;
+  width: 50%;
+  height: 0;
+  margin: 0 auto;
+  background: #833ab4;
+  color: white;
+  display: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 0 #00000066;
+          box-shadow: 0 0 10px 0 #00000066;
+}
+
+.coming-soon-pop p {
+  padding: 20px;
+  margin-bottom: 8px;
+  line-height: 1.3rem;
+}
+
+.coming-soon-pop span {
+  padding: 5px 10px;
+  background: white;
+  color: #833ab4;
+  border-radius: 10px;
 }
 
 .add-home {
