@@ -59,7 +59,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>CheapEats</p>
@@ -77,7 +77,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -95,7 +95,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -113,7 +113,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -130,7 +130,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>

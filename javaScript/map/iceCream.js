@@ -59,7 +59,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -77,7 +77,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -95,7 +95,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -113,7 +113,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -131,7 +131,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>

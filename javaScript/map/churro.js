@@ -51,107 +51,107 @@ function initMap() {
 
   // Array of markers
   let markers = [
-    // La platilleria
+    // Granja Viader
     {
       coords: {
-        lat: 41.371562,
-        lng: 2.165384
+        lat: 41.383048,
+        lng: 2.170836
       },
       iconImage: {
-        url: '/img/icon/fancyTapas2.png',
+        url: '/img/icon/churro.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>FancyTapas</p>
-                     <h5>La platilleria</h5>
+                     <p>Churros</p>
+                     <h5>Granja M Viader</h5>
                      <h2>Now: 
                         <span class="open">Open</span> (12.00 - 23.00)
                      </h2>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.383048,2.170836&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
-    // Bar canete
+    // Granja Dulcinea
     {
       coords: {
-        lat: 41.379161,
-        lng: 2.173134
+        lat: 41.382496,
+        lng: 2.173434
       },
       iconImage: {
-        url: '/img/icon/fancyTapas2.png',
+        url: '/img/icon/churro.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
-                  <h5>Bar cañete</h5>
+                  <p>Churros</p>
+                  <h5>Granja Dulcinea</h5>
                   <h2>Now: 
                     <span class="open">Open</span> (18.00 - 23.00)
                   </h2>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.379161,2.173134&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.382496,2.173434&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
-    // La Alcoba Azul
+    // La Pallaresa
     {
       coords: {
-        lat: 41.382905,
-        lng: 2.175482
+        lat: 41.382911,
+        lng: 2.17278
       },
       iconImage: {
-        url: '/img/icon/fancyTapas2.png',
+        url: '/img/icon/churro.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
-                  <h5>La Alcoba Azul</h5>
+                  <p>Churros</p>
+                  <h5>La Pallaresa</h5>
                   <h2>Now: 
                     <span class="open">Open</span> (12.00 - 23.00)
                   </h2>
                  <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.382911,2.172780&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
-    // El Nacional
+    // La Nena
     {
       coords: {
-        lat: 41.390548,
-        lng: 2.168283
+        lat: 41.40265,
+        lng: 2.158809
       },
       iconImage: {
-        url: '/img/icon/fancyTapas2.png',
+        url: '/img/icon/churro.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
-                  <h5>El Nacional</h5>
+                  <p>Churros</p>
+                  <h5>La Nena</h5>
                   <h2>Now: 
                     <span class="open">Open</span> (10.00 - 23.00)
                   </h2>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.390548,2.168283&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.402650,2.158809&amp;ll=">GO!</a>
                   </div>
                 </section>`
-    }, // Cal Pep
+    }, // Xurreria Trébol
     {
       coords: {
-        lat: 41.383975,
-        lng: 2.183409
+        lat: 41.397893,
+        lng: 2.16089
       },
       iconImage: {
-        url: '/img/icon/fancyTapas2.png',
+        url: '/img/icon/churro.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
-                  <h5>Cal Pep</h5>
+                  <p>Churros</p>
+                  <h5>Xurreria Trébol</h5>
                   <h2>Now: 
                     <span class="open">Open</span> (14.00 - 23.00)
                   </h2>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.383975,2.183409&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.397893,2.160890&amp;ll=">GO!</a>
                   </div>
                 </section>`
     }
@@ -251,7 +251,7 @@ const calPepID = {
   fields: ['opening_hours']
 };
 
-const fancyTapasArray = [
+const ChurrosArray = [
   laPlatilleriaID,
   caneteID,
   alcobaAzulID,

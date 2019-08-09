@@ -59,7 +59,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
@@ -80,7 +80,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -101,7 +101,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -122,7 +122,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -143,7 +143,7 @@ function initMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>

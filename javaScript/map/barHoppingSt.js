@@ -59,7 +59,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>HoppingStreet</p>
@@ -77,7 +77,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -95,7 +95,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -113,7 +113,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -130,7 +130,7 @@ function initMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
