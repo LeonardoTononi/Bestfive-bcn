@@ -230,7 +230,7 @@ const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
 const goBtn_span = document.querySelectorAll('.goBtn');
 
-const laPlatilleriaID = {
+let laPlatilleriaID = {
   placeId: 'ChIJS3TrRV2ipBIRh7qXj5lHy3s',
   fields: ['opening_hours']
 };
@@ -263,6 +263,7 @@ function logPlaceDetails() {
   var service = new google.maps.places.PlacesService(
     document.getElementById('map')
   );
+
   service.getDetails(laPlatilleriaID, function(place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       const weeklyData = `

@@ -1,286 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheets/css/reviews.css" />
+    <link rel="stylesheet" href="/dist/css/swiper.min.css" />
 
-  <link rel="stylesheet" href="/stylesheets/css/reviews.css">
-  <link rel="stylesheet" href="/dist/css/swiper.min.css">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”>
+    <meta name="“apple-mobile-web-app-status-bar”" content="“white”" />
+    <meta name="theme-color" content="white" />
 
-  <link rel="manifest" href="/manifest.json">
-  <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”> <meta
-    name=“apple-mobile-web-app-status-bar” content=“white”>
-  <meta name="theme-color" content="white">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
+    <title>FancyTapas</title>
+  </head>
 
-  <link rel="icon" href="/img/homePage/violetHand.png" type="image/png">
-  <title>FancyTapas</title>
-</head>
+  <body ontouchstart="">
+    <div id="map"></div>
 
-<body ontouchstart="">
+    <header>
+      <h5><img src="/img/icon/fancyTapas.png" />FancyTapas</h5>
+    </header>
 
-  <div id="map"></div>
-
-  <header>
-    <h5><img src="/img/icon/fancyTapas.png">FancyTapas</h5>
-  </header>
-
-  <div class="bottom-bar">
-    <div id="map-action">
-      <a class="map-btn" href="/en/maps/fancyTapasMap.html">
-        <img src="/img/icon/position.png" alt="">
-        <h2>NearMe</h2>
-      </a>
-    </div>
-    <div id="back">
-      <a class="back-btn" href="/index.html">
-        <img src="/img/icon/back-hand.png" alt="">
-        <h2>Back</h2>
-      </a>
-    </div>
-  </div>
-
-
-  <div class="place">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/platilleria3.png" alt="...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/platilleria2.png" alt="...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/platilleria1.png" alt="...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/platilleria4.png" alt="...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/platilleria5.png" alt="...">
-      </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-    <div class="header-card">
-      <div class="place_title">
-        <h1>La Platilleria</h1>
-      </div>
-      <div class="place_google_info">
-        <h2 class="google-info">
-          <i class="far fa-clock"></i>
-          <span class="now"></span>
-          <span class="hours-btn"><img class="arrowBtn"
-              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
-            <span class="weekly-hours"></span>
-          </span>
-        </h2>
-      </div>
-      <div class="place_go-btn">
-        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=">
-          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+    <div class="bottom-bar">
+      <div id="map-action">
+        <a class="map-btn" href="/en/maps/fancyTapasMap.html">
+          <img src="/img/icon/position.png" alt="" />
+          <h2>NearMe</h2>
         </a>
       </div>
-      <div class="place_avg_price">
-        <span><img src="/img/icon/fancyTapas-gray.png">7,50€</span>
-      </div>
-    </div>
-    <div class=" place_tips">
-      <p>Spanish-Argentinian fusion tapas. Place and staff are
-        nice. It's not big, has some inside tables and outside. Our favourite tapas are "Rabo de toro con polenta"
-        and
-        "patatas bravas".
-      </p>
-    </div>
-  </div>
-
-  <div class="place">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/canete4.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/canete2.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/canete3.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/canete1.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/canete5.png" alt=" ...">
-      </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-    <div class="header-card">
-      <div class="place_title">
-        <h1>Bar Cañete</h1>
-      </div>
-      <div class="place_google_info">
-        <h2 class="google-info">
-          <i class="far fa-clock"></i>
-          <span class="now"></span>
-          <span class="hours-btn"><img class="arrowBtn"
-              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
-            <span class="weekly-hours"></span>
-          </span>
-        </h2>
-      </div>
-      <div class="place_go-btn">
-        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.379161,2.173134&amp;ll=">
-          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+      <div id="back">
+        <a class="back-btn" href="/index.html">
+          <img src="/img/icon/back-hand.png" alt="" />
+          <h2>Back</h2>
         </a>
       </div>
-      <div class="place_avg_price">
-        <span><img src="/img/icon/fancyTapas-gray.png">8,50€</span>
-      </div>
     </div>
-    <div class="place_tips">
-      <p>Traditonal famous palca, better to book in advanced (+34 932 70 34 58). They cook in front of you if you sit
-        on
-        the bar. Everythin here is marvelous!</p>
-    </div>
-  </div>
 
-  <div class="place">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/alcoba4.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/alcoba1.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/alcoba2.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/alcoba3.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/alcoba5.png" alt=" ...">
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/platilleria3.png"
+            alt="..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/platilleria2.png"
+            alt="..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/platilleria1.png"
+            alt="..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/platilleria4.png"
+            alt="..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/platilleria5.png"
+            alt="..."
+          />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-    <div class="header-card">
-      <div class="place_title">
-        <h1>La Alcoba Azul</h1>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>La Platilleria</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"
+              ><img
+                class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
+              />
+              <span class="weekly-hours"></span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a
+            class="go_btn"
+            target="_blank"
+            href="https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll="
+          >
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span><img src="/img/icon/fancyTapas-gray.png" />7,50€</span>
+        </div>
       </div>
-      <div class="place_google_info">
-        <h2 class="google-info">
-          <i class="far fa-clock"></i>
-          <span class="now"></span>
-          <span class="hours-btn"><img class="arrowBtn"
-              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
-            <span class="weekly-hours"></span>
-          </span>
-        </h2>
-      </div>
-      <div class="place_go-btn">
-        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">
-          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-        </a>
-      </div>
-      <div class="place_avg_price">
-        <span><img src="/img/icon/fancyTapas-gray.png">7€</span>
-      </div>
-    </div>
-    <div class="place_tips resolis_padding">
-      <p>This bar looks like a fairy tale in the inside, it also has outdoor sitting. Located in the old jewish
-        quarter,
-        Tapas here are excelent.</p>
-    </div>
-  </div>
-
-  <div class="place">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/elNacional4.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/elNacional1.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/elNacional2.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/elNacional3.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/elNacional5.png" alt=" ...">
-      </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-    <div class="header-card">
-      <div class="place_title">
-        <h1>El Nacional</h1>
-      </div>
-      <div class="place_google_info">
-        <h2 class="google-info">
-          <i class="far fa-clock"></i>
-          <span class="now"></span>
-          <span class="hours-btn"><img class="arrowBtn"
-              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
-            <span class="weekly-hours"></span>
-          </span>
-        </h2>
-      </div>
-      <div class="place_go-btn">
-        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.390548,2.168283&amp;ll=">
-          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-        </a>
-      </div>
-      <div class="place_avg_price">
-        <span><img src="/img/icon/fancyTapas-gray.png">8€</span>
+      <div class=" place_tips">
+        <p>
+          Spanish-Argentinian fusion tapas. Place and staff are nice. It's not
+          big, has some inside tables and outside. Our favourite tapas are "Rabo
+          de toro con polenta" and "patatas bravas".
+        </p>
       </div>
     </div>
-    <div class="place_tips">
-      <p>Famous large restaurant, the place is beautiful, divided in tapas bar, coctail bar, oyster bar, and many
-        more... food is remarkable. It's a real experience come here.</p>
+
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/canete4.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/canete2.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/canete3.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/canete1.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/canete5.png"
+            alt=" ..."
+          />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>Bar Cañete</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"
+              ><img
+                class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
+              />
+              <span class="weekly-hours"></span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a
+            class="go_btn"
+            target="_blank"
+            href="https://maps.google.com/maps?daddr=41.379161,2.173134&amp;ll="
+          >
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span><img src="/img/icon/fancyTapas-gray.png" />8,50€</span>
+        </div>
+      </div>
+      <div class="place_tips">
+        <p>
+          Traditonal famous palca, better to book in advanced (+34 932 70 34
+          58). They cook in front of you if you sit on the bar. Everythin here
+          is marvelous!
+        </p>
+      </div>
     </div>
-  </div>
 
-  <div class="place">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/calPep2.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/calPep1.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/calPep3.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/calPep5.png" alt=" ...">
-        <img class="place_img swiper-slide" src="/img/place/fancyTapas/calPep4.png" alt=" ...">
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/alcoba4.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/alcoba1.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/alcoba2.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/alcoba3.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/alcoba5.png"
+            alt=" ..."
+          />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>La Alcoba Azul</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"
+              ><img
+                class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
+              />
+              <span class="weekly-hours"></span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a
+            class="go_btn"
+            target="_blank"
+            href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll="
+          >
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span><img src="/img/icon/fancyTapas-gray.png" />7€</span>
+        </div>
+      </div>
+      <div class="place_tips resolis_padding">
+        <p>
+          This bar looks like a fairy tale in the inside, it also has outdoor
+          sitting. Located in the old jewish quarter, Tapas here are excelent.
+        </p>
+      </div>
     </div>
-    <div class="header-card">
-      <div class="place_title">
-        <h1>Cal Pep</h1>
+
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/elNacional4.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/elNacional1.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/elNacional2.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/elNacional3.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/elNacional5.png"
+            alt=" ..."
+          />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="place_google_info">
-        <h2 class="google-info">
-          <i class="far fa-clock"></i>
-          <span class="now"></span>
-          <span class="hours-btn"><img class="arrowBtn"
-              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png">
-            <span class="weekly-hours"></span>
-          </span>
-        </h2>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>El Nacional</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"
+              ><img
+                class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
+              />
+              <span class="weekly-hours"></span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a
+            class="go_btn"
+            target="_blank"
+            href="https://maps.google.com/maps?daddr=41.390548,2.168283&amp;ll="
+          >
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span><img src="/img/icon/fancyTapas-gray.png" />8€</span>
+        </div>
       </div>
-      <div class="place_go-btn">
-        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.383975,2.183409&amp;ll=">
-          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-        </a>
-      </div>
-      <div class="place_avg_price">
-        <span><img src="/img/icon/fancyTapas-gray.png">12€</span>
+      <div class="place_tips">
+        <p>
+          Famous large restaurant, the place is beautiful, divided in tapas bar,
+          coctail bar, oyster bar, and many more... food is remarkable. It's a
+          real experience come here.
+        </p>
       </div>
     </div>
-    <div class="place_tips">
-      <p>Traditional now very famous, better make a reservation (+ 34 933 10 79 61). Food is amazing but its not
-        cheap.
-      </p>
+
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/calPep2.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/calPep1.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/calPep3.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/calPep5.png"
+            alt=" ..."
+          />
+          <img
+            class="place_img swiper-slide"
+            src="/img/place/fancyTapas/calPep4.png"
+            alt=" ..."
+          />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>Cal Pep</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"
+              ><img
+                class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
+              />
+              <span class="weekly-hours"></span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a
+            class="go_btn"
+            target="_blank"
+            href="https://maps.google.com/maps?daddr=41.383975,2.183409&amp;ll="
+          >
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span><img src="/img/icon/fancyTapas-gray.png" />12€</span>
+        </div>
+      </div>
+      <div class="place_tips">
+        <p>
+          Traditional now very famous, better make a reservation (+ 34 933 10 79
+          61). Food is amazing but its not cheap.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <script src="/javaScript/map/fancyTapas.js"></script>
-  <!-- <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYLiYenTQ1VH4uDzAlI-MUGv6b7cJaTc&libraries=places&callback=logPlaceDetails"
-    async defer></script> -->
+    <script src="/javaScript/map/fancyTapas.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYLiYenTQ1VH4uDzAlI-MUGv6b7cJaTc&libraries=places&callback=logPlaceDetails"
+      async
+      defer
+    ></script> -->
 
+    <script src="/javaScript/app.js"></script>
+    <script src="/javaScript/reviews.js"></script>
 
-  <script src="/javaScript/app.js"></script>
-  <script src="/javaScript/reviews.js"></script>
-
-
-  <script src="/dist/js/swiper.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-
-</body>
-
+    <script src="/dist/js/swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    </script>
+  </body>
 </html>
