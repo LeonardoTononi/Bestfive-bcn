@@ -9,6 +9,17 @@ const skyline = document.querySelector('.skyline');
 const navbar = document.querySelector('.navbar');
 const closeBtn_popUp = document.querySelector('.closeBtn');
 
+const appCategory = document.querySelectorAll('.icon-app');
+
+appCategory.forEach(elt => {
+  elt.addEventListener('touchstart', () => {
+    elt.style.background = '#833ab4';
+  });
+  elt.addEventListener('touchend', () => {
+    elt.style.background = '#fff';
+  });
+});
+
 // ============ GENERAL UTILITY ====================
 // Detects if is IOS
 const isIos = () => {
