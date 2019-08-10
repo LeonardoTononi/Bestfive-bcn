@@ -5,8 +5,8 @@ function initMap() {
   let options = {
     zoom: 13,
     center: {
-      lat: 41.3887,
-      lng: 2.1589
+      lat: 41.380574,
+      lng: 2.185043
     },
     styles: [
       {
@@ -51,93 +51,93 @@ function initMap() {
 
   // Array of markers
   let markers = [
-    // Oggi Gelato
+    // Madre Lievito
     {
       coords: {
-        lat: 41.386571,
-        lng: 2.173393
+        lat: 41.39763,
+        lng: 2.203284
       },
       iconImage: {
-        url: '/img/icon/ice-cream.png',
+        url: '/img/icon/spaghetti.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>Oggi Gelato</h5>
+                     <p>Italian</p>
+                     <h5>Madre Lievito</h5>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.386571,2.173393&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.397630,2.203284&amp;ll=">GO!</a>
                      </div>
                 </section>`
     },
-    // Gocce di latte
+    // Le Cucine Mandarosso
     {
       coords: {
-        lat: 41.383204,
-        lng: 2.182705
+        lat: 41.386932,
+        lng: 2.17621
       },
       iconImage: {
-        url: '/img/icon/ice-cream.png',
+        url: '/img/icon/spaghetti.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>Gocce di Latte</h5>
+                     <p>Italian</p>
+                     <h5>Le Cucine Mandarosso</h5>
                     <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.383204,2.182705&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.386932,2.176210&amp;ll=">GO!</a>
                      </div>
                 </section>`
     },
-    // Parallelo
+    // Frankie Gallo cha cha cha
     {
       coords: {
-        lat: 41.39699,
-        lng: 2.156378
+        lat: 41.378556,
+        lng: 2.17246
       },
       iconImage: {
-        url: '/img/icon/ice-cream.png',
+        url: '/img/icon/spaghetti.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>Paral•lelo</h5>
+                     <p>Italian</p>
+                     <h5>Frankie Gallo <br> Cha Cha Cha</h5>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.396990,2.156378&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.378556,2.172460&amp;ll=">GO!</a>
                      </div>
                 </section>`
     },
-    // DelaCrem
+    // La Bella Napoli
     {
       coords: {
-        lat: 41.387996,
-        lng: 2.161797
+        lat: 41.374362,
+        lng: 2.163734
       },
       iconImage: {
-        url: '/img/icon/ice-cream.png',
+        url: '/img/icon/spaghetti.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>DelaCrem</h5>
+                     <p>Italian</p>
+                     <h5>La Bella Napoli</h5>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.387996,2.161797&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.374362,2.163734&amp;ll=">GO!</a>
                      </div>
                 </section>`
     },
-    // Gelaaati!
+    // La pizza del Sortidor
     {
       coords: {
-        lat: 41.383209,
-        lng: 2.177303
+        lat: 41.372748,
+        lng: 2.16246
       },
       iconImage: {
-        url: '/img/icon/ice-cream.png',
+        url: '/img/icon/spaghetti.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>Gelaaati! di marco</h5>
+                     <p>Italian</p>
+                     <h5>La pizza <br> del Sortidor</h5>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.383209,2.177303&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.372748,2.162460&amp;ll=">GO!</a>
                      </div>
                 </section>`
     }
