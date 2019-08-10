@@ -13,9 +13,11 @@ const clickable = document.querySelectorAll('.click-bg');
 clickable.forEach(elt => {
   elt.addEventListener('touchstart', () => {
     elt.style.background = 'rgb(239, 239, 239)';
+    elt.style.transform = 'scale(1.1)';
   });
   elt.addEventListener('touchend', () => {
     elt.style.background = '#fff';
+    elt.style.transform = 'scale(1)';
   });
 });
 

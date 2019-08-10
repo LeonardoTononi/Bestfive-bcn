@@ -172,7 +172,7 @@ header .btn-lang {
   top: 8px;
   font-size: 0.8rem;
   padding: 10px 9px;
-  border-radius: 50%;
+  border-radius: 10px;
   -webkit-box-shadow: inset 0 0 20px 0 #833ab424;
           box-shadow: inset 0 0 20px 0 #833ab424;
 }
@@ -209,7 +209,8 @@ header .languages .language {
   padding: 10px 9px;
   -webkit-box-shadow: 0 0 10px 0 #00000045;
           box-shadow: 0 0 10px 0 #00000045;
-  border-radius: 50%;
+  border-radius: 10px;
+  margin-bottom: 2px;
 }
 
 header .languages .language a {
