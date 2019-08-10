@@ -1,11 +1,13 @@
-/* const staticCacheName = 'site-static:v7';
-const dynamicCacheName = 'site-dynamic:v3';
+const staticCacheName = 'site-static:v8';
+const dynamicCacheName = 'site-dynamic:v4';
 const assets = [
   '/',
   '/index.html',
   '/img/barcelona-city.png',
   '/img/violetHand.png',
   '/en/fallback.html',
+  '/en/review/',
+  '/img/place/',
   '/stylesheets/css/fallback.css',
   '/javaScript/app.js',
   '/javaScript/footer.js',
@@ -15,7 +17,7 @@ const assets = [
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2'
 ];
 
-// Cache size limit function 
+// Cache size limit function
 const limitCacheSize = (name, size) => {
   caches.open(name).then(cache => {
     cache.keys().then(keys => {
@@ -30,7 +32,7 @@ const limitCacheSize = (name, size) => {
 self.addEventListener('install', evt => {
   //console.log('service worker installed');
   evt.waitUntil(
-    caches.open(staticCacheName).then((cache) => {
+    caches.open(staticCacheName).then(cache => {
       console.log('caching shell assets');
       cache.addAll(assets);
     })
@@ -43,9 +45,10 @@ self.addEventListener('activate', evt => {
   evt.waitUntil(
     caches.keys().then(keys => {
       //console.log(keys);
-      return Promise.all(keys
-        .filter(key => key !== staticCacheName && key !== dynamicCacheName)
-        .map(key => caches.delete(key))
+      return Promise.all(
+        keys
+          .filter(key => key !== staticCacheName && key !== dynamicCacheName)
+          .map(key => caches.delete(key))
       );
     })
   );
@@ -55,19 +58,25 @@ self.addEventListener('activate', evt => {
 self.addEventListener('fetch', evt => {
   //console.log('fetch event', evt);
   evt.respondWith(
-    caches.match(evt.request).then(cacheRes => {
-      return cacheRes || fetch(evt.request).then(fetchRes => {
-        return caches.open(dynamicCacheName).then(cache => {
-          cache.put(evt.request.url, fetchRes.clone());
-          // check cached items size
-          limitCacheSize(dynamicCacheName, 300);
-          return fetchRes;
-        });
-      });
-    }).catch(() => {
-      if (evt.request.url.indexOf('.html') > -1) {
-        return caches.match('/en/fallback.html');
-      }
-    })
+    caches
+      .match(evt.request)
+      .then(cacheRes => {
+        return (
+          cacheRes ||
+          fetch(evt.request).then(fetchRes => {
+            return caches.open(dynamicCacheName).then(cache => {
+              cache.put(evt.request.url, fetchRes.clone());
+              // check cached items size
+              limitCacheSize(dynamicCacheName, 300);
+              return fetchRes;
+            });
+          })
+        );
+      })
+      .catch(() => {
+        if (evt.request.url.indexOf('.html') > -1) {
+          return caches.match('/en/fallback.html');
+        }
+      })
   );
-}); */
+});

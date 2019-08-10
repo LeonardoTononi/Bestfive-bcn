@@ -165,6 +165,7 @@ header .handLogo {
 }
 
 header .btn-lang {
+  display: none;
   position: absolute;
   background: #fff;
   color: #833ab4;
