@@ -86,8 +86,8 @@ img {
   position: fixed;
   bottom: 0;
   width: 100%;
-  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
   z-index: -1;
   height: 65px;
@@ -126,13 +126,16 @@ img {
   width: 30px;
 }
 
+.navbar #search {
+  width: 27px;
+}
+
 header {
   background: transparent;
   -webkit-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
   padding-top: 7px;
   width: 100%;
-  border-bottom: 1px solid #80808038;
 }
 
 header h1 {
@@ -244,20 +247,20 @@ header .languages .language a {
 
 .skyline img {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 60px;
   position: fixed;
-  bottom: 0;
+  top: 60px;
   z-index: -1;
+  max-width: 600px;
 }
 
-@media screen and (max-height: 625px) {
-  .skyline img {
-    opacity: 0.15;
-    padding-bottom: 58px;
+/* @media screen and (max-height: 625px) {
+  .skyline {
+    img {
+      opacity: 0.15;
+      padding-bottom: 58px;
+    }
   }
-}
-
+} */
 .booking {
   width: 60%;
   margin: 0 auto;
@@ -286,10 +289,12 @@ header .languages .language a {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 30px 35px;
+  padding: 90px 35px 0 35px;
   background: transparent;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
 .applications-info {
@@ -348,12 +353,12 @@ h2 {
 
 .coming-soon-pop {
   position: absolute;
-  bottom: 40vh;
-  left: 25%;
+  bottom: 50%;
+  left: 50%;
   text-align: center;
-  width: 50%;
+  width: 210px;
   height: 0;
-  margin: 0 auto;
+  margin: -105px 0 0 -105px;
   background: #833ab4;
   color: white;
   display: none;
@@ -376,7 +381,7 @@ h2 {
 }
 
 .add-home {
-  background: #fff;
+  /* background: #fff;
   color: #484848;
   margin: 0 10px;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(160, 158, 158, 0.314);
@@ -386,20 +391,23 @@ h2 {
   padding: 20px;
   position: absolute;
   bottom: -40px;
+  transition: 0.2s ease-in;
+  max-height: 0; */
+  background: #fff;
+  color: #484848;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(160, 158, 158, 0.314);
+  box-shadow: 0px 0px 20px 5px rgba(160, 158, 158, 0.314);
+  border-radius: 10px;
+  padding: 20px 0;
+  letter-spacing: 1.1px;
+  position: absolute;
+  width: 350px;
+  left: 50%;
+  margin-left: -175px;
+  bottom: -40px;
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
   max-height: 0;
-  /* &:after {
-    background: whitesmoke;
-    box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
-    content: "";
-    height: 15px;
-    left: 50%;
-    position: absolute;
-    bottom: -12px;
-    transform: translate(-50%, -50%) rotate(-45deg);
-    width: 15px;
-  } */
 }
 
 .add-home .closeBtn {
@@ -446,6 +454,11 @@ h2 {
 }
 
 @media only screen and (max-width: 340px) {
+  .add-home {
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+  }
   .applications {
     padding: 50px 15px;
   }
@@ -469,6 +482,39 @@ h2 {
   }
   .navbar ul li img {
     width: 25px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .applications {
+    padding: 160px 35px 0 35px;
+  }
+  .icon-app {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .icon-app img {
+    width: 45px;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  .navbar {
+    height: 68px;
+  }
+  .navbar ul li {
+    width: 14%;
+  }
+  .navbar ul li img {
+    width: 40px;
+  }
+  .navbar #search {
+    width: 37px;
+  }
+  .skyline img {
+    left: 50%;
+    margin-left: -300px;
   }
 }
 /*# sourceMappingURL=index.css.map */
