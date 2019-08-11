@@ -58,7 +58,7 @@ function initMap() {
         lng: 2.164501
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
@@ -76,7 +76,7 @@ function initMap() {
         lng: 2.162581
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
@@ -94,7 +94,7 @@ function initMap() {
         lng: 2.175482
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
@@ -112,7 +112,7 @@ function initMap() {
         lng: 2.165831
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
@@ -129,7 +129,7 @@ function initMap() {
         lng: 2.182853
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
