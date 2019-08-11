@@ -7,6 +7,7 @@ const assets = [
   '/img/violetHand.png',
   '/en/fallback.html',
   '/en/review/',
+  '/img/',
   '/stylesheets/css/fallback.css',
   '/javaScript/app.js',
   '/javaScript/footer.js',
