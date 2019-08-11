@@ -266,7 +266,15 @@ function logPlaceDetails() {
 
   service.getDetails(laPlatilleriaID, function(place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
-      const weeklyData = `
+      const openingHoursText = place.opening_hours.weekday_text;
+      let html = '';
+      openingHoursText.forEach(hour => {
+        const li = `<li class="today">${hour}<li>`;
+        html = html + li;
+        return html;
+      });
+      weeklyHours[0].innerHTML = html;
+      /* const weeklyData = `
         <ul>
             <li class="today">${place.opening_hours.weekday_text[0]}</li>
             <li class="today">${place.opening_hours.weekday_text[1]}</li>
@@ -277,7 +285,7 @@ function logPlaceDetails() {
             <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[0].innerHTML = weeklyData;
-
+ */
       if (place.opening_hours.open_now === true) {
         now[0].innerText = 'Open';
         now[0].classList.add('open');
