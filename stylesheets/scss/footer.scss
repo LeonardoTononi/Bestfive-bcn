@@ -8,6 +8,8 @@ a {
 .float-footer {
   cursor: pointer;
   padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
 
   img {
     width: 28px;
@@ -15,7 +17,7 @@ a {
 
   p {
     font-size: 1rem;
-    margin: 0 15%;
+    margin: 0 auto;
     padding: 10px;
     background: #833ab4;
     color: white;
@@ -65,7 +67,7 @@ footer {
 
   p {
     background: transparent;
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: $mainGray;
     margin: 0;
     padding-top: 10px;
@@ -73,10 +75,9 @@ footer {
 
   a {
     color: $mainGray;
-    font-size: .9rem;
+    font-size: 0.9rem;
     @include clean-link;
   }
-
 }
 
 @media only screen and (max-width: 340px) {

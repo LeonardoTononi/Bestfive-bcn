@@ -9,6 +9,8 @@ a {
 .float-footer {
   cursor: pointer;
   padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .float-footer img {
@@ -17,7 +19,7 @@ a {
 
 .float-footer p {
   font-size: 1rem;
-  margin: 0 15%;
+  margin: 0 auto;
   padding: 10px;
   background: #833ab4;
   color: white;
@@ -69,7 +71,7 @@ footer .last-section {
 
 footer p {
   background: transparent;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #484848;
   margin: 0;
   padding-top: 10px;
@@ -77,7 +79,7 @@ footer p {
 
 footer a {
   color: #484848;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-decoration: none;
   background: transparent;
   font-weight: 100;

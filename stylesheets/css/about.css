@@ -15,6 +15,7 @@ body {
   background: transparent;
   font-weight: 100;
   color: #000;
+  color: #484848;
 }
 
 * {
@@ -111,13 +112,26 @@ header h5 {
 }
 
 /* ================ ABOUT CONTENT =============== */
+h3 {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+  line-height: 1.7rem;
+  letter-spacing: 1.1px;
+  font-weight: 200;
+}
+
 .story {
   padding: 10px 10px;
+  text-align: center;
 }
 
 .story img {
   width: 100%;
   padding: 20px 0;
+  max-width: 400px;
+  border-radius: 50%;
 }
 
 .story p {
@@ -125,6 +139,8 @@ header h5 {
   padding: 10px 20px;
   font-size: 1rem;
   line-height: 1.7rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .last-story {
