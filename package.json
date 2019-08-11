@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Easaaa/Best-Five-Bcn#readme",
   "dependencies": {
     "jquery-parallax.js": "^1.5.0",
+    "modclean": "^3.0.0-beta.1",
     "swiper": "^4.5.0"
   },
   "devDependencies": {
