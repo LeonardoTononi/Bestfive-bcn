@@ -1,7 +1,6 @@
 // ============= DOM SELECTORS =================
 const nav = document.querySelector('.navbar');
-const btnLanguage_a = document.querySelector('.btn-lang');
-const languagesList_div = document.querySelector('.languages');
+
 const popUp = document.getElementById('popUp');
 const loader = document.querySelector('.loader');
 const applications = document.querySelector('.applications');
@@ -31,6 +30,9 @@ if (!isInStandaloneMode()) {
 }
 
 // ============== BTN LANGUAGES =====================
+const btnLanguage_a = document.querySelector('.btn-lang');
+const languagesList_div = document.querySelector('.languages');
+
 btnLanguage_a.addEventListener('click', function() {
   if (languagesList_div.style.display == 'none') {
     languagesList_div.style.display = 'inline';
