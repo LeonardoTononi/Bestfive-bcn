@@ -1,6 +1,6 @@
 @import "variables";
 @import "mixins";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
 
 body {
   @include mainStyle;
@@ -109,17 +109,17 @@ header {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 20px auto 0 auto;
-  position: relative;
+  margin: 20px -15px 0 -15px;
 
   img {
-    position: absolute;
-    bottom: .7rem;
-    left: 2.8rem;
+    position: relative;
+    left: 2.5rem;
+    top: 0.4rem;
   }
 
   input {
-    padding: 12px 60px;
+    max-width: 380px;
+    padding: 12px 50px;
     font-size: 1.2rem;
     text-align: center;
     border-radius: 10px;
@@ -160,6 +160,8 @@ input:focus {
   columns: auto;
   text-align: center;
   padding: 1rem 1rem 0 1rem;
+  max-width: 420px;
+  margin: 0 auto;
 
   .filter {
     display: inline-block;
@@ -273,12 +275,6 @@ input:focus {
   }
 }
 
-@media screen and (min-width: 800px) {
-  #search-bar input {
-    padding: 15px 200px;
-  }
-}
-
 .space {
   padding: 20px;
 }
@@ -287,10 +283,49 @@ input:focus {
   background: #ffc600;
 }
 
+@media screen and (min-width: 800px) {
+  #search-bar {
+    input {
+      padding: 15px 200px;
+      font-size: 1.4rem;
+
+      &::placeholder {
+        font-size: 1.3rem;
+      }
+    }
+    img {
+      width: 30px;
+      left: 3rem;
+    }
+  }
+
+  .filters .filter {
+    font-size: 1.2rem;
+  }
+
+  #questions {
+    .question h2 {
+      font-size: 1.6rem;
+    }
+
+    .question p {
+      font-size: 1.3rem;
+    }
+  }
+
+  .bottom-bar img {
+    width: 40px;
+  }
+
+  .bottom-bar h2 {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 340px) {
   #search-bar {
     input {
-      padding: 10px 40px;
+      padding: 10px 30px;
     }
   }
 

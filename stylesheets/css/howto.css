@@ -119,18 +119,18 @@ header .logo-img {
 #search-bar {
   text-align: center;
   width: 100%;
-  margin: 20px auto 0 auto;
-  position: relative;
+  margin: 20px -15px 0 -15px;
 }
 
 #search-bar img {
-  position: absolute;
-  bottom: .7rem;
-  left: 2.8rem;
+  position: relative;
+  left: 2.5rem;
+  top: 0.4rem;
 }
 
 #search-bar input {
-  padding: 12px 60px;
+  max-width: 380px;
+  padding: 12px 50px;
   font-size: 1.2rem;
   text-align: center;
   border-radius: 10px;
@@ -190,6 +190,8 @@ input:focus {
           columns: auto;
   text-align: center;
   padding: 1rem 1rem 0 1rem;
+  max-width: 420px;
+  margin: 0 auto;
 }
 
 .filters .filter {
@@ -307,12 +309,6 @@ input:focus {
   font-weight: 700;
 }
 
-@media screen and (min-width: 800px) {
-  #search-bar input {
-    padding: 15px 200px;
-  }
-}
-
 .space {
   padding: 20px;
 }
@@ -321,9 +317,47 @@ input:focus {
   background: #ffc600;
 }
 
+@media screen and (min-width: 800px) {
+  #search-bar input {
+    padding: 15px 200px;
+    font-size: 1.4rem;
+  }
+  #search-bar input::-webkit-input-placeholder {
+    font-size: 1.3rem;
+  }
+  #search-bar input:-ms-input-placeholder {
+    font-size: 1.3rem;
+  }
+  #search-bar input::-ms-input-placeholder {
+    font-size: 1.3rem;
+  }
+  #search-bar input::placeholder {
+    font-size: 1.3rem;
+  }
+  #search-bar img {
+    width: 30px;
+    left: 3rem;
+  }
+  .filters .filter {
+    font-size: 1.2rem;
+  }
+  #questions .question h2 {
+    font-size: 1.6rem;
+  }
+  #questions .question p {
+    font-size: 1.3rem;
+  }
+  .bottom-bar img {
+    width: 40px;
+  }
+  .bottom-bar h2 {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 340px) {
   #search-bar input {
-    padding: 10px 40px;
+    padding: 10px 30px;
   }
   .filters .filter {
     padding: 5px 7px;
