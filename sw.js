@@ -1,4 +1,4 @@
-/* const staticCacheName = 'site-static:beta.01';
+const staticCacheName = 'site-static:beta.01';
 const dynamicCacheName = 'site-dynamic:beta.02';
 const assets = [
   '/',
@@ -6,12 +6,32 @@ const assets = [
   '/img/barcelona-city.png',
   '/img/violetHand.png',
   '/en/fallback.html',
-  '/en/review/*',
-  '/stylesheets/css/fallback.css',
+  '/en/howto.html',
+  '/en/about.html',
+  '/en/review/iceCream.html',
+  '/en/review/paella.html',
+  '/en/review/streetFood.html',
+  '/en/review/fancyTapas.html',
+  '/en/review/localTapas.html',
+  '/en/review/italian.html',
+  '/en/review/terrace.html',
+  '/en/review/museum.html',
+  '/en/review/dayTrip.html',
+  '/en/review/churro.html',
+  '/en/review/church.html',
+  '/en/review/beach.html',
+  '/en/review/barHoppingSt.html',
   '/javaScript/app.js',
   '/javaScript/footer.js',
   '/javaScript/indexPage.js',
+  '/javaScript/howto.js',
+  '/javaScript/reviews.js',
   '/stylesheets/css/index.css',
+  '/stylesheets/css/reviews.css',
+  '/stylesheets/css/about.css',
+  '/stylesheets/css/footer.css',
+  '/stylesheets/css/howto.css',
+  '/stylesheets/css/fallback.css',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2'
 ];
@@ -55,7 +75,6 @@ self.addEventListener('activate', evt => {
 
 // fetch event
 self.addEventListener('fetch', evt => {
-  //console.log('fetch event', evt);
   evt.respondWith(
     caches
       .match(evt.request)
@@ -66,7 +85,7 @@ self.addEventListener('fetch', evt => {
             return caches.open(dynamicCacheName).then(cache => {
               cache.put(evt.request.url, fetchRes.clone());
               // check cached items size
-              limitCacheSize(dynamicCacheName, 500);
+              limitCacheSize(dynamicCacheName, 300);
               return fetchRes;
             });
           })
@@ -79,4 +98,3 @@ self.addEventListener('fetch', evt => {
       })
   );
 });
- */
