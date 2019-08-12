@@ -72,8 +72,8 @@ function initMap() {
     // El Glop
     {
       coords: {
-        lat: 41.389507,
-        lng: 2.170556
+        lat: 41.404903,
+        lng: 2.159555
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
@@ -83,7 +83,7 @@ function initMap() {
                   <p>Paella</p>
                   <h5>El Glop</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.389507,2.170556&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.404903,2.159555&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
