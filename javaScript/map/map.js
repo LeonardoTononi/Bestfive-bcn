@@ -57,7 +57,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
@@ -80,7 +80,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -103,7 +103,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -655,7 +655,8 @@ function startMap() {
                         <a href="https://maps.google.com/maps?daddr=41.38473,2.182853&amp;ll=">GO!</a>
                   </div>
                 </section>`
-    }{
+    },
+    {
       coords: {
         lat: 41.403572,
         lng: 2.174418
@@ -832,7 +833,7 @@ function startMap() {
                   </div>
                 </section>`
     },
- // ================================= MUSEUM ===========================================
+    // ================================= MUSEUM ===========================================
 
     // Picasso Museum
     {
@@ -1129,7 +1130,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>Paella</p>
@@ -1147,7 +1148,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1165,7 +1166,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1183,7 +1184,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1200,7 +1201,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1219,7 +1220,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>Terrace</p>
@@ -1237,7 +1238,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1255,7 +1256,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1273,7 +1274,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1290,7 +1291,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20,20)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1359,8 +1360,8 @@ function startMap() {
     // Montserrat
     {
       coords: {
-        lat: 41.39199,
-        lng: 2.175778
+        lat: 41.595877,
+        lng: 1.829835
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
@@ -1370,7 +1371,7 @@ function startMap() {
                   <p>DayTrip</p>
                   <h5>Montserrat</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.391990,2.175778&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.595877,1.829835&amp;ll=">GO!</a>
                   </div>
                 </section>`
     }, // Sitges

@@ -3,7 +3,7 @@
 // ==========================
 function initMap() {
   let options = {
-    zoom: 11,
+    zoom: 6,
     center: {
       lat: 41.3887,
       lng: 2.1589
@@ -109,8 +109,8 @@ function initMap() {
     // Montserrat
     {
       coords: {
-        lat: 41.39199,
-        lng: 2.175778
+        lat: 41.595877,
+        lng: 1.829835
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
@@ -120,7 +120,7 @@ function initMap() {
                   <p>DayTrip</p>
                   <h5>Montserrat</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.391990,2.175778&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.595877,1.829835&amp;ll=">GO!</a>
                   </div>
                 </section>`
     }, // Sitges
