@@ -112,16 +112,6 @@ header h5 {
 }
 
 /* ================ ABOUT CONTENT =============== */
-h3 {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: 0 auto;
-  padding-top: 40px;
-  line-height: 1.7rem;
-  letter-spacing: 1.1px;
-  font-weight: 200;
-}
-
 .story {
   padding: 10px 10px;
   text-align: center;
