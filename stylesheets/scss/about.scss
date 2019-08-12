@@ -133,3 +133,13 @@ h3 {
 .last-story {
   padding-bottom: 70px;
 }
+
+@media screen and (min-width: 800px) {
+  .bottom-bar img {
+    width: 40px;
+  }
+
+  .bottom-bar h2 {
+    font-size: 1rem;
+  }
+}
