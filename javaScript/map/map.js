@@ -1299,6 +1299,97 @@ function startMap() {
                         <a href="https://maps.google.com/maps?daddr=41.359686,2.160740&amp;ll=">GO!</a>
                   </div>
                 </section>`
+    },
+    // ================================= DAY TRIP ===========================================
+    // Cadaques casa Dali
+    {
+      coords: {
+        lat: 42.293225,
+        lng: 3.285977
+      },
+      iconImage: {
+        url: '/img/icon/tour-bus.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                     <p>DayTrip</p>
+                     <h5>Cadaques <br />
+                        Casa Dali</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=42.293225,3.285977&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Girona Museo Dali
+    {
+      coords: {
+        lat: 42.267999,
+        lng: 2.959655
+      },
+      iconImage: {
+        url: '/img/icon/tour-bus.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>DayTrip</p>
+                  <h5>Girona Museo Dali</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=42.267999,2.959655&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // San Pol de Mar
+    {
+      coords: {
+        lat: 41.603985,
+        lng: 2.624428
+      },
+      iconImage: {
+        url: '/img/icon/tour-bus.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>DayTrip</p>
+                  <h5>San Pol de Mar</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.603985,2.624428&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Montserrat
+    {
+      coords: {
+        lat: 41.39199,
+        lng: 2.175778
+      },
+      iconImage: {
+        url: '/img/icon/tour-bus.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>DayTrip</p>
+                  <h5>Montserrat</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.391990,2.175778&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Sitges
+    {
+      coords: {
+        lat: 41.237436,
+        lng: 1.805738
+      },
+      iconImage: {
+        url: '/img/icon/tour-bus.png',
+        scaledSize: new google.maps.Size(40, 40)
+      },
+      content: `<section class="maps-content">
+                  <p>DayTrip</p>
+                  <h5>Sitges</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.237436,1.805738&amp;ll=">GO!</a>
+                  </div>
+                </section>`
     }
   ];
 
