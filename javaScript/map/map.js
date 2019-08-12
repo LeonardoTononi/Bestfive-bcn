@@ -57,7 +57,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(20,20)
       },
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
@@ -80,7 +80,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(20,20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -103,7 +103,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(20,20)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -483,7 +483,7 @@ function startMap() {
         lng: 2.164501
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
@@ -501,7 +501,7 @@ function startMap() {
         lng: 2.162581
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
@@ -519,7 +519,7 @@ function startMap() {
         lng: 2.175482
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
@@ -537,7 +537,7 @@ function startMap() {
         lng: 2.165831
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
@@ -554,7 +554,7 @@ function startMap() {
         lng: 2.182853
       },
       iconImage: {
-        url: 'https://img.icons8.com/offices/80/000000/running-rabbit.png',
+        url: '/img/icon/rabbit.png',
         scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
@@ -653,6 +653,650 @@ function startMap() {
                   <h5>Platja del Somorrostro</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.38473,2.182853&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }{
+      coords: {
+        lat: 41.403572,
+        lng: 2.174418
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                     <p>Church</p>
+                     <h5>Sagrada Familia</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.403572,2.174418&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Santa Maria del Mar
+    {
+      coords: {
+        lat: 41.383898,
+        lng: 2.182085
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Santa Maria del Mar</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383898,2.182085&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Santa Maria del Pi
+    {
+      coords: {
+        lat: 41.382147,
+        lng: 2.173948
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Santa Maria del Pi</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382147,2.173948&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Catedral de Barcelona
+    {
+      coords: {
+        lat: 41.383937,
+        lng: 2.176202
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Catedral de Barcelona</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383937,2.176202&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Monasterio Sant Pau del Camp
+    {
+      coords: {
+        lat: 41.376204,
+        lng: 2.169478
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Platja del Somorrostro</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.376204,2.169478&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // ================================= CHURCH ===========================================
+    {
+      coords: {
+        lat: 41.403572,
+        lng: 2.174418
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                     <p>Church</p>
+                     <h5>Sagrada Familia</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.403572,2.174418&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Santa Maria del Mar
+    {
+      coords: {
+        lat: 41.383898,
+        lng: 2.182085
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Santa Maria del Mar</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383898,2.182085&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Santa Maria del Pi
+    {
+      coords: {
+        lat: 41.382147,
+        lng: 2.173948
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Santa Maria del Pi</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382147,2.173948&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Catedral de Barcelona
+    {
+      coords: {
+        lat: 41.383937,
+        lng: 2.176202
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Catedral de Barcelona</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383937,2.176202&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Monasterio Sant Pau del Camp
+    {
+      coords: {
+        lat: 41.376204,
+        lng: 2.169478
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        scaledSize: new google.maps.Size(30, 30)
+      },
+      content: `<section class="maps-content">
+                  <p>Church</p>
+                  <h5>Platja del Somorrostro</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.376204,2.169478&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+ // ================================= MUSEUM ===========================================
+
+    // Picasso Museum
+    {
+      coords: {
+        lat: 41.385221,
+        lng: 2.180896
+      },
+      iconImage: {
+        url: '/img/icon/picasso.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                     <p>Museum</p>
+                     <h5>Picasso Museum</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.385221,2.180896&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Fundación miró
+    {
+      coords: {
+        lat: 41.368645,
+        lng: 2.159842
+      },
+      iconImage: {
+        url: '/img/icon/picasso.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Museum</p>
+                  <h5>Fundación <br> Joan Miró</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.368645,2.159842&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // MACBA
+    {
+      coords: {
+        lat: 41.38286,
+        lng: 2.166633
+      },
+      iconImage: {
+        url: '/img/icon/picasso.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Museum</p>
+                  <h5>MACBA</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382860,2.166633&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // MNAC
+    {
+      coords: {
+        lat: 41.368863,
+        lng: 2.153274
+      },
+      iconImage: {
+        url: '/img/icon/picasso.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Museum</p>
+                  <h5>MNAC</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.368863,2.153274&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // MUHBA
+    {
+      coords: {
+        lat: 41.3839,
+        lng: 2.177833
+      },
+      iconImage: {
+        url: '/img/icon/picasso.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Museum</p>
+                  <h5>MUHBA</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383900,2.1778333&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // ================================= CHURRO ===========================================
+    // Granja Viader
+    {
+      coords: {
+        lat: 41.383048,
+        lng: 2.170836
+      },
+      iconImage: {
+        url: '/img/icon/churro.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Churros</p>
+                     <h5>Granja M Viader</h5>
+                     <h2>Now: 
+                        <span class="open">Open</span> (12.00 - 23.00)
+                     </h2>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383048,2.170836&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Granja Dulcinea
+    {
+      coords: {
+        lat: 41.382496,
+        lng: 2.173434
+      },
+      iconImage: {
+        url: '/img/icon/churro.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Churros</p>
+                  <h5>Granja Dulcinea</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (18.00 - 23.00)
+                  </h2>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382496,2.173434&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // La Pallaresa
+    {
+      coords: {
+        lat: 41.382911,
+        lng: 2.17278
+      },
+      iconImage: {
+        url: '/img/icon/churro.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Churros</p>
+                  <h5>La Pallaresa</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (12.00 - 23.00)
+                  </h2>
+                 <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382911,2.172780&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // La Nena
+    {
+      coords: {
+        lat: 41.40265,
+        lng: 2.158809
+      },
+      iconImage: {
+        url: '/img/icon/churro.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Churros</p>
+                  <h5>La Nena</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (10.00 - 23.00)
+                  </h2>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.402650,2.158809&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Xurreria Trébol
+    {
+      coords: {
+        lat: 41.397893,
+        lng: 2.16089
+      },
+      iconImage: {
+        url: '/img/icon/churro.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Churros</p>
+                  <h5>Xurreria Trébol</h5>
+                  <h2>Now: 
+                    <span class="open">Open</span> (14.00 - 23.00)
+                  </h2>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.397893,2.160890&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+
+    // ================================= ITALIAN ===========================================
+    // Madre Lievito
+    {
+      coords: {
+        lat: 41.39763,
+        lng: 2.203284
+      },
+      iconImage: {
+        url: '/img/icon/spaghetti.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Italian</p>
+                     <h5>Madre Lievito</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.397630,2.203284&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // Le Cucine Mandarosso
+    {
+      coords: {
+        lat: 41.386932,
+        lng: 2.17621
+      },
+      iconImage: {
+        url: '/img/icon/spaghetti.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Italian</p>
+                     <h5>Le Cucine Mandarosso</h5>
+                    <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.386932,2.176210&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // Frankie Gallo cha cha cha
+    {
+      coords: {
+        lat: 41.378556,
+        lng: 2.17246
+      },
+      iconImage: {
+        url: '/img/icon/spaghetti.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Italian</p>
+                     <h5>Frankie Gallo <br> Cha Cha Cha</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.378556,2.172460&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // La Bella Napoli
+    {
+      coords: {
+        lat: 41.374362,
+        lng: 2.163734
+      },
+      iconImage: {
+        url: '/img/icon/spaghetti.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Italian</p>
+                     <h5>La Bella Napoli</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.374362,2.163734&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // La pizza del Sortidor
+    {
+      coords: {
+        lat: 41.372748,
+        lng: 2.16246
+      },
+      iconImage: {
+        url: '/img/icon/spaghetti.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Italian</p>
+                     <h5>La pizza <br> del Sortidor</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.372748,2.162460&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // ================================= PAELLA ===========================================
+    // 7 Portes
+    {
+      coords: {
+        lat: 41.382138,
+        lng: 2.183262
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/paella.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                     <p>Paella</p>
+                     <h5>7 Portes</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382138,2.183262&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // El Glop
+    {
+      coords: {
+        lat: 41.389507,
+        lng: 2.170556
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/paella.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Paella</p>
+                  <h5>El Glop</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.389507,2.170556&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Can Solé
+    {
+      coords: {
+        lat: 41.378884,
+        lng: 2.188393
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/paella.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Paella</p>
+                  <h5>Can Solé</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.378884,2.188393&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Litoral
+    {
+      coords: {
+        lat: 41.352229,
+        lng: 2.157799
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/paella.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Paella</p>
+                  <h5>Litoral</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.352229,2.157799&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // Can Ros
+    {
+      coords: {
+        lat: 41.3839,
+        lng: 2.177833
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/paella.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Paella</p>
+                  <h5>Can Ros</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.377338,2.189372&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // ================================= TERRACE ===========================================
+    // Bar Central
+    {
+      coords: {
+        lat: 41.38355,
+        lng: 2.168818
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/summer.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                     <p>Terrace</p>
+                     <h5>Bar Central</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383550,2.168818&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // El Jardí
+    {
+      coords: {
+        lat: 41.380953,
+        lng: 2.170089
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/summer.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Terrace</p>
+                  <h5>El Jardí</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.380953,2.170089&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Antic Teatre
+    {
+      coords: {
+        lat: 41.387167,
+        lng: 2.175944
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/summer.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Terrace</p>
+                  <h5>Antic Teatre</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.387167,2.175944&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Flax and Kale
+    {
+      coords: {
+        lat: 41.38519,
+        lng: 2.165476
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/summer.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Terrace</p>
+                  <h5>Flax and Kale</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.385190,2.165476&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // La Caseta del Migdia
+    {
+      coords: {
+        lat: 41.359686,
+        lng: 2.16074
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/summer.png',
+        scaledSize: new google.maps.Size(20,20)
+      },
+      content: `<section class="maps-content">
+                  <p>Terrace</p>
+                  <h5>La Caseta <br> del Migdia</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.359686,2.160740&amp;ll=">GO!</a>
                   </div>
                 </section>`
     }
