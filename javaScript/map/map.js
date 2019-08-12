@@ -1130,7 +1130,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
                      <p>Paella</p>
@@ -1143,18 +1143,18 @@ function startMap() {
     // El Glop
     {
       coords: {
-        lat: 41.389507,
-        lng: 2.170556
+        lat: 41.404891,
+        lng: 2.15954
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
                   <h5>El Glop</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.389507,2.170556&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.404891,2.159540&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
@@ -1166,7 +1166,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1179,35 +1179,35 @@ function startMap() {
     // Litoral
     {
       coords: {
-        lat: 41.352229,
-        lng: 2.157799
+        lat: 41.37607,
+        lng: 2.190066
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
                   <h5>Litoral</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.352229,2.157799&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.376070,2.190066">GO!</a>
                   </div>
                 </section>`
     }, // Can Ros
     {
       coords: {
-        lat: 41.3839,
-        lng: 2.177833
+        lat: 41.377313,
+        lng: 2.189371
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(18, 18)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
                   <h5>Can Ros</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.377338,2.189372&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.377313,2.189371&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
@@ -1310,7 +1310,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>DayTrip</p>
@@ -1329,7 +1329,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1347,7 +1347,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1365,7 +1365,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1382,7 +1382,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(40, 40)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>

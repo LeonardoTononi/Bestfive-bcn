@@ -72,8 +72,8 @@ function initMap() {
     // El Glop
     {
       coords: {
-        lat: 41.404903,
-        lng: 2.159555
+        lat: 41.404891,
+        lng: 2.15954
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
@@ -83,7 +83,7 @@ function initMap() {
                   <p>Paella</p>
                   <h5>El Glop</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.404903,2.159555&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.404891,2.159540&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
@@ -108,8 +108,8 @@ function initMap() {
     // Litoral
     {
       coords: {
-        lat: 41.352229,
-        lng: 2.157799
+        lat: 41.37607,
+        lng: 2.190066
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
@@ -119,14 +119,14 @@ function initMap() {
                   <p>Paella</p>
                   <h5>Litoral</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.352229,2.157799&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.376070,2.190066">GO!</a>
                   </div>
                 </section>`
     }, // Can Ros
     {
       coords: {
-        lat: 41.3839,
-        lng: 2.177833
+        lat: 41.377313,
+        lng: 2.189371
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
@@ -136,7 +136,7 @@ function initMap() {
                   <p>Paella</p>
                   <h5>Can Ros</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.377338,2.189372&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.377313,2.189371&amp;ll=">GO!</a>
                   </div>
                 </section>`
     }

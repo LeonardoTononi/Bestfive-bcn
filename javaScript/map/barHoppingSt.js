@@ -90,8 +90,8 @@ function initMap() {
     // Carrer de la Mercè
     {
       coords: {
-        lat: 41.382905,
-        lng: 2.175482
+        lat: 41.379878,
+        lng: 2.180129
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
@@ -101,7 +101,7 @@ function initMap() {
                   <p>HoppingStreet</p>
                   <h5>Carrer de la Mercè</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.379878,2.180129&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
