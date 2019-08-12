@@ -264,21 +264,14 @@ header {
   }
 
   .place_tips {
-    position: relative;
-    padding: 90px 10px 25px 10px;
+    padding: 90px 10px 20px 10px;
     font-size: 0.9rem;
 
-    img {
-      position: absolute;
-      left: 8px;
-      width: 23px;
-    }
-
     p {
-      text-align: justify;
+      text-align: center;
       letter-spacing: 1.15px;
       color: $mainGray;
-      padding: 10px 20px 0 20px;
+      padding: 10px;
     }
   }
 
@@ -350,13 +343,31 @@ header {
   left: 10px !important;
 }
 
-
 @media only screen and (max-width: 340px) {
   .place {
     max-width: 290px;
 
     .header-card {
       width: 245px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /*  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: 0 auto;
+  } */
+
+  .bottom-bar {
+    img {
+      width: 35px;
+    }
+
+    h2 {
+      font-size: 1rem;
     }
   }
 }
