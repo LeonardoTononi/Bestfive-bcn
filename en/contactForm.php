@@ -9,9 +9,10 @@ if (isset($_POST['submit'])) {
   $txt = "Name: " . $name . ".\n\n" .
     $message;
 
-  mail($mailTo, $headers, $txt);
+  @mail($mailTo, $headers, $txt);
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,12 +33,6 @@ if (isset($_POST['submit'])) {
   <title>Contact Form</title>
 </head>
 
-<!-- <header>
-      <h5>
-       <img src=" https://img.icons8.com/color/48/000000/paper-plane.png" alt="contact icon">Contact Form
-      </h5>
-    </header> -->
-
 <div class="contact-form">
   <!-- <div class="closeBtnForm">
         <p>x</p>
@@ -56,17 +51,18 @@ if (isset($_POST['submit'])) {
       <textarea name="textarea" id="textarea" cols="20" rows="8" required></textarea>
     </div>
     <div class="row">
-      <button type="submit"><i class="far fa-paper-plane"></i> Send</button>
+      <button type="submit" name="submit"><i class="far fa-paper-plane"></i> Send</button>
     </div>
   </form>
 </div>
 
-<div class="back-button">
-  <a href="/index.html">
+<a href="/index.html">
+  <div class="back-button">
     <img src="/img/icon/back-hand.png" alt="" />
     <p>Back</p>
-  </a>
-</div>
+  </div>
+</a>
+
 </body>
 
 </html>

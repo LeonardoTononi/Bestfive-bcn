@@ -115,25 +115,20 @@ img {
 }
 
 .back-button {
-  a {
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-    background: white;
-    border-top: 1px solid #d4d4d4;
-    padding: 3px 11px;
-    bottom: 5px;
-    cursor: pointer;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #d4d4d4;
 
-    img {
-      width: 32px;
-    }
+  img {
+    padding: 5px 10px 0 5px;
+    width: 32px;
+  }
 
-    p {
-      margin: 0;
-      font-size: 0.9rem;
-      padding-left: 4px;
-    }
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    padding: 3px 7px;
   }
 }
 
