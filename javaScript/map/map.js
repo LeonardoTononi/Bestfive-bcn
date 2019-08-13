@@ -57,7 +57,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
@@ -80,7 +80,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -103,7 +103,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -126,7 +126,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -149,7 +149,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/localTapas.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
@@ -175,7 +175,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/fancyTapas2.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>FancyTapas</p>
@@ -198,7 +198,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/fancyTapas2.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
@@ -221,7 +221,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/fancyTapas2.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
@@ -244,7 +244,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/fancyTapas2.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
@@ -266,7 +266,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/fancyTapas2.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
@@ -292,7 +292,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -312,7 +312,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -332,7 +332,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -352,7 +352,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -372,7 +372,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -393,7 +393,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>CheapEats</p>
@@ -411,7 +411,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -429,7 +429,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -447,7 +447,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -464,7 +464,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -484,7 +484,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>HoppingStreet</p>
@@ -502,7 +502,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -520,7 +520,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -538,7 +538,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -555,7 +555,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>HoppingStreet</p>
@@ -575,7 +575,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/beach.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Beach</p>
@@ -593,7 +593,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/beach.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Beach</p>
@@ -611,7 +611,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/beach.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Beach</p>
@@ -629,7 +629,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/beach.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Beach</p>
@@ -646,7 +646,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/beach.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Beach</p>
@@ -843,7 +843,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/picasso.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Museum</p>
@@ -861,7 +861,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/picasso.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Museum</p>
@@ -879,7 +879,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/picasso.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Museum</p>
@@ -897,7 +897,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/picasso.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Museum</p>
@@ -914,7 +914,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/picasso.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Museum</p>
@@ -933,7 +933,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/churro.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Churros</p>
@@ -954,7 +954,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/churro.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Churros</p>
@@ -975,7 +975,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/churro.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Churros</p>
@@ -996,7 +996,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/churro.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Churros</p>
@@ -1016,7 +1016,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/churro.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Churros</p>
@@ -1039,7 +1039,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/spaghetti.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Italian</p>
@@ -1057,7 +1057,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/spaghetti.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Italian</p>
@@ -1075,7 +1075,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/spaghetti.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Italian</p>
@@ -1093,7 +1093,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/spaghetti.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Italian</p>
@@ -1111,7 +1111,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/spaghetti.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Italian</p>
@@ -1130,7 +1130,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Paella</p>
@@ -1148,7 +1148,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1166,7 +1166,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1184,7 +1184,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1201,7 +1201,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/paella.png',
-        scaledSize: new google.maps.Size(18, 18)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Paella</p>
@@ -1220,7 +1220,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>Terrace</p>
@@ -1238,7 +1238,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1256,7 +1256,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1274,7 +1274,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1291,7 +1291,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/summer.png',
-        scaledSize: new google.maps.Size(20, 20)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>Terrace</p>
@@ -1310,7 +1310,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                      <p>DayTrip</p>
@@ -1329,7 +1329,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1347,7 +1347,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1365,7 +1365,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1382,7 +1382,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
