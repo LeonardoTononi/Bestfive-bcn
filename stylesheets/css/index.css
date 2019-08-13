@@ -489,6 +489,7 @@ h2 {
 }
 
 .contact-form form textarea {
+  font-family: "Open Sans", sans-serif;
   width: 92%;
   padding-left: 18px;
   font-size: 1.2rem;
