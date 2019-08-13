@@ -353,14 +353,14 @@ h2 {
 
 .coming-soon-pop {
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   left: 50%;
   text-align: center;
   width: 210px;
   height: 0;
-  margin: -105px 0 0 -105px;
+  margin: -75px 0 0 -105px;
   background: #833ab4;
-  color: white;
+  color: #fff;
   display: none;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 10px 0 #00000066;
@@ -443,6 +443,7 @@ h2 {
 
 .contact-form {
   display: none;
+  opacity: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -460,6 +461,8 @@ h2 {
   padding: 3px;
   border-radius: 20px;
   letter-spacing: 1.1px;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
 }
 
 .contact-form form {
@@ -530,6 +533,20 @@ h2 {
 .contact-form form button i {
   color: #fff;
   padding-right: 6px;
+}
+
+.contact-form .closeBtnForm {
+  text-align: end;
+  padding: 10px;
+  position: absolute;
+  right: -5px;
+  top: -15px;
+  color: #484848ab;
+}
+
+.contact-form .closeBtnForm p {
+  margin: 0;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 340px) {

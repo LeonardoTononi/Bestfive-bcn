@@ -297,6 +297,8 @@ h2 {
   }
 }
 
+// ============== COMING SOON POPUP ================
+
 .coming-soon {
   background: #484848;
   opacity: 0.2;
@@ -305,14 +307,14 @@ h2 {
 
 .coming-soon-pop {
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   left: 50%;
   text-align: center;
   width: 210px;
   height: 0;
-  margin: -105px 0 0 -105px;
+  margin: -75px 0 0 -105px;
   background: #833ab4;
-  color: white;
+  color: #fff;
   display: none;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #00000066;
@@ -397,6 +399,7 @@ h2 {
 
 .contact-form {
   display: none;
+  opacity: 0;
   box-sizing: border-box;
   position: absolute;
   top: 50%;
@@ -412,6 +415,7 @@ h2 {
   padding: 3px;
   border-radius: 20px;
   letter-spacing: 1.1px;
+  transition: opacity 150ms ease-in-out;
 
   form {
     padding: 20px 10px;
@@ -465,6 +469,20 @@ h2 {
         color: #fff;
         padding-right: 6px;
       }
+    }
+  }
+
+  .closeBtnForm {
+    text-align: end;
+    padding: 10px;
+    position: absolute;
+    right: -5px;
+    top: -15px;
+    color: #484848ab;
+
+    p {
+      margin: 0;
+      padding: 20px;
     }
   }
 }

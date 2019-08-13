@@ -110,3 +110,18 @@ function comingSoon() {
     comingSoon_pop.style.height = '0';
   });
 }
+
+// =========== CONTACT FORM =============
+const contactForm = document.querySelector('.contact-form');
+const contactIcon = document.querySelector('.contact-icon');
+const closeBtnForm = document.querySelector('.closeBtnForm');
+
+contactIcon.addEventListener('click', () => {
+  contactForm.style.display = 'block';
+  contactForm.style.opacity = '1';
+});
+
+closeBtnForm.addEventListener('click', () => {
+  contactForm.style.display = 'none';
+  contactForm.style.opacity = '0';
+});
