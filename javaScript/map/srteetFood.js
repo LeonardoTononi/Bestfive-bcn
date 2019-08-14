@@ -69,7 +69,7 @@ function initMap() {
                   </div>
                 </section>`
     },
-    // The fish and chips shop
+    // The fish and chips shop Universitat
     {
       coords: {
         lat: 41.378535,
@@ -84,6 +84,60 @@ function initMap() {
                   <h5>The fish and chips shop</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.378535,2.154525&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // The fish and chips shop Gracia
+    {
+      coords: {
+        lat: 41.39945,
+        lng: 2.150471
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>The fish and chips shop</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.399450,2.150471&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // The fish and chips shop Sant Antoni
+    {
+      coords: {
+        lat: 41.37854,
+        lng: 2.154513
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>The fish and chips shop</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.378540,2.154513&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // The fish and chips shop Gluten Free
+    {
+      coords: {
+        lat: 41.386805,
+        lng: 2.156696
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>The fish and chips shop</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.386805,2.156696&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
@@ -105,7 +159,7 @@ function initMap() {
                   </div>
                 </section>`
     },
-    // Bacoa Burger
+    // Bacoa Burger plaza real
     {
       coords: {
         lat: 41.380678,
@@ -122,7 +176,62 @@ function initMap() {
                       <a href="https://maps.google.com/maps?daddr=41.380678,2.174705&amp;ll=">GO!</a>
                   </div>
                 </section>`
-    }, // Maoz
+    },
+    // Bacoa Burger barceloneta
+    {
+      coords: {
+        lat: 41.376764,
+        lng: 2.190358
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>Bacoa Burger</h5>
+                  <div class="go-btn">
+                      <a href="https://maps.google.com/maps?daddr=41.376764,2.190358&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Bacoa Burger Born Bajo
+    {
+      coords: {
+        lat: 41.383516,
+        lng: 2.183696
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>Bacoa Burger</h5>
+                  <div class="go-btn">
+                      <a href="https://maps.google.com/maps?daddr=41.383516,2.183696&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Bacoa Burger Born Alto
+    {
+      coords: {
+        lat: 41.385504,
+        lng: 2.178871
+      },
+      iconImage: {
+        url: 'https://img.icons8.com/color/96/000000/hamburger.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>CheapEats</p>
+                  <h5>Bacoa Burger</h5>
+                  <div class="go-btn">
+                      <a href="https://maps.google.com/maps?daddr=41.385504,2.178871&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Maoz
     {
       coords: {
         lat: 41.38084,
