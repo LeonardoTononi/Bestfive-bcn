@@ -51,7 +51,6 @@ img {
   height: 90%;
   /* box-shadow: 0 0 20px 0 #484848; */
   background: #fff;
-  /* z-index: 99999; */
   padding: 3px;
   border-radius: 20px;
   letter-spacing: 1.1px;
@@ -80,7 +79,12 @@ img {
   font-size: 1.2rem;
   color: #484848;
   border-radius: 20px;
-  border: 1px solid #484848;
+  border: 1px solid #48484866;
+}
+
+.contact-form form input:focus {
+  -webkit-box-shadow: 0 0 10px 0 #48484866;
+          box-shadow: 0 0 10px 0 #48484866;
 }
 
 .contact-form form textarea {
@@ -92,7 +96,12 @@ img {
   margin: 15px 0 20px 0;
   outline: none;
   border-radius: 20px;
-  border: 1px solid #484848;
+  border: 1px solid #48484866;
+}
+
+.contact-form form textarea:focus {
+  -webkit-box-shadow: 0 0 10px 0 #48484866;
+          box-shadow: 0 0 10px 0 #48484866;
 }
 
 .contact-form form ::-webkit-input-placeholder {
