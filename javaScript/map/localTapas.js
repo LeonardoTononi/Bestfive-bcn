@@ -224,29 +224,3 @@ function initMap() {
     }
   }
 }
-
-const place_div = document.querySelectorAll('.place');
-const now = document.querySelectorAll('.now');
-const weeklyHours = document.querySelectorAll('.weekly-hours');
-const goBtn_span = document.querySelectorAll('.goBtn');
-
-const covaFumadaID = {
-  placeId: 'ChIJvdFY9amjpBIRVecxFX2krK0',
-  fields: ['opening_hours']
-};
-const canPaixanoID = {
-  placeId: 'ChIJI1v-6f-ipBIRTeac1KdrUcg',
-  fields: ['opening_hours']
-};
-const celtaPulperiaID = {
-  placeId: 'ChIJgRiL71WipBIRnjR7UYyv0lA',
-  fields: ['opening_hours']
-};
-const bodegaVasconiaID = {
-  placeId: 'ChIJQxfpUP-ipBIREELTr1GFoLg',
-  fields: ['opening_hours']
-};
-const bombetaID = {
-  placeId: 'ChIJAR8SngCjpBIRw77ZED15xAY',
-  fields: ['opening_hours']
-};

@@ -209,7 +209,7 @@ function initMap() {
 // ==========================
 //  GET DETAILS GOOGLE MAPS
 // ==========================
-
+/* 
 const place_div = document.querySelectorAll('.place');
 const now = document.querySelectorAll('.now');
 const weeklyHours = document.querySelectorAll('.weekly-hours');
@@ -259,7 +259,7 @@ function logPlaceDetails() {
         return html;
       });
       weeklyHours[0].innerHTML = html;
-      /* const weeklyData = `
+      const weeklyData = `
         <ul>
             <li class="today">${place.opening_hours.weekday_text[0]}</li>
             <li class="today">${place.opening_hours.weekday_text[1]}</li>
@@ -270,7 +270,7 @@ function logPlaceDetails() {
             <li class="today">${place.opening_hours.weekday_text[6]}</li>
         </ul>`;
       weeklyHours[0].innerHTML = weeklyData;
- */
+ 
       if (place.opening_hours.open_now === true) {
         now[0].innerText = 'Open';
         now[0].classList.add('open');
@@ -379,7 +379,7 @@ function logPlaceDetails() {
     }
   });
 }
-
+ */
 function mapsSelector() {
   if (
     navigator.platform.indexOf('iPhone') != -1 ||
