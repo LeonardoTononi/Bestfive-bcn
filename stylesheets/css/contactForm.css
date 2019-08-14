@@ -80,16 +80,16 @@ img {
   font-size: 1.2rem;
   color: #484848;
   border-radius: 20px;
-  border: 1px solid #48484866;
+  border: 1px solid #833ab4;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
 
 .contact-form form input:focus {
-  -webkitbox-box-shadow: 0 0 10px 0 #48484866;
-  -webkit-box-shadow: 0 0 10px 0 #48484866;
-          box-shadow: 0 0 10px 0 #48484866;
-  border: none;
+  -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+  -webkit-box-shadow: 0 0 10px 0 #833ab49e;
+          box-shadow: 0 0 10px 0 #833ab49e;
+  border: 1px solid transparent;
 }
 
 .contact-form form textarea {
@@ -102,17 +102,16 @@ img {
   margin: 15px 0 20px 0;
   outline: none;
   border-radius: 20px;
-  border: 1px solid #48484866;
+  border: 1px solid #833ab4;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
 
 .contact-form form textarea:focus {
-  -webkit-box-shadow: 0 0 10px 0 #48484866;
-          box-shadow: 0 0 10px 0 #48484866;
-  -webkitbox-box-shadow: 0 0 10px 0 #48484866;
-  -moz-box-shadow: 0 0 10px 0 #48484866;
-  border: none;
+  -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+  -webkit-box-shadow: 0 0 10px 0 #833ab49e;
+          box-shadow: 0 0 10px 0 #833ab49e;
+  border: 1px solid transparent;
 }
 
 .contact-form form ::-webkit-input-placeholder {

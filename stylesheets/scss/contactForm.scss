@@ -63,14 +63,14 @@ img {
       font-size: 1.2rem;
       color: #484848;
       border-radius: 20px;
-      border: 1px solid #48484866;
+      border: 1px solid #833ab4;
       transition: all 150ms ease-in-out;
 
       &:focus {
-        -webkitbox-box-shadow: 0 0 10px 0#48484866;
-        -moz-box-shadow: 0 0 10px 0#48484866;
-        box-shadow: 0 0 10px 0#48484866;
-        border: none;
+        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+        -moz-box-shadow: 0 0 10px 0 #833ab49e;
+        box-shadow: 0 0 10px 0 #833ab49e;
+        border: 1px solid transparent;
       }
     }
 
@@ -84,14 +84,14 @@ img {
       margin: 15px 0 20px 0;
       outline: none;
       border-radius: 20px;
-      border: 1px solid #48484866;
+      border: 1px solid #833ab4;
       transition: all 150ms ease-in-out;
 
       &:focus {
-        box-shadow: 0 0 10px 0#48484866;
-        -webkitbox-box-shadow: 0 0 10px 0#48484866;
-        -moz-box-shadow: 0 0 10px 0#48484866;
-        border: none;
+        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+        -moz-box-shadow: 0 0 10px 0 #833ab49e;
+        box-shadow: 0 0 10px 0 #833ab49e;
+        border: 1px solid transparent;
       }
     }
 
