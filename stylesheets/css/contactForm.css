@@ -80,11 +80,14 @@ img {
   color: #484848;
   border-radius: 20px;
   border: 1px solid #48484866;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .contact-form form input:focus {
   -webkit-box-shadow: 0 0 10px 0 #48484866;
           box-shadow: 0 0 10px 0 #48484866;
+  border: none;
 }
 
 .contact-form form textarea {
@@ -97,11 +100,14 @@ img {
   outline: none;
   border-radius: 20px;
   border: 1px solid #48484866;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .contact-form form textarea:focus {
   -webkit-box-shadow: 0 0 10px 0 #48484866;
           box-shadow: 0 0 10px 0 #48484866;
+  border: none;
 }
 
 .contact-form form ::-webkit-input-placeholder {

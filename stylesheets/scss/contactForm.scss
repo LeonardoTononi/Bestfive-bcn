@@ -63,9 +63,11 @@ img {
       color: #484848;
       border-radius: 20px;
       border: 1px solid #48484866;
+      transition: all 150ms ease-in-out;
 
       &:focus {
         box-shadow: 0 0 10px 0#48484866;
+        border: none;
       }
     }
 
@@ -79,9 +81,11 @@ img {
       outline: none;
       border-radius: 20px;
       border: 1px solid #48484866;
+      transition: all 150ms ease-in-out;
 
       &:focus {
         box-shadow: 0 0 10px 0 #48484866;
+        border: none;
       }
     }
 
