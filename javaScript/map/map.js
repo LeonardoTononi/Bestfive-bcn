@@ -89,6 +89,24 @@ function startMap() {
                   </div>
                 </section>`
     },
+    // Bar Celta Pulperia Due
+    {
+      coords: {
+        lat: 41.386678,
+        lng: 2.182337
+      },
+      iconImage: {
+        url: '/img/icon/localTapas.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>LocalTapas</p>
+                  <h5>Bar Celta Pulperia</h5>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.386678, 2.182337&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
     // Bar Celta Pulperia
     {
       coords: {
@@ -260,7 +278,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -278,7 +296,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -296,7 +314,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -314,7 +332,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
@@ -332,7 +350,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
