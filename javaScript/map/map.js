@@ -62,14 +62,11 @@ function startMap() {
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
                      <h5>La Cova Fumada</h5>
-                     <h2>Now: 
-                        <span class="open">Open</span> (12.00 - 23.00)
-                     </h2>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
+                     <div class="go-btn">
+                       <a href="https://maps.google.com/maps?daddr=41.379294,2.189208&amp;ll=">
+                          GO!
                        </a>
-                     </h1>
+                     </div>
                 </section>`
     },
     // Can Paixano
@@ -85,14 +82,11 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Can Paixano</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                     <a href="https://maps.google.com/maps?daddr=41.381815,2.183370&amp;ll=">
+                       GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
     // Bar Celta Pulperia
@@ -108,14 +102,10 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Bar Celta Pulperia</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                     <a href="https://maps.google.com/maps?daddr=41.379938,2.180088&amp;ll=">GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
     // Bodega Vasconia
@@ -131,14 +121,11 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Bodega Vasconia</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                     <a href="https://maps.google.com/maps?daddr=41.381087,2.179913&amp;ll=">
+                       GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
     // La Bombeta
@@ -154,14 +141,11 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>La Bombeta</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
-                  <h1>
-                     <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                     <a href="https://maps.google.com/maps?daddr=41.380577,2.187703&amp;ll=">
+                       GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
 
@@ -180,14 +164,11 @@ function startMap() {
       content: `<section class="maps-content">
                      <p>FancyTapas</p>
                      <h5>La platilleria</h5>
-                     <h2>Now: 
-                        <span class="open">Open</span> (12.00 - 23.00)
-                     </h2>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
+                     <div class="go-btn">
+                       <a href="https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=">
+                          GO!
                        </a>
-                     </h1>
+                     </div>
                 </section>`
     },
     // Bar canete
@@ -203,14 +184,11 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>Bar cañete</h5>
-                  <h2>Now: 
-                    <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                    <a href="https://maps.google.com/maps?daddr=41.379161,2.173134&amp;ll=">
+                       GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
     // La Alcoba Azul
@@ -226,14 +204,11 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>La Alcoba Azul</h5>
-                  <h2>Now: 
-                    <span class="open">Open</span> (12.00 - 23.00)
-                  </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                    <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">
+                       GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
     // El Nacional
@@ -249,14 +224,9 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>El Nacional</h5>
-                  <h2>Now: 
-                    <span class="open">Open</span> (10.00 - 23.00)
-                  </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
-                    </a>
-                  </h1>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.390548,2.168283&amp;ll=">GO!</a>
+                  </div>
                 </section>`
     }, // Cal Pep
     {
@@ -271,19 +241,35 @@ function startMap() {
       content: `<section class="maps-content">
                   <p>FancyTapas</p>
                   <h5>Cal Pep</h5>
-                  <h2>Now: 
-                    <span class="open">Open</span> (14.00 - 23.00)
-                  </h2>
-                  <h1>
-                    <a href="#">
-                       <span class="open"> GO! <span>
+                  <div class="go-btn">
+                    <a href="https://maps.google.com/maps?daddr=41.383975,2.183409&amp;ll=">
+                       GO!
                     </a>
-                  </h1>
+                  </div>
                 </section>`
     },
 
     // ================================= ICE CREAM ===========================================
 
+    // Gocce di latte
+    // Oggi Gelato
+    {
+      coords: {
+        lat: 41.386571,
+        lng: 2.173393
+      },
+      iconImage: {
+        url: '/img/icon/ice-cream.png',
+        scaledSize: new google.maps.Size(30,30)
+      },
+      content: `<section class="maps-content">
+                     <p>IceCream</p>
+                     <h5>Oggi Gelato</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.386571,2.173393&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
     // Gocce di latte
     {
       coords: {
@@ -292,16 +278,14 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(30,30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Gocce di Latte</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                    <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383204,2.182705&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // Parallelo
@@ -312,16 +296,14 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(30,30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Paral•lelo</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.396990,2.156378&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // DelaCrem
@@ -332,16 +314,14 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(30,30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>DelaCrem</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.387996,2.161797&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // Gelaaati!
@@ -352,36 +332,14 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30, 30)
+        scaledSize: new google.maps.Size(30,30)
       },
       content: `<section class="maps-content">
                      <p>IceCream</p>
                      <h5>Gelaaati! di marco</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
-                </section>`
-    },
-    // Oggi Gelato
-    {
-      coords: {
-        lat: 41.386571,
-        lng: 2.173393
-      },
-      iconImage: {
-        url: '/img/icon/ice-cream.png',
-        scaledSize: new google.maps.Size(30, 30)
-      },
-      content: `<section class="maps-content">
-                     <p>IceCream</p>
-                     <h5>Oggi Gelato</h5>
-                     <h1>
-                       <a href="#">
-                          <span class="open">GO!<span>
-                       </a>
-                     </h1>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383209,2.177303&amp;ll=">GO!</a>
+                     </div>
                 </section>`
     },
     // ================================= STREET FOOD ===========================================
@@ -411,7 +369,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -429,7 +387,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -447,7 +405,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -465,7 +423,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -501,7 +459,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -519,7 +477,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -537,7 +495,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -555,7 +513,7 @@ function startMap() {
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>CheapEats</p>
@@ -1046,9 +1004,6 @@ function startMap() {
       content: `<section class="maps-content">
                      <p>Churros</p>
                      <h5>Granja M Viader</h5>
-                     <h2>Now: 
-                        <span class="open">Open</span> (12.00 - 23.00)
-                     </h2>
                      <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.383048,2.170836&amp;ll=">GO!</a>
                   </div>
@@ -1418,7 +1373,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                      <p>DayTrip</p>
@@ -1437,7 +1392,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1455,7 +1410,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1473,7 +1428,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>
@@ -1490,7 +1445,7 @@ function startMap() {
       },
       iconImage: {
         url: '/img/icon/tour-bus.png',
-        scaledSize: new google.maps.Size(30,30)
+        scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
                   <p>DayTrip</p>

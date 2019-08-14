@@ -64,9 +64,6 @@ function initMap() {
       content: `<section class="maps-content">
                      <p>LocalTapas</p>
                      <h5>La Cova Fumada</h5>
-                     <h2>Now: 
-                        <span class="open">Open</span> (12.00 - 23.00)
-                     </h2>
                       <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.379294,2.189208&amp;ll=">GO!</a>
                      </div>
@@ -85,9 +82,6 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Can Paixano</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
                    <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.381815,2.183370&amp;ll=">GO!</a>
                      </div>
@@ -106,9 +100,6 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Bar Celta Pulperia</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
                    <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.379938,2.180088&amp;ll=">GO!</a>
                      </div>
@@ -127,9 +118,6 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>Bodega Vasconia</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
                    <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.381087,2.179913&amp;ll=">GO!</a>
                      </div>
@@ -148,9 +136,6 @@ function initMap() {
       content: `<section class="maps-content">
                   <p>LocalTapas</p>
                   <h5>La Bombeta</h5>
-                  <h2>Now: 
-                     <span class="open">Open</span> (18.00 - 23.00)
-                  </h2>
                    <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.380577,2.187703&amp;ll=">GO!</a>
                      </div>
