@@ -185,13 +185,14 @@ header {
         .hours-btn .weekly-hours {
           visibility: hidden;
           font-weight: 100;
-          width: 260px;
+          width: 200px;
           background-color: rgb(255, 255, 255);
           color: #000;
           text-align: center;
           border-radius: 6px;
           position: absolute;
-          left: -165px;
+          left: 50%;
+          margin-left: -100px;
           bottom: 100px;
           z-index: 2;
           @include deepShadow;
@@ -200,7 +201,7 @@ header {
             list-style-type: none;
             margin: 0;
             padding: 5px;
-            text-align: start;
+            text-align: center;
             font-weight: 400;
             color: #484848;
 

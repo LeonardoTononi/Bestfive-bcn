@@ -1,390 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="/stylesheets/css/reviews.css" />
-    <link rel="stylesheet" href="/dist/css/swiper.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="manifest" href="/manifest.json" />
-    <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”>
-    <meta name="“apple-mobile-web-app-status-bar”" content="“white”" />
-    <meta name="theme-color" content="white" />
+  <link rel="stylesheet" href="/stylesheets/css/reviews.css" />
+  <link rel="stylesheet" href="/dist/css/swiper.min.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”> <meta
+    name="“apple-mobile-web-app-status-bar”" content="“white”" />
+  <meta name="theme-color" content="white" />
 
-    <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
-    <title>IceCream</title>
-  </head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
-  <body ontouchstart="">
-    <div id="map"></div>
+  <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
+  <title>IceCream</title>
+</head>
 
-    <header>
-      <h5><img src="/img/icon/ice-cream.png" />IceCream</h5>
-    </header>
+<body ontouchstart="">
+  <div id="map"></div>
 
-    <div class="bottom-bar">
-      <div id="map-action">
-        <a class="map-btn" href="/en/maps/iceCreamMap.html">
-          <img src="/img/icon/position.png" alt="" />
-          <h2>NearMe</h2>
-        </a>
+  <header>
+    <h5><img src="/img/icon/ice-cream.png" />IceCream</h5>
+  </header>
+
+  <div class="bottom-bar">
+    <div id="map-action">
+      <a class="map-btn" href="/en/maps/iceCreamMap.html">
+        <img src="/img/icon/position.png" alt="" />
+        <h2>NearMe</h2>
+      </a>
+    </div>
+    <div id="back">
+      <a class="back-btn" href="/index.html">
+        <img src="/img/icon/back-hand.png" alt="" />
+        <h2>Back</h2>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img class="place_img swiper-slide" src="/img/place/iceCream/oggi4.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/oggi1.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/oggi3.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/oggi5.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/oggi2.jpg" alt=" ..." />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div id="back">
-        <a class="back-btn" href="/index.html">
-          <img src="/img/icon/back-hand.png" alt="" />
-          <h2>Back</h2>
-        </a>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>Oggi Gelato</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"><img class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+              <span class="weekly-hours">
+                <ul>
+                  <li class="today">
+                    Mon - Sun 12:00 PM - 12:00 AM
+                  </li>
+                </ul>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.386571,2.173393&amp;ll=">
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span><img src="/img/icon/icon-money.png" alt="" /><img src="/img/icon/icon-money.png" alt="" /><img
+              style="opacity: .5" src="/img/icon/icon-money.png" alt="" /></span>
+        </div>
+      </div>
+      <div class="place_tips">
+        <p>
+          This place is an Italian jewel. All ice creams are handmade and the
+          flavours are very creative. The place is nice and they have tables
+          to sit and have your ice cream.
+        </p>
       </div>
     </div>
-
-    <div class="container">
-      <div class="place">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/oggi4.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/oggi1.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/oggi3.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/oggi5.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/oggi2.jpg"
-              alt=" ..."
-            />
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-        <div class="header-card">
-          <div class="place_title">
-            <h1>Oggi Gelato</h1>
-          </div>
-          <div class="place_google_info">
-            <h2 class="google-info">
-              <i class="far fa-clock"></i>
-              <span class="now"></span>
-              <span class="hours-btn"
-                ><img
-                  class="arrowBtn"
-                  src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-                />
-                <span class="weekly-hours"></span>
-              </span>
-            </h2>
-          </div>
-          <div class="place_go-btn">
-            <a
-              class="go_btn"
-              target="_blank"
-              href="https://maps.google.com/maps?daddr=41.386571,2.173393&amp;ll="
-            >
-              <span class="goBtn open"
-                ><i class="fas fa-directions"></i>GO!</span
-              >
-            </a>
-          </div>
-          <div class="place_avg_price">
-            <span><img src="/img/icon/icon-money.png" alt="" /><img src="/img/icon/icon-money.png" alt="" /><img style="opacity: .5" src="/img/icon/icon-money.png" alt="" /></span>
-          </div>
-        </div>
-        <div class="place_tips">
-          <p>
-            This place is an Italian jewel. All ice creams are handmade and the
-            flavours are very creative. The place is nice and they have tables
-            to sit and have your ice cream.
-          </p>
-        </div>
-      </div>
-
-      <div class="place">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/gocce-di-latte4.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/gocce-di-latte1.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/gocce-di-latte3.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/gocce-di-latte5.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/gocce-di-latte2.jpg"
-              alt="..."
-            />
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-        <div class="header-card">
-          <div class="place_title">
-            <h1>Gocce di Latte</h1>
-          </div>
-          <div class="place_google_info">
-            <h2 class="google-info">
-              <i class="far fa-clock"></i>
-              <span class="now"></span>
-              <span class="hours-btn"
-                ><img
-                  class="arrowBtn"
-                  src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-                />
-                <span class="weekly-hours"></span>
-              </span>
-            </h2>
-          </div>
-          <div class="place_go-btn">
-            <a
-              class="go_btn"
-              target="_blank"
-              href="https://maps.google.com/maps?daddr=41.383204,2.182705&amp;ll="
-            >
-              <span class="goBtn open"
-                ><i class="fas fa-directions"></i>GO!</span
-              >
-            </a>
-          </div>
-          <div class="place_avg_price">
-            <span>
-              <img src="/img/icon/icon-money.png" alt="" />
-              <img src="/img/icon/icon-money.png" alt="" />
-              <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
-            </span>
-          </div>
-        </div>
-        <div class="place_tips">
-          <p>
-            Little place located between the beach and the city centre. The ice
-            cream here is high quality and there is a plaza in front where you
-            can sit and eat it.
-          </p>
-        </div>
-      </div>
-
-      <div class="place">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/parallelo3.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/parallelo6.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/parallelo1.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/parallelo4.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/parallelo5.jpg"
-              alt="..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/parallelo2.jpg"
-              alt="..."
-            />
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-        <div class="header-card">
-          <div class="place_title">
-            <h1>Paral•lelo</h1>
-          </div>
-          <div class="place_google_info">
-            <h2 class="google-info">
-              <i class="far fa-clock"></i>
-              <span class="now"></span>
-              <span class="hours-btn"
-                ><img
-                  class="arrowBtn"
-                  src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-                />
-                <span class="weekly-hours"></span>
-              </span>
-            </h2>
-          </div>
-          <div class="place_go-btn">
-            <a
-              class="go_btn"
-              target="_blank"
-              href="https://maps.google.com/maps?daddr=41.396990,2.156378&amp;ll="
-            >
-              <span class="goBtn open"
-                ><i class="fas fa-directions"></i>GO!</span
-              >
-            </a>
-          </div>
-          <div class="place_avg_price">
-            <span>
-              <img src="/img/icon/icon-money.png" alt="" />
-              <img src="/img/icon/icon-money.png" alt="" />
-              <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
-            </span>
-          </div>
-        </div>
-        <div class="place_tips">
-          <p>
-            Sooo Goood Three guys from Italy that decided to make real gelato
-            in Barcelona. Delivery option is also available.
-          </p>
-        </div>
-      </div>
-
-      <div class="place">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/delacrem2.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/delacrem1.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/delacrem3.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/delacrem4.jpg"
-              alt=" ..."
-            />
-            <img
-              class="place_img swiper-slide"
-              src="/img/place/iceCream/delacrem5.jpg"
-              alt=" ..."
-            />
-          </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-        <div class="header-card">
-          <div class="place_title">
-            <h1>DelaCrem</h1>
-          </div>
-          <div class="place_google_info">
-            <h2 class="google-info">
-              <i class="far fa-clock"></i>
-              <span class="now"></span>
-              <span class="hours-btn"
-                ><img
-                  class="arrowBtn"
-                  src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-                />
-                <span class="weekly-hours"></span>
-              </span>
-            </h2>
-          </div>
-          <div class="place_go-btn">
-            <a
-              class="go_btn"
-              target="_blank"
-              href="https://maps.google.com/maps?daddr=41.387996,2.161797&amp;ll="
-            >
-              <span class="goBtn open"
-                ><i class="fas fa-directions"></i>GO!</span
-              >
-            </a>
-          </div>
-          <div class="place_avg_price">
-            <span>
-              <img src="/img/icon/icon-money.png" alt="" />
-              <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
-              <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
-            </span>
-          </div>
-        </div>
-        <div class="place_tips">
-          <p>
-            Fantastic ice cream and there is a big nice terrace to sit outside.
-          </p>
-        </div>
-      </div>
 
     <div class="place">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/iceCream/gelaaati3.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/iceCream/gelaaati1.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/iceCream/gelaaati2.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/iceCream/gelaaati4.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/iceCream/gelaaati5.jpg"
-            alt=" ..."
-          />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte4.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte1.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte3.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte5.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gocce-di-latte2.jpg" alt="..." />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>Gocce di Latte</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"><img class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+              <span class="weekly-hours">
+                <ul>
+                  <li class="today">
+                    Mon - Sun 12:00 PM - 12:00 AM
+                  </li>
+                </ul>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.383204,2.182705&amp;ll=">
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span>
+            <img src="/img/icon/icon-money.png" alt="" />
+            <img src="/img/icon/icon-money.png" alt="" />
+            <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
+          </span>
+        </div>
+      </div>
+      <div class="place_tips">
+        <p>
+          Little place located between the beach and the city centre. The ice
+          cream here is high quality and there is a plaza in front where you
+          can sit and eat it.
+        </p>
+      </div>
+    </div>
+
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo3.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo6.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo1.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo4.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo5.jpg" alt="..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/parallelo2.jpg" alt="..." />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>Paral•lelo</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"><img class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+              <span class="weekly-hours">
+                <ul>
+                  <li class="today">
+                    Mon - Thu
+                    2:00 PM - 9:00 PM
+                  </li>
+                  <li class="today">
+                    Fri - Sat
+                    12:00 PM - 11:00 PM
+                  </li>
+                  <li class="today">
+                    Sun
+                    12:00 PM - 10:00 PM
+                  </li>
+                </ul>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.396990,2.156378&amp;ll=">
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span>
+            <img src="/img/icon/icon-money.png" alt="" />
+            <img src="/img/icon/icon-money.png" alt="" />
+            <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
+          </span>
+        </div>
+      </div>
+      <div class="place_tips">
+        <p>
+          Sooo Goood Three guys from Italy that decided to make real gelato
+          in Barcelona. Delivery option is also available.
+        </p>
+      </div>
+    </div>
+
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem2.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem1.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem3.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem4.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/delacrem5.jpg" alt=" ..." />
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="header-card">
+        <div class="place_title">
+          <h1>DelaCrem</h1>
+        </div>
+        <div class="place_google_info">
+          <h2 class="google-info">
+            <i class="far fa-clock"></i>
+            <span class="now"></span>
+            <span class="hours-btn"><img class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+              <span class="weekly-hours">
+                <ul>
+                  <li class="today">
+                    Sun - Tue
+                    9:30 AM - 9:30 PM
+                  </li>
+                  <li class="today">
+                    Wed
+                    12:00 AM - 12:30 AM
+                  </li>
+                  <li class="today">
+                    Wed - Fri
+                    9:30 AM - 12:30 AM
+                  </li>
+                  <li class="today">
+                    Sat
+                    9:30 AM - 12:00 AM
+                  </li>
+                </ul>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="place_go-btn">
+          <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.387996,2.161797&amp;ll=">
+            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+          </a>
+        </div>
+        <div class="place_avg_price">
+          <span>
+            <img src="/img/icon/icon-money.png" alt="" />
+            <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
+            <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
+          </span>
+        </div>
+      </div>
+      <div class="place_tips">
+        <p>
+          Fantastic ice cream and there is a big nice terrace to sit outside.
+        </p>
+      </div>
+    </div>
+
+    <div class="place">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati3.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati1.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati2.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati4.jpg" alt=" ..." />
+          <img class="place_img swiper-slide" src="/img/place/iceCream/gelaaati5.jpg" alt=" ..." />
         </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
@@ -398,29 +302,29 @@
           <h2 class="google-info">
             <i class="far fa-clock"></i>
             <span class="now"></span>
-            <span class="hours-btn"
-              ><img
-                class="arrowBtn"
-                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-              />
-              <span class="weekly-hours"></span>
+            <span class="hours-btn"><img class="arrowBtn"
+                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+              <span class="weekly-hours">
+                <ul>
+                  <li class="today">
+                    Mon - Sun
+                    10:00 AM - 12:00 AM
+                  </li>
+                </ul>
+              </span>
             </span>
           </h2>
         </div>
         <div class="place_go-btn">
-          <a
-            class="go_btn"
-            target="_blank"
-            href="https://maps.google.com/maps?daddr=41.383209,2.177303&amp;ll="
-          >
+          <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.383209,2.177303&amp;ll=">
             <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
           </a>
         </div>
         <div class="place_avg_price">
           <span>
-              <img src="/img/icon/icon-money.png" alt="" />
-              <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
-              <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
+            <img src="/img/icon/icon-money.png" alt="" />
+            <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
+            <img style="opacity: .5" src="/img/icon/icon-money.png" alt="" />
           </span>
         </div>
       </div>
@@ -450,5 +354,6 @@
         }
       });
     </script>
-  </body>
+</body>
+
 </html>

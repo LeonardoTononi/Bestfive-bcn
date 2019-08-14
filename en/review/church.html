@@ -1,443 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="/stylesheets/css/reviews.css" />
-    <link rel="stylesheet" href="/dist/css/swiper.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="manifest" href="/manifest.json" />
-    <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”>
-    <meta name="“apple-mobile-web-app-status-bar”" content="“white”" />
-    <meta name="theme-color" content="white" />
+  <link rel="stylesheet" href="/stylesheets/css/reviews.css" />
+  <link rel="stylesheet" href="/dist/css/swiper.min.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”> <meta
+    name="“apple-mobile-web-app-status-bar”" content="“white”" />
+  <meta name="theme-color" content="white" />
 
-    <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
-    <title>Church</title>
-  </head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
-  <body ontouchstart="">
-    <div id="map"></div>
+  <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
+  <title>Church</title>
+</head>
 
-    <header>
-      <h5>
-        <img src="https://img.icons8.com/color/96/000000/cathedral.png" />Church
-      </h5>
-    </header>
+<body ontouchstart="">
+  <div id="map"></div>
 
-    <div class="bottom-bar">
-      <div id="map-action">
-        <a class="map-btn" href="/en/maps/churchMap.html">
-          <img src="/img/icon/position.png" alt="" />
-          <h2>NearMe</h2>
+  <header>
+    <h5>
+      <img src="https://img.icons8.com/color/96/000000/cathedral.png" />Church
+    </h5>
+  </header>
+
+  <div class="bottom-bar">
+    <div id="map-action">
+      <a class="map-btn" href="/en/maps/churchMap.html">
+        <img src="/img/icon/position.png" alt="" />
+        <h2>NearMe</h2>
+      </a>
+    </div>
+    <div id="back">
+      <a class="back-btn" href="/index.html">
+        <img src="/img/icon/back-hand.png" alt="" />
+        <h2>Back</h2>
+      </a>
+    </div>
+  </div>
+
+  <div class="place">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/church/sagradafamilia1.jpg" alt="..." />
+        <img class="place_img swiper-slide" src="/img/place/church/sagradafamilia2.jpg" alt="..." />
+        <img class="place_img swiper-slide" src="/img/place/church/sagradafamilia3.jpg" alt="..." />
+        <img class="place_img swiper-slide" src="/img/place/church/sagradafamilia4.jpg" alt="..." />
+        <img class="place_img swiper-slide" src="/img/place/church/sagradafamilia5.jpg" alt="..." />
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>Sagrada Familia</h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+            <span class="weekly-hours">
+              <ul>
+                <li class="today">Sun - Sat 9:00 AM - 8:00 PM</li>
+              </ul>
+            </span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.403572,2.174418&amp;ll=">
+          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
         </a>
       </div>
-      <div id="back">
-        <a class="back-btn" href="/index.html">
-          <img src="/img/icon/back-hand.png" alt="" />
-          <h2>Back</h2>
+      <div class="place_avg_price">
+        <span><img src="/img/icon/ticket-grey.png" />17€</span>
+      </div>
+    </div>
+    <div class=" place_tips">
+      <p>
+        The most impressive church in Barcelona. Started in 1881, today only 7
+        years to the construction deadline. The exterior highlight is the
+        Nativity facade created by Antoni Gaudí and the interior is a
+        spiritual experience of lights.
+      </p>
+    </div>
+  </div>
+
+  <div class="place">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelmar1.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelmar2.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelmar3.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelmar4.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelmar5.jpg" alt=" ..." />
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>
+          Santa María <br> del Mar
+        </h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+            <span class="weekly-hours">
+              <ul>
+                <li class="today">Sun - Sat 9:00 AM - 8:30 PM</li>
+              </ul>
+            </span>
+          </span>
+        </h2>
+      </div>
+      <div class="place_go-btn">
+        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.383898,2.182085&amp;ll=">
+          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
         </a>
       </div>
-    </div>
-
-    <div class="place">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/sagradafamilia1.jpg"
-            alt="..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/sagradafamilia2.jpg"
-            alt="..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/sagradafamilia3.jpg"
-            alt="..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/sagradafamilia4.jpg"
-            alt="..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/sagradafamilia5.jpg"
-            alt="..."
-          />
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+      <div class="place_avg_price">
+        <span><img src="/img/icon/ticket-grey.png" />8€</span>
       </div>
-      <div class="header-card">
-        <div class="place_title">
-          <h1>Sagrada Familia</h1>
-        </div>
-        <div class="place_google_info">
-          <h2 class="google-info">
-            <i class="far fa-clock"></i>
-            <span class="now"></span>
-            <span class="hours-btn"
-              ><img
-                class="arrowBtn"
-                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-              />
-              <span class="weekly-hours"></span>
+    </div>
+    <div class="place_tips" style="padding-top: 120px">
+      <p>
+        Very beautiful church built by the townspeople in only 54 years,
+        (1329-1383), most important characters where "los bastaixos", Catalan
+        workers who carried all the stones on their backs from the quarry in
+        montjuic to the location. After the Civil War, FC Barcelona (football
+        team) donated a lot of money to its reconstruction and one of its
+        stained glass windows has the team's shield. Can you find it?
+      </p>
+    </div>
+  </div>
+
+  <div class="place">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelpi4.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelpi2.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelpi3.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelpi1.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santamariadelpi5.jpg" alt=" ..." />
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>
+          Santa Maria <br />
+          del Pi
+        </h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+            <span class="weekly-hours">
+              <ul>
+                <li class="today">Sun - Sat 9:30 AM - 8:30 PM</li>
+              </ul>
             </span>
-          </h2>
-        </div>
-        <div class="place_go-btn">
-          <a
-            class="go_btn"
-            target="_blank"
-            href="https://maps.google.com/maps?daddr=41.403572,2.174418&amp;ll="
-          >
-            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-          </a>
-        </div>
-         <div class="place_avg_price">
-          <span><img src="/img/icon/ticket-grey.png" />17€</span>
-        </div>
+          </span>
+        </h2>
       </div>
-      <div class=" place_tips">
-        <p>
-          The most impressive church in Barcelona. Started in 1881, today only 7
-          years to the construction deadline. The exterior highlight is the
-          Nativity facade created by Antoni Gaudí and the interior is a
-          spiritual experience of lights.
-        </p>
+      <div class="place_go-btn">
+        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.382147,2.173948&amp;ll=">
+          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span><img src="/img/icon/ticket-grey.png" />7€</span>
       </div>
     </div>
+    <div class="place_tips" style="padding-top: 120px">
+      <p>
+        Church built between 1319-1391. Catalan Gothic style (mixture of
+        Romanesque and Gothic) it was built to honour the successive
+        apparitions of the Virgin Mary in a Pine tree that is right in front
+        of the church.
+      </p>
+    </div>
+  </div>
 
-    <div class="place">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelmar1.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelmar2.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelmar3.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelmar4.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelmar5.jpg"
-            alt=" ..."
-          />
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+  <div class="place">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/church/catedral2.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/catedral1.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/catedral3.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/catedral4.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/catedral5.jpg" alt=" ..." />
       </div>
-      <div class="header-card">
-        <div class="place_title">
-          <h1>
-           Santa María <br> del Mar
-          </h1>
-        </div>
-        <div class="place_google_info">
-          <h2 class="google-info">
-            <i class="far fa-clock"></i>
-            <span class="now"></span>
-            <span class="hours-btn"
-              ><img
-                class="arrowBtn"
-                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-              />
-              <span class="weekly-hours"></span>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>
+          Catedral de <br />
+          Barcelona
+        </h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+            <span class="weekly-hours">
+              <ul>
+                <li class="today">Mon - Fri 8:00 AM - 7:30 PM</li>
+                <li class="today">Sat - Sun 8:00 AM - 8:00 PM</li>
+              </ul>
             </span>
-          </h2>
-        </div>
-        <div class="place_go-btn">
-          <a
-            class="go_btn"
-            target="_blank"
-            href="https://maps.google.com/maps?daddr=41.383898,2.182085&amp;ll="
-          >
-            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-          </a>
-        </div>
-         <div class="place_avg_price">
-          <span><img src="/img/icon/ticket-grey.png" />8€</span>
-        </div>
+          </span>
+        </h2>
       </div>
-      <div class="place_tips" style="padding-top: 120px">
-        <p>
-          Very beautiful church built by the townspeople in only 54 years,
-          (1329-1383), most important characters where "los bastaixos", Catalan
-          workers who carried all the stones on their backs from the quarry in
-          montjuic to the location. After the Civil War, FC Barcelona (football
-          team) donated a lot of money to its reconstruction and one of its
-          stained glass windows has the team's shield. Can you find it?
-        </p>
+      <div class="place_go-btn">
+        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.383937,2.176202&amp;ll=""
+          >
+            <span class=" goBtn open"><i class="fas fa-directions"></i>GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span><img src="/img/icon/ticket-grey.png" />7€</span>
       </div>
     </div>
+    <div class="place_tips" style="padding-top: 120px">
+      <p>
+        Beautiful cathedral that hides a treasurer: in the cloister of this
+        building there are 13 geese to honor of Santa Eulalia, a 13-year-old
+        girl, shepherdess of geese and one of the first Christian martyrs.
+      </p>
+    </div>
+  </div>
 
-    <div class="place">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelpi4.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelpi2.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelpi3.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelpi1.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santamariadelpi5.jpg"
-            alt=" ..."
-          />
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+  <div class="place">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="place_img swiper-slide" src="/img/place/church/santpauelcamp1.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santpauelcamp2.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santpauelcamp3.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santpauelcamp4.jpg" alt=" ..." />
+        <img class="place_img swiper-slide" src="/img/place/church/santpauelcamp5.jpg" alt=" ..." />
       </div>
-      <div class="header-card">
-        <div class="place_title">
-          <h1>
-            Santa Maria <br />
-            del Pi
-          </h1>
-        </div>
-        <div class="place_google_info">
-          <h2 class="google-info">
-            <i class="far fa-clock"></i>
-            <span class="now"></span>
-            <span class="hours-btn"
-              ><img
-                class="arrowBtn"
-                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-              />
-              <span class="weekly-hours"></span>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="header-card">
+      <div class="place_title">
+        <h1>
+          Monasterio <br />
+          Sant Pau <br> del Camp
+        </h1>
+      </div>
+      <div class="place_google_info">
+        <h2 class="google-info">
+          <i class="far fa-clock"></i>
+          <span class="now"></span>
+          <span class="hours-btn"><img class="arrowBtn"
+              src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png" />
+            <span class="weekly-hours">
+              <ul>
+                <li class="today">Sun - Sat
+                  10:00 AM - 1:00 PM</li>
+                <li class="today">Mon - Sat
+                  3:00 PM - 6:00 PM</li>
+              </ul>
             </span>
-          </h2>
-        </div>
-        <div class="place_go-btn">
-          <a
-            class="go_btn"
-            target="_blank"
-            href="https://maps.google.com/maps?daddr=41.382147,2.173948&amp;ll="
-          >
-            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-          </a>
-        </div>
-         <div class="place_avg_price">
-          <span><img src="/img/icon/ticket-grey.png" />7€</span>
-        </div>
+          </span>
+        </h2>
       </div>
-      <div class="place_tips" style="padding-top: 120px">
-        <p>
-          Church built between 1319-1391. Catalan Gothic style (mixture of
-          Romanesque and Gothic) it was built to honour the successive
-          apparitions of the Virgin Mary in a Pine tree that is right in front
-          of the church.
-        </p>
+      <div class="place_go-btn">
+        <a class="go_btn" target="_blank" href="https://maps.google.com/maps?daddr=41.376204,2.169478&amp;ll=">
+          <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
+        </a>
+      </div>
+      <div class="place_avg_price">
+        <span><img src="/img/icon/ticket-grey.png" />3€</span>
       </div>
     </div>
-
-    <div class="place">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/catedral2.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/catedral1.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/catedral3.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/catedral4.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/catedral5.jpg"
-            alt=" ..."
-          />
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-      <div class="header-card">
-        <div class="place_title">
-          <h1>
-            Catedral de <br />
-            Barcelona
-          </h1>
-        </div>
-        <div class="place_google_info">
-          <h2 class="google-info">
-            <i class="far fa-clock"></i>
-            <span class="now"></span>
-            <span class="hours-btn"
-              ><img
-                class="arrowBtn"
-                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-              />
-              <span class="weekly-hours"></span>
-            </span>
-          </h2>
-        </div>
-        <div class="place_go-btn">
-          <a
-            class="go_btn"
-            target="_blank"
-            href="https://maps.google.com/maps?daddr=41.383937,2.176202&amp;ll=""
-          >
-            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-          </a>
-        </div>
-         <div class="place_avg_price">
-          <span><img src="/img/icon/ticket-grey.png" />7€</span>
-        </div>
-      </div>
-      <div class="place_tips" style="padding-top: 120px">
-        <p>
-          Beautiful cathedral that hides a treasurer: in the cloister of this
-          building there are 13 geese to honor of Santa Eulalia, a 13-year-old
-          girl, shepherdess of geese and one of the first Christian martyrs.
-        </p>
-      </div>
+    <div class="place_tips" style="padding-top: 160px">
+      <p>
+        Beautiful monastery from the ninth century. One of the oldest
+        buildings in Barcelona. In its time it was located outside the walled
+        city, today the city is grown and it’s in the centre of Raval
+        Neighbourhood.
+      </p>
     </div>
+  </div>
 
-    <div class="place">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santpauelcamp1.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santpauelcamp2.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santpauelcamp3.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santpauelcamp4.jpg"
-            alt=" ..."
-          />
-          <img
-            class="place_img swiper-slide"
-            src="/img/place/church/santpauelcamp5.jpg"
-            alt=" ..."
-          />
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-      <div class="header-card">
-        <div class="place_title">
-          <h1>
-            Monasterio <br />
-            Sant Pau <br> del Camp
-          </h1>
-        </div>
-        <div class="place_google_info">
-          <h2 class="google-info">
-            <i class="far fa-clock"></i>
-            <span class="now"></span>
-            <span class="hours-btn"
-              ><img
-                class="arrowBtn"
-                src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
-              />
-              <span class="weekly-hours"></span>
-            </span>
-          </h2>
-        </div>
-        <div class="place_go-btn">
-          <a
-            class="go_btn"
-            target="_blank"
-            href="https://maps.google.com/maps?daddr=41.376204,2.169478&amp;ll="
-          >
-            <span class="goBtn open"><i class="fas fa-directions"></i>GO!</span>
-          </a>
-        </div>
-         <div class="place_avg_price">
-          <span><img src="/img/icon/ticket-grey.png" />3€</span>
-        </div>
-      </div>
-      <div class="place_tips" style="padding-top: 160px">
-        <p>
-          Beautiful monastery from the ninth century. One of the oldest
-          buildings in Barcelona. In its time it was located outside the walled
-          city, today the city is grown and it’s in the centre of Raval
-          Neighbourhood.
-        </p>
-      </div>
-    </div>
+  <script src="/javaScript/map/church.js"></script>
 
-    <script src="/javaScript/map/church.js"></script>
+  <script src="/javaScript/app.js"></script>
+  <script src="/javaScript/reviews.js"></script>
 
-    <script src="/javaScript/app.js"></script>
-    <script src="/javaScript/reviews.js"></script>
+  <script src="/dist/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      }
+    });
+  </script>
+</body>
 
-    <script src="/dist/js/swiper.min.js"></script>
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        }
-      });
-    </script>
-  </body>
 </html>
