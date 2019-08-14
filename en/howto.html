@@ -1,89 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../stylesheets/css/howto.css" />
+    <script src="https://kit.fontawesome.com/79ac4f678b.js"></script>
 
-  <link rel="stylesheet" href="../../stylesheets/css/howto.css">
-  <script src="https://kit.fontawesome.com/79ac4f678b.js"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”>
+    <meta name="“apple-mobile-web-app-status-bar”" content="“white”" />
+    <meta name="theme-color" content="white" />
 
-  <link rel="manifest" href="/manifest.json">
-  <link rel=“apple-touch-icon” sizes="512x512" href=“/img/violetHand-bg.jpf”> <meta
-    name=“apple-mobile-web-app-status-bar” content=“white”>
-  <meta name="theme-color" content="white">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
+    <title>HowTo</title>
+  </head>
 
-  <link rel="icon" href="/img/homePage/violetHand.png" type="image/png">
-  <title>HowTo</title>
-</head>
-
-<body ontouchstart="">
-
-  <div class="bottom-bar">
-    <div id="map-action">
+  <body ontouchstart="">
+    <div class="bottom-bar">
+      <div id="map-action"></div>
+      <div id="back">
+        <a class="back-btn" href="/index.html">
+          <img src="/img/icon/back-hand.png" alt="" />
+          <h2>Back</h2>
+        </a>
+      </div>
     </div>
-    <div id="back">
-      <a class="back-btn" href="/index.html">
-        <img src="/img/icon/back-hand.png" alt="">
-        <h2>Back</h2>
-      </a>
-    </div>
-  </div>
 
-  <header>
-    <h5><img src="https://img.icons8.com/color/48/000000/light-on.png">HowTo</h5>
-  </header>
+    <header>
+      <h5>
+        <img src="https://img.icons8.com/color/48/000000/light-on.png" />HowTo
+      </h5>
+    </header>
 
-  <form id="search-bar">
-    <img src="https://img.icons8.com/ios-glyphs/25/000000/search.png" alt="">
-    <input type="text" placeholder="Type a questions">
-  </form>
+    <form id="search-bar">
+      <img
+        src="https://img.icons8.com/ios-glyphs/25/000000/search.png"
+        alt=""
+      />
+      <input type="text" placeholder="Type a question" />
+    </form>
 
-  <ul class="filters">
-    <li class="filter sagradaFamilia">
-      Sagrada Familia
-    </li>
-    <li class="filter ticket">
-      Ticket
-    </li>
-    <li class="filter placaCatalunya">
-      Plaza Cataluña
-    </li>
-    <li class="filter airport">
-      Airport
-    </li>
-    <li class="filter parkGuell">
-      Park Guell
-    </li>
-    <li class="filter museum">
-      Museum
-    </li>
-    <li class="filter picasso">
-      Picasso
-    </li>
-    <li class="filter freeEntrance">
-      Free
-    </li>
-    <li class="filter freeEntrance">
-      Cable car
-    </li>
-    <li class="filter freeEntrance">
-      Montserrat
-    </li>
-  </ul>
+    <ul class="filters">
+      <li class="filter sagradaFamilia">
+        Sagrada Familia
+      </li>
+      <li class="filter ticket">
+        Ticket
+      </li>
+      <li class="filter placaCatalunya">
+        Plaza Cataluña
+      </li>
+      <li class="filter airport">
+        Airport
+      </li>
+      <li class="filter parkGuell">
+        Park Guell
+      </li>
+      <li class="filter museum">
+        Museum
+      </li>
+      <li class="filter picasso">
+        Picasso
+      </li>
+      <li class="filter freeEntrance">
+        Free
+      </li>
+      <li class="filter freeEntrance">
+        Cable car
+      </li>
+      <li class="filter freeEntrance">
+        Montserrat
+      </li>
+    </ul>
 
-  <div id="questions">
-    <div class="question">
-
-    </div>
-    <!-- <div class="question">
+    <div id="questions">
+      <div class="question"></div>
+      <!-- <div class="question">
       <h2><i class="fas fa-caret-right"></i> How arrive at Placa Catalunya?</h2>
       <p class="answer">To arrive in Placa Catalunya you need to go straight until your legs are blooding.</p>
     </div> -->
-    <!-- <div class="question">
+      <!-- <div class="question">
       <h2><i class="fas fa-caret-right"></i> How arrive at the airport?</h2>
       <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium et maiores
         impedit eveniet.</p>
@@ -107,14 +110,16 @@
       <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium et maiores
         impedit eveniet.</p>
     </div> -->
-  </div>
+    </div>
 
-  <div class="space"></div>
+    <div class="space"></div>
 
-  <script src="https://code.jquery.com/jquery-3.4.0.slim.js"
-    integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ=" crossorigin="anonymous"></script>
-  <script src="../javaScript/howto.js"></script>
-  <script src="../javaScript/app.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.slim.js"
+      integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../javaScript/howto.js"></script>
+    <script src="../javaScript/app.js"></script>
+  </body>
 </html>
