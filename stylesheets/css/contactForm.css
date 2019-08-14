@@ -71,6 +71,7 @@ img {
 }
 
 .contact-form form input {
+  -webkit-appearance: none;
   margin: 10px 0;
   padding: 3px 0 3px 18px;
   width: 92%;
@@ -85,12 +86,14 @@ img {
 }
 
 .contact-form form input:focus {
+  -webkitbox-box-shadow: 0 0 10px 0 #48484866;
   -webkit-box-shadow: 0 0 10px 0 #48484866;
           box-shadow: 0 0 10px 0 #48484866;
   border: none;
 }
 
 .contact-form form textarea {
+  -webkit-appearance: none;
   font-family: "Open Sans", sans-serif;
   width: 92%;
   padding-left: 18px;
@@ -107,6 +110,8 @@ img {
 .contact-form form textarea:focus {
   -webkit-box-shadow: 0 0 10px 0 #48484866;
           box-shadow: 0 0 10px 0 #48484866;
+  -webkitbox-box-shadow: 0 0 10px 0 #48484866;
+  -moz-box-shadow: 0 0 10px 0 #48484866;
   border: none;
 }
 
