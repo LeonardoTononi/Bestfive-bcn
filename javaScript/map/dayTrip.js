@@ -149,7 +149,7 @@ function initMap() {
 
   function getLocation() {
     if (navigator.geolocation) {
-      navigator.geolocation.watchPosition(saveCoordinate);
+      navigator.geolocation.getCurrentPosition(saveCoordinate);
     } else {
       // Nothing;
     }
