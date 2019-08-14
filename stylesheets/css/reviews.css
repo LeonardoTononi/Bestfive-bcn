@@ -30,6 +30,10 @@ a {
   color: #000;
 }
 
+.opacity {
+  opacity: 0.5;
+}
+
 header {
   padding: 5px 20px 15px 20px;
   border-bottom: 1px solid #80808038;
@@ -278,7 +282,7 @@ header .logo-img {
 }
 
 .place .header-card .place_avg_price img {
-  width: 15px;
+  width: 18px;
   position: relative;
   top: 2px;
   right: 3px;

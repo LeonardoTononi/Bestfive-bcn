@@ -60,7 +60,7 @@ img {
 }
 
 .contact-form form {
-  padding: 20px 10px;
+  padding: 0 10px;
   text-align: start;
   font-size: 1.3rem;
 }
@@ -68,10 +68,11 @@ img {
 .contact-form form label {
   padding-left: 15px;
   color: #000;
+  font-size: 1.3rem;
 }
 
 .contact-form form input {
-  margin: 15px 0 20px 0;
+  margin: 10px 0;
   padding: 3px 0 3px 18px;
   width: 92%;
   display: block;
@@ -115,10 +116,11 @@ img {
 }
 
 .contact-form form button {
-  padding: 15px 20px;
+  width: 100%;
+  padding: 10px 0;
   background: #833ab4;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border: none;
   border-radius: 20px;
   font-weight: 200;
@@ -146,14 +148,14 @@ img {
 
 .back-button {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-top: 1px solid #d4d4d4;
 }
 
 .back-button img {
-  padding: 5px 10px 0 5px;
-  width: 32px;
+  padding: 5px 10px 0 8px;
+  width: 25px;
 }
 
 .back-button p {
@@ -169,7 +171,10 @@ img {
     max-height: 600px;
   }
   .contact-form form {
-    padding: 20px;
+    padding: 20px 10px;
+  }
+  .contact-form form input {
+    margin: 15px 0 20px 0;
   }
   .contact-form form textarea {
     margin: 15px 0 40px 0;
