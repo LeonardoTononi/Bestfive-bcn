@@ -51,6 +51,7 @@ img {
     label {
       padding-left: 15px;
       color: #000;
+      font-size: 1.3rem;
     }
 
     input {
@@ -83,10 +84,11 @@ img {
     }
 
     button {
-      padding: 15px 20px;
+      width: 100%;
+      padding: 10px 0;
       background: #833ab4;
       color: #fff;
-      font-size: 1rem;
+      font-size: 1.3rem;
       border: none;
       border-radius: 20px;
       font-weight: 200;
@@ -116,13 +118,13 @@ img {
 
 .back-button {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-top: 1px solid #d4d4d4;
 
   img {
-    padding: 5px 10px 0 5px;
-    width: 32px;
+    padding: 5px 10px 0 8px;
+    width: 25px;
   }
 
   p {

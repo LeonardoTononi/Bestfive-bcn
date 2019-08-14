@@ -2,14 +2,14 @@
 if (isset($_POST['submit'])) {
   $name = $_POST['name'];
   $emailFrom = $_POST['email'];
-  $message = $_POST['text'];
+  $text = $_POST['message'];
 
   $mailTo = "info@bestfivebcn.com";
-  $headers = "E-mail from: " . $emailFrom;
-  $txt = "Name: " . $name . ".\n\n" .
-    $message;
+  $data = "You have received an e-mail from " . $name . ".\n\n";
+  $headers = "E-mail: " . $emailFrom;
+  $message = "Message: " . $text;
 
-  @mail($mailTo, $headers, $txt);
+  mail($mailTo, $headers, $data, $message);
 }
 ?>
 
@@ -43,12 +43,12 @@ if (isset($_POST['submit'])) {
       <input type="text" id="name" name="name" required />
     </div>
     <div class="row">
-      <label for="email" required>Email</label>
-      <input type="email" id="email" name="email" />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
     </div>
     <div class="row">
-      <label for="textarea">Text</label>
-      <textarea name="textarea" id="textarea" cols="20" rows="8" required></textarea>
+      <label for="message">Message</label>
+      <textarea name="message" cols="20" rows="8" required></textarea>
     </div>
     <div class="row">
       <button type="submit" name="submit"><i class="far fa-paper-plane"></i> Send</button>
