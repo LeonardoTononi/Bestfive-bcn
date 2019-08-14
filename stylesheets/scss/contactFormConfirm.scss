@@ -1,0 +1,94 @@
+@import "variables";
+@import "mixins";
+
+body {
+  @include mainStyle;
+  line-height: 1;
+  height: 100vh;
+}
+
+a {
+  @include removeTouch;
+  @include clean-link;
+}
+
+// ============ HEADER ============
+
+header {
+  background: transparent;
+  transition: 0.1s ease-in-out;
+  padding-top: 7px;
+  width: 100%;
+  border-bottom: 1px solid #80808038;
+
+  h1 {
+    font-size: 6rem;
+    padding: 2rem;
+    font-weight: 200;
+    margin: 0;
+    text-align: start;
+    letter-spacing: 0.1rem;
+    color: #833ab4;
+
+    span {
+      font-weight: 500;
+    }
+
+    .small-text {
+      font-weight: 200;
+      font-size: 3rem;
+      position: relative;
+      top: 0;
+      left: 5px;
+    }
+  }
+}
+
+.skyline {
+  width: 100%;
+
+  img {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+.alert {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  color: $mainGray;
+
+  h5 {
+    font-size: 5rem;
+    margin: 20px 0 0 0;
+    font-weight: 200;
+    padding: 6rem;
+
+    img {
+      width: 80px;
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  p {
+    padding: 2rem 10rem 10rem 10rem;
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  .btn {
+    text-decoration: none;
+    font-size: 3rem;
+    color: $mainWhite;
+    border-radius: 28px;
+    padding: 2rem 3rem;
+    background: #833ab4;
+    border-radius: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    @include shadow;
+  }
+}

@@ -67,6 +67,30 @@ if (isset($_POST['email'])) {
 
 
   ?>
+
+<link rel="stylesheet" href="/stylesheets/css/contactFormConfirm.css" type="text/css">
+
+<body ontouchstart="">
+  <header>
+    <div>
+      <h1>
+        best<span>five</span> <br> <span class="small-text">bcn</span>
+      </h1>
+    </div>
+  </header>
+
+  <div class="skyline">
+    <img src="/img/homePage/barcelona-city.png" alt="">
+  </div>
+
+  <div class="alert">
+    <h5><img src="/img/icon/icon-done.png" alt="done icon"> Thank you <br> for contacting us.</h5>
+    <p>We will be in touch with you very soon.</p>
+    <a href="/" class="btn">Go to Homepage</a>
+  </div>
+
+</body>
+
 <?php
 }
 ?>

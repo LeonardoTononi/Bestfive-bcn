@@ -598,7 +598,7 @@ h2 {
 
 @media only screen and (min-width: 550px) {
   .applications {
-    padding: 160px 35px 0 35px;
+    padding: 160px 35px 80px 35px;
   }
   .icon-app {
     width: 50px;

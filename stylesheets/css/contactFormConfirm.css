@@ -1,0 +1,110 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -moz-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  line-height: 1;
+  height: 100vh;
+}
+
+a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  background: transparent;
+  font-weight: 100;
+  color: #000;
+}
+
+header {
+  background: transparent;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  padding-top: 7px;
+  width: 100%;
+  border-bottom: 1px solid #80808038;
+}
+
+header h1 {
+  font-size: 6rem;
+  padding: 2rem;
+  font-weight: 200;
+  margin: 0;
+  text-align: start;
+  letter-spacing: 0.1rem;
+  color: #833ab4;
+}
+
+header h1 span {
+  font-weight: 500;
+}
+
+header h1 .small-text {
+  font-weight: 200;
+  font-size: 3rem;
+  position: relative;
+  top: 0;
+  left: 5px;
+}
+
+.skyline {
+  width: 100%;
+}
+
+.skyline img {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.alert {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  color: #484848;
+}
+
+.alert h5 {
+  font-size: 5rem;
+  margin: 20px 0 0 0;
+  font-weight: 200;
+  padding: 6rem;
+}
+
+.alert h5 img {
+  width: 80px;
+  position: relative;
+  top: 5px;
+}
+
+.alert p {
+  padding: 2rem 10rem 10rem 10rem;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.alert .btn {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 28px;
+  padding: 2rem 3rem;
+  background: #833ab4;
+  border-radius: 28px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 25px -12px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=contactFormConfirm.css.map */
