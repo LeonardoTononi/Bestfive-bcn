@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="stylesheets/css/index.css">
-    <link rel="stylesheet" href="stylesheets/css/footer.css">
+    <link rel="stylesheet" href="stylesheets/css/contactForm.css">
 
     <script src="https://kit.fontawesome.com/79ac4f678b.js"></script>
 
@@ -40,7 +40,8 @@
     <link rel="icon" href="/img/homePage/violetHand.png" type="image/png">
     <title>Bestfive</title>
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 
 </head>
@@ -180,6 +181,30 @@
             </a>
         </div>
 
+
+        <div class="contact-form">
+            <div class="closeBtnForm">
+                <p>x</p>
+            </div>
+            <form action="contactCode.php" method="post">
+                <div class="row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="row">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required />
+                </div>
+                <div class="row">
+                    <label for="message">Message</label>
+                    <textarea name="message" cols="20" rows="8" required></textarea>
+                </div>
+                <div class="row">
+                    <button type="submit" name="submit"><i class="far fa-paper-plane"></i> Send</button>
+                </div>
+            </form>
+        </div>
+
         <div class="coming-soon-pop">
             <p>Coming soon!</p>
             <span class="got-btn">Got It!</sp>
@@ -192,7 +217,8 @@
                 <h2>bestfive</h2>
             </div>
             <p class="text-add-app">
-                <span style="font-weight: 700; color: #833ab4;">Better & Faster experience</span><br> tap <img src="/img/icon/share-grey.png" alt=""> then Add <img src="/img/icon/plus-grey.png" alt="plus"> to
+                <span style="font-weight: 700; color: #833ab4;">Better & Faster experience</span><br> tap <img
+                    src="/img/icon/share-grey.png" alt=""> then Add <img src="/img/icon/plus-grey.png" alt="plus"> to
                 Home
                 Screen
             </p>
@@ -213,7 +239,7 @@
                     </a>
                 </li>
                 <li class="contact-icon">
-                    <a href="/en/contactForm.html">
+                    <a href="#">
                         <img src=" https://img.icons8.com/color/48/000000/paper-plane.png" alt="contact icon">
                         <h2>Contact</h2>
                     </a>
