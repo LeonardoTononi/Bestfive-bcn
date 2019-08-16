@@ -14,12 +14,8 @@ const isIos = () => {
   const userAgent = window.navigator.userAgent.toLowerCase();
   return /iphone|ipad|ipod/.test(userAgent);
 };
-// Detects if device is in standalone mode
-const isInStandaloneMode = () => {
-  'standalone' in window.navigator && window.navigator.standalone;
-};
 
-const isRunningStandaloneChrome = () => {
+const isRunningStandalone = () => {
   return window.matchMedia('(display-mode: standalone)').matches;
 };
 
@@ -27,12 +23,10 @@ const isRunningStandaloneChrome = () => {
 const isAndroid = () => {
   const userAgent = window.navigator.userAgent.toLowerCase();
   return /android/.test(userAgent);
-  /*  var ua = window.navigator.userAgent.toLowerCase();
-  var isAndroid = ua.indexOf('android') > -1 && ua.indexOf('mobile'); */
 };
 
 // ============= LOAD LOGO INDEX PAGE =================
-if (!isInStandaloneMode()) {
+if (!isRunningStandalone()) {
   window.addEventListener('load', function() {
     setInterval(() => {
       loader.className += ' hidden';
@@ -56,18 +50,22 @@ btnLanguage_a.addEventListener('click', function() {
 
 // ============== PUPUP NOTIFICATION ==================
 
-if (isIos() && !isInStandaloneMode()) {
+if (isIos() && !isRunningStandalone()) {
   setTimeout(function() {
     showAddPopup();
   }, 1500);
+} else {
+  hidePopup();
 }
 
-if (isAndroid() && !isRunningStandaloneChrome()) {
+if (isAndroid() && !isRunningStandalone()) {
   setTimeout(function() {
     const shareBtn = document.querySelector('.add-chrome');
     shareBtn.src = '/img/icon/menu-chrome-gray.png';
     showAddPopup();
   }, 1500);
+} else {
+  hidePopup();
 }
 
 function showAddPopup() {
@@ -77,6 +75,16 @@ function showAddPopup() {
   applications.style.opacity = '.2';
   skyline.style.opacity = '.2';
   navbar.style.opacity = '.2';
+}
+
+function hidePopup() {
+  popUp.style.display = 'none';
+  popUp.style.maxHeight = '0px';
+  popUp.style.bottom = '-80px';
+  applications.style.opacity = '1';
+  skyline.style.opacity = '1';
+  navbar.style.opacity = '1';
+  navbar.style.zIndex = '2';
 }
 
 // Effect offline popup
