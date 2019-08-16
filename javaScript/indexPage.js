@@ -15,8 +15,21 @@ const isIos = () => {
   return /iphone|ipad|ipod/.test(userAgent);
 };
 // Detects if device is in standalone mode
-const isInStandaloneMode = () =>
+const isInStandaloneMode = () => {
   'standalone' in window.navigator && window.navigator.standalone;
+};
+
+const isRunningStandaloneChrome = () => {
+  return window.matchMedia('(display-mode: standalone)').matches;
+};
+
+// Detect if is android
+const isAndroid = () => {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /android/.test(userAgent);
+  /*  var ua = window.navigator.userAgent.toLowerCase();
+  var isAndroid = ua.indexOf('android') > -1 && ua.indexOf('mobile'); */
+};
 
 // ============= LOAD LOGO INDEX PAGE =================
 if (!isInStandaloneMode()) {
@@ -45,21 +58,28 @@ btnLanguage_a.addEventListener('click', function() {
 
 if (isIos() && !isInStandaloneMode()) {
   setTimeout(function() {
-    popUp.style.display = 'inline';
-    popUp.style.maxHeight = '350px';
-    popUp.style.bottom = '10px';
-    applications.style.opacity = '.2';
-    skyline.style.opacity = '.2';
-    navbar.style.opacity = '.2';
+    showAddPopup();
   }, 1500);
-} else {
-  popUp.style.display = 'none';
-  nav.style.zIndex = '1';
-  applications.style.opacity = '1';
-  skyline.style.opacity = '1';
-  navbar.style.opacity = '1';
 }
 
+if (isAndroid() && !isRunningStandaloneChrome()) {
+  setTimeout(function() {
+    const shareBtn = document.querySelector('.add-chrome');
+    shareBtn.src = '/img/icon/menu-chrome-gray.png';
+    showAddPopup();
+  }, 1500);
+}
+
+function showAddPopup() {
+  popUp.style.display = 'inline';
+  popUp.style.maxHeight = '350px';
+  popUp.style.bottom = '10px';
+  applications.style.opacity = '.2';
+  skyline.style.opacity = '.2';
+  navbar.style.opacity = '.2';
+}
+
+// Effect offline popup
 const isVisible = elem =>
   !!elem &&
   !!(elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length);
