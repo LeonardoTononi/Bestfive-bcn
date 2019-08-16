@@ -75,6 +75,7 @@ function showAddPopup() {
   applications.style.opacity = '.2';
   skyline.style.opacity = '.2';
   navbar.style.opacity = '.2';
+  navbar.style.zIndex = '-2';
 }
 
 function hidePopup() {
