@@ -5,9 +5,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -260px 0 0 -140px;
+  margin: -250px 0 0 -140px;
   width: 280px;
-  height: 520px;
+  height: 500px;
   /* box-shadow: 0 0 20px 0 #484848; */
   background: #fff;
   padding: 3px;
@@ -29,7 +29,7 @@
 .contact-form form label {
   padding-left: 15px;
   color: #000;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .contact-form form input {
@@ -98,10 +98,10 @@
 
 .contact-form form button {
   width: 100%;
-  padding: 7px 0;
+  padding: 6px 0;
   background: #833ab4;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border: none;
   border-radius: 20px;
   font-weight: 200;
@@ -129,9 +129,9 @@
 
 @media only screen and (min-width: 360px) {
   .contact-form {
-    margin: -300px 0 0 -170px;
-    width: 340px;
-    height: 600px;
+    margin: -275px 0 0 -150px;
+    width: 300px;
+    height: 550px;
     padding: 8px;
   }
   .contact-form form {
@@ -141,7 +141,7 @@
     margin: 15px 0 20px 0;
   }
   .contact-form form textarea {
-    margin: 15px 0 40px 0;
+    margin: 15px 0 20px 0;
   }
   .contact-form form button {
     padding: 10px 0;
@@ -151,6 +151,12 @@
 @media only screen and (max-height: 550px) {
   .contact-form {
     margin-top: -200px;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .contact-form {
+    margin-top: -120px;
   }
 }
 /*# sourceMappingURL=contactForm.css.map */
