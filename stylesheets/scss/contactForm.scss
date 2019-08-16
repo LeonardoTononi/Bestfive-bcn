@@ -142,3 +142,9 @@
     margin-top: -200px;
   }
 }
+
+@media only screen and (max-height: 400px) {
+  .contact-form {
+    margin-top: -160px;
+  }
+}
