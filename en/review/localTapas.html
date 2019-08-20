@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-146087195-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-146087195-1');
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -107,8 +122,11 @@
                 class="arrowBtn"
                 src="https://img.icons8.com/material-outlined/48/000000/expand-arrow.png"
               />
-              <span class="weekly-hours" style="bottom: -130px;">
+              <span class="weekly-hours" style="bottom: -150px;">
                 <ul>
+                  <li class="today" style="font-weight: bold; color: red">
+                    CLOSED UNTIL AUGUST 26
+                  </li>
                   <li class="today">Mon - Fri 9:00 AM - 3:15 PM</li>
                   <li class="today">Thu - Fri 6:00 PM - 8:15 PM</li>
                   <li class="today">Sat 9:00 AM - 1:00 PM</li>
@@ -137,6 +155,7 @@
       </div>
       <div class="place_tips">
         <p>
+          <span style="color: red">Closed until 26 - 08 - 2019</span> <br />
           A lady cooks here, like it was her home. The most amazing local place!
           Its very noisy, you may have to sit on the bar because it's always
           full.

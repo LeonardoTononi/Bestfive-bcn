@@ -30,7 +30,7 @@ if (!isRunningStandalone()) {
   window.addEventListener('load', function() {
     setInterval(() => {
       loader.className += ' hidden';
-    }, 1000);
+    }, 800);
   });
 } else {
   loader.remove();
