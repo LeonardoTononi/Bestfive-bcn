@@ -156,6 +156,7 @@ header {
       .google-info {
         font-size: 0.9rem;
         font-weight: 400;
+        position: relative;
 
         i {
           font-size: 0.9rem;
@@ -184,31 +185,38 @@ header {
         }
 
         .hours-btn .weekly-hours {
+          box-sizing: border-box;
           visibility: hidden;
           font-weight: 100;
           width: 250px;
-          background-color: #484848;
+          background-color: #fff;
           text-align: center;
           border-radius: 6px;
           position: absolute;
           left: 50%;
-          margin-left: -125px;
-          bottom: -80px;
-          z-index: 2;
+          margin-left: -132px;
+          bottom: 36px;
+          z-index: 9999;
           @include deepShadow;
 
           ul {
             list-style-type: none;
             margin: 0;
-            padding: 5px;
+            padding: 15px;
             text-align: center;
             font-weight: 200;
-            color: #fff;
+            color: #484848;
             font-size: 0.9rem;
 
+            .weekly_title {
+              font-size: 1.2rem;
+              font-weight: 400;
+              border-bottom: 1px solid #80808038;
+              margin: 0 20px 10px 20px;
+            }
+
             li {
-              padding: 3px 0;
-              border-radius: 4px;
+              padding: 6px 0;
             }
           }
         }
@@ -286,7 +294,8 @@ header {
   }
 
   .open {
-    color: rgb(35, 174, 35);
+    /* color: rgb(35, 174, 35); */
+    color: #1a73e8;
   }
 }
 
