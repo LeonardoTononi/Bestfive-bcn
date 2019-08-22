@@ -1,5 +1,5 @@
 // HIDE AND SHOW PROS AND CONS
-
+const weeklyHours_span = document.querySelector('.weekly-hours');
 const expandBtn_img = document.querySelectorAll('.arrowBtn');
 expandBtn_img.forEach(img => img.addEventListener('click', effectImg));
 

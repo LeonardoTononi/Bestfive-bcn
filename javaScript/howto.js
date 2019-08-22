@@ -1,7 +1,7 @@
 const questions = [
   {
     q: 'How to buy ticket for Sagrada Familia?',
-    a: `Go to <a href="http://www.sagradafamilia.org/tickets" target="_blank">www.sagradafamilia.org</a>,  select your ticket preference and the date`
+    a: `Go to <a href="http://www.sagradafamilia.org/tickets" target="_blank" rel="noreferrer">www.sagradafamilia.org</a>,  select your ticket preference and the date`
   },
   {
     q: 'How to get to Sagrada Familia?',
@@ -20,7 +20,7 @@ const questions = [
   },
   {
     q: 'How to buy ticket for Park Guell?',
-    a: `Go to <a href="https://parkguell.barcelona/en/buy-tickets" target="_blank">www.parkguell.barcelona</a>, select your ticket preference and the date.`
+    a: `Go to <a href="https://parkguell.barcelona/en/buy-tickets" target="_blank" rel="noreferrer">www.parkguell.barcelona</a>, select your ticket preference and the date.`
   },
   {
     q: 'How to get to Park Guell?',
@@ -40,11 +40,11 @@ const questions = [
   <span class="option">Free entrance:</span> <br>
   - Thursday afternoons, from 6.00pm to 9.30pm. <br>
   - First Sunday of each month, from 9am to 8.30pm. <br>
-  Buy or book the free entrance at <a href="http://www.bcn.cat/museupicasso/en/visiting/planning.html" target="_blank">www.bcn.cat/museupicasso</a>`
+  Buy or book the free entrance at <a href="http://www.bcn.cat/museupicasso/en/visiting/planning.html" target="_blank" rel="noreferrer">www.bcn.cat/museupicasso</a>`
   },
   {
     q: 'Where can I buy tickets for the Picasso Museum?',
-    a: `Buy or book the free entrance at <a href="http://www.bcn.cat/museupicasso/en/visiting/planning.html" target="_blank">www.bcn.cat/museupicasso</a>`
+    a: `Buy or book the free entrance at <a href="http://www.bcn.cat/museupicasso/en/visiting/planning.html" target="_blank" rel="noreferrer">www.bcn.cat/museupicasso</a>`
   },
   {
     q: 'When is the Barcelona Cathedral free entrance?',
@@ -55,14 +55,14 @@ const questions = [
     a: `There are 2 cable cars, one that takes you from the port to the mountain and another one that has 3 stops on the mountain with views of the city. <br>
       <span class="option">Port cable car:</span> 11€ one way, 16,50€, way and back (buy tickets on counter with cash). <br>
       <span class="option">Mountain cable car:</span> 12,70€ (you can purchase online with 20% discount). <br>
-      Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank">www.holabarcelona.com</a>`
+      Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank" rel="noreferrer">www.holabarcelona.com</a>`
   },
   {
     q: 'How to take the cable car up montjuic?',
     a: `There are 2 cable cars, one that takes you from the port to the mountain and another one that has 3 stops on the mountain with views of the city. <br>
       <span class="option">Port cable car:</span>Sebastian tower on the beach (Passeig Don Joan Borbó Comte Barcelona, S/N, 08039 Barcelona). <br>
       <span class="option">Mountain cable car:</span> Avenida de Miramar, 30 (08038 Barcelona) <br>
-      Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank">www.holabarcelona.com</a>`
+      Buy ticket at <a href="https://www.holabarcelona.com/tickets/cable-car-montjuic-barcelona" target="_blank" rel="noreferrer">www.holabarcelona.com</a>`
   },
   {
     q: 'How to get to Montserrat? Time / Price?',
