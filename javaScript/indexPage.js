@@ -40,13 +40,18 @@ if (!isRunningStandalone()) {
 const btnLanguage_a = document.querySelector('.btn-lang');
 const languagesList_div = document.querySelector('.languages');
 
-btnLanguage_a.addEventListener('click', function() {
+btnLanguage_a.addEventListener('click', hideAndShowLang);
+btnLanguage_a.addEventListener('touchstart', hideAndShowLang, {
+  passive: true
+});
+
+function hideAndShowLang() {
   if (languagesList_div.style.display == 'none') {
     languagesList_div.style.display = 'inline';
   } else {
     languagesList_div.style.display = 'none';
   }
-});
+}
 
 // ============== PUPUP NOTIFICATION ==================
 
@@ -107,12 +112,19 @@ function hideOnClickOutside(element) {
 
   const removeClickListener = () => {
     document.removeEventListener('click', outsideClickListener);
+    document.removeEventListener('touchstart', outsideClickListener, {
+      passive: true
+    });
   };
 
   document.addEventListener('click', outsideClickListener);
+  document.addEventListener('touchstart', outsideClickListener, {
+    passive: true
+  });
 }
 
-closeBtn_popUp.addEventListener('click', () => {
+closeBtn_popUp.addEventListener('click', closePopup);
+function closePopup() {
   popUp.style.maxHeight = '0px';
   popUp.style.bottom = '-80px';
   setInterval(function() {
@@ -122,7 +134,7 @@ closeBtn_popUp.addEventListener('click', () => {
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   nav.style.zIndex = '1';
-});
+}
 
 hideOnClickOutside(popUp);
 
@@ -134,10 +146,13 @@ function comingSoon() {
   comingSoon_pop.style.display = 'block';
   comingSoon_pop.style.height = '150px';
 
-  button.addEventListener('click', () => {
+  button.addEventListener('click', closingPopSoon);
+  button.addEventListener('touchstart', closingPopSoon, { passive: true });
+
+  function closingPopSoon() {
     comingSoon_pop.style.display = 'none';
     comingSoon_pop.style.height = '0';
-  });
+  }
 }
 
 // =========== CONTACT FORM =============
@@ -145,12 +160,18 @@ const contactForm = document.querySelector('.contact-form');
 const contactIcon = document.querySelector('.contact-icon');
 const closeBtnForm = document.querySelector('.closeBtnForm');
 
-contactIcon.addEventListener('click', () => {
+function showForm() {
   contactForm.style.display = 'block';
   contactForm.style.opacity = '1';
-});
+}
 
-closeBtnForm.addEventListener('click', () => {
+function closeForm() {
   contactForm.style.display = 'none';
   contactForm.style.opacity = '0';
-});
+}
+
+contactIcon.addEventListener('click', showForm);
+contactIcon.addEventListener('touchstart', showForm, { passive: true });
+
+closeBtnForm.addEventListener('click', closeForm);
+closeBtnForm.addEventListener('touchstart', closeForm, { passive: true });
