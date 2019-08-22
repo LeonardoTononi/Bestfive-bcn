@@ -116,19 +116,19 @@ header .logo-img {
 }
 
 /* ================ SEARCH BAR =============== */
-#search-bar {
+#search-form {
   text-align: center;
   width: 100%;
   margin: 20px -15px 0 -15px;
 }
 
-#search-bar img {
+#search-form img {
   position: relative;
   left: 2.5rem;
   top: 0.4rem;
 }
 
-#search-bar input {
+#search-form input {
   max-width: 380px;
   padding: 12px 50px;
   font-size: 1.2rem;
@@ -144,35 +144,35 @@ header .logo-img {
   border: 2px solid transparent;
 }
 
-#search-bar input::-webkit-input-placeholder {
+#search-form input::-webkit-input-placeholder {
   color: rgba(80, 80, 80, 0.678);
   opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
-#search-bar input:-ms-input-placeholder {
+#search-form input:-ms-input-placeholder {
   color: rgba(80, 80, 80, 0.678);
   opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
-#search-bar input::-ms-input-placeholder {
+#search-form input::-ms-input-placeholder {
   color: rgba(80, 80, 80, 0.678);
   opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
-#search-bar input::placeholder {
+#search-form input::placeholder {
   color: rgba(80, 80, 80, 0.678);
   opacity: 1;
   font-size: 1.1rem;
   letter-spacing: 1.1px;
 }
 
-#search-bar input:focus {
+#search-form input:focus {
   outline: none;
   border: 2px solid #833ab4;
   background: #fff;

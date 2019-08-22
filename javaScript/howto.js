@@ -136,7 +136,7 @@ function displayMatches() {
   }
 }
 
-const search_input = document.forms['search-bar'].querySelector('input');
+const search_input = document.querySelector('.search-bar');
 const questions_div = document.querySelector('#questions');
 
 search_input.addEventListener('change', displayMatches);
