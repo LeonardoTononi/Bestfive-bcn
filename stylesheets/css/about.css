@@ -138,11 +138,15 @@ header h5 {
 }
 
 @media screen and (min-width: 800px) {
+  header {
+    max-width: 550px;
+    margin: 0 auto;
+  }
   .bottom-bar img {
-    width: 40px;
+    width: 32px;
   }
   .bottom-bar h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=about.css.map */

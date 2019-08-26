@@ -103,6 +103,8 @@ header {
   transition: 0.1s ease-in-out;
   padding-top: 7px;
   width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
 
   h1 {
     font-size: 2rem;
@@ -547,8 +549,19 @@ h2 {
 }
 
 @media only screen and (min-width: 550px) {
+  header {
+    h1 {
+      font-size: 2.7rem;
+      padding: 20px 0 20px 40px;
+
+      .small-text {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
   .applications {
-    padding: 160px 35px 80px 35px;
+    padding: 150px 35px 80px 35px;
   }
 
   .icon-app {
@@ -566,10 +579,21 @@ h2 {
   }
 
   .navbar {
+    bottom: 10px;
+    left: 50%;
+    margin-left: -275px;
+    border-radius: 28px;
+    max-width: 550px;
+    -webkit-box-shadow: 0 0 5px 0px #d4d4d4;
+    box-shadow: 0 0 5px 0px #d4d4d4;
     height: 68px;
 
     ul li {
-      width: 14%;
+      width: 18%;
+
+      h2 {
+        font-size: 0.9rem;
+      }
 
       img {
         width: 40px;
@@ -584,5 +608,6 @@ h2 {
   .skyline img {
     left: 50%;
     margin-left: -300px;
+    top: 100px;
   }
 }

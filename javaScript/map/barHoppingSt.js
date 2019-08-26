@@ -164,7 +164,8 @@ function initMap() {
       zIndex: 999
     });
   }
-  getLocation();
+
+  setTimeout(getLocation(), 10000);
 
   // Loop through markers
   setTimeout(function() {

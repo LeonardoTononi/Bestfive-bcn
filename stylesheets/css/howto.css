@@ -130,7 +130,7 @@ header .logo-img {
 
 #search-form input {
   max-width: 380px;
-  padding: 12px 50px;
+  padding: 12px;
   font-size: 1.2rem;
   text-align: center;
   border-radius: 10px;
@@ -318,28 +318,42 @@ input:focus {
 }
 
 @media screen and (min-width: 800px) {
-  #search-bar input {
+  header {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  #search-form {
+    margin: 40px -15px 0 -15px;
+  }
+  #search-form input {
     padding: 15px 200px;
     font-size: 1.4rem;
   }
-  #search-bar input::-webkit-input-placeholder {
+  #search-form input::-webkit-input-placeholder {
     font-size: 1.3rem;
   }
-  #search-bar input:-ms-input-placeholder {
+  #search-form input:-ms-input-placeholder {
     font-size: 1.3rem;
   }
-  #search-bar input::-ms-input-placeholder {
+  #search-form input::-ms-input-placeholder {
     font-size: 1.3rem;
   }
-  #search-bar input::placeholder {
+  #search-form input::placeholder {
     font-size: 1.3rem;
   }
-  #search-bar img {
+  #search-form img {
     width: 30px;
     left: 3rem;
   }
+  .filters {
+    padding: 3rem 1rem 0 1rem;
+    max-width: 470px;
+  }
   .filters .filter {
     font-size: 1.2rem;
+  }
+  #questions {
+    padding: 0 20% 5% 20%;
   }
   #questions .question h2 {
     font-size: 1.6rem;
@@ -348,15 +362,15 @@ input:focus {
     font-size: 1.3rem;
   }
   .bottom-bar img {
-    width: 40px;
+    width: 32px;
   }
   .bottom-bar h2 {
     font-size: 1rem;
   }
 }
 
-@media only screen and (max-width: 340px) {
-  #search-bar input {
+@media only screen and (min-width: 340px) {
+  #search-form input {
     padding: 10px 30px;
   }
   .filters .filter {

@@ -368,13 +368,17 @@ header {
   }
 }
 
-@media only screen and (min-width: 1000px) {
-  /*  .container {
+@media only screen and (min-width: 800px) {
+  /* .places {
+    padding: 40px 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 900px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   } */
+
+  header {
+    max-width: 550px;
+    margin: 0 auto;
+  }
 
   .bottom-bar {
     img {
@@ -382,7 +386,7 @@ header {
     }
 
     h2 {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
 }
