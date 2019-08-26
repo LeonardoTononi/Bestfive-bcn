@@ -81,6 +81,7 @@ function showAddPopup() {
   skyline.style.opacity = '.2';
   navbar.style.opacity = '.2';
   navbar.style.zIndex = '-2';
+  applications.style.pointerEvents = 'none';
 }
 
 function hidePopup() {
@@ -91,6 +92,9 @@ function hidePopup() {
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   navbar.style.zIndex = '2';
+  setTimeout(() => {
+    applications.style.pointerEvents = 'auto';
+  }, 200);
 }
 
 // Effect offline popup
@@ -106,6 +110,9 @@ function hideOnClickOutside(element) {
       skyline.style.opacity = '1';
       navbar.style.opacity = '1';
       nav.style.zIndex = '1';
+      setTimeout(() => {
+        applications.style.pointerEvents = 'auto';
+      }, 200);
       removeClickListener();
     }
   };
@@ -134,6 +141,9 @@ function closePopup() {
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   nav.style.zIndex = '1';
+  setTimeout(() => {
+    applications.style.pointerEvents = 'auto';
+  }, 200);
 }
 
 hideOnClickOutside(popUp);
@@ -145,6 +155,7 @@ function comingSoon() {
 
   comingSoon_pop.style.display = 'block';
   comingSoon_pop.style.height = '150px';
+  applications.style.pointerEvents = 'none';
 
   button.addEventListener('click', closingPopSoon);
   button.addEventListener('touchstart', closingPopSoon, { passive: true });
@@ -152,6 +163,10 @@ function comingSoon() {
   function closingPopSoon() {
     comingSoon_pop.style.display = 'none';
     comingSoon_pop.style.height = '0';
+
+    setTimeout(() => {
+      applications.style.pointerEvents = 'auto';
+    }, 200);
   }
 }
 
