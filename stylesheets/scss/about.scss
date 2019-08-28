@@ -130,11 +130,38 @@ header {
     margin: 0 auto;
   }
 
-  .bottom-bar img {
-    width: 32px;
-  }
+  .bottom-bar {
+    position: initial;
+    background: transparent;
+    box-shadow: none;
 
-  .bottom-bar h2 {
-    font-size: 0.9rem;
+    #back {
+      left: 30px;
+      bottom: 30px;
+      position: fixed;
+      background: whitesmoke;
+      width: 50px;
+      border-radius: 50%;
+      padding: 10px;
+      text-align: center;
+
+      .back-btn {
+        img {
+          left: 0;
+        }
+
+        h2 {
+          padding-left: 5px;
+        }
+      }
+    }
+
+    img {
+      width: 32px;
+    }
+
+    h2 {
+      font-size: 0.9rem;
+    }
   }
 }
