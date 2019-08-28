@@ -269,7 +269,6 @@ function startMap() {
 
     // ================================= ICE CREAM ===========================================
 
-    // Gocce di latte
     // Oggi Gelato
     {
       coords: {
@@ -599,8 +598,8 @@ function startMap() {
     // Carrer de la Mercè
     {
       coords: {
-        lat: 41.382905,
-        lng: 2.175482
+        lat: 41.379878,
+        lng: 2.180129
       },
       iconImage: {
         url: '/img/icon/rabbit.png',
