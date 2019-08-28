@@ -144,11 +144,21 @@ search_input.addEventListener('keyup', displayMatches);
 
 // FILTERS LOGIC
 
-const filter = document.querySelectorAll('.filter');
+const filters = document.querySelectorAll('.filter');
 
-filter.forEach(elt =>
-  elt.addEventListener('click', function() {
+filters.forEach(filter =>
+  filter.addEventListener('click', function() {
+    const filtersArray = Array.from(filters);
+    let activeFiltersArray = filtersArray.filter(checkActiveFilters);
+
+    if (activeFiltersArray.length >= 1) {
+      activeFiltersArray.forEach(filter => {
+        filter.classList.remove('active-filter');
+      });
+    }
+
     this.classList.toggle('active-filter');
+
     targetFilter = this;
     if (this.classList.contains('active-filter')) {
       displayMatches2(targetFilter);
@@ -160,6 +170,10 @@ filter.forEach(elt =>
     }
   })
 );
+
+function checkActiveFilters(filter) {
+  return filter.classList.contains('active-filter');
+}
 
 function displayMatches2(filter) {
   if (filter.classList.contains('active-filter')) {
