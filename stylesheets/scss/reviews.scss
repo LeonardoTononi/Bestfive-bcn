@@ -381,6 +381,52 @@ header {
   }
 
   .bottom-bar {
+    position: initial;
+    background: transparent;
+    box-shadow: none;
+
+    #map-action {
+      left: 28%;
+      bottom: 45%;
+      position: fixed;
+      background: whitesmoke;
+      width: 50px;
+      border-radius: 50%;
+      padding: 10px;
+      text-align: center;
+
+      .map-btn {
+        img {
+          right: 0;
+        }
+
+        h2 {
+          padding-right: 0;
+        }
+      }
+    }
+
+    #back {
+      left: 28%;
+      bottom: 55%;
+      position: fixed;
+      background: whitesmoke;
+      width: 50px;
+      border-radius: 50%;
+      padding: 10px;
+      text-align: center;
+
+      .back-btn {
+        img {
+          left: 0;
+        }
+
+        h2 {
+          padding-left: 5px;
+        }
+      }
+    }
+
     img {
       width: 35px;
     }
