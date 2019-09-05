@@ -108,8 +108,10 @@ header {
 
 #search-form {
   text-align: center;
-  width: 100%;
-  margin: 20px -15px 0 -15px;
+  position: absolute;
+  right: 50%;
+  top: 90px;
+  margin-right: -120px;
 
   img {
     position: relative;
@@ -159,7 +161,7 @@ input:focus {
 .filters {
   columns: auto;
   text-align: center;
-  padding: 1rem 1rem 0 1rem;
+  padding: 5.5rem 1rem 0 1rem;
   max-width: 420px;
   margin: 0 auto;
 
@@ -186,6 +188,21 @@ input:focus {
   }
 }
 
+
+/* ================ FRAN EMOJI =============== */
+
+.fran-emoji {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  display: inline-block;
+
+  img {
+    width: 180px;
+  }
+}
+
+
 /* ================ QUESTIONS =============== */
 
 #questions {
@@ -207,6 +224,12 @@ input:focus {
       transition: 0.3s ease-in-out;
       letter-spacing: 0.5px;
       padding: 10px 0;
+
+      img {
+        width: 20px;
+        position: relative;
+        right: 3px;
+      }
 
       i {
         font-size: 1.5rem;
@@ -284,6 +307,22 @@ input:focus {
   background: #ffc600;
 }
 
+@media only screen and (min-width: 340px) {
+  #search-form {
+    margin-right: -136px;
+
+    input {
+      padding: 10px 30px;
+    }
+  }
+
+  .filters {
+    .filter {
+      padding: 5px 7px;
+    }
+  }
+}
+
 @media screen and (min-width: 800px) {
   header {
     max-width: 550px;
@@ -291,10 +330,8 @@ input:focus {
   }
 
   #search-form {
-    margin: 40px -15px 0 -15px;
 
     input {
-      padding: 15px 200px;
       font-size: 1.4rem;
 
       &::placeholder {
@@ -309,11 +346,47 @@ input:focus {
   }
 
   .filters {
-    padding: 3rem 1rem 0 1rem;
+    padding: 5.5rem 1rem 0 1rem;
     max-width: 470px;
 
     .filter {
       font-size: 1.2rem;
+      padding: 7px 10px;
+    }
+
+    .bottom-bar {
+      position: initial;
+      background: transparent;
+      box-shadow: none;
+
+      #back {
+        left: 30px;
+        bottom: 30px;
+        position: fixed;
+        background: whitesmoke;
+        width: 50px;
+        border-radius: 50%;
+        padding: 10px;
+        text-align: center;
+
+        .back-btn {
+          img {
+            left: 0;
+          }
+
+          h2 {
+            padding-left: 5px;
+          }
+        }
+      }
+
+      img {
+        width: 35px;
+      }
+
+      h2 {
+        font-size: 0.8rem;
+      }
     }
   }
 
@@ -335,60 +408,5 @@ input:focus {
 
   .bottom-bar h2 {
     font-size: 1rem;
-  }
-}
-
-@media only screen and (min-width: 340px) {
-  #search-form {
-    input {
-      padding: 10px 30px;
-    }
-  }
-
-  .filters {
-    .filter {
-      padding: 5px 7px;
-    }
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .filters .filter {
-    padding: 7px 10px;
-  }
-
-  .bottom-bar {
-    position: initial;
-    background: transparent;
-    box-shadow: none;
-
-    #back {
-      left: 30px;
-      bottom: 30px;
-      position: fixed;
-      background: whitesmoke;
-      width: 50px;
-      border-radius: 50%;
-      padding: 10px;
-      text-align: center;
-
-      .back-btn {
-        img {
-          left: 0;
-        }
-
-        h2 {
-          padding-left: 5px;
-        }
-      }
-    }
-
-    img {
-      width: 35px;
-    }
-
-    h2 {
-      font-size: 0.8rem;
-    }
   }
 }

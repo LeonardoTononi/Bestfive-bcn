@@ -107,6 +107,11 @@ const questions = [
   }
 ];
 
+const search_input = document.querySelector('.search-bar');
+const questions_div = document.querySelector('#questions');
+const filters = document.querySelectorAll('.filter');
+const franEmoji = document.querySelector('.fran-emoji');
+
 function findMatches(wordToMatch, questions) {
   return questions.filter(question => {
     const regex = new RegExp(wordToMatch, 'gi');
@@ -121,30 +126,30 @@ function displayMatches() {
       const regex = new RegExp(this.value, 'gi');
       return `
     <div class="question">
-       <h2><i class="fas fa-caret-right"></i>${question.q}</h2>
+      <h2><img src="/img/icon/icon-right-violet.png" alt="icon right violet">${question.q}</h2>
        <p class="answer">${question.a}</p>
     </div>
         `;
     })
     .join('');
   questions_div.innerHTML = html;
+  if (franEmoji.style.display !== 'none') {
+    franEmoji.style.display = 'none';
+  }
+
   if (this.value == '') {
     questions_div.innerHTML = `
     <div class="question">
       
     </div>`;
+    franEmoji.style.display = 'inline-block';
   }
 }
-
-const search_input = document.querySelector('.search-bar');
-const questions_div = document.querySelector('#questions');
 
 search_input.addEventListener('change', displayMatches);
 search_input.addEventListener('keyup', displayMatches);
 
 // FILTERS LOGIC
-
-const filters = document.querySelectorAll('.filter');
 
 filters.forEach(filter =>
   filter.addEventListener('click', function() {
@@ -154,7 +159,7 @@ filters.forEach(filter =>
       filter.classList.remove('active-filter');
     });
 
-    targetFilter.classList.add('active-filter');
+    targetFilter.classList.toggle('active-filter');
 
     if (targetFilter.classList.contains('active-filter')) {
       displayMatches2(targetFilter);
@@ -178,12 +183,13 @@ function displayMatches2(filter) {
         const regex = new RegExp(filter.innerText, 'gi');
         return `
         <div class="question">
-           <h2><i class="fas fa-caret-right"></i>${question.q}</h2>
+           <h2><img src="/img/icon/icon-right-violet.png" alt="icon right violet">${question.q}</h2>
            <p class="answer">${question.a}</p>
         </div>
             `;
       })
       .join('');
     questions_div.innerHTML = html;
+    franEmoji.style.display = 'none';
   }
 }

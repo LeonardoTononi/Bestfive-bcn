@@ -118,8 +118,10 @@ header .logo-img {
 /* ================ SEARCH BAR =============== */
 #search-form {
   text-align: center;
-  width: 100%;
-  margin: 20px -15px 0 -15px;
+  position: absolute;
+  right: 50%;
+  top: 90px;
+  margin-right: -120px;
 }
 
 #search-form img {
@@ -189,7 +191,7 @@ input:focus {
   -webkit-columns: auto;
           columns: auto;
   text-align: center;
-  padding: 1rem 1rem 0 1rem;
+  padding: 5.5rem 1rem 0 1rem;
   max-width: 420px;
   margin: 0 auto;
 }
@@ -218,6 +220,18 @@ input:focus {
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
+/* ================ FRAN EMOJI =============== */
+.fran-emoji {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.fran-emoji img {
+  width: 180px;
+}
+
 /* ================ QUESTIONS =============== */
 #questions {
   padding: 0 7% 5% 7%;
@@ -241,6 +255,12 @@ input:focus {
   transition: 0.3s ease-in-out;
   letter-spacing: 0.5px;
   padding: 10px 0;
+}
+
+#questions .question h2 img {
+  width: 20px;
+  position: relative;
+  right: 3px;
 }
 
 #questions .question h2 i {
@@ -318,16 +338,24 @@ input:focus {
   background: #ffc600;
 }
 
+@media only screen and (min-width: 340px) {
+  #search-form {
+    margin-right: -136px;
+  }
+  #search-form input {
+    padding: 10px 30px;
+  }
+  .filters .filter {
+    padding: 5px 7px;
+  }
+}
+
 @media screen and (min-width: 800px) {
   header {
     max-width: 550px;
     margin: 0 auto;
   }
-  #search-form {
-    margin: 40px -15px 0 -15px;
-  }
   #search-form input {
-    padding: 15px 200px;
     font-size: 1.4rem;
   }
   #search-form input::-webkit-input-placeholder {
@@ -347,11 +375,40 @@ input:focus {
     left: 3rem;
   }
   .filters {
-    padding: 3rem 1rem 0 1rem;
+    padding: 5.5rem 1rem 0 1rem;
     max-width: 470px;
   }
   .filters .filter {
     font-size: 1.2rem;
+    padding: 7px 10px;
+  }
+  .filters .bottom-bar {
+    position: initial;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .filters .bottom-bar #back {
+    left: 30px;
+    bottom: 30px;
+    position: fixed;
+    background: whitesmoke;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  .filters .bottom-bar #back .back-btn img {
+    left: 0;
+  }
+  .filters .bottom-bar #back .back-btn h2 {
+    padding-left: 5px;
+  }
+  .filters .bottom-bar img {
+    width: 35px;
+  }
+  .filters .bottom-bar h2 {
+    font-size: 0.8rem;
   }
   #questions {
     padding: 0 20% 5% 20%;
@@ -367,49 +424,6 @@ input:focus {
   }
   .bottom-bar h2 {
     font-size: 1rem;
-  }
-}
-
-@media only screen and (min-width: 340px) {
-  #search-form input {
-    padding: 10px 30px;
-  }
-  .filters .filter {
-    padding: 5px 7px;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .filters .filter {
-    padding: 7px 10px;
-  }
-  .bottom-bar {
-    position: initial;
-    background: transparent;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .bottom-bar #back {
-    left: 30px;
-    bottom: 30px;
-    position: fixed;
-    background: whitesmoke;
-    width: 50px;
-    border-radius: 50%;
-    padding: 10px;
-    text-align: center;
-  }
-  .bottom-bar #back .back-btn img {
-    left: 0;
-  }
-  .bottom-bar #back .back-btn h2 {
-    padding-left: 5px;
-  }
-  .bottom-bar img {
-    width: 35px;
-  }
-  .bottom-bar h2 {
-    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=howto.css.map */
