@@ -267,10 +267,15 @@ header .languages .language a {
   position: -webkit-sticky;
   position: sticky;
   bottom: 65px;
+  margin-left: 60%;
   display: -ms-grid;
   display: grid;
   place-items: end;
-  z-index: -5;
+  width: 130px;
+}
+
+.welcome-emoji img {
+  width: 130px;
 }
 
 .booking {
@@ -611,6 +616,9 @@ h2 {
   }
   .contact-form form textarea {
     margin: 15px 0 40px 0;
+  }
+  .welcome-emoji img {
+    width: 150px;
   }
 }
 

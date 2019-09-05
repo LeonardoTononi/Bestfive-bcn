@@ -225,9 +225,14 @@ header {
   position: -webkit-sticky;
   position: sticky;
   bottom: 65px;
+  margin-left: 60%;
   display: grid;
   place-items: end;
-  z-index: -5;
+  width: 130px;
+
+  img {
+    width: 130px;
+  }
 }
 
 // ============ BOOKING BTN ================
@@ -562,6 +567,10 @@ h2 {
         margin: 15px 0 40px 0;
       }
     }
+  }
+
+  .welcome-emoji img {
+    width: 150px;
   }
 }
 
