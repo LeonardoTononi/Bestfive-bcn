@@ -18,7 +18,6 @@ if (isset($_POST['email'])) {
 
   // validation expected data exists
   if (
-    !isset($_POST['name']) ||
     !isset($_POST['email']) ||
     !isset($_POST['message'])
   ) {
@@ -26,8 +25,6 @@ if (isset($_POST['email'])) {
   }
 
 
-
-  $name = $_POST['name']; // required
   $email_from = $_POST['email']; // required
   $message = $_POST['message']; // required
 
@@ -55,7 +52,6 @@ if (isset($_POST['email'])) {
     return str_replace($bad, "", $string);
   }
 
-  $email_message .= "Name: " . clean_string($name) . "\n";
   $email_message .= "Email: " . clean_string($email_from) . "\n";
   $email_message .= "Message: " . clean_string($message) . "\n";
 
@@ -68,28 +64,28 @@ if (isset($_POST['email'])) {
 
   ?>
 
-<link rel="stylesheet" href="/stylesheets/css/contactFormConfirm.css" type="text/css">
+  <link rel="stylesheet" href="/stylesheets/css/contactFormConfirm.css" type="text/css">
 
-<body ontouchstart="">
-  <header>
-    <div>
-      <h1>
-        best<span>five</span> <br> <span class="small-text">bcn</span>
-      </h1>
+  <body ontouchstart="">
+    <header>
+      <div>
+        <h1>
+          best<span>five</span> <br> <span class="small-text">bcn</span>
+        </h1>
+      </div>
+    </header>
+
+    <div class="skyline">
+      <img src="/img/homePage/barcelona-city.png" alt="">
     </div>
-  </header>
 
-  <div class="skyline">
-    <img src="/img/homePage/barcelona-city.png" alt="">
-  </div>
+    <div class="alert">
+      <h5><img src="/img/icon/icon-done.png" alt="done icon"> Thank you <br> for contacting us.</h5>
+      <p>We will be in touch with you very soon.</p>
+      <a href="/" class="btn">Go to Homepage</a>
+    </div>
 
-  <div class="alert">
-    <h5><img src="/img/icon/icon-done.png" alt="done icon"> Thank you <br> for contacting us.</h5>
-    <p>We will be in touch with you very soon.</p>
-    <a href="/" class="btn">Go to Homepage</a>
-  </div>
-
-</body>
+  </body>
 
 <?php
 }

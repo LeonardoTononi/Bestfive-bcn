@@ -82,7 +82,7 @@ header h5 img {
 
 .contact-form form input {
   margin: 10px auto;
-  padding: 3px 0;
+  padding: 8px;
   width: 85%;
   display: block;
   outline: none;
@@ -97,10 +97,10 @@ header h5 img {
   -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
   -webkit-box-shadow: 0 0 10px 0 #833ab49e;
           box-shadow: 0 0 10px 0 #833ab49e;
-  border: 1px solid transparent;
 }
 
 .contact-form form textarea {
+  padding: 8px;
   font-family: "Open Sans", sans-serif;
   width: 85%;
   font-size: 1.2rem;
@@ -112,31 +112,30 @@ header h5 img {
   -webkitbox-border: 1px solid #833ab4;
 }
 
+.contact-form form textarea ::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: #484848;
+}
+
+.contact-form form textarea :-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #484848;
+}
+
+.contact-form form textarea ::-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #484848;
+}
+
+.contact-form form textarea ::placeholder {
+  font-size: 1.5rem;
+  color: #484848;
+}
+
 .contact-form form textarea:focus {
   -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
   -webkit-box-shadow: 0 0 10px 0 #833ab49e;
           box-shadow: 0 0 10px 0 #833ab49e;
-  border: 1px solid transparent;
-}
-
-.contact-form form ::-webkit-input-placeholder {
-  font-size: 1.5rem;
-  color: #484848;
-}
-
-.contact-form form :-ms-input-placeholder {
-  font-size: 1.5rem;
-  color: #484848;
-}
-
-.contact-form form ::-ms-input-placeholder {
-  font-size: 1.5rem;
-  color: #484848;
-}
-
-.contact-form form ::placeholder {
-  font-size: 1.5rem;
-  color: #484848;
 }
 
 .contact-form form button {

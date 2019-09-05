@@ -71,7 +71,7 @@ header {
 
     input {
       margin: 10px auto;
-      padding: 3px 0;
+      padding: 8px;
       width: 85%;
       display: block;
       outline: none;
@@ -80,16 +80,16 @@ header {
       border-radius: 10px;
       border: 1px solid #833ab4;
       -webkitbox-border: 1px solid #833ab4;
+    }
 
-      &:focus {
-        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-        -moz-box-shadow: 0 0 10px 0 #833ab49e;
-        box-shadow: 0 0 10px 0 #833ab49e;
-        border: 1px solid transparent;
-      }
+    input:focus {
+      -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+      -moz-box-shadow: 0 0 10px 0 #833ab49e;
+      box-shadow: 0 0 10px 0 #833ab49e;
     }
 
     textarea {
+      padding: 8px;
       font-family: "Open Sans", sans-serif;
       width: 85%;
       font-size: 1.2rem;
@@ -100,18 +100,19 @@ header {
       border: 1px solid #833ab4;
       -webkitbox-border: 1px solid #833ab4;
 
-      &:focus {
-        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-        -moz-box-shadow: 0 0 10px 0 #833ab49e;
-        box-shadow: 0 0 10px 0 #833ab49e;
-        border: 1px solid transparent;
+      ::placeholder {
+        font-size: 1.5rem;
+        color: #484848;
       }
     }
 
-    ::placeholder {
-      font-size: 1.5rem;
-      color: #484848;
+    textarea:focus {
+      -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+      -moz-box-shadow: 0 0 10px 0 #833ab49e;
+      box-shadow: 0 0 10px 0 #833ab49e;
     }
+
+
 
     button {
       padding: 15px;
