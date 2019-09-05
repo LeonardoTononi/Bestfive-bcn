@@ -452,7 +452,7 @@ h2 {
 }
 
 .add-home .app-bestfive {
-  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -510,19 +510,35 @@ h2 {
   transition: opacity 150ms ease-in-out;
 }
 
+.contact-form .title-contact {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #833ab4;
+  line-height: 1.6rem;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-form img {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 150px;
+}
+
 .contact-form form {
   padding: 20px 10px;
   text-align: start;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .contact-form form label {
   padding-left: 15px;
-  color: #000;
+  color: #484848;
 }
 
 .contact-form form input {
-  margin: 15px 0 20px 0;
+  margin: 10px 0;
   padding: 3px 0 3px 18px;
   width: 92%;
   display: block;
@@ -530,7 +546,14 @@ h2 {
   font-size: 1.2rem;
   color: #484848;
   border-radius: 20px;
-  border: 1px solid #484848;
+  border: 1px solid #833ab4;
+}
+
+.contact-form form input:focus {
+  -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+  -webkit-box-shadow: 0 0 10px 0 #833ab49e;
+          box-shadow: 0 0 10px 0 #833ab49e;
+  border: 1px solid transparent;
 }
 
 .contact-form form textarea {
@@ -539,10 +562,17 @@ h2 {
   padding-left: 18px;
   font-size: 1.2rem;
   color: #484848;
-  margin: 15px 0 20px 0;
+  margin: 15px 0;
   outline: none;
   border-radius: 20px;
-  border: 1px solid #484848;
+  border: 1px solid #833ab4;
+}
+
+.contact-form form textarea:focus {
+  -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+  -webkit-box-shadow: 0 0 10px 0 #833ab49e;
+          box-shadow: 0 0 10px 0 #833ab49e;
+  border: 1px solid transparent;
 }
 
 .contact-form form ::-webkit-input-placeholder {
@@ -566,27 +596,26 @@ h2 {
 }
 
 .contact-form form button {
-  padding: 15px 20px;
+  padding: 15px;
   background: #833ab4;
   color: #fff;
   font-size: 1rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 50%;
   font-weight: 200;
   letter-spacing: 1.1px;
 }
 
 .contact-form form button i {
   color: #fff;
-  padding-right: 6px;
 }
 
 .contact-form .closeBtnForm {
   text-align: end;
   padding: 10px;
   position: absolute;
-  right: -5px;
-  top: -15px;
+  right: -15px;
+  top: -25px;
   color: #484848ab;
   cursor: pointer;
 }
@@ -638,7 +667,7 @@ h2 {
     padding: 20px;
   }
   .contact-form form textarea {
-    margin: 15px 0 40px 0;
+    margin: 15px 0 20px 0;
   }
 }
 

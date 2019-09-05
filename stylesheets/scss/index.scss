@@ -409,7 +409,7 @@ h2 {
   }
 
   .app-bestfive {
-    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: center;
 
     img {
@@ -443,8 +443,7 @@ h2 {
   }
 }
 
-// =============== CONTACT FORM ==============
-
+//===============CONTACT FORM==============
 .contact-form {
   display: none;
   opacity: 0;
@@ -465,18 +464,35 @@ h2 {
   letter-spacing: 1.1px;
   transition: opacity 150ms ease-in-out;
 
+  .title-contact {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #833ab4;
+    line-height: 1.6rem;
+    text-align: center;
+    padding: 15px;
+  }
+
+
+  img {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 150px;
+  }
+
   form {
     padding: 20px 10px;
     text-align: start;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
     label {
       padding-left: 15px;
-      color: #000;
+      color: #484848;
     }
 
     input {
-      margin: 15px 0 20px 0;
+      margin: 10px 0;
       padding: 3px 0 3px 18px;
       width: 92%;
       display: block;
@@ -484,7 +500,14 @@ h2 {
       font-size: 1.2rem;
       color: #484848;
       border-radius: 20px;
-      border: 1px solid #484848;
+      border: 1px solid #833ab4;
+
+      &:focus {
+        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+        -moz-box-shadow: 0 0 10px 0 #833ab49e;
+        box-shadow: 0 0 10px 0 #833ab49e;
+        border: 1px solid transparent;
+      }
     }
 
     textarea {
@@ -493,10 +516,17 @@ h2 {
       padding-left: 18px;
       font-size: 1.2rem;
       color: #484848;
-      margin: 15px 0 20px 0;
+      margin: 15px 0;
       outline: none;
       border-radius: 20px;
-      border: 1px solid #484848;
+      border: 1px solid #833ab4;
+
+      &:focus {
+        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
+        -moz-box-shadow: 0 0 10px 0 #833ab49e;
+        box-shadow: 0 0 10px 0 #833ab49e;
+        border: 1px solid transparent;
+      }
     }
 
     ::placeholder {
@@ -505,18 +535,17 @@ h2 {
     }
 
     button {
-      padding: 15px 20px;
+      padding: 15px;
       background: #833ab4;
       color: #fff;
       font-size: 1rem;
       border: none;
-      border-radius: 20px;
+      border-radius: 50%;
       font-weight: 200;
       letter-spacing: 1.1px;
 
       i {
         color: #fff;
-        padding-right: 6px;
       }
     }
   }
@@ -525,8 +554,8 @@ h2 {
     text-align: end;
     padding: 10px;
     position: absolute;
-    right: -5px;
-    top: -15px;
+    right: -15px;
+    top: -25px;
     color: #484848ab;
     cursor: pointer;
 
@@ -589,7 +618,7 @@ h2 {
       padding: 20px;
 
       textarea {
-        margin: 15px 0 40px 0;
+        margin: 15px 0 20px 0;
       }
     }
   }
