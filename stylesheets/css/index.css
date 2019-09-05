@@ -444,11 +444,19 @@ h2 {
   width: 130px;
 }
 
-.add-home .header .app-bestfive {
-  padding-top: 20px;
+.add-home .title-use-app {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #833ab4;
 }
 
-.add-home .header .app-bestfive img {
+.add-home .app-bestfive {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.add-home .app-bestfive img {
   border-radius: 13px;
   width: 38px;
   height: 38px;
@@ -459,12 +467,12 @@ h2 {
   -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.15);
 }
 
-.add-home .header .app-bestfive h2 {
+.add-home .app-bestfive h2 {
   padding: 2px 0 0 0;
 }
 
 .add-home .text-add-app {
-  padding: 0 10px 30px 10px;
+  padding: 20px 20px 10px 20px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.8rem;
