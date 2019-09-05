@@ -75,7 +75,7 @@ if (isAndroid() && !isRunningStandalone()) {
 
 function showAddPopup() {
   popUp.style.display = 'inline';
-  popUp.style.maxHeight = '350px';
+  popUp.style.maxHeight = '440px';
   popUp.style.bottom = '10px';
   applications.style.opacity = '.2';
   skyline.style.opacity = '.2';
