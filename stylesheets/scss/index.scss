@@ -397,8 +397,6 @@ h2 {
     .emoji-popup {
       width: 130px;
     }
-
-
   }
 
   .title-use-app {
@@ -443,129 +441,6 @@ h2 {
   }
 }
 
-//===============CONTACT FORM==============
-.contact-form {
-  display: none;
-  opacity: 0;
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -260px 0 0 -140px;
-  max-width: 280px;
-  max-height: 520px;
-  width: 90%;
-  height: 90%;
-  box-shadow: 0 0 20px 0 #484848;
-  background: #fff;
-  z-index: 99999;
-  padding: 3px;
-  border-radius: 20px;
-  letter-spacing: 1.1px;
-  transition: opacity 150ms ease-in-out;
-
-  .title-contact {
-    margin: 0;
-    font-size: 1.4rem;
-    color: #833ab4;
-    line-height: 1.6rem;
-    text-align: center;
-    padding: 15px;
-  }
-
-
-  img {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    width: 150px;
-  }
-
-  form {
-    padding: 20px 10px;
-    text-align: start;
-    font-size: 1.2rem;
-
-    label {
-      padding-left: 15px;
-      color: #484848;
-    }
-
-    input {
-      margin: 10px 0;
-      padding: 3px 0 3px 18px;
-      width: 92%;
-      display: block;
-      outline: none;
-      font-size: 1.2rem;
-      color: #484848;
-      border-radius: 20px;
-      border: 1px solid #833ab4;
-
-      &:focus {
-        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-        -moz-box-shadow: 0 0 10px 0 #833ab49e;
-        box-shadow: 0 0 10px 0 #833ab49e;
-        border: 1px solid transparent;
-      }
-    }
-
-    textarea {
-      font-family: "Open Sans", sans-serif;
-      width: 92%;
-      padding-left: 18px;
-      font-size: 1.2rem;
-      color: #484848;
-      margin: 15px 0;
-      outline: none;
-      border-radius: 20px;
-      border: 1px solid #833ab4;
-
-      &:focus {
-        -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-        -moz-box-shadow: 0 0 10px 0 #833ab49e;
-        box-shadow: 0 0 10px 0 #833ab49e;
-        border: 1px solid transparent;
-      }
-    }
-
-    ::placeholder {
-      font-size: 1.5rem;
-      color: #484848;
-    }
-
-    button {
-      padding: 15px;
-      background: #833ab4;
-      color: #fff;
-      font-size: 1rem;
-      border: none;
-      border-radius: 50%;
-      font-weight: 200;
-      letter-spacing: 1.1px;
-
-      i {
-        color: #fff;
-      }
-    }
-  }
-
-  .closeBtnForm {
-    text-align: end;
-    padding: 10px;
-    position: absolute;
-    right: -15px;
-    top: -25px;
-    color: #484848ab;
-    cursor: pointer;
-
-    p {
-      margin: 0;
-      padding: 20px;
-    }
-  }
-}
-
 // =============== MEDIA QUERY==============
 
 @media only screen and (max-width: 340px) {
@@ -603,22 +478,6 @@ h2 {
         img {
           width: 25px;
         }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 360px) {
-  .contact-form {
-    margin: -300px 0 0 -170px;
-    max-width: 340px;
-    max-height: 600px;
-
-    form {
-      padding: 20px;
-
-      textarea {
-        margin: 15px 0 20px 0;
       }
     }
   }

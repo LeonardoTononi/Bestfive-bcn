@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-146087195-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-146087195-1');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://kit.fontawesome.com/79ac4f678b.js"></script>
+
+    <meta
+      name="description"
+      content="Stay in contact with me, tell me what you think! I'm open to every suggestions!"
+    />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#fff" />
+    <!-- -- IOS Support -- -->
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/img/icon-app/icon-72.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="/img/icon-app/icon-96.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      href="/img/icon-app/icon-128.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/img/icon-app/icon-144.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/img/icon-app/icon-512.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/img/icon-app/icon-192.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="384x384"
+      href="/img/icon-app/icon-384.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="/img/icon-app/icon-512.jpg"
+    />
+
+    <!-- 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image" />
+    <link href="/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image" />
+    <link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
+    <link href="/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
+    <link href="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
+    <link href="/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
+    <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" /> -->
+
+    <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
+
+    <link rel="stylesheet" href="/stylesheets/css/contact-fran.css" />
+    <title>Contact Francisca</title>
+  </head>
+  <body>
+    <header>
+      <h5>
+        <img
+          src=" https://img.icons8.com/color/48/000000/paper-plane.png"
+          alt="contact icon"
+        />Contact
+      </h5>
+    </header>
+    <div class="contact-form">
+      <div class="emoji-fran-contact">
+        <img src="/img/bitmoji/contact.png" alt="emoji fran" />
+      </div>
+      <form action="/en/contactCode.php" method="post">
+        <div class="row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="row">
+          <label for="message">Message</label>
+          <textarea name="message" cols="20" rows="8" required></textarea>
+        </div>
+        <div class="row" style="text-align: start; padding-left: 20px;">
+          <button type="submit" name="submit">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="bottom-bar">
+      <div id="map-action"></div>
+      <div id="back">
+        <a class="back-btn" href="/index.html">
+          <img src="/img/icon/back-hand.png" alt="back button" />
+          <h2>Back</h2>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

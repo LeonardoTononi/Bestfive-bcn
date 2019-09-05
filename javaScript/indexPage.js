@@ -169,24 +169,3 @@ function comingSoon() {
     }, 200);
   }
 }
-
-// =========== CONTACT FORM =============
-const contactForm = document.querySelector('.contact-form');
-const contactIcon = document.querySelector('.contact-icon');
-const closeBtnForm = document.querySelector('.closeBtnForm');
-
-function showForm() {
-  contactForm.style.display = 'block';
-  contactForm.style.opacity = '1';
-}
-
-function closeForm() {
-  contactForm.style.display = 'none';
-  contactForm.style.opacity = '0';
-}
-
-contactIcon.addEventListener('click', showForm);
-contactIcon.addEventListener('touchstart', showForm, { passive: true });
-
-closeBtnForm.addEventListener('click', closeForm);
-closeBtnForm.addEventListener('touchstart', closeForm, { passive: true });
