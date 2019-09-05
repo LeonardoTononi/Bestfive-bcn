@@ -180,7 +180,7 @@ function startMap() {
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
-                     <p>FancyTapas</p>
+                     <p>WowTapas</p>
                      <h5>La platilleria</h5>
                      <div class="go-btn">
                        <a href="https://maps.google.com/maps?daddr=41.371562,2.165384&amp;ll=">
@@ -200,7 +200,7 @@ function startMap() {
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
+                  <p>WowTapas</p>
                   <h5>Bar cañete</h5>
                   <div class="go-btn">
                     <a href="https://maps.google.com/maps?daddr=41.379161,2.173134&amp;ll=">
@@ -220,7 +220,7 @@ function startMap() {
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
+                  <p>WowTapas</p>
                   <h5>La Alcoba Azul</h5>
                   <div class="go-btn">
                     <a href="https://maps.google.com/maps?daddr=41.382905,2.175482&amp;ll=">
@@ -240,7 +240,7 @@ function startMap() {
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
+                  <p>WowTapas</p>
                   <h5>El Nacional</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.390548,2.168283&amp;ll=">GO!</a>
@@ -257,7 +257,7 @@ function startMap() {
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
-                  <p>FancyTapas</p>
+                  <p>WowTapas</p>
                   <h5>Cal Pep</h5>
                   <div class="go-btn">
                     <a href="https://maps.google.com/maps?daddr=41.383975,2.183409&amp;ll=">

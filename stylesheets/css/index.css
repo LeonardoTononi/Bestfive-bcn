@@ -263,6 +263,16 @@ header .languages .language a {
     }
   }
 } */
+.welcome-emoji {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 65px;
+  display: -ms-grid;
+  display: grid;
+  place-items: end;
+  z-index: -5;
+}
+
 .booking {
   width: 60%;
   margin: 0 auto;
@@ -323,6 +333,10 @@ h2 {
   background: transparent;
   padding: 5px 0 10px 0;
   color: #484848;
+}
+
+.icon-app-ghost {
+  background: transparent;
 }
 
 .icon-app {

@@ -219,6 +219,17 @@ header {
   }
 } */
 
+// ============ EMOJI FRAN ================
+
+.welcome-emoji {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 65px;
+  display: grid;
+  place-items: end;
+  z-index: -5;
+}
+
 // ============ BOOKING BTN ================
 
 .booking {
@@ -275,6 +286,10 @@ h2 {
   background: transparent;
   padding: 5px 0 10px 0;
   color: #484848;
+}
+
+.icon-app-ghost {
+  background: transparent;
 }
 
 .icon-app {

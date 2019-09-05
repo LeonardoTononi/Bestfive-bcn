@@ -148,24 +148,19 @@ const filters = document.querySelectorAll('.filter');
 
 filters.forEach(filter =>
   filter.addEventListener('click', function() {
-    const filtersArray = Array.from(filters);
-    let activeFiltersArray = filtersArray.filter(checkActiveFilters);
-
-    if (activeFiltersArray.length >= 1) {
-      activeFiltersArray.forEach(filter => {
-        filter.classList.remove('active-filter');
-      });
-    }
-
-    this.classList.toggle('active-filter');
-
     targetFilter = this;
-    if (this.classList.contains('active-filter')) {
+
+    filters.forEach(filter => {
+      filter.classList.remove('active-filter');
+    });
+
+    targetFilter.classList.add('active-filter');
+
+    if (targetFilter.classList.contains('active-filter')) {
       displayMatches2(targetFilter);
     } else {
       questions_div.innerHTML = `
     <div class="question">
-      
     </div>`;
     }
   })
