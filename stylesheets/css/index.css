@@ -264,13 +264,11 @@ header .languages .language a {
   }
 } */
 .welcome-emoji {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 65px;
-  margin-left: 60%;
+  position: fixed;
+  bottom: 55px;
   display: -ms-grid;
   display: grid;
-  place-items: end;
+  right: 0;
   width: 130px;
 }
 
