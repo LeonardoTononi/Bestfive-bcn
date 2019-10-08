@@ -359,19 +359,17 @@ h2 {
 }
 
 .container-review-btn {
-  width: 130px;
-  position: absolute;
-  bottom: 95px;
-  left: 50%;
-  margin-left: -65px;
+  width: 100%;
 
   .review-btn {
-
     cursor: pointer;
 
     h2 {
       padding: 12px 0;
       color: white;
+      width: 150px;
+      margin: 0 auto;
+      margin-bottom: 90px;
       font-size: .9rem;
       border-radius: 13px;
       font-weight: 200;
