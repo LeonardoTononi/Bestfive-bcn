@@ -258,7 +258,7 @@ header {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 90px 35px 90px 35px;
+  padding: 90px 35px 30px 35px;
   background: transparent;
   transition: 0.25s ease-in-out;
   max-width: 550px;
@@ -360,6 +360,7 @@ h2 {
 
 .container-review-btn {
   width: 100%;
+  padding-bottom: 80px;
 
   .review-btn {
     cursor: pointer;
@@ -507,10 +508,6 @@ h2 {
       }
     }
   }
-
-  .container-review-btn {
-    bottom: 75px;
-  }
 }
 
 @media only screen and (min-width: 550px) {
@@ -526,7 +523,7 @@ h2 {
   }
 
   .applications {
-    padding: 150px 35px 80px 35px;
+    padding: 150px 35px 60px 35px;
   }
 
   .icon-app {

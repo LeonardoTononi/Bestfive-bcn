@@ -300,7 +300,7 @@ header .languages .language a {
   place-items: center;
   grid-gap: 3px;
   margin: 0 auto;
-  padding: 90px 35px 90px 35px;
+  padding: 90px 35px 30px 35px;
   background: transparent;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
@@ -405,6 +405,7 @@ h2 {
 
 .container-review-btn {
   width: 100%;
+  padding-bottom: 80px;
 }
 
 .container-review-btn .review-btn {
@@ -539,9 +540,6 @@ h2 {
   .navbar ul li img {
     width: 25px;
   }
-  .container-review-btn {
-    bottom: 75px;
-  }
 }
 
 @media only screen and (min-width: 550px) {
@@ -553,7 +551,7 @@ h2 {
     font-size: 1.2rem;
   }
   .applications {
-    padding: 150px 35px 80px 35px;
+    padding: 150px 35px 60px 35px;
   }
   .icon-app {
     width: 50px;
