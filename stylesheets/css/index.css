@@ -150,10 +150,6 @@ header h1 {
   color: #833ab4;
 }
 
-header h1 span {
-  font-weight: 500;
-}
-
 header h1 .small-text {
   font-weight: 200;
   font-size: 0.9rem;
@@ -276,13 +272,13 @@ header .languages .language a {
   width: 130px;
 }
 
-.booking {
+.review {
   width: 60%;
   margin: 0 auto;
   display: none;
 }
 
-.booking h5 {
+.review h5 {
   text-align: center;
   font-weight: 400;
   font-size: 1.5rem;
@@ -340,6 +336,13 @@ h2 {
 
 .icon-app-ghost {
   background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  width: 38px;
+  height: 38px;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+  padding: 10px;
 }
 
 .icon-app {
@@ -398,6 +401,29 @@ h2 {
   color: #833ab4;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.container-review-btn {
+  width: 130px;
+  position: absolute;
+  bottom: 95px;
+  left: 50%;
+  margin-left: -65px;
+}
+
+.container-review-btn .review-btn {
+  cursor: pointer;
+}
+
+.container-review-btn .review-btn h2 {
+  padding: 12px 0;
+  color: white;
+  font-size: .9rem;
+  border-radius: 13px;
+  font-weight: 200;
+  line-height: 1.2rem;
+  text-align: center;
+  background: #833ab4;
 }
 
 .add-home {
@@ -513,6 +539,9 @@ h2 {
   }
   .navbar ul li img {
     width: 25px;
+  }
+  .container-review-btn {
+    bottom: 75px;
   }
 }
 

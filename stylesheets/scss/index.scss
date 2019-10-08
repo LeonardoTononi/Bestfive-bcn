@@ -115,10 +115,6 @@ header {
     letter-spacing: 1.5px;
     color: #833ab4;
 
-    span {
-      font-weight: 500;
-    }
-
     .small-text {
       font-weight: 200;
       font-size: 0.9rem;
@@ -235,7 +231,7 @@ header {
 
 // ============ BOOKING BTN ================
 
-.booking {
+.review {
   width: 60%;
   margin: 0 auto;
   display: none;
@@ -293,7 +289,15 @@ h2 {
 
 .icon-app-ghost {
   background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  width: 38px;
+  height: 38px;
+  transition: 250ms ease-in-out;
+  padding: 10px;
 }
+
+
 
 .icon-app {
   background: white;
@@ -353,6 +357,32 @@ h2 {
     cursor: pointer;
   }
 }
+
+.container-review-btn {
+  width: 130px;
+  position: absolute;
+  bottom: 95px;
+  left: 50%;
+  margin-left: -65px;
+
+  .review-btn {
+
+    cursor: pointer;
+
+    h2 {
+      padding: 12px 0;
+      color: white;
+      font-size: .9rem;
+      border-radius: 13px;
+      font-weight: 200;
+      line-height: 1.2rem;
+      text-align: center;
+      background: #833ab4;
+    }
+  }
+}
+
+
 
 // =============== HOME SCREEN POPUP ==============
 
@@ -478,6 +508,10 @@ h2 {
         }
       }
     }
+  }
+
+  .container-review-btn {
+    bottom: 75px;
   }
 }
 
