@@ -7,6 +7,7 @@ const applications = document.querySelector('.applications');
 const skyline = document.querySelector('.skyline');
 const navbar = document.querySelector('.navbar');
 const closeBtn_popUp = document.querySelector('.closeBtn');
+const reviewBtn = document.querySelector('.container-review-btn');
 
 // ============ GENERAL UTILITY ====================
 // Detects if is IOS
@@ -27,7 +28,7 @@ const isAndroid = () => {
 
 // ============= LOAD LOGO INDEX PAGE =================
 if (!isRunningStandalone()) {
-  window.addEventListener('load', function() {
+  window.addEventListener('load', function () {
     setInterval(() => {
       loader.className += ' hidden';
     }, 800);
@@ -56,7 +57,7 @@ function hideAndShowLang() {
 // ============== PUPUP NOTIFICATION ==================
 
 if (isIos() && !isRunningStandalone()) {
-  setTimeout(function() {
+  setTimeout(function () {
     showAddPopup();
   }, 1500);
 } else {
@@ -64,7 +65,7 @@ if (isIos() && !isRunningStandalone()) {
 }
 
 if (isAndroid() && !isRunningStandalone()) {
-  setTimeout(function() {
+  setTimeout(function () {
     const shareBtn = document.querySelector('.add-chrome');
     shareBtn.src = '/img/icon/menu-chrome-gray.png';
     showAddPopup();
@@ -81,6 +82,7 @@ function showAddPopup() {
   skyline.style.opacity = '.2';
   navbar.style.opacity = '.2';
   navbar.style.zIndex = '-2';
+  reviewBtn.style.opacity = '0';
   applications.style.pointerEvents = 'none';
 }
 
@@ -92,6 +94,7 @@ function hidePopup() {
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   navbar.style.zIndex = '2';
+  reviewBtn.style.opacity = '1';
   setTimeout(() => {
     applications.style.pointerEvents = 'auto';
   }, 200);
@@ -110,6 +113,7 @@ function hideOnClickOutside(element) {
       skyline.style.opacity = '1';
       navbar.style.opacity = '1';
       nav.style.zIndex = '1';
+      reviewBtn.style.opacity = '1';
       setTimeout(() => {
         applications.style.pointerEvents = 'auto';
       }, 200);
@@ -134,13 +138,14 @@ closeBtn_popUp.addEventListener('click', closePopup);
 function closePopup() {
   popUp.style.maxHeight = '0px';
   popUp.style.bottom = '-80px';
-  setInterval(function() {
+  setInterval(function () {
     popUp.style.display = 'none';
   }, 500);
   applications.style.opacity = '1';
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   nav.style.zIndex = '1';
+  reviewBtn.style.opacity = '1';
   setTimeout(() => {
     applications.style.pointerEvents = 'auto';
   }, 200);
@@ -169,3 +174,18 @@ function comingSoon() {
     }, 200);
   }
 }
+
+// =========== WELCOME EMOJI =============
+const welcomeEmoji = document.querySelector('.welcome-emoji');
+
+
+function hideAndShowWelcome() {
+  if (welcomeEmoji.style.display !== 'grid') {
+    welcomeEmoji.style.display = 'grid';
+  } else {
+    welcomeEmoji.style.display = 'none';
+  }
+}
+
+setTimeout(hideAndShowWelcome, 8000)
+setTimeout(hideAndShowWelcome, 12000)

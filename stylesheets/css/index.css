@@ -265,10 +265,8 @@ header .languages .language a {
 .welcome-emoji {
   position: fixed;
   bottom: 55px;
-  display: -ms-grid;
-  display: grid;
+  display: none;
   right: 0;
-  width: 130px;
 }
 
 .welcome-emoji img {

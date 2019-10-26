@@ -220,9 +220,8 @@ header {
 .welcome-emoji {
   position: fixed;
   bottom: 55px;
-  display: grid;
+  display: none;
   right: 0;
-  width: 130px;
 
   img {
     width: 130px;
