@@ -297,8 +297,6 @@ h2 {
   padding: 10px;
 }
 
-
-
 .icon-app {
   background: white;
   border-radius: 13px;
@@ -371,7 +369,7 @@ h2 {
       width: 150px;
       margin: 0 auto;
       margin-bottom: 90px;
-      font-size: .9rem;
+      font-size: 0.9rem;
       border-radius: 13px;
       font-weight: 200;
       line-height: 1.2rem;
@@ -380,8 +378,6 @@ h2 {
     }
   }
 }
-
-
 
 // =============== HOME SCREEN POPUP ==============
 
@@ -419,6 +415,7 @@ h2 {
       font-size: 1.2rem;
       color: #833ab4;
       line-height: 1.6rem;
+      font-weight: 400;
     }
 
     .emoji-popup {
