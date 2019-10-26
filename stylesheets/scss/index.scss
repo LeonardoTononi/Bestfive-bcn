@@ -219,9 +219,10 @@ header {
 
 .welcome-emoji {
   position: fixed;
+  right: -120px;
   bottom: 55px;
-  display: none;
-  right: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 
   img {
     width: 130px;

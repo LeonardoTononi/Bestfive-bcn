@@ -28,7 +28,7 @@ const isAndroid = () => {
 
 // ============= LOAD LOGO INDEX PAGE =================
 if (!isRunningStandalone()) {
-  window.addEventListener('load', function () {
+  window.addEventListener('load', function() {
     setInterval(() => {
       loader.className += ' hidden';
     }, 800);
@@ -57,7 +57,7 @@ function hideAndShowLang() {
 // ============== PUPUP NOTIFICATION ==================
 
 if (isIos() && !isRunningStandalone()) {
-  setTimeout(function () {
+  setTimeout(function() {
     showAddPopup();
   }, 1500);
 } else {
@@ -65,7 +65,7 @@ if (isIos() && !isRunningStandalone()) {
 }
 
 if (isAndroid() && !isRunningStandalone()) {
-  setTimeout(function () {
+  setTimeout(function() {
     const shareBtn = document.querySelector('.add-chrome');
     shareBtn.src = '/img/icon/menu-chrome-gray.png';
     showAddPopup();
@@ -138,7 +138,7 @@ closeBtn_popUp.addEventListener('click', closePopup);
 function closePopup() {
   popUp.style.maxHeight = '0px';
   popUp.style.bottom = '-80px';
-  setInterval(function () {
+  setInterval(function() {
     popUp.style.display = 'none';
   }, 500);
   applications.style.opacity = '1';
@@ -178,14 +178,20 @@ function comingSoon() {
 // =========== WELCOME EMOJI =============
 const welcomeEmoji = document.querySelector('.welcome-emoji');
 
-
-function hideAndShowWelcome() {
-  if (welcomeEmoji.style.display !== 'grid') {
-    welcomeEmoji.style.display = 'grid';
-  } else {
-    welcomeEmoji.style.display = 'none';
-  }
+function showWelcome() {
+  welcomeEmoji.style.right = '0px';
 }
 
-setTimeout(hideAndShowWelcome, 8000)
-setTimeout(hideAndShowWelcome, 12000)
+function hideWelcome() {
+  welcomeEmoji.style.right = '-120px';
+}
+
+if (isRunningStandalone()) {
+  setTimeout(showWelcome, 500);
+  setTimeout(hideWelcome, 2000);
+}
+
+if (!isRunningStandalone()) {
+  setTimeout(showWelcome, 3500);
+  setTimeout(hideWelcome, 8000);
+}
