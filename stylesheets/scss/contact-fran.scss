@@ -54,38 +54,32 @@ header {
   }
 
   form {
-    padding: 40px 10px;
+    padding: 30px 10px;
     font-size: 1.2rem;
     display: grid;
     place-content: center;
 
     .row {
-      text-align: center;
+      padding: 5px 0;
     }
 
     label {
-      padding-left: 15px;
       color: #484848;
-      text-align: start;
+      place-self: start;
     }
 
     input {
-      margin: 10px auto;
+      margin: 10px 0;
       padding: 8px;
       width: 85%;
       display: block;
       outline: none;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: #484848;
-      border-radius: 10px;
-      border: 1px solid #833ab4;
-      -webkitbox-border: 1px solid #833ab4;
-    }
-
-    input:focus {
-      -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-      -moz-box-shadow: 0 0 10px 0 #833ab49e;
-      box-shadow: 0 0 10px 0 #833ab49e;
+      background: #d3b9e469;
+      position: relative;
+      border: none;
+      border-radius: 2px;
     }
 
     textarea {
@@ -96,23 +90,17 @@ header {
       color: #484848;
       margin: 15px auto;
       outline: none;
-      border-radius: 10px;
-      border: 1px solid #833ab4;
-      -webkitbox-border: 1px solid #833ab4;
+      border: none;
+      font-size: 1.1rem;
+      color: #484848;
+      background: #d3b9e469;
+      border-radius: 2px;
 
-      ::placeholder {
+      &::placeholder {
         font-size: 1.5rem;
         color: #484848;
       }
     }
-
-    textarea:focus {
-      -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-      -moz-box-shadow: 0 0 10px 0 #833ab49e;
-      box-shadow: 0 0 10px 0 #833ab49e;
-    }
-
-
 
     button {
       padding: 15px;
@@ -120,9 +108,15 @@ header {
       color: #fff;
       font-size: 1rem;
       border: none;
-      border-radius: 10px;
+      border-radius: 2px;
       font-weight: 200;
       letter-spacing: 1.1px;
+      transition: transform 100ms ease-in-out;
+
+      &:active,
+      &:focus {
+        transform: scale(.9);
+      }
     }
   }
 }

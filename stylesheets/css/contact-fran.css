@@ -66,7 +66,7 @@ header h5 img {
 }
 
 .contact-form form {
-  padding: 40px 10px;
+  padding: 30px 10px;
   font-size: 1.2rem;
   display: -ms-grid;
   display: grid;
@@ -74,32 +74,26 @@ header h5 img {
 }
 
 .contact-form form .row {
-  text-align: center;
+  padding: 5px 0;
 }
 
 .contact-form form label {
-  padding-left: 15px;
   color: #484848;
-  text-align: start;
+  place-self: start;
 }
 
 .contact-form form input {
-  margin: 10px auto;
+  margin: 10px 0;
   padding: 8px;
   width: 85%;
   display: block;
   outline: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #484848;
-  border-radius: 10px;
-  border: 1px solid #833ab4;
-  -webkitbox-border: 1px solid #833ab4;
-}
-
-.contact-form form input:focus {
-  -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-  -webkit-box-shadow: 0 0 10px 0 #833ab49e;
-          box-shadow: 0 0 10px 0 #833ab49e;
+  background: #d3b9e469;
+  position: relative;
+  border: none;
+  border-radius: 2px;
 }
 
 .contact-form form textarea {
@@ -110,35 +104,31 @@ header h5 img {
   color: #484848;
   margin: 15px auto;
   outline: none;
-  border-radius: 10px;
-  border: 1px solid #833ab4;
-  -webkitbox-border: 1px solid #833ab4;
+  border: none;
+  font-size: 1.1rem;
+  color: #484848;
+  background: #d3b9e469;
+  border-radius: 2px;
 }
 
-.contact-form form textarea ::-webkit-input-placeholder {
+.contact-form form textarea::-webkit-input-placeholder {
   font-size: 1.5rem;
   color: #484848;
 }
 
-.contact-form form textarea :-ms-input-placeholder {
+.contact-form form textarea:-ms-input-placeholder {
   font-size: 1.5rem;
   color: #484848;
 }
 
-.contact-form form textarea ::-ms-input-placeholder {
+.contact-form form textarea::-ms-input-placeholder {
   font-size: 1.5rem;
   color: #484848;
 }
 
-.contact-form form textarea ::placeholder {
+.contact-form form textarea::placeholder {
   font-size: 1.5rem;
   color: #484848;
-}
-
-.contact-form form textarea:focus {
-  -webkitbox-box-shadow: 0 0 10px 0 #833ab49e;
-  -webkit-box-shadow: 0 0 10px 0 #833ab49e;
-          box-shadow: 0 0 10px 0 #833ab49e;
 }
 
 .contact-form form button {
@@ -147,9 +137,18 @@ header h5 img {
   color: #fff;
   font-size: 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 2px;
   font-weight: 200;
   letter-spacing: 1.1px;
+  -webkit-transition: -webkit-transform 100ms ease-in-out;
+  transition: -webkit-transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
+}
+
+.contact-form form button:active, .contact-form form button:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .bottom-bar {
