@@ -19,6 +19,13 @@ a {
   opacity: 0.5;
 }
 
+.new:after {
+  content: 'new';
+  position: absolute;
+  font-size: .8rem;
+  color: #833ab4;
+}
+
 // ============ HEADER ============
 
 header {
@@ -142,6 +149,7 @@ header {
       grid-area: title;
 
       h1 {
+        position: relative;
         padding-bottom: 10px;
         text-align: center;
         letter-spacing: 1.4px;

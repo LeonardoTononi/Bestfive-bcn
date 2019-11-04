@@ -37,6 +37,13 @@ a {
   opacity: 0.5;
 }
 
+.new:after {
+  content: 'new';
+  position: absolute;
+  font-size: .8rem;
+  color: #833ab4;
+}
+
 header {
   padding: 5px 20px 15px 20px;
   border-bottom: 1px solid #80808038;
@@ -162,6 +169,7 @@ header .logo-img {
 }
 
 .place .header-card .place_title h1 {
+  position: relative;
   padding-bottom: 10px;
   text-align: center;
   letter-spacing: 1.4px;

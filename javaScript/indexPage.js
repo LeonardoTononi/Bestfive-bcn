@@ -171,7 +171,7 @@ function comingSoon() {
 
     setTimeout(() => {
       applications.style.pointerEvents = 'auto';
-    }, 200);
+    }, 500);
   }
 }
 
