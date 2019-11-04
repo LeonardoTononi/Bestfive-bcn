@@ -123,11 +123,11 @@ function initMap() {
                      </div>
                 </section>`
     },
-    // La pizza del Sortidor
+    // Benzina
     {
       coords: {
-        lat: 41.372748,
-        lng: 2.16246
+        lat: 41.376175,
+        lng: 2.162777
       },
       iconImage: {
         url: '/img/icon/spaghetti.png',
@@ -135,9 +135,9 @@ function initMap() {
       },
       content: `<section class="maps-content">
                      <p>Italian</p>
-                     <h5>La pizza <br> del Sortidor</h5>
+                     <h5>Benzina</h5>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.372748,2.162460&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.376175,2.162777&amp;ll=">GO!</a>
                      </div>
                 </section>`
     }

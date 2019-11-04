@@ -51,21 +51,21 @@ function initMap() {
 
   // Array of markers
   let markers = [
-    // Gallo Nero
+    // da Nanni
     {
       coords: {
-        lat: 41.383029,
-        lng: 2.177472
+        lat: 41.38318,
+        lng: 2.177385
       },
       iconImage: {
         url: 'https://img.icons8.com/color/96/000000/hamburger.png',
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                     <p>CheapEats</p>
-                     <h5>Gallo Nero</h5>
+                     <p>StreetFood</p>
+                     <h5>Pizzeria da Nanni</h5>
                      <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=441.383029,2.177472&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.383180,2.177385&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },
@@ -80,7 +80,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>The fish and chips shop</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.378535,2.154525&amp;ll=">GO!</a>
@@ -98,7 +98,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>The fish and chips shop</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.399450,2.150471&amp;ll=">GO!</a>
@@ -116,7 +116,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>The fish and chips shop</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.378540,2.154513&amp;ll=">GO!</a>
@@ -134,7 +134,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>The fish and chips shop</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.386805,2.156696&amp;ll=">GO!</a>
@@ -152,7 +152,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>La Parra</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.383025,2.165318&amp;ll=">GO!</a>
@@ -170,7 +170,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>Bacoa Burger</h5>
                   <div class="go-btn">
                       <a href="https://maps.google.com/maps?daddr=41.380678,2.174705&amp;ll=">GO!</a>
@@ -188,7 +188,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>Bacoa Burger</h5>
                   <div class="go-btn">
                       <a href="https://maps.google.com/maps?daddr=41.376764,2.190358&amp;ll=">GO!</a>
@@ -206,7 +206,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>Bacoa Burger</h5>
                   <div class="go-btn">
                       <a href="https://maps.google.com/maps?daddr=41.383516,2.183696&amp;ll=">GO!</a>
@@ -224,7 +224,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>Bacoa Burger</h5>
                   <div class="go-btn">
                       <a href="https://maps.google.com/maps?daddr=41.385504,2.178871&amp;ll=">GO!</a>
@@ -242,7 +242,7 @@ function initMap() {
         scaledSize: new google.maps.Size(20, 20)
       },
       content: `<section class="maps-content">
-                  <p>CheapEats</p>
+                  <p>StreetFood</p>
                   <h5>Maoz</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.380840,2.174755&amp;ll=">GO!</a>
