@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-146087195-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-146087195-1');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/stylesheets/css/maps.css" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#fff" />
+    <!-- -- IOS Support -- -->
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/img/icon-app/icon-72.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="/img/icon-app/icon-96.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      href="/img/icon-app/icon-128.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/img/icon-app/icon-144.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/img/icon-app/icon-512.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/img/icon-app/icon-192.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="384x384"
+      href="/img/icon-app/icon-384.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="/img/icon-app/icon-512.jpg"
+    />
+    <link rel="icon" href="/img/homePage/violetHand.png" type="image/png" />
+
+    <meta
+      name="description"
+      content="A map of our best five place in Barcelona where you can find a good cake with a nice coffe."
+    />
+    <title>Coffee Map</title>
+  </head>
+
+  <body>
+    <div id="map"></div>
+
+    <a href="/en/review/coffee.html" class="back-btn">
+      <img src="/img/icon/back-arrow-grey.png" alt="back button" />
+    </a>
+
+    <script src="/javaScript/map/coffee.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXYLiYenTQ1VH4uDzAlI-MUGv6b7cJaTc&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

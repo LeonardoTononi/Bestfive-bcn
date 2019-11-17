@@ -347,6 +347,19 @@ h2 {
   padding: 10px;
 }
 
+.new:after {
+  content: 'new';
+  position: absolute;
+  font-size: .7rem;
+  bottom: 0;
+  left: 15px;
+  padding: 2px 3px;
+  border-radius: 4px;
+  font-weight: 400;
+  /* transform: rotate(45deg); */
+  color: #833ab4;
+}
+
 .icon-app {
   background: white;
   border-radius: 13px;
@@ -357,6 +370,7 @@ h2 {
   padding: 10px;
   box-shadow: 3px 2px 10px 0px #d4d4d4;
   -webkit-box-shadow: 3px 2px 10px 0px #d4d4d4;
+  position: relative;
   /* @include shadow; */
 }
 

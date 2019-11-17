@@ -739,94 +739,6 @@ function startMap() {
                   </div>
                 </section>`
     },
-    {
-      coords: {
-        lat: 41.403572,
-        lng: 2.174418
-      },
-      iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
-        scaledSize: new google.maps.Size(30, 30)
-      },
-      content: `<section class="maps-content">
-                     <p>Church</p>
-                     <h5>Sagrada Familia</h5>
-                     <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.403572,2.174418&amp;ll=">GO!</a>
-                  </div>
-                </section>`
-    },
-    // Santa Maria del Mar
-    {
-      coords: {
-        lat: 41.383898,
-        lng: 2.182085
-      },
-      iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
-        scaledSize: new google.maps.Size(30, 30)
-      },
-      content: `<section class="maps-content">
-                  <p>Church</p>
-                  <h5>Santa Maria del Mar</h5>
-                  <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.383898,2.182085&amp;ll=">GO!</a>
-                  </div>
-                </section>`
-    },
-    // Santa Maria del Pi
-    {
-      coords: {
-        lat: 41.382147,
-        lng: 2.173948
-      },
-      iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
-        scaledSize: new google.maps.Size(30, 30)
-      },
-      content: `<section class="maps-content">
-                  <p>Church</p>
-                  <h5>Santa Maria del Pi</h5>
-                  <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.382147,2.173948&amp;ll=">GO!</a>
-                  </div>
-                </section>`
-    },
-    // Catedral de Barcelona
-    {
-      coords: {
-        lat: 41.383937,
-        lng: 2.176202
-      },
-      iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
-        scaledSize: new google.maps.Size(30, 30)
-      },
-      content: `<section class="maps-content">
-                  <p>Church</p>
-                  <h5>Catedral de Barcelona</h5>
-                  <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.383937,2.176202&amp;ll=">GO!</a>
-                  </div>
-                </section>`
-    }, // Monasterio Sant Pau del Camp
-    {
-      coords: {
-        lat: 41.376204,
-        lng: 2.169478
-      },
-      iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
-        scaledSize: new google.maps.Size(30, 30)
-      },
-      content: `<section class="maps-content">
-                  <p>Church</p>
-                  <h5>Platja del Somorrostro</h5>
-                  <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.376204,2.169478&amp;ll=">GO!</a>
-                  </div>
-                </section>`
-    },
     // ================================= CHURCH ===========================================
     {
       coords: {
@@ -834,7 +746,7 @@ function startMap() {
         lng: 2.174418
       },
       iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        url: '/img/icon/church.png',
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
@@ -852,7 +764,7 @@ function startMap() {
         lng: 2.182085
       },
       iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        url: '/img/icon/church.png',
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
@@ -870,7 +782,7 @@ function startMap() {
         lng: 2.173948
       },
       iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        url: '/img/icon/church.png',
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
@@ -888,7 +800,7 @@ function startMap() {
         lng: 2.176202
       },
       iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        url: '/img/icon/church.png',
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
@@ -905,7 +817,7 @@ function startMap() {
         lng: 2.169478
       },
       iconImage: {
-        url: 'https://img.icons8.com/color/96/000000/cathedral.png',
+        url: '/img/icon/church.png',
         scaledSize: new google.maps.Size(30, 30)
       },
       content: `<section class="maps-content">
@@ -1459,7 +1371,116 @@ function startMap() {
                         <a href="https://maps.google.com/maps?daddr=41.237436,1.805738&amp;ll=">GO!</a>
                   </div>
                 </section>`
+    },
+     // ================================= COFFEE ===========================================
+     // Café El Magnífico
+    {
+      coords: {
+        lat: 41.383537,
+        lng: 2.181004
+      },
+      iconImage: {
+        url: '/img/icon/coffee.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                     <p>Coffee</p>
+                     <h5>Café El Magnífico</h5>
+                     <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383537,2.181004&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Departure
+    {
+      coords: {
+        lat: 41.383568,
+        lng: 2.164958
+      },
+      iconImage: {
+        url: '/img/icon/coffee.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Coffee</p>
+                  <h5>Departure</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.383568,2.164958&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Federal Cafe
+    {
+      coords: {
+        lat: 41.378,
+        lng: 2.177776
+      },
+      iconImage: {
+        url: '/img/icon/coffee.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Coffee</p>
+                  <h5>Federal Cafe</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.378000,2.177776&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Federal Cafe Parlament
+    {
+      coords: {
+        lat: 41.376802,
+        lng: 2.162845
+      },
+      iconImage: {
+        url: '/img/icon/coffee.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Coffee</p>
+                  <h5>Federal Cafe Parlament</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.376802,2.162845&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    },
+    // Satan's Coffee Corner
+    {
+      coords: {
+        lat: 41.38265,
+        lng: 2.175211
+      },
+      iconImage: {
+        url: '/img/icon/coffee.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Coffee</p>
+                  <h5>Satan's Coffee Corner</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382650,2.175211&amp;ll=">GO!</a>
+                  </div>
+                </section>`
+    }, // SlowMov
+    {
+      coords: {
+        lat: 41.39817,
+        lng: 2.154821
+      },
+      iconImage: {
+        url: '/img/icon/coffee.png',
+        scaledSize: new google.maps.Size(18, 18)
+      },
+      content: `<section class="maps-content">
+                  <p>Coffee</p>
+                  <h5>SlowMov</h5>
+                  <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.398170,2.154821&amp;ll=">GO!</a>
+                  </div>
+                </section>`
     }
+  ];
   ];
 
   // ==========================
