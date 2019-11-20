@@ -14,3 +14,20 @@ function effectImg(e) {
     this.nextElementSibling.style.visibility = 'visible';
   }
 }
+
+// CHANGE ICON INSTALL APP IF IS ANDROID
+
+const isRunningStandalone = () => {
+  return window.matchMedia('(display-mode: standalone)').matches;
+};
+
+// Detect if is android
+const isAndroid = () => {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /android/.test(userAgent);
+};
+
+if (isAndroid() && !isRunningStandalone()) {
+  const shareBtn = document.querySelector('.add-chrome');
+  shareBtn.src = '/img/icon/menu-chrome-gray.png';
+}

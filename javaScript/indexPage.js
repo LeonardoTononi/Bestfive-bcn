@@ -179,7 +179,7 @@ function comingSoon() {
 }
 
 // =========== WELCOME EMOJI =============
-const welcomeEmoji = document.querySelector('.welcome-emoji');
+/* const welcomeEmoji = document.querySelector('.welcome-emoji');
 
 function showWelcome() {
   welcomeEmoji.style.right = '0px';
@@ -198,3 +198,4 @@ if (!isRunningStandalone()) {
   setTimeout(showWelcome, 3500);
   setTimeout(hideWelcome, 8000);
 }
+ */

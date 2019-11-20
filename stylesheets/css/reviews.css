@@ -343,6 +343,71 @@ header .logo-img {
   margin-bottom: 80px;
 }
 
+.card-install-app {
+  margin: 25px auto;
+  max-width: 325px;
+  border-radius: 27px;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  color: #111;
+  position: relative;
+  background: #fff;
+}
+
+.card-install-app .header h1 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.card-install-app .app-bestfive {
+  padding: 25px;
+  text-align: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-install-app .app-bestfive img {
+  border-radius: 13px;
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+  background: #f5edff;
+}
+
+.card-install-app .app-bestfive h2 {
+  padding: 2px 0 0 0;
+  font-weight: 200;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
+.card-install-app .title-use-app {
+  padding: 5px 10px 15px 10px;
+  text-align: center;
+}
+
+.card-install-app .text-add-app {
+  padding: 15px 10px;
+  text-align: center;
+  background: #dedede8c;
+  border-radius: 0 0 27px 27px;
+}
+
+.card-install-app .text-add-app img {
+  position: relative;
+  top: 5px;
+  width: 25px;
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;

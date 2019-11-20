@@ -311,6 +311,66 @@ header {
   margin-bottom: 80px;
 }
 
+// ============== INSTALL APP CARD ============
+
+.card-install-app {
+  margin: 25px auto;
+  max-width: 325px;
+  border-radius: 27px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  color: #111;
+  position: relative;
+  background: #fff;
+
+  .header h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+
+  .app-bestfive {
+    padding: 25px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      border-radius: 13px;
+      width: 45px;
+      height: 45px;
+      padding: 15px;
+      background: #f5edff;
+    }
+
+    h2 {
+      padding: 2px 0 0 0;
+      font-weight: 200;
+      font-size: 1.2rem;
+      padding-left: 10px;
+    }
+  }
+
+  .title-use-app {
+    padding: 5px 10px 15px 10px;
+    text-align: center;
+  }
+
+  .text-add-app {
+    padding: 15px 10px;
+    text-align: center;
+    background: #dedede8c;
+    border-radius: 0 0 27px 27px;
+
+    img {
+      position: relative;
+      top: 5px;
+      width: 25px;
+    }
+  }
+}
+
 // ============== SWIPER LIBRARY STYLE ============
 
 .swiper-container {

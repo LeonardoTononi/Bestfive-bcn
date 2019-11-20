@@ -352,7 +352,8 @@ h2 {
   position: absolute;
   font-size: .7rem;
   bottom: 0;
-  left: 15px;
+  left: 50%;
+  margin-left: -14px;
   padding: 2px 3px;
   border-radius: 4px;
   font-weight: 400;
@@ -429,13 +430,13 @@ h2 {
 }
 
 .container-review-btn .review-btn h2 {
-  padding: 12px 0;
+  padding: 14px 0;
   color: white;
   width: 150px;
   margin: 0 auto;
   margin-bottom: 90px;
-  font-size: 0.9rem;
-  border-radius: 13px;
+  font-size: 1rem;
+  border-radius: 4px;
   font-weight: 200;
   line-height: 1.2rem;
   text-align: center;
@@ -486,10 +487,15 @@ h2 {
 }
 
 .add-home .title-use-app {
-  margin: 0;
   font-size: 1rem;
   text-align: center;
-  color: #833ab4;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px;
+  width: 160px;
+  background-color: #833ab4;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .add-home .app-bestfive {
