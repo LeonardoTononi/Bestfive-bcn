@@ -154,6 +154,9 @@ function closePopup() {
 hideOnClickOutside(popUp);
 
 // =========== COMING SOON POP =============
+// Prevent mini info bar add homescreen on chrome
+window.addEventListener('beforeinstallprompt', e => e.preventDefault());
+
 function comingSoon() {
   const comingSoon_pop = document.querySelector('.coming-soon-pop');
   const button = document.querySelector('.got-btn');
