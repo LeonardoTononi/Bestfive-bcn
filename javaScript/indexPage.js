@@ -7,7 +7,6 @@ const applications = document.querySelector('.applications');
 const skyline = document.querySelector('.skyline');
 const navbar = document.querySelector('.navbar');
 const closeBtn_popUp = document.querySelector('.closeBtn');
-const reviewBtn = document.querySelector('.container-review-btn');
 
 // ============ GENERAL UTILITY ====================
 // Detects if is IOS
@@ -82,7 +81,6 @@ function showAddPopup() {
   skyline.style.opacity = '.2';
   navbar.style.opacity = '.2';
   navbar.style.zIndex = '-2';
-  reviewBtn.style.opacity = '0';
   applications.style.pointerEvents = 'none';
 }
 
@@ -94,7 +92,6 @@ function hidePopup() {
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   navbar.style.zIndex = '2';
-  reviewBtn.style.opacity = '1';
   setTimeout(() => {
     applications.style.pointerEvents = 'auto';
   }, 200);
@@ -113,7 +110,6 @@ function hideOnClickOutside(element) {
       skyline.style.opacity = '1';
       navbar.style.opacity = '1';
       nav.style.zIndex = '1';
-      reviewBtn.style.opacity = '1';
       setTimeout(() => {
         applications.style.pointerEvents = 'auto';
       }, 200);
@@ -145,7 +141,6 @@ function closePopup() {
   skyline.style.opacity = '1';
   navbar.style.opacity = '1';
   nav.style.zIndex = '1';
-  reviewBtn.style.opacity = '1';
   setTimeout(() => {
     applications.style.pointerEvents = 'auto';
   }, 200);

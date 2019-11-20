@@ -420,30 +420,7 @@ h2 {
   cursor: pointer;
 }
 
-.container-review-btn {
-  width: 100%;
-  padding-bottom: 80px;
-}
-
-.container-review-btn .review-btn {
-  cursor: pointer;
-}
-
-.container-review-btn .review-btn h2 {
-  padding: 14px 0;
-  color: white;
-  width: 150px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-  font-size: 1rem;
-  border-radius: 4px;
-  font-weight: 200;
-  line-height: 1.2rem;
-  text-align: center;
-  background: #833ab4;
-}
-
-.add-home {
+.rate-fran {
   background: #fff;
   color: #484848;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(160, 158, 158, 0.314);
@@ -461,20 +438,22 @@ h2 {
   max-height: 0;
 }
 
-.add-home .closeBtn {
+.rate-fran .closeBtn {
   position: absolute;
   top: -5px;
   right: 10px;
   font-size: 1rem;
   color: #48484885;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-.add-home .header {
-  padding: 0 30px 30px 30px;
+.rate-fran .header {
+  padding: 0 30px;
   text-align: center;
 }
 
-.add-home .header h1 {
+.rate-fran .header h1 {
   margin: 0;
   font-size: 1.2rem;
   color: #833ab4;
@@ -482,43 +461,49 @@ h2 {
   font-weight: 400;
 }
 
-.add-home .header .emoji-popup {
+.rate-fran .header .emoji-popup {
   width: 130px;
 }
 
-.add-home .title-use-app {
-  font-size: 1rem;
+.rate-fran .container-review-btn {
+  padding: 0 15px;
+}
+
+.rate-fran .container-review-btn p {
+  line-height: 1.5rem;
   text-align: center;
-  color: #fff;
-  font-weight: 400;
-  padding: 10px;
-  width: 160px;
-  background-color: #833ab4;
+  padding-bottom: 15px;
+}
+
+.rate-fran .container-review-btn span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.rate-fran .container-review-btn .review-btn {
+  cursor: pointer;
+}
+
+.rate-fran .container-review-btn .review-btn h2 {
+  padding: 14px 0;
+  color: white;
+  width: 150px;
   margin: 0 auto;
+  font-size: 1rem;
   border-radius: 4px;
-}
-
-.add-home .app-bestfive {
-  padding-bottom: 25px;
+  font-weight: 200;
+  line-height: 1.2rem;
   text-align: center;
+  background: #833ab4;
 }
 
-.add-home .app-bestfive img {
-  border-radius: 13px;
-  width: 38px;
-  height: 38px;
-  -webkit-transition: 250ms ease-in-out;
-  transition: 250ms ease-in-out;
-  padding: 10px;
-  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.15);
+.rate-fran .container-review-btn .review-btn h2 img {
+  width: 16px;
+  position: relative;
+  top: 2px;
 }
 
-.add-home .app-bestfive h2 {
-  padding: 2px 0 0 0;
-}
-
-.add-home .text-add-app {
+.text-add-app {
   padding: 20px 20px 10px 20px;
   font-size: 1rem;
   font-weight: 400;
@@ -527,14 +512,14 @@ h2 {
   text-align: center;
 }
 
-.add-home .text-add-app img {
+.text-add-app img {
   position: relative;
   top: 5px;
   width: 25px;
 }
 
 @media only screen and (max-width: 340px) {
-  .add-home {
+  .rate-fran {
     width: 300px;
     left: 50%;
     margin-left: -150px;
