@@ -31,3 +31,8 @@ if (isAndroid() && !isRunningStandalone()) {
   const shareBtn = document.querySelector('.add-chrome');
   shareBtn.src = '/img/icon/menu-chrome-gray.png';
 }
+
+if (isRunningStandalone()) {
+  const cardInstall = document.querySelector('.card-install-app');
+  cardInstall.style.display = 'none';
+}

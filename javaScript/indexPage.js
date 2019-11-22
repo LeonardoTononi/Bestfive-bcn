@@ -172,25 +172,3 @@ function comingSoon() {
     }, 500);
   }
 }
-
-// =========== WELCOME EMOJI =============
-/* const welcomeEmoji = document.querySelector('.welcome-emoji');
-
-function showWelcome() {
-  welcomeEmoji.style.right = '0px';
-}
-
-function hideWelcome() {
-  welcomeEmoji.style.right = '-120px';
-}
-
-if (isRunningStandalone()) {
-  setTimeout(showWelcome, 500);
-  setTimeout(hideWelcome, 2000);
-}
-
-if (!isRunningStandalone()) {
-  setTimeout(showWelcome, 3500);
-  setTimeout(hideWelcome, 8000);
-}
- */
