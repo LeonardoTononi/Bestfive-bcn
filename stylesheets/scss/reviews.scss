@@ -327,6 +327,21 @@ header {
     padding-top: 25px;
     font-size: 1.7rem;
     font-weight: 400;
+    position: relative;
+
+    &::before {
+      content: 'informative ad';
+      position: absolute;
+      color: #989898;
+      text-transform: uppercase;
+      font-size: .5rem;
+      text-align: center;
+      top: 5px;
+      left: 50%;
+      width: 130px;
+      margin-left: -65px;
+      letter-spacing: .2rem;
+    }
   }
 
   .app-bestfive {
