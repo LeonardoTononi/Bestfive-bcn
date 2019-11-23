@@ -140,11 +140,11 @@ function initMap() {
                         <a href="https://maps.google.com/maps?daddr=41.393219,2.163756&amp;ll=">GO!</a>
                   </div>
                 </section>`
-    }, // SlowMov
+    }, // Portal Del Angel
     {
       coords: {
-        lat: 41.39817,
-        lng: 2.154821
+        lat: 41.385386,
+        lng: 2.173296
       },
       iconImage: {
         url: '/img/icon/shopping.png',
@@ -152,9 +152,9 @@ function initMap() {
       },
       content: `<section class="maps-content">
                   <p>Shopping</p>
-                  <h5>SlowMov</h5>
+                  <h5>Portal Del Angel</h5>
                   <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.398170,2.154821&amp;ll=">GO!</a>
+                        <a href="https://maps.google.com/maps?daddr=41.385386,2.173296&amp;ll=">GO!</a>
                   </div>
                 </section>`
     }
