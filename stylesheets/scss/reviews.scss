@@ -20,9 +20,9 @@ a {
 }
 
 .new:after {
-  content: 'new';
+  content: "new";
   position: absolute;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #833ab4;
 }
 
@@ -285,26 +285,75 @@ header {
     }
   }
 
-  .place_tips {
+  /* .place_tips {
     padding: 90px 10px 20px 10px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 
     p {
       text-align: center;
-      letter-spacing: 1.15px;
+      letter-spacing: 0.05rem;
+      line-height: 1.6rem;
       color: $mainGray;
       padding: 10px;
+    } */
+
+  // SHOW AND HIDE TEXT
+
+  .place_tips {
+    position: relative;
+    padding: 90px 10px 20px 10px;
+    font-size: 1rem;
+
+    .btn {
+      color: #484848;
+      left: 50%;
+      text-decoration: none;
+      font-size: 0.9rem;
+      letter-spacing: 0.05rem;
+      width: 90px;
+      margin-left: -45px;
+      border: none;
+      text-decoration: underline;
+      background: white;
+    }
+
+    p {
+      position: relative;
+      overflow: hidden;
+      max-height: 130px;
+      text-align: center;
+      letter-spacing: 0.05rem;
+      line-height: 1.6rem;
+    }
+
+    .show,
+    .hide {
+      position: absolute;
+      bottom: 0.8rem;
+      z-index: 100;
+      text-align: center;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .fade {
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%);
+      height: 100px;
+      margin-top: -100px;
+      position: relative;
     }
   }
+}
 
-  .close {
-    color: rgb(218, 34, 34);
-  }
+.close {
+  color: rgb(218, 34, 34);
+}
 
-  .open {
-    /* color: rgb(35, 174, 35); */
-    color: #1a73e8;
-  }
+.open {
+  /* color: rgb(35, 174, 35); */
+  color: #1a73e8;
 }
 
 .place:last-of-type {
@@ -330,17 +379,17 @@ header {
     position: relative;
 
     &::before {
-      content: 'informative ad';
+      content: "informative ad";
       position: absolute;
       color: #989898;
       text-transform: uppercase;
-      font-size: .5rem;
+      font-size: 0.5rem;
       text-align: center;
       top: 5px;
       left: 50%;
       width: 130px;
       margin-left: -65px;
-      letter-spacing: .2rem;
+      letter-spacing: 0.2rem;
     }
   }
 
