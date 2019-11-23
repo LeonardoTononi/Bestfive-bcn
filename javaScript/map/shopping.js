@@ -3,7 +3,7 @@
 // ==========================
 function initMap() {
   let options = {
-    zoom: 13,
+    zoom: 14,
     center: {
       lat: 41.3887,
       lng: 2.1589
@@ -102,24 +102,6 @@ function initMap() {
                   <h5>La Roca Village</h5>
                   <div class="go-btn">
                         <a href="https://maps.google.com/maps?daddr=41.610160,2.343559&amp;ll=">GO!</a>
-                  </div>
-                </section>`
-    },
-    // Federal Cafe Parlament
-    {
-      coords: {
-        lat: 41.376802,
-        lng: 2.162845
-      },
-      iconImage: {
-        url: '/img/icon/shopping.png',
-        scaledSize: new google.maps.Size(18, 18)
-      },
-      content: `<section class="maps-content">
-                  <p>Shopping</p>
-                  <h5>Federal Cafe Parlament</h5>
-                  <div class="go-btn">
-                        <a href="https://maps.google.com/maps?daddr=41.376802,2.162845&amp;ll=">GO!</a>
                   </div>
                 </section>`
     },

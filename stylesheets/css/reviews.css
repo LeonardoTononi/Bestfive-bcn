@@ -341,8 +341,8 @@ header .logo-img {
   text-decoration: none;
   font-size: 0.9rem;
   letter-spacing: 0.05rem;
-  width: 90px;
-  margin-left: -45px;
+  width: 110px;
+  margin-left: -55px;
   border: none;
   text-decoration: underline;
   background: white;
@@ -365,7 +365,7 @@ header .logo-img {
 .place .place_tips .hide {
   position: absolute;
   bottom: 0.8rem;
-  z-index: 100;
+  z-index: 1;
   text-align: center;
 }
 
