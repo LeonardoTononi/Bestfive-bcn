@@ -82,6 +82,11 @@ header {
       position: relative;
       border: none;
       border-radius: 2px;
+      transition: background 90ms ease-in-out;
+
+      &:focus {
+        background: #d3b9e4d6;
+      }
     }
 
     textarea {
@@ -97,6 +102,11 @@ header {
       color: #484848;
       background: #d3b9e469;
       border-radius: 2px;
+      transition: background 90ms ease-in-out;
+
+      &:focus {
+        background: #d3b9e4d6;
+      }
 
       &::placeholder {
         font-size: 1.5rem;
@@ -117,7 +127,7 @@ header {
 
       &:active,
       &:focus {
-        transform: scale(.9);
+        transform: scale(0.9);
       }
     }
   }
@@ -133,7 +143,6 @@ header {
     text-align: end;
   }
 }
-
 
 // ============ BOTTOM NAV BAR ============
 

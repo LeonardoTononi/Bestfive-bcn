@@ -96,6 +96,12 @@ header h5 img {
   position: relative;
   border: none;
   border-radius: 2px;
+  -webkit-transition: background 90ms ease-in-out;
+  transition: background 90ms ease-in-out;
+}
+
+.contact-form form input:focus {
+  background: #d3b9e4d6;
 }
 
 .contact-form form textarea {
@@ -111,6 +117,12 @@ header h5 img {
   color: #484848;
   background: #d3b9e469;
   border-radius: 2px;
+  -webkit-transition: background 90ms ease-in-out;
+  transition: background 90ms ease-in-out;
+}
+
+.contact-form form textarea:focus {
+  background: #d3b9e4d6;
 }
 
 .contact-form form textarea::-webkit-input-placeholder {
