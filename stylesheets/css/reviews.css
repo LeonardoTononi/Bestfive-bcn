@@ -351,10 +351,14 @@ header .logo-img {
 .place .place_tips p {
   position: relative;
   overflow: hidden;
-  max-height: 130px;
   text-align: center;
   letter-spacing: 0.05rem;
   line-height: 1.6rem;
+  padding: 10px;
+}
+
+.place .place_tips .height-for-text {
+  max-height: 130px;
 }
 
 .place .place_tips .show,

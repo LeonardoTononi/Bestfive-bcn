@@ -320,10 +320,14 @@ header {
     p {
       position: relative;
       overflow: hidden;
-      max-height: 130px;
       text-align: center;
       letter-spacing: 0.05rem;
       line-height: 1.6rem;
+      padding: 10px;
+    }
+
+    .height-for-text {
+      max-height: 130px;
     }
 
     .show,
