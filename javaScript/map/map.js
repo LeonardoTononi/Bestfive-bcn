@@ -1282,6 +1282,97 @@ function startMap() {
                   </div>
                 </section>`
     },
+    // ================================= VEGAN ==============================================
+    // Biocenter
+    {
+      coords: {
+        lat: 41.382516,
+        lng: 2.169379
+      },
+      iconImage: {
+        url: '/img/icon/vegan.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                     <p>Vegan</p>
+                     <h5>Biocenter</h5>
+                      <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.382516,2.169379&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // La Trocadero
+    {
+      coords: {
+        lat: 41.405019,
+        lng: 2.173586
+      },
+      iconImage: {
+        url: '/img/icon/vegan.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Vegan</p>
+                  <h5>La Trocadero</h5>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.405019,2.173586&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // Rasoterra
+    {
+      coords: {
+        lat: 41.381329,
+        lng: 2.178106
+      },
+      iconImage: {
+        url: '/img/icon/vegan.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Vegan</p>
+                  <h5>Rasoterra</h5>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.381329,2.178106&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // Roots and Roll
+    {
+      coords: {
+        lat: 41.395298,
+        lng: 2.171127
+      },
+      iconImage: {
+        url: '/img/icon/vegan.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Vegan</p>
+                  <h5>Roots and Roll</h5>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.395298,2.171127&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
+    // The Green Spot
+    {
+      coords: {
+        lat: 41.381828,
+        lng: 2.183873
+      },
+      iconImage: {
+        url: '/img/icon/vegan.png',
+        scaledSize: new google.maps.Size(20, 20)
+      },
+      content: `<section class="maps-content">
+                  <p>Vegan</p>
+                  <h5>The Green Spot</h5>
+                   <div class="go-btn">
+                        <a href="https://maps.google.com/maps?daddr=41.381828,2.183873&amp;ll=">GO!</a>
+                     </div>
+                </section>`
+    },
     // ================================= DAY TRIP ===========================================
     // Cadaques casa Dali
     {
