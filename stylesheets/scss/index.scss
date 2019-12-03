@@ -114,6 +114,15 @@ header {
     text-align: start;
     letter-spacing: 1.5px;
     color: #833ab4;
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 20px;
+      left: 4.2em;
+      top: 0.2em;
+      transform: rotate(10deg);
+    }
 
     .small-text {
       font-weight: 200;
@@ -298,9 +307,9 @@ h2 {
 }
 
 .new:after {
-  content: 'new';
+  content: "new";
   position: absolute;
-  font-size: .7rem;
+  font-size: 0.7rem;
   bottom: 0;
   left: 50%;
   margin-left: -14px;
@@ -370,7 +379,6 @@ h2 {
     cursor: pointer;
   }
 }
-
 
 // =============== HOME SCREEN POPUP ==============
 
@@ -471,7 +479,6 @@ h2 {
     width: 25px;
   }
 }
-
 
 // =============== MEDIA QUERY==============
 

@@ -151,6 +151,16 @@ header h1 {
   text-align: start;
   letter-spacing: 1.5px;
   color: #833ab4;
+  position: relative;
+}
+
+header h1 img {
+  position: absolute;
+  width: 20px;
+  left: 4.2em;
+  top: 0.2em;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 
 header h1 .small-text {
@@ -348,9 +358,9 @@ h2 {
 }
 
 .new:after {
-  content: 'new';
+  content: "new";
   position: absolute;
-  font-size: .7rem;
+  font-size: 0.7rem;
   bottom: 0;
   left: 50%;
   margin-left: -14px;

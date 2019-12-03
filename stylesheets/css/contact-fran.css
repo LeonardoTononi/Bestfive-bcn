@@ -231,4 +231,31 @@ header h5 img {
 .bottom-bar #map-action .map-btn h2 {
   padding-right: 25px;
 }
+
+.review-container {
+  padding-top: 25px;
+}
+
+.review-btn {
+  text-decoration: none;
+}
+
+.review-btn h2 {
+  padding: 14px 0;
+  color: white;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 1rem;
+  border-radius: 4px;
+  font-weight: 200;
+  line-height: 1.2rem;
+  text-align: center;
+  background: #833ab4;
+}
+
+.review-btn h2 img {
+  width: 16px;
+  position: relative;
+  top: 2px;
+}
 /*# sourceMappingURL=contact-fran.css.map */
