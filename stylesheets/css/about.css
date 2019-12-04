@@ -114,10 +114,13 @@ header h5 {
   padding-right: 25px;
 }
 
+.icons8 a {
+  color: #32c24d;
+}
+
 /* ================ ABOUT CONTENT =============== */
 .story {
   padding: 10px 10px;
-  text-align: center;
 }
 
 .story img {
@@ -134,6 +137,7 @@ header h5 {
   line-height: 1.7rem;
   max-width: 600px;
   margin: 0 auto;
+  text-align: start;
 }
 
 .last-story {

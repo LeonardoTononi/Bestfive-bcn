@@ -83,6 +83,10 @@ img {
         margin: 0;
         font-size: 0.7rem;
         padding: 0;
+
+        span {
+          font-size: 0.6rem;
+        }
       }
 
       img {
@@ -118,10 +122,10 @@ header {
 
     img {
       position: absolute;
-      width: 20px;
-      left: 4.2em;
-      top: 0.2em;
-      transform: rotate(10deg);
+      width: 18px;
+      left: 135px;
+      top: 9px;
+      transform: rotate(17deg);
     }
 
     .small-text {
@@ -530,6 +534,12 @@ h2 {
 
       .small-text {
         font-size: 1.2rem;
+      }
+
+      img {
+        width: 22px;
+        left: 4.3em;
+        top: 0.43em;
       }
     }
   }

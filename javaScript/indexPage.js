@@ -65,8 +65,6 @@ if (isIos() && !isRunningStandalone()) {
 
 if (isAndroid() && !isRunningStandalone()) {
   setTimeout(function() {
-    const shareBtn = document.querySelector('.add-chrome');
-    shareBtn.src = '/img/icon/menu-chrome-gray.png';
     showAddPopup();
   }, 1500);
 } else {
